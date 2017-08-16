@@ -1,0 +1,772 @@
+<Reference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Sequence="1" Name="FRCS - City of Splendors: Waterdeep" Group="Forgotton Realms" Abbrev="WD" Version="1.02">
+  <Description>(c) 2005 Wizards of the Coast
+ver. 1.01 fixed bug
+
+1.02 - Name change</Description>
+  <DevNotes>Contains all spells (MRF)</DevNotes>
+  <Spells>
+    <Spell OriginalReference="">
+      <Name>Binding Chain of Fate</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area>Whirling chain of force</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>true</SR>
+      <Description>Creates a chain of force acts as dimensional anchor and deals 2d6 force dmg per round
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Ensul's Soultheft</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area>Living, corporeal creature touched</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>152</Page>
+      <SR>true</SR>
+      <Description>Make touch attk to steal life force from another to heal self
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Halaster's Blackshpere</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Force</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>=2d4 rd + CasterLevel &amp; "rd"</Duration>
+      <Area>10 ft radius burst and globe</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>153</Page>
+      <SR>true</SR>
+      <Description>Force burst causes 1d6 pnt dmg/caster level
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Halaster's Fetch I</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Calling</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>153</Page>
+      <SR>false</SR>
+      <Description>As Summon Monster I but creature does not disappear at spell end
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Halaster's Fetch II</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Calling</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>153</Page>
+      <SR>false</SR>
+      <Description>As Summon Monster II but creature does not disappear at spell end
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Halaster's Fetch III</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Calling</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>153</Page>
+      <SR>false</SR>
+      <Description>As Summon Monster III but creature does not disappear at spell end
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Halaster's Fetch IV</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Calling</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>153</Page>
+      <SR>false</SR>
+      <Description>As Summon Monster IV but creature does not disappear at spell end
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Halaster's Fetch V </Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Calling</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>153</Page>
+      <SR>false</SR>
+      <Description>As Summon Monster V but creature does not disappear at spell end
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Halaster's Fetch VI</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Calling</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>154</Page>
+      <SR>false</SR>
+      <Description>As Summon Monster VI but creature does not disappear at spell end
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Halaster's Image Swap</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Teleportation</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area>You and touched objects weighing up to 50 lb./level</Area>
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>154</Page>
+      <SR>true</SR>
+      <Description>You instantly swap locations with a projected image
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Halaster's Light Step</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area>Creature touched</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>154</Page>
+      <SR>true</SR>
+      <Description>As Fly except move with a max. speed of 30 ft.
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Halaster's Shaking Hand</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Force</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area>10 ft. hand</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>154</Page>
+      <SR>true</SR>
+      <Description>As Bigby's interposing hand except the hand can grapple Bigby hands
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Halaster's Teleport Cage</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>10 min.</CastingTime>
+      <Range>Close</Range>
+      <Duration>Permanent</Duration>
+      <Area>One 10 ft. cube/level</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>155</Page>
+      <SR>false</SR>
+      <Description>Modifies the functioning of all teleportation spells and spell-like abilities
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Jhanifer's Deliquescence</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Water</Descriptor>
+            <Descriptor>Cold</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Permanent</Duration>
+      <Area>Up to two 10 ft. cubes/level</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>155</Page>
+      <SR>false</SR>
+      <Description>As transmute rock to mud except it transforms ice to cold water
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Jumpgout</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Fire</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>2 rounds</Duration>
+      <Area>5 ft. radius pillar of flame, up to 30 ft. tall</Area>
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>155</Page>
+      <SR>true</SR>
+      <Description>You create a vertical pillar of roaring flame
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Khelbe's Dweomerdoom</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1sw.</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area>1 creature</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>155</Page>
+      <SR>true</SR>
+      <Description>You counterspell an opponent's spell or spell-like ability before it is cast and without knowing what the spell is.
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Laeral's Crowning Touch</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>1 year and 1 day</Duration>
+      <Area>One spellcaster</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+        <Component>XP</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>155</Page>
+      <SR>true</SR>
+      <Description>You place a curse on the subject
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Laeral's Silver Lance</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Force</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Long</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>156</Page>
+      <SR>true</SR>
+      <Description>Creates a large lance of force
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Palarandusk's Fire Breath</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Fire</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>1 hour or until discharged</Duration>
+      <Area>10 ft. cone</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>156</Page>
+      <SR>true</SR>
+      <Description>You spit a gout of flame in a 10 foot cone dealing 1d6 fire dmg/caster lvl (max 5d6)
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Steelstring</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Force</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area>5 ft. radius cylinder, 25 ft. tall</Area>
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>157</Page>
+      <SR>true</SR>
+      <Description>You create a brief maelstrom of flying darts of force that spin, slice and rebound within the area
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Trobriand's Baleful Teleport</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Teleportation</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area>One Creature</Area>
+      <Components />
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>157</Page>
+      <SR>true</SR>
+      <Description>As teleport except you send the targeted creature and carried objects to a designated destination.
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Trobriand's Crystalbrittle</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Permanent</Duration>
+      <Area>One nonmagical object up to 1 cu. ft./level</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>157</Page>
+      <SR>true</SR>
+      <Description>Reduces the hardness and hit points of the targeted object to that of glass
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Trobriand's Glassee</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Permanent</Duration>
+      <Area>One nonmagical stone or metal object up to 1 cu. ft./level</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>157</Page>
+      <SR>true</SR>
+      <Description>This spell gives the target object the transparency of glass.</Description>
+    </Spell>
+  </Spells>
+  <SpellOverrides />
+  <SpellListEntries>
+    <SpellList Name="Cleric" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Laeral's Crowning Touch" Level="9" ReferenceAbbrev="WD" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Bard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Halaster's Light Step" Level="2" ReferenceAbbrev="WD" />
+        <SpellEntry Name="Halaster's Image Swap" Level="4" ReferenceAbbrev="WD" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Sorcerer" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Halaster's Light Step" Level="2" ReferenceAbbrev="WD" />
+        <SpellEntry Name="Palarandusk's Fire Breath" Level="2" ReferenceAbbrev="WD" />
+        <SpellEntry Name="Laeral's Silver Lance" Level="3" ReferenceAbbrev="WD" />
+        <SpellEntry Name="Trobriand's Crystalbrittle" Level="3" ReferenceAbbrev="WD" />
+        <SpellEntry Name="Halaster's Fetch I" Level="4" ReferenceAbbrev="WD" />
+        <SpellEntry Name="Halaster's Image Swap" Level="4" ReferenceAbbrev="WD" />
+        <SpellEntry Name="Jhanifer's Deliquescence" Level="4" ReferenceAbbrev="WD" />
+        <SpellEntry Name="Steelstring" Level="4" ReferenceAbbrev="WD" />
+        <SpellEntry Name="Halaster's Fetch II" Level="5" ReferenceAbbrev="WD" />
+        <SpellEntry Name="Jumpgout" Level="5" ReferenceAbbrev="WD" />
+        <SpellEntry Name="Halaster's Fetch III" Level="6" ReferenceAbbrev="WD" />
+        <SpellEntry Name="Halaster's Shaking Hand" Level="6" ReferenceAbbrev="WD" />
+        <SpellEntry Name="Trobriand's Baleful Teleport" Level="6" ReferenceAbbrev="WD" />
+        <SpellEntry Name="Trobriand's Glassee" Level="6" ReferenceAbbrev="WD" />
+        <SpellEntry Name="Halaster's Fetch IV" Level="7" ReferenceAbbrev="WD" />
+        <SpellEntry Name="Halaster's Blackshpere" Level="8" ReferenceAbbrev="WD" />
+        <SpellEntry Name="Halaster's Fetch V " Level="8" ReferenceAbbrev="WD" />
+        <SpellEntry Name="Binding Chain of Fate" Level="9" ReferenceAbbrev="WD" />
+        <SpellEntry Name="Ensul's Soultheft" Level="9" ReferenceAbbrev="WD" />
+        <SpellEntry Name="Halaster's Fetch VI" Level="9" ReferenceAbbrev="WD" />
+        <SpellEntry Name="Halaster's Teleport Cage" Level="9" ReferenceAbbrev="WD" />
+        <SpellEntry Name="Khelbe's Dweomerdoom" Level="9" ReferenceAbbrev="WD" />
+        <SpellEntry Name="Laeral's Crowning Touch" Level="9" ReferenceAbbrev="WD" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Wizard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Halaster's Light Step" Level="2" ReferenceAbbrev="WD" />
+        <SpellEntry Name="Palarandusk's Fire Breath" Level="2" ReferenceAbbrev="WD" />
+        <SpellEntry Name="Laeral's Silver Lance" Level="3" ReferenceAbbrev="WD" />
+        <SpellEntry Name="Trobriand's Crystalbrittle" Level="3" ReferenceAbbrev="WD" />
+        <SpellEntry Name="Halaster's Fetch I" Level="4" ReferenceAbbrev="WD" />
+        <SpellEntry Name="Halaster's Image Swap" Level="4" ReferenceAbbrev="WD" />
+        <SpellEntry Name="Jhanifer's Deliquescence" Level="4" ReferenceAbbrev="WD" />
+        <SpellEntry Name="Steelstring" Level="4" ReferenceAbbrev="WD" />
+        <SpellEntry Name="Halaster's Fetch II" Level="5" ReferenceAbbrev="WD" />
+        <SpellEntry Name="Jumpgout" Level="5" ReferenceAbbrev="WD" />
+        <SpellEntry Name="Halaster's Fetch III" Level="6" ReferenceAbbrev="WD" />
+        <SpellEntry Name="Halaster's Shaking Hand" Level="6" ReferenceAbbrev="WD" />
+        <SpellEntry Name="Trobriand's Baleful Teleport" Level="6" ReferenceAbbrev="WD" />
+        <SpellEntry Name="Trobriand's Glassee" Level="6" ReferenceAbbrev="WD" />
+        <SpellEntry Name="Halaster's Fetch IV" Level="7" ReferenceAbbrev="WD" />
+        <SpellEntry Name="Halaster's Blackshpere" Level="8" ReferenceAbbrev="WD" />
+        <SpellEntry Name="Halaster's Fetch V " Level="8" ReferenceAbbrev="WD" />
+        <SpellEntry Name="Binding Chain of Fate" Level="9" ReferenceAbbrev="WD" />
+        <SpellEntry Name="Ensul's Soultheft" Level="9" ReferenceAbbrev="WD" />
+        <SpellEntry Name="Halaster's Fetch VI" Level="9" ReferenceAbbrev="WD" />
+        <SpellEntry Name="Halaster's Teleport Cage" Level="9" ReferenceAbbrev="WD" />
+        <SpellEntry Name="Khelbe's Dweomerdoom" Level="9" ReferenceAbbrev="WD" />
+        <SpellEntry Name="Laeral's Crowning Touch" Level="9" ReferenceAbbrev="WD" />
+      </SpellEntries>
+    </SpellList>
+  </SpellListEntries>
+  <Domains />
+  <Classes />
+</Reference>

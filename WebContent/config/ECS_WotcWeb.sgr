@@ -1,0 +1,104 @@
+<Reference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Sequence="2" Name="ECS - WotC Web Enhancements" Group="Eberron" Abbrev="EbWeb" Version="1">
+  <Description>Eberron Wizards of the Coast Web updates and enhancements.
+(c) 2004 by Wizards of the Coast, Inc.
+ </Description>
+  <DevNotes>Entered by Tristan Tewksbury
+
+Includes material from "Dragonshards - The Elves of Valenar, Part 2", which is basically some additional spells for Valenar bards and a new variant War domain for Valenar clerics.</DevNotes>
+  <Spells />
+  <SpellOverrides />
+  <SpellListEntries>
+    <SpellList Name="Bard (Valenar)" Inherits="Bard">
+      <SpellEntries>
+        <SpellEntry Name="Spirit Steed" Level="4" ReferenceAbbrev="Eber" />
+      </SpellEntries>
+    </SpellList>
+  </SpellListEntries>
+  <Domains>
+    <Domain Name="War (Valenar)" Abbrev="V:War">
+      <Power>Free Martial Weapon Proficiency (if necessary) and Weapon Focus with the deity's favored weapon.</Power>
+      <DomainEntries>
+        <SpellEntry Name="Magic Weapon" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Spiritual Weapon" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Magic Vestment" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Flame Strike" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Blade Barrier" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Power Word, Blind" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Power Word, Stun" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Spirit Steed" Level="4" ReferenceAbbrev="Eber" />
+        <SpellEntry Name="Hero's Blade" Level="9" ReferenceAbbrev="Eber" />
+      </DomainEntries>
+    </Domain>
+  </Domains>
+  <Classes>
+    <CasterClass>
+      <Name>Bard (Valenar)</Name>
+      <Abbrev>VBrd</Abbrev>
+      <SpellList>Bard (Valenar)</SpellList>
+      <CasterType>Arcane</CasterType>
+      <HasCantrips>true</HasCantrips>
+      <MaxSpellLevel>6</MaxSpellLevel>
+      <MaxCasterLevel>20</MaxCasterLevel>
+      <CastingStat>Cha</CastingStat>
+      <BonusSpellStat>Cha</BonusSpellStat>
+      <SaveDCStat>Cha</SaveDCStat>
+      <KnowsAllSpells>false</KnowsAllSpells>
+      <KnowsAllCantrips>false</KnowsAllCantrips>
+      <SpellsKnown>true</SpellsKnown>
+      <CasterLevelMultiplier>1</CasterLevelMultiplier>
+      <SpellPyramid>
+        <Slots>2</Slots>
+        <Slots>3 0</Slots>
+        <Slots>3 1</Slots>
+        <Slots>3 2 0</Slots>
+        <Slots>3 3 1</Slots>
+        <Slots>3 3 2</Slots>
+        <Slots>3 3 2 0</Slots>
+        <Slots>3 3 3 1</Slots>
+        <Slots>3 3 3 2</Slots>
+        <Slots>3 3 3 2 0</Slots>
+        <Slots>3 3 3 3 1</Slots>
+        <Slots>3 3 3 3 2</Slots>
+        <Slots>3 3 3 3 2 0</Slots>
+        <Slots>4 3 3 3 3 1</Slots>
+        <Slots>4 4 3 3 3 2</Slots>
+        <Slots>4 4 4 3 3 2 0</Slots>
+        <Slots>4 4 4 4 3 3 1</Slots>
+        <Slots>4 4 4 4 4 3 2</Slots>
+        <Slots>4 4 4 4 4 4 3</Slots>
+        <Slots>4 4 4 4 4 4 4</Slots>
+      </SpellPyramid>
+      <KnownPyramid>
+        <Slots>4</Slots>
+        <Slots>5 2</Slots>
+        <Slots>6 3</Slots>
+        <Slots>6 3 2</Slots>
+        <Slots>6 4 3</Slots>
+        <Slots>6 4 3</Slots>
+        <Slots>6 4 4 2</Slots>
+        <Slots>6 4 4 3</Slots>
+        <Slots>6 4 4 3</Slots>
+        <Slots>6 4 4 4 2</Slots>
+        <Slots>6 4 4 4 3</Slots>
+        <Slots>6 4 4 4 3</Slots>
+        <Slots>6 4 4 4 4 2</Slots>
+        <Slots>6 4 4 4 4 3</Slots>
+        <Slots>6 4 4 4 4 3</Slots>
+        <Slots>6 5 4 4 4 4 2</Slots>
+        <Slots>6 5 5 4 4 4 3</Slots>
+        <Slots>6 5 5 5 4 4 3</Slots>
+        <Slots>6 5 5 5 5 4 4</Slots>
+        <Slots>6 5 5 5 5 5 4</Slots>
+      </KnownPyramid>
+      <ClassSpellPoints>
+        <UseSpellPoints>false</UseSpellPoints>
+        <GiveBonusSpellPointsForStat>true</GiveBonusSpellPointsForStat>
+        <SpellPointCosts />
+        <SpellPointValues />
+        <SpellPointTable ClassName="" />
+        <UseBonusSpellPointFormula>false</UseBonusSpellPointFormula>
+        <BonusSpellPointFormula />
+      </ClassSpellPoints>
+    </CasterClass>
+  </Classes>
+</Reference>

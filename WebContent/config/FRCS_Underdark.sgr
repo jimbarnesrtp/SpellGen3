@@ -1,0 +1,1500 @@
+<Reference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Sequence="1" Name="FRCS - Underdark" Group="Forgotton Realms" Abbrev="Ud" Version="1.01">
+  <Description>1.01 - Name change</Description>
+  <DevNotes />
+  <Spells>
+    <Spell OriginalReference="">
+      <Name>Amorphous Form</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+        <Component>Focus</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>true</SR>
+      <Description>Subject becomes puddlelike and can slip through cracks quickly.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Blindsight</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>56</Page>
+      <SR>true</SR>
+      <Description>Target creature gains sensitivity to vibrations; senses extend to 30 ft.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Burrow</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>56</Page>
+      <SR>false</SR>
+      <Description>Hands sprout claws as hard as stone, allowing you to burrow 10 ft/ rd.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Burrow, Mass</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>56</Page>
+      <SR>false</SR>
+      <Description>="Hands sprout claws as hard as stone, allowing "&amp; CasterLevel &amp;" targets to burrow 10 ft/ rd."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Camouflage</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>=10 *  CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>56</Page>
+      <SR>false</SR>
+      <Description>Changes coloring to match area; +10 (circumstance) to Hide checks.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Changestones</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>fr</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" hours [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>57</Page>
+      <SR>false</SR>
+      <Description>A specially prepared stone becomes a lith on command.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Clarity of Mind</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" hours [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg "</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>57</Page>
+      <SR>true</SR>
+      <Description>Grants +4 to saves vs. charm, compulsions, and glamer spells.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Contagious Fog</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="(text) " &amp; SaveDC</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>57</Page>
+      <SR>true</SR>
+      <Description>30' radius cloud of fog inflicts desease.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Darkvision, Mass</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" hours"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>57</Page>
+      <SR>true</SR>
+      <Description>= CasterLevel &amp;" targets gains the ability to see 60' (black and white) even in total darkness."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Deeper Darkvision</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" hours"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>58</Page>
+      <SR>true</SR>
+      <Description>Subject gains the ability to see 60' (black and white) even in total and magical darkness.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Dehydrate</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>58</Page>
+      <SR>true</SR>
+      <Description>="Deals 1d6+"&amp;MIN(5,(INT(( CasterLevel )/3)))&amp;" CON damage, 1d8+"&amp;MIN(5,(INT(( CasterLevel )/3)))&amp;" CON damage to oozes, plants, and aquatic creatures."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Drown</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors>
+            <Descriptor>Water</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg "</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>58</Page>
+      <SR>true</SR>
+      <Description>Create water in the lungs of subject, who begins to drown.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Drown, Mass</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors>
+            <Descriptor>Water</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg "</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>58</Page>
+      <SR>true</SR>
+      <Description>Create water in the lungs of one or more subjects, who begin to drown.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Eradicate Earth</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Earth</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>40 ft. radius</Range>
+      <Duration>Inst.</Duration>
+      <Area>Radius</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>58</Page>
+      <SR>true</SR>
+      <Description>= "Deals "&amp;MIN(10, CasterLevel )&amp;"d8 points of damage to earth creatures."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Excavate</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>58</Page>
+      <SR>false</SR>
+      <Description>="Creates a permanent passage through earth and walls "&amp; CasterLevel &amp;" ft. deep."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Hail of Stone</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors>
+            <Descriptor>Earth</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1r</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>58</Page>
+      <SR>true</SR>
+      <Description>="Ranged attack roll within 5' radius, 40' high cylinder; they take "&amp;MIN(5, CasterLevel )&amp;"d4 damage"</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Locate Node</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Earth</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>(text)</Range>
+      <Duration>= CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>58</Page>
+      <SR>false</SR>
+      <Description>="Finds closest earth node in a "&amp; CasterLevel &amp;" mile radius."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Mark of the Outcast</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Permanent</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>59</Page>
+      <SR>true</SR>
+      <Description>Subject takes -5 on Bluff and Diplomacy checks, -2 AC</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Mineralize Warrior</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Earth</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 hour</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+        <Component>XP</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>59</Page>
+      <SR>false</SR>
+      <Description>Grants willing subject the mineral warrior template</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Node Door</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Teleport</Descriptor>
+            <Descriptor>Earth</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>(text)</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="(text) " &amp; SaveDC</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>59</Page>
+      <SR>true</SR>
+      <Description>Allows teleportation between any known earth nodes.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Node Genesis</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors>
+            <Descriptor>Earth</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 tenday</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>XP</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>59</Page>
+      <SR>false</SR>
+      <Description>Creates a Class 1 earth node.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Node Lock</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Earth</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Perm.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>60</Page>
+      <SR>false</SR>
+      <Description>Deters others from using an earth node's powers.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Portal View</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool>Scrying</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>10 min</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>60</Page>
+      <SR>false</SR>
+      <Description>Turns target portal transparent.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Reflective Disguise</Name>
+      <Schools>
+        <School>
+          <School>Illusion</School>
+          <Subschool>Glamer</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>=10* CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " disblf"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>60</Page>
+      <SR>true</SR>
+      <Description>Viewers see you as their own species and gender.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Reflective Disguise, Mass</Name>
+      <Schools>
+        <School>
+          <School>Illusion</School>
+          <Subschool>Glamer</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>12 hours [d]</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>61</Page>
+      <SR>true</SR>
+      <Description>="Viewers see up to "&amp;INT( CasterLevel /2)&amp;" targets as their own species and gender."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Rushing Waters</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Summoning</Subschool>
+          <Descriptors>
+            <Descriptor>Water</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None (text)</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>61</Page>
+      <SR>false</SR>
+      <Description>Wave makes bull rush attack.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Sanctuary, Mass</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>61</Page>
+      <SR>false</SR>
+      <Description>="Up to "&amp;INT(CasterLevel/2)&amp;" touched creatures can't be attacked, and can't attack."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Spiderskin</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>=10* CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg "</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>61</Page>
+      <SR>true</SR>
+      <Description>="Subject gains "&amp;MIN(5,(INT( CasterLevel /3)))&amp;" bonus to natural armor, sv vs. poison, and Hide checks."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Stick</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " (obj)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>61</Page>
+      <SR>true</SR>
+      <Description>Glues an object weighing 5 lbs. or less to a larger object.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Stone Metamorphosis</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Earth</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+        <Component>Focus</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>61</Page>
+      <SR>false</SR>
+      <Description>Changes type of stone.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Stone Metamorphosis, Greater</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Earth</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+        <Component>Focus</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>61</Page>
+      <SR>false</SR>
+      <Description>="Changes "&amp;10+ CasterLevel &amp;" cu. ft. of stone into another type of stone."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Stone Shape, Greater</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Earth</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>62</Page>
+      <SR>false</SR>
+      <Description>="Sculpts stone (up to "&amp;10+( CasterLevel *10)&amp;" cu. ft.) into any shape."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Stone Sphere</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Earth</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>62</Page>
+      <SR>true</SR>
+      <Description>5-ft.-diameter stone sphere rolls over your enemies.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Tremorsense</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel *10&amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>62</Page>
+      <SR>true</SR>
+      <Description>Gain tremorsense to a range of 30 feet.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Tunnel Swallow</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors>
+            <Descriptor>Earth</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " part (txt)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>62</Page>
+      <SR>false</SR>
+      <Description>="Tunnel's peristaltic convulsions deal "&amp;MIN(15,( CasterLevel ))&amp;"d6 points of damage."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Undermaster</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Earth</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>XP</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>62</Page>
+      <SR>true</SR>
+      <Description>You gain earth-related spell-like abilities</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Viscid Glob</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp;" hr"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " neg "</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>63</Page>
+      <SR>true</SR>
+      <Description>Ranged touch attack hurls 5-ft.-dameter glob of glue at target.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Wall of Dispel Magic</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>(text)</Range>
+      <Duration>= CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>63</Page>
+      <SR>false</SR>
+      <Description>="Transparent wall (up to "&amp; CasterLevel *10&amp;" sq. ft.) that subjects to a targeted dispel magic."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Wall of Greater Dispel Magic</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>(text)</Range>
+      <Duration>= CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>63</Page>
+      <SR>false</SR>
+      <Description>="Transparent wall (up to "&amp; CasterLevel *10&amp;" sq. ft.) that subjects to a targeted greater dispel magic."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Weighed in the Balance</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>30 ft.</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg "</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>63</Page>
+      <SR>true</SR>
+      <Description>Harms or heals creatures within 30 ft. of you</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Word of Balance</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Sonic</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>30 ft.</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (txt)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>63</Page>
+      <SR>true</SR>
+      <Description>Kills, paralyzes, weakens, or nauseates non-neutral creatures.</Description>
+    </Spell>
+  </Spells>
+  <SpellOverrides />
+  <SpellListEntries>
+    <SpellList Name="Assassin" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Amorphous Form" Level="3" ReferenceAbbrev="Ud" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Bard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Stick" Level="0" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Reflective Disguise" Level="2" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Portal View" Level="4" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Wall of Dispel Magic" Level="4" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Reflective Disguise, Mass" Level="5" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Wall of Greater Dispel Magic" Level="5" ReferenceAbbrev="Ud" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Blackguard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Mark of the Outcast" Level="1" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Clarity of Mind" Level="2" ReferenceAbbrev="Ud" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Cleric" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Mark of the Outcast" Level="2" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Blindsight" Level="3" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Burrow" Level="3" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Locate Node" Level="3" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Stone Metamorphosis" Level="4" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Stone Shape, Greater" Level="5" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Wall of Dispel Magic" Level="5" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Stone Metamorphosis, Greater" Level="6" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Wall of Greater Dispel Magic" Level="8" ReferenceAbbrev="Ud" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Druid" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Camouflage" Level="1" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Blindsight" Level="2" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Burrow" Level="2" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Locate Node" Level="2" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Mark of the Outcast" Level="2" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Node Door" Level="3" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Spiderskin" Level="3" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Stone Metamorphosis" Level="4" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Rushing Waters" Level="5" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Stone Shape, Greater" Level="5" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Wall of Dispel Magic" Level="5" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Burrow, Mass" Level="6" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Drown" Level="6" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Stone Metamorphosis, Greater" Level="6" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Changestones" Level="7" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Word of Balance" Level="7" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Wall of Greater Dispel Magic" Level="8" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Drown, Mass" Level="9" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Undermaster" Level="9" ReferenceAbbrev="Ud" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Paladin_Base" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Clarity of Mind" Level="2" ReferenceAbbrev="Ud" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Prime Underdark Guide" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Alarm" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Create Water" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Detect Magic" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Endure Elements" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Expeditious Retreat" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Feather Fall" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Light" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Jump" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Purify Food and Drink" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Resist Energy" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Spider Climb" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Stick" Level="1" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Bull's Strength" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Burrow" Level="2" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Cat's Grace" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Darkvision" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Eagle's Splendor" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Owl's Wisdom" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Pass without Trace" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Protection From Energy" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Reflective Disguise" Level="2" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Amorphous Form" Level="3" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Create Food and Water" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Daylight" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Deeper Darkness" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Shadow Mask" Level="3" ReferenceAbbrev="FRCS" />
+        <SpellEntry Name="Suggestion" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Burrow, Mass" Level="4" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Darkvision, Mass" Level="4" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Deeper Darkvision" Level="4" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Dimension Door" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Freedom of Movement" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Good Hope" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Reflective Disguise, Mass" Level="4" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Sending" Level="4" ReferenceAbbrev="PHB" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Ranger" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Camouflage" Level="1" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Burrow" Level="2" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Tremorsense" Level="3" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Burrow, Mass" Level="4" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Darkvision, Mass" Level="4" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Deeper Darkvision" Level="4" ReferenceAbbrev="Ud" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Sorcerer" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Stick" Level="0" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Hail of Stone" Level="1" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Blindsight" Level="2" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Locate Node" Level="2" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Node Lock" Level="2" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Reflective Disguise" Level="2" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Amorphous Form" Level="3" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Burrow" Level="3" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Deeper Darkvision" Level="3" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Eradicate Earth" Level="3" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Node Door" Level="3" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Spiderskin" Level="3" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Tremorsense" Level="3" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Portal View" Level="4" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Viscid Glob" Level="4" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Stone Sphere" Level="5" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Wall of Dispel Magic" Level="5" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Burrow, Mass" Level="6" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Darkvision, Mass" Level="6" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Mineralize Warrior" Level="6" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Reflective Disguise, Mass" Level="6" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Stone Metamorphosis" Level="6" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Tunnel Swallow" Level="6" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Changestones" Level="7" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Stone Shape, Greater" Level="7" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Excavate" Level="8" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Stone Metamorphosis, Greater" Level="8" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Wall of Greater Dispel Magic" Level="8" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Node Genesis" Level="9" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Undermaster" Level="9" ReferenceAbbrev="Ud" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Wizard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Stick" Level="0" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Hail of Stone" Level="1" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Blindsight" Level="2" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Locate Node" Level="2" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Node Lock" Level="2" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Reflective Disguise" Level="2" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Amorphous Form" Level="3" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Burrow" Level="3" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Deeper Darkvision" Level="3" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Eradicate Earth" Level="3" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Node Door" Level="3" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Spiderskin" Level="3" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Tremorsense" Level="3" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Portal View" Level="4" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Viscid Glob" Level="4" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Stone Sphere" Level="5" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Wall of Dispel Magic" Level="5" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Burrow, Mass" Level="6" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Darkvision, Mass" Level="6" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Mineralize Warrior" Level="6" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Reflective Disguise, Mass" Level="6" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Stone Metamorphosis" Level="6" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Tunnel Swallow" Level="6" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Changestones" Level="7" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Stone Shape, Greater" Level="7" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Excavate" Level="8" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Stone Metamorphosis, Greater" Level="8" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Wall of Greater Dispel Magic" Level="8" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Node Genesis" Level="9" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Undermaster" Level="9" ReferenceAbbrev="Ud" />
+      </SpellEntries>
+    </SpellList>
+  </SpellListEntries>
+  <Domains>
+    <Domain Name="Balance" Abbrev="">
+      <Power>Once per day, as a free action, add your Wis modifier to you AC.</Power>
+      <DomainEntries>
+        <SpellEntry Name="Make Whole" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Calm Emotions" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Clarity of Mind" Level="3" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Dismissal" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Sanctuary, Mass" Level="5" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Banishment" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Word of Balance" Level="7" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Protection From Spells" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Weighed in the Balance" Level="9" ReferenceAbbrev="Ud" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Watery Death" Abbrev="">
+      <Power>You can smite any nonaquatic creature once per day, adding Wis bonus to attack roll and dealing 1 extra point of damage per divine level.</Power>
+      <DomainEntries>
+        <SpellEntry Name="Entangle" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Mark of the Outcast" Level="2" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Control Water" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Rushing Waters" Level="4" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Dehydrate" Level="5" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Drown" Level="6" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Contagious Fog" Level="7" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Horrid Wilting" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Drown, Mass" Level="9" ReferenceAbbrev="Ud" />
+      </DomainEntries>
+    </Domain>
+  </Domains>
+  <Classes>
+    <CasterClass>
+      <Name>Prime Underdark Guide</Name>
+      <Abbrev />
+      <SpellList>Prime Underdark Guide</SpellList>
+      <CasterType>Arcane</CasterType>
+      <HasCantrips>false</HasCantrips>
+      <MaxSpellLevel>4</MaxSpellLevel>
+      <MaxCasterLevel>10</MaxCasterLevel>
+      <CastingStat>Int</CastingStat>
+      <BonusSpellStat>Int</BonusSpellStat>
+      <SaveDCStat>Int</SaveDCStat>
+      <KnowsAllSpells>false</KnowsAllSpells>
+      <KnowsAllCantrips>false</KnowsAllCantrips>
+      <SpellsKnown>false</SpellsKnown>
+      <CasterLevelMultiplier>1</CasterLevelMultiplier>
+      <SpellPyramid>
+        <Slots>0 0</Slots>
+        <Slots>0 1</Slots>
+        <Slots>0 1 0</Slots>
+        <Slots>0 1 1</Slots>
+        <Slots>0 1 1 0</Slots>
+        <Slots>0 1 1 1</Slots>
+        <Slots>0 2 1 1 0</Slots>
+        <Slots>0 2 1 1 1</Slots>
+        <Slots>0 2 2 1 1</Slots>
+        <Slots>0 2 2 2 1</Slots>
+      </SpellPyramid>
+      <KnownPyramid>
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+      </KnownPyramid>
+      <ClassSpellPoints>
+        <UseSpellPoints>false</UseSpellPoints>
+        <GiveBonusSpellPointsForStat>true</GiveBonusSpellPointsForStat>
+        <SpellPointCosts />
+        <SpellPointValues />
+        <SpellPointTable ClassName="" />
+        <UseBonusSpellPointFormula>false</UseBonusSpellPointFormula>
+        <BonusSpellPointFormula />
+      </ClassSpellPoints>
+    </CasterClass>
+  </Classes>
+</Reference>

@@ -1,0 +1,419 @@
+<Reference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Sequence="1" Name="Avatar's Handbook" Group="" Abbrev="AvHB" Version="1">
+  <Description />
+  <DevNotes />
+  <Spells>
+    <Spell OriginalReference="">
+      <Name>Sacred Weapon</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (oh)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>18</Page>
+      <SR>true</SR>
+      <Description>="Weapon gains +"&amp;MIN(5,2+INT( CasterLevel /6))&amp;" hit/dam vs evil, +"&amp;3+INT( CasterLevel /5)&amp;" vs evil outsiders"</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Brother of Angels</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " h"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>16</Page>
+      <SR>true</SR>
+      <Description>You and outsiders get other's CHA to hit, dam, AC; use other's Spot/Listen</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Cull the Wicked</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Good</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>16</Page>
+      <SR>true</SR>
+      <Description>Evil creatures in 20' radius take 1d6 INT, WIS, CHA damage</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Guided Weapon</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Force</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp;" rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>17</Page>
+      <SR>true</SR>
+      <Description>As Spiritual Weapon, weapon of type, uses WIS vs STR, gets/gives flanking</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Blade of the Archangel</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (oh)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>16</Page>
+      <SR>true</SR>
+      <Description>Target weapon deals +2d6 Holy damage against evil opponents</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Banner of True Light</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Light</Descriptor>
+          </Descriptors>
+          <Alignments>
+            <Alignment>Good</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>15</Page>
+      <SR>false</SR>
+      <Description>="Suppresses darkness and invisibility within "&amp;20+(INT( CasterLevel /2)*5)&amp;"'"</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Sacred Gift</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>17</Page>
+      <SR>true</SR>
+      <Description>Next spell gains +2 CL vs SR, +2 DC, +20% range, +25% damage vs evil</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Moment of Grace</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Good</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>1 rd</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " h"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>17</Page>
+      <SR>true</SR>
+      <Description>Subect gains +5 Luck to hit/dam/saves, +2d10 temp HP, plus Break Enchant.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Weight of Sin</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>19</Page>
+      <SR>true</SR>
+      <Description>Evil subject chooses to be stunned or change alignment to Good permanently</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Grave Bane Banner</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Good</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>16</Page>
+      <SR>true</SR>
+      <Description>="Undead within "&amp;20+(INT( CasterLevel /2)*5)&amp;"' are easier to turn."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Heaven's Touch</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " h"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>17</Page>
+      <SR>true</SR>
+      <Description>Good subject gains Sublime Template (Avatar 72)</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Banner of the Purging Flame</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>true</SR>
+      <Description>="Gain Fire Resistance 40, call "&amp;MIN(15, CasterLevel )&amp;"d6 fire in "&amp;5+(INT( CasterLevel /2)*5)&amp;"' radius every 1d4 rounds"</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Wrath of the Heavens</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Good</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp;" hours (text)"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>19</Page>
+      <SR>true</SR>
+      <Description>="Evil creatures in 20' burst suffer "&amp;MIN(20, CasterLevel )&amp;"d6, plus Consecrate for "&amp; CasterLevel &amp;" hours."</Description>
+    </Spell>
+  </Spells>
+  <SpellOverrides />
+  <SpellListEntries>
+    <SpellList Name="Cleric" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Sacred Weapon" Level="1" ReferenceAbbrev="AvHB" />
+        <SpellEntry Name="Brother of Angels" Level="3" ReferenceAbbrev="AvHB" />
+        <SpellEntry Name="Cull the Wicked" Level="3" ReferenceAbbrev="AvHB" />
+        <SpellEntry Name="Guided Weapon" Level="3" ReferenceAbbrev="AvHB" />
+        <SpellEntry Name="Blade of the Archangel" Level="4" ReferenceAbbrev="AvHB" />
+        <SpellEntry Name="Banner of True Light" Level="5" ReferenceAbbrev="AvHB" />
+        <SpellEntry Name="Sacred Gift" Level="5" ReferenceAbbrev="AvHB" />
+        <SpellEntry Name="Moment of Grace" Level="7" ReferenceAbbrev="AvHB" />
+        <SpellEntry Name="Weight of Sin" Level="7" ReferenceAbbrev="AvHB" />
+        <SpellEntry Name="Grave Bane Banner" Level="8" ReferenceAbbrev="AvHB" />
+        <SpellEntry Name="Heaven's Touch" Level="8" ReferenceAbbrev="AvHB" />
+        <SpellEntry Name="Banner of the Purging Flame" Level="9" ReferenceAbbrev="AvHB" />
+        <SpellEntry Name="Wrath of the Heavens" Level="9" ReferenceAbbrev="AvHB" />
+      </SpellEntries>
+    </SpellList>
+  </SpellListEntries>
+  <Domains />
+  <Classes />
+</Reference>

@@ -1,0 +1,737 @@
+<Reference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Sequence="1" Name="Lords of Madness" Group="" Abbrev="LoM" Version="1.01">
+  <Description>(c) 2005 by Wizards of the Coast, Inc.
+Entered by Tristan Tewksbury
+
+1.01 - Fixed Nature's Purity </Description>
+  <DevNotes>Vile Darkness domain here is update of domain from Book of Vile Darkness.
+
+This list utilizes Paladin_Base.
+
+Mind domain has Lesser Telepathic Bond at Level 3, which is in the Complete Divine book.
+</DevNotes>
+  <Spells>
+    <Spell OriginalReference="">
+      <Name>Arms of Plenty</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>false</SR>
+      <Description>Traget grows two extra arms, granting two Primary claw Att for 1d6 (1d4 if Small) plus STR Mod. Claws cannot weild weapons or manipulate objects but as Primary Att they can be combined with a weapon Att without penalty. The claws count as Magic for purposes of DR. If both claws hit same target, arms rend target for 2d6 plus 1.5X STR Mod. Multiple castings on the same target do not stack, the duration simply resets.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Befoul</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 min.</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Perm.</Duration>
+      <Area>=100* CasterLevel &amp;"^2 by "&amp; CasterLevel *10 &amp;" cu ft."</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>209</Page>
+      <SR>false</SR>
+      <Description>="Caster makes liquid foul and midly poisonous. All creatures with 1 HD or less in water die. Anyone drinking water must make FORT "&amp; SaveDC &amp;" save or take 1d4 CON dmg. Any creature with 2+HD in water must save as if drinking it. For large bodies of water, see text."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Blast of Force</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Force</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area>Ray</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>209</Page>
+      <SR>true</SR>
+      <Description>="Ray is RTA that deals "&amp; Min(5, Int( CasterLevel /2)) &amp;"d6 dmg. In addition, successful hit forces target to make FORT("&amp; SaveDC &amp;") save or be knocked down (size and stability modifiers apply as if spell were Bull Rush)."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Bolts of Bedevilment</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area>Ray</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>209</Page>
+      <SR>true</SR>
+      <Description>RTA; one ray per round; Dazes (takes no actions) for 1d3 rounds. Target is not stunned, just unable to act</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Brain Spider</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>fr</CastingTime>
+      <Range>Long</Range>
+      <Duration>= CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>209</Page>
+      <SR>true</SR>
+      <Description>="As Std action, eavesdrop on thoughts of up to eight intelligent creatures within range and LOS. Each rd scan one for information or attempt Suggestion (PHB, p. 285) on affected creature (second WILL save applies). Language is not barrier."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Damning Darkness</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Darkness</Descriptor>
+          </Descriptors>
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel *10 &amp; " min [d]"</Duration>
+      <Area>20' r.</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>210</Page>
+      <SR>false</SR>
+      <Description>="As Darkness (PHB, p. 216) except those within also take Unholy dmg (SR applies to dmg, but not darkness). Good creatures take 2d6 per rd and those neither good nor evil take 1d6 per rd. Counters or dispels any light spell of " &amp; SpellLevel &amp;"- lvl."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Darkbolt</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Darkness</Descriptor>
+          </Descriptors>
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>210</Page>
+      <SR>true</SR>
+      <Description>="RTA does "&amp; Min(5, Int( CasterLevel /2)) &amp;"d8 dmg. Half is cold, half is non-specific. When struck foe must make save or be Stunned for 1 rd."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Despoil</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 min</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area>=100* CasterLevel &amp;"' r."</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " text"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>210</Page>
+      <SR>true</SR>
+      <Description>All plants within area with &lt;= 1 HD shrivel and die. Plants with &gt;1HD must make save or die, with success yielding 5d6 dmg. All living creatures in area other than plants (and caster) must make save or take 1d4 STR dmg. Unattended objects, incl. structural features such as walls or doors, suffer -1 Hardness (Min 0), then take 1d6 dmg (bypasses any remaining hardness). Only Wish/Miracle can undo despoiling.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Detect Aberration</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>60 ft</Range>
+      <Duration>= "[c] up to " &amp; CasterLevel &amp; " min (d)"</Duration>
+      <Area>Cone</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>210</Page>
+      <SR>false</SR>
+      <Description>You can detect presence of Aberrations in the area. See text for details.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Invoke  The Cerulean Sign</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>30 ft</Range>
+      <Duration>Inst.</Duration>
+      <Area>Text</Area>
+      <Components>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>211</Page>
+      <SR>false</SR>
+      <Description>="Up to "&amp; 2* CasterLevel &amp;"HD of aberration (max "&amp; CasterLevel +5 &amp;"HD ea.) in spread emanating from caster (up to range) must save or be sickened. Those with fewer HD suffer the following addt'l effects: "&amp; CasterLevel &amp;"HD- are Nauseated; "&amp; Max(0, CasterLevel -5) &amp;"HD- are Dazed; "&amp; Max(0, CasterLevel -10) &amp;"HD- are Stunned. Each effect lasts 1 rd. See text for effects. Once a creature recovers from 1 effect, it moves up the chain of effects until all are removed."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Invoke Magic</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1sw.</CastingTime>
+      <Range>Personal</Range>
+      <Duration>1 rd</Duration>
+      <Area>You</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>1000</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>212</Page>
+      <SR>false</SR>
+      <Description>Allow magic in area of no magic (such as Antimagic Field, etc, a dead area, or null-magic plane). This allows you to cast a single spell of 4th lvl max, which then ends the spell's effect.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Maddening Scream</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>1d4+1 rd</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>212</Page>
+      <SR>true</SR>
+      <Description>Target living creature screams &amp; leaps; has -4 AC, no shield, REF saves succeed on 20 only and cannot use Shield..</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Morality Undone</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel*10 &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>212</Page>
+      <SR>true</SR>
+      <Description>Turn target nonevil creature evil. Chaotic/Lawful axis remains unchanged.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Nature's Purity</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area>Ray</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>212</Page>
+      <SR>true</SR>
+      <Description>="Target up to "&amp; Min(4, 1 + Max(0, Int( (CasterLevel-5) /4 ) ) ) &amp;" creatures (no 2 &gt;30' apart) with RTAs, each deals 1d6 Force dmg (5d6 vs. Aberrations, with Crit range of 19). An aberration slain by this dmg immediately transforms into pile of plant matter. All rays must be fired at same or different targets."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Pox</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>213</Page>
+      <SR>true</SR>
+      <Description>="Up to "&amp; CasterLevel &amp;" creatures (no 2 &gt;30' apart) suffer 1d4 CON drain."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Probe Thoughts</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 min</CastingTime>
+      <Range>Close</Range>
+      <Duration>Concen.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (text)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>213</Page>
+      <SR>true</SR>
+      <Description>Read living subject's memories; one question per round, to best of subject's knowledge. Sleeping creatures get WILL save to wake after each question. Language is no barrier.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Touch of Madness</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>213</Page>
+      <SR>true</SR>
+      <Description>="One creature is dazed (taking no actions) for "&amp; CasterLevel &amp;" rounds. Target does not count as stunned, but cannot cast, use mental abilities, etc."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Undulant Innards</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>213</Page>
+      <SR>false</SR>
+      <Description>Target creature is immune to extra dmg from Crits and Sneak Att.. Target also takes min dmg from falls and gains +4 (enhance) to all saves vs. Poison, Disease, and Paralysis.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Utterdark</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>3 rd</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " hr"</Duration>
+      <Area>=100* CasterLevel &amp;"' r. sprd"</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>213</Page>
+      <SR>false</SR>
+      <Description>="Utterdark spreads outward from you. Effect is similar to Deeper Darkness (PHB, p 217) but it cannot be dispelled by magical light (although a light spell effect of "&amp; SpellLevel &amp;"+ lvl can surpress Utterdark. Evil creatures can see normally in this effect as if it were dimly lit."</Description>
+    </Spell>
+  </Spells>
+  <SpellOverrides />
+  <SpellListEntries>
+    <SpellList Name="Sorcerer" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Darkbolt" Level="2" ReferenceAbbrev="LoM" />
+        <SpellEntry Name="Detect Aberration" Level="2" ReferenceAbbrev="LoM" />
+        <SpellEntry Name="Arms of Plenty" Level="3" ReferenceAbbrev="LoM" />
+        <SpellEntry Name="Invoke  The Cerulean Sign" Level="3" ReferenceAbbrev="LoM" />
+        <SpellEntry Name="Undulant Innards" Level="3" ReferenceAbbrev="LoM" />
+        <SpellEntry Name="Damning Darkness" Level="4" ReferenceAbbrev="LoM" />
+        <SpellEntry Name="Probe Thoughts" Level="6" ReferenceAbbrev="LoM" />
+        <SpellEntry Name="Invoke Magic" Level="9" ReferenceAbbrev="LoM" />
+        <SpellEntry Name="Utterdark" Level="9" ReferenceAbbrev="LoM" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Wizard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Darkbolt" Level="2" ReferenceAbbrev="LoM" />
+        <SpellEntry Name="Detect Aberration" Level="2" ReferenceAbbrev="LoM" />
+        <SpellEntry Name="Arms of Plenty" Level="3" ReferenceAbbrev="LoM" />
+        <SpellEntry Name="Invoke  The Cerulean Sign" Level="3" ReferenceAbbrev="LoM" />
+        <SpellEntry Name="Undulant Innards" Level="3" ReferenceAbbrev="LoM" />
+        <SpellEntry Name="Damning Darkness" Level="4" ReferenceAbbrev="LoM" />
+        <SpellEntry Name="Probe Thoughts" Level="6" ReferenceAbbrev="LoM" />
+        <SpellEntry Name="Invoke Magic" Level="9" ReferenceAbbrev="LoM" />
+        <SpellEntry Name="Utterdark" Level="9" ReferenceAbbrev="LoM" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Cleric" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Darkbolt" Level="2" ReferenceAbbrev="LoM" />
+        <SpellEntry Name="Detect Aberration" Level="2" ReferenceAbbrev="LoM" />
+        <SpellEntry Name="Invoke  The Cerulean Sign" Level="3" ReferenceAbbrev="LoM" />
+        <SpellEntry Name="Damning Darkness" Level="4" ReferenceAbbrev="LoM" />
+        <SpellEntry Name="Morality Undone" Level="5" ReferenceAbbrev="LoM" />
+        <SpellEntry Name="Brain Spider" Level="8" ReferenceAbbrev="LoM" />
+        <SpellEntry Name="Befoul" Level="8" ReferenceAbbrev="LoM" />
+        <SpellEntry Name="Despoil" Level="9" ReferenceAbbrev="LoM" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Druid" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Detect Aberration" Level="2" ReferenceAbbrev="LoM" />
+        <SpellEntry Name="Invoke  The Cerulean Sign" Level="2" ReferenceAbbrev="LoM" />
+        <SpellEntry Name="Nature's Purity" Level="3" ReferenceAbbrev="LoM" />
+        <SpellEntry Name="Pox" Level="6" ReferenceAbbrev="LoM" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Bard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Invoke  The Cerulean Sign" Level="3" ReferenceAbbrev="LoM" />
+        <SpellEntry Name="Morality Undone" Level="5" ReferenceAbbrev="LoM" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Paladin_Base" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Invoke  The Cerulean Sign" Level="3" ReferenceAbbrev="LoM" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Ranger" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Invoke  The Cerulean Sign" Level="2" ReferenceAbbrev="LoM" />
+      </SpellEntries>
+    </SpellList>
+  </SpellListEntries>
+  <Domains>
+    <Domain Name="Madness" Abbrev="Mad">
+      <Power>-1 on all WIS based skills and all WILL saves. Once per day add 1/2 Lvl to single skill check or WILL save before roll is made.</Power>
+      <DomainEntries>
+        <SpellEntry Name="Touch of Madness" Level="2" ReferenceAbbrev="LoM" />
+        <SpellEntry Name="Bolts of Bedevilment" Level="5" ReferenceAbbrev="LoM" />
+        <SpellEntry Name="Maddening Scream" Level="8" ReferenceAbbrev="LoM" />
+        <SpellEntry Name="Confusion, Lesser" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Rage" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Confusion" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Phantasmal Killer" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Insanity" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Weird" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Corruption" Abbrev="Corpt">
+      <Power>="1x per day as Std Act, make MTA against living creature for "&amp; Int( CasterLevel /2) &amp;"d6 dmg + sickened for 1 rd."</Power>
+      <DomainEntries>
+        <SpellEntry Name="Befoul" Level="8" ReferenceAbbrev="LoM" />
+        <SpellEntry Name="Despoil" Level="9" ReferenceAbbrev="LoM" />
+        <SpellEntry Name="Morality Undone" Level="4" ReferenceAbbrev="LoM" />
+        <SpellEntry Name="Pox" Level="6" ReferenceAbbrev="LoM" />
+        <SpellEntry Name="Doom" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Blindness/Deafness" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Contagion" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Feeblemind" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Insanity" Level="7" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Force" Abbrev="Force">
+      <Power>Su: 1x per day, reroll dmg roll (weap, spell, etc) and take better of two rolls.</Power>
+      <DomainEntries>
+        <SpellEntry Name="Blast of Force" Level="3" ReferenceAbbrev="LoM" />
+        <SpellEntry Name="Mage Armor" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Magic Missile" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Otiluke's Resilient Sphere" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Wall of Force" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Repulsion" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Forcecage" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Otiluke's Telekinetic Sphere" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Bigby's Crushing Hand" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Vile Darkness" Abbrev="VileD">
+      <Power>Gain Blind=fight Feat.</Power>
+      <DomainEntries>
+        <SpellEntry Name="Damning Darkness" Level="4" ReferenceAbbrev="LoM" />
+        <SpellEntry Name="Darkbolt" Level="2" ReferenceAbbrev="LoM" />
+        <SpellEntry Name="Utterdark" Level="8" ReferenceAbbrev="LoM" />
+        <SpellEntry Name="Darkvision" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Deeper Darkness" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Evard's Black Tentacles" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Wall of Force" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Shadow Walk" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Screen" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Hatred" Abbrev="">
+      <Power>Su: Choose one opponent. Gain +2 (profane) on Att, Saves, and AC vs that opponent for 1 min.</Power>
+      <DomainEntries>
+        <SpellEntry Name="Doom" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Scare" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Bestow Curse" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Song of Discord" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Righteous Might" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Forbiddance" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Blasphemy" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Antipathy" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Wail of the Banshee" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Mind" Abbrev="Mind">
+      <Power>You gain +2 to Bluff, Diplomacy, and Sense Motive checks.</Power>
+      <DomainEntries>
+        <SpellEntry Name="Weird" Level="9" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Mind Blank" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Brain Spider" Level="7" ReferenceAbbrev="LoM" />
+        <SpellEntry Name="Probe Thoughts" Level="6" ReferenceAbbrev="LoM" />
+        <SpellEntry Name="Rary's Telepathic Bond" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Discern Lies" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Detect Thoughts" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Comprehend Languages" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Telepathic Bond, Lesser" Level="3" ReferenceAbbrev="CD" />
+      </DomainEntries>
+    </Domain>
+  </Domains>
+  <Classes />
+</Reference>

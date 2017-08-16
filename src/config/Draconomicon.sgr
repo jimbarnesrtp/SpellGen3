@@ -1,0 +1,1233 @@
+<Reference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Sequence="1" Name="Draconomicon" Group="" Abbrev="Drac" Version="1">
+  <Description />
+  <DevNotes />
+  <Spells>
+    <Spell OriginalReference="">
+      <Name>Antidragon Aura</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+        <Component>Focus</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>true</SR>
+      <Description>="Allies gain +"&amp;MIN(5,(INT(( CasterLevel +1)/4)))&amp;" bonus to AC and saves against dragons."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Antimagic Ray</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (o)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>109</Page>
+      <SR>true</SR>
+      <Description>Target loses all magical powers.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Aura of Evasion</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>10 ft. radius</Range>
+      <Duration>= CasterLevel *10&amp;" min "</Duration>
+      <Area>Radius</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+        <Component>Focus</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>109</Page>
+      <SR>false</SR>
+      <Description>All within 10' gain evasion against breath weapons.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Bolt of Glory</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Good</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>109</Page>
+      <SR>true</SR>
+      <Description>="Ranged touch; ray deals positive energy damage ("&amp;MIN(7,INT( CasterLevel /2))&amp;"d6 or "&amp;MIN(15, CasterLevel )&amp;"d6; see text.)"</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Cheat</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>109</Page>
+      <SR>false</SR>
+      <Description>Caster rerolls when determining the success of a game of chance.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Cloak of Bravery</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>60 ft.</Range>
+      <Duration>=10* CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>110</Page>
+      <SR>true</SR>
+      <Description>="You and your allies gain a +"&amp;MIN(10, CasterLevel )&amp;" bonus on saves vs. fear."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Contingent Energy Resistance</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp;" hours [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>110</Page>
+      <SR>false</SR>
+      <Description>Energy damage triggers a Resist Energy spell.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Crown of Glory</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>120 feet</Range>
+      <Duration>= CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+        <Component>Focus</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>110</Page>
+      <SR>true</SR>
+      <Description>Gain an aura of celestial authority; +4 Cha and enthralls subjects.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Death Dragon</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+            <Descriptor>Fear</Descriptor>
+          </Descriptors>
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp;" rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>110</Page>
+      <SR>false</SR>
+      <Description>="Negative energy shrouds you; +4 nat. armor, +4 (deflect) to AC, "&amp;MIN(20, CasterLevel )&amp;" hp."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Draconic Might</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" mind [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>111</Page>
+      <SR>true</SR>
+      <Description>Gain +4 STR, CON, CHA; +4 natural armor; immunity to magic sleep effects and paralysis</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Dragon Ally</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Summoning</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>10 min</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>XP</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>111</Page>
+      <SR>false</SR>
+      <Description>Exchange services with up to 2 summoned dragons (max 18 HD).</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Dragon Ally, Greater</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Summoning</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>10 min</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>XP</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>111</Page>
+      <SR>true</SR>
+      <Description>Exchange services with up to 3 summoned dragons (max 27 HD).</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Dragon Ally, Lesser</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Summoning</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>10 min</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>XP</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>111</Page>
+      <SR>true</SR>
+      <Description>Exchange services with a summoned dragon (max 9 HD).</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Dragon Breath</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>=10* CasterLevel &amp;" min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>111</Page>
+      <SR>false</SR>
+      <Description>="Gain dragon's breath ("&amp;MIN(10,(INT(( CasterLevel +1)/2)))&amp;"d6 damage), usable up to "&amp;(INT(( CasterLevel +1)/2))&amp;" times during the spell's duration."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Dragonsight</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp;" min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>112</Page>
+      <SR>true</SR>
+      <Description>="Gain low-light vision, darkvision ("&amp; CasterLevel *10&amp;" ft.), and blindsense ("&amp; CasterLevel *5&amp;" ft.)."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Dragonskin</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>=10* CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>112</Page>
+      <SR>false</SR>
+      <Description>="You gain +"&amp;MIN(5,(INT(( CasterLevel +1)/2)))&amp;" enhancement to natural armor, energy resistance "&amp;MIN(20,( CasterLevel *2))&amp;" vs. one element."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Earthbind</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>=10 *  CasterLevel &amp;" min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>112</Page>
+      <SR>true</SR>
+      <Description>Subject creature can't fly.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Energy Immunity</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>24 hours</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>113</Page>
+      <SR>true</SR>
+      <Description>Subject is immune to damage from one energy type [acid, cold, electricity, fire, sonic].</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Entice Gift</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>113</Page>
+      <SR>true</SR>
+      <Description>Subject gives caster what it's holding.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Fell the Greatest Foe</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg "</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>113</Page>
+      <SR>true</SR>
+      <Description>Deal extra damage to creatures larger than Medium.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Find the Gap</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>113</Page>
+      <SR>false</SR>
+      <Description>Your attacks ignore armor and natural armor.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Flight of the Dragon</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp;" hours [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>113</Page>
+      <SR>true</SR>
+      <Description>You grow dragon wings.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Hide from Dragons</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel *10&amp;" min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>113</Page>
+      <SR>true</SR>
+      <Description>="Dragons can't perceive up to "&amp;INT( CasterLevel /2)&amp; " warded creatures."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Lower Spell Resistance</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg (txt)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>114</Page>
+      <SR>false</SR>
+      <Description>="Subject's spell resistance is reduced by "&amp;MIN(15, CasterLevel )</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Miser's Envy</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>114</Page>
+      <SR>true</SR>
+      <Description>Subject jealously covets a nearby object.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Monstrous Thrall</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Perm.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>XP</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>114</Page>
+      <SR>true</SR>
+      <Description>As True Domination, but permanent and affects any creature.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Phantasmal Thief</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>114</Page>
+      <SR>false</SR>
+      <Description>Creates an unseen force that steals from others.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Scale Weakening</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel *10&amp;" min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>114</Page>
+      <SR>true</SR>
+      <Description>="Subject's natural armor weakens by "&amp;MIN(10,(INT(( CasterLevel /2)+2.5)))</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Shield Of Warding</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>115</Page>
+      <SR>false</SR>
+      <Description>="Shield grants +"&amp;MIN(5,INT( CasterLevel /5)+1)&amp;" sacred bonus on Reflex saves"</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Suppress Breath Weapon</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>115</Page>
+      <SR>true</SR>
+      <Description>Subject can't use breath weapon.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>True Domination</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp;" days"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>115</Page>
+      <SR>true</SR>
+      <Description>Control any one humanoid telepathically; later saving throws at -4.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Voice of the Dragon</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>=10* CasterLevel &amp;" min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>115</Page>
+      <SR>false</SR>
+      <Description>="+10 Bluff, Diplomacy, and Intimidate checks; can use one Suggestion"</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Vulnerability</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>115</Page>
+      <SR>true</SR>
+      <Description>="Reduces an opponent's damage reduction by "&amp;IIF( CasterLevel &lt;15,"5.",IIF(18&gt;= CasterLevel ,"10.",IIF( CasterLevel &lt;=19,"15.","")))</Description>
+    </Spell>
+  </Spells>
+  <SpellOverrides />
+  <SpellListEntries>
+    <SpellList Name="Assassin" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Fell the Greatest Foe" Level="3" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Find the Gap" Level="3" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Hide from Dragons" Level="4" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Vulnerability" Level="4" ReferenceAbbrev="Drac" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Bard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Cheat" Level="1" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Miser's Envy" Level="2" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Suppress Breath Weapon" Level="3" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Voice of the Dragon" Level="4" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Dragonsight" Level="5" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Hide from Dragons" Level="5" ReferenceAbbrev="Drac" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Cleric" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Cloak of Bravery" Level="3" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Shield Of Warding" Level="3" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Antidragon Aura" Level="4" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Contingent Energy Resistance" Level="4" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Fell the Greatest Foe" Level="4" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Lower Spell Resistance" Level="4" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Aura of Evasion" Level="5" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Vulnerability" Level="5" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Energy Immunity" Level="6" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Death Dragon" Level="7" ReferenceAbbrev="Drac" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Druid" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Earthbind" Level="2" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Contingent Energy Resistance" Level="4" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Energy Immunity" Level="6" ReferenceAbbrev="Drac" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Hoardstealer" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Detect Magic" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Detect Secret Doors" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Expeditious Retreat" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Ghost Sound" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Identify" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Nystul's Magic Aura" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Read Magic" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Tenser's Floating Disk" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Unseen Servant" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Cat's Grace" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Invisibility" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Knock" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Locate Object" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Resist Energy" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Spider Climb" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Arcane Sight" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Clairaudience/Clairvoyance" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Dispel Magic" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Protection From Energy" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Shrink Item" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Arcane Eye" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Dimension Door" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Freedom of Movement" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Hide from Dragons" Level="4" ReferenceAbbrev="Drac" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Paladin_Base" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Cloak of Bravery" Level="2" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Shield Of Warding" Level="2" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Fell the Greatest Foe" Level="3" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Find the Gap" Level="3" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Draconic Might" Level="4" ReferenceAbbrev="Drac" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Ranger" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Find the Gap" Level="3" ReferenceAbbrev="Drac" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Sorcerer" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Cheat" Level="1" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Earthbind" Level="2" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Entice Gift" Level="2" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Scale Weakening" Level="2" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Dragon Breath" Level="3" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Dragonskin" Level="3" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Miser's Envy" Level="3" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Suppress Breath Weapon" Level="3" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Antidragon Aura" Level="4" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Lower Spell Resistance" Level="4" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Voice of the Dragon" Level="4" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Contingent Energy Resistance" Level="5" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Draconic Might" Level="5" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Dragon Ally, Lesser" Level="5" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Dragonsight" Level="5" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Flight of the Dragon" Level="5" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Vulnerability" Level="5" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Aura of Evasion" Level="6" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Antimagic Ray" Level="7" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Dragon Ally" Level="7" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Energy Immunity" Level="7" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Hide from Dragons" Level="7" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Phantasmal Thief" Level="8" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Dragon Ally, Greater" Level="9" ReferenceAbbrev="Drac" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Wizard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Cheat" Level="1" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Earthbind" Level="2" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Entice Gift" Level="2" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Scale Weakening" Level="2" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Dragon Breath" Level="3" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Dragonskin" Level="3" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Miser's Envy" Level="3" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Suppress Breath Weapon" Level="3" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Antidragon Aura" Level="4" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Lower Spell Resistance" Level="4" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Voice of the Dragon" Level="4" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Contingent Energy Resistance" Level="5" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Draconic Might" Level="5" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Dragon Ally, Lesser" Level="5" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Dragonsight" Level="5" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Flight of the Dragon" Level="5" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Vulnerability" Level="5" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Aura of Evasion" Level="6" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Antimagic Ray" Level="7" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Dragon Ally" Level="7" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Energy Immunity" Level="7" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Hide from Dragons" Level="7" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Phantasmal Thief" Level="8" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Dragon Ally, Greater" Level="9" ReferenceAbbrev="Drac" />
+      </SpellEntries>
+    </SpellList>
+  </SpellListEntries>
+  <Domains>
+    <Domain Name="Domination" Abbrev="">
+      <Power>You gain the Spell Focus (Enchantment) feat.</Power>
+      <DomainEntries>
+        <SpellEntry Name="Command" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Enthrall" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Suggestion" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Dominate Person" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Command, Greater" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Geas/Quest" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Suggestion, Mass" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="True Domination" Level="8" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Monstrous Thrall" Level="9" ReferenceAbbrev="Drac" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Dragon" Abbrev="">
+      <Power>Add Bluff and Intimidate to list of cleric class skills.</Power>
+      <DomainEntries>
+        <SpellEntry Name="Magic Fang" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Resist Energy" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Magic Fang, Greater" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Voice of the Dragon" Level="4" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="True Seeing" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Stoneskin" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Dragon Ally" Level="7" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Suggestion, Mass" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Dominate Monster" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Glory" Abbrev="">
+      <Power>Turn undead with a +2 bonus to turning check and +1d6 on the turning damage roll.</Power>
+      <DomainEntries>
+        <SpellEntry Name="Disrupt Undead" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Bless Weapon" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Searing Light" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Holy Smite" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Holy Sword" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Bolt of Glory" Level="6" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Sunbeam" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Crown of Glory" Level="8" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Gate" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Greed" Abbrev="">
+      <Power>You gain +2 competence bonus to Appraise, Open Lock, and Sleight of Hand checks.</Power>
+      <DomainEntries>
+        <SpellEntry Name="Cheat" Level="1" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Entice Gift" Level="2" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Knock" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Fire Trap" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Fabricate" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Guards and Wards" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Teleport Object" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Phantasmal Thief" Level="8" ReferenceAbbrev="Drac" />
+        <SpellEntry Name="Sympathy" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Wealth" Abbrev="">
+      <Power>Add Appraise to list of cleric class skills; gain Skill Focus (Appraise) as a bonus Feat.</Power>
+      <DomainEntries>
+        <SpellEntry Name="Alarm" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Obscure Object" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Glyph of Warding" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Detect Scrying" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Leomund's Secret Chest" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Forbiddance" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Discern Location" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Antipathy" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+  </Domains>
+  <Classes>
+    <CasterClass>
+      <Name>Hoardstealer</Name>
+      <Abbrev />
+      <SpellList>Hoardstealer</SpellList>
+      <CasterType>Arcane</CasterType>
+      <HasCantrips>false</HasCantrips>
+      <MaxSpellLevel>4</MaxSpellLevel>
+      <MaxCasterLevel>10</MaxCasterLevel>
+      <CastingStat>Int</CastingStat>
+      <BonusSpellStat>Int</BonusSpellStat>
+      <SaveDCStat>Int</SaveDCStat>
+      <KnowsAllSpells>false</KnowsAllSpells>
+      <KnowsAllCantrips>false</KnowsAllCantrips>
+      <SpellsKnown>false</SpellsKnown>
+      <CasterLevelMultiplier>1</CasterLevelMultiplier>
+      <SpellPyramid>
+        <Slots>0 0</Slots>
+        <Slots>0 1</Slots>
+        <Slots>0 1 0</Slots>
+        <Slots>0 1 1</Slots>
+        <Slots>0 1 1 0</Slots>
+        <Slots>0 1 1 1</Slots>
+        <Slots>0 2 1 1 0</Slots>
+        <Slots>0 2 1 1 1</Slots>
+        <Slots>0 2 2 1 1</Slots>
+        <Slots>0 2 2 2 1</Slots>
+      </SpellPyramid>
+      <KnownPyramid>
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+      </KnownPyramid>
+      <ClassSpellPoints>
+        <UseSpellPoints>false</UseSpellPoints>
+        <GiveBonusSpellPointsForStat>true</GiveBonusSpellPointsForStat>
+        <SpellPointCosts />
+        <SpellPointValues />
+        <SpellPointTable ClassName="" />
+        <UseBonusSpellPointFormula>false</UseBonusSpellPointFormula>
+        <BonusSpellPointFormula />
+      </ClassSpellPoints>
+    </CasterClass>
+  </Classes>
+</Reference>

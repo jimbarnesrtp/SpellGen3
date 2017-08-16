@@ -1,0 +1,287 @@
+<Reference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Sequence="1" Name="Crusades of Valor" Group="" Abbrev="CV" Version="1">
+  <Description />
+  <DevNotes />
+  <Spells>
+    <Spell OriginalReference="">
+      <Name>Bless Crusading Symbol</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Charm</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 min</CastingTime>
+      <Range>Touch</Range>
+      <Duration>(text)</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>23</Page>
+      <SR>false</SR>
+      <Description>Those within 30 ft. of blessed symbol gain +1 (divine) to attack, save, dmg.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Release Soul</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>23</Page>
+      <SR>true</SR>
+      <Description>Send dying character to the afterlife quickly with blessing of cleric's deity.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>In Nomine</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Charm</Subschool>
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 min</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>23</Page>
+      <SR>true</SR>
+      <Description>Amplifies outcome of former spell; save or affected as if Cause Fear.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Bless Army</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Charm</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 min</CastingTime>
+      <Range>Sight</Range>
+      <Duration>one battle</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>true</SR>
+      <Description>Grants +2 (divine) to Military Cohesion to one unit of soldiers.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Wrath of God</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 min</CastingTime>
+      <Range>Long</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>24</Page>
+      <SR>true</SR>
+      <Description>="30 ft. radius; deals "&amp;MIN(15, CasterLevel )&amp;"d6 dmg, and all within 30 ft. (Will) save as if Cause Fear was cast."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Oath of Binding</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 min</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel *10&amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>24</Page>
+      <SR>true</SR>
+      <Description>Compelled to tell the truth, or face divine wrath.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Bless Crusade</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Charm</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 hour</CastingTime>
+      <Range>Sight</Range>
+      <Duration>crusade</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>24</Page>
+      <SR>true</SR>
+      <Description>Grants +4 (divine) to Military Cohesion to three units of soldiers.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Implore Intercession</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Calling</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 hour</CastingTime>
+      <Range>Long</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="(text) " &amp; SaveDC</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>24</Page>
+      <SR>false</SR>
+      <Description>Intercession effect depends upon caster's wisdom.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Test of Faith</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool>Calling</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1r</CastingTime>
+      <Range>Long</Range>
+      <Duration>(text)</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="(text) " &amp; SaveDC</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>24</Page>
+      <SR>false</SR>
+      <Description>Two opposing divine spellcasters have mental test of wills.</Description>
+    </Spell>
+  </Spells>
+  <SpellOverrides />
+  <SpellListEntries />
+  <Domains>
+    <Domain Name="Crusade" Abbrev="">
+      <Power>These spells can only be selected if the character is part of a crusade, and can be "swapped" for a domain spell of the same level at the option of the spellcaster at any time.</Power>
+      <DomainEntries>
+        <SpellEntry Name="Bless Crusading Symbol" Level="1" ReferenceAbbrev="CV" />
+        <SpellEntry Name="Release Soul" Level="2" ReferenceAbbrev="CV" />
+        <SpellEntry Name="In Nomine" Level="3" ReferenceAbbrev="CV" />
+        <SpellEntry Name="Bless Army" Level="4" ReferenceAbbrev="CV" />
+        <SpellEntry Name="Wrath of God" Level="5" ReferenceAbbrev="CV" />
+        <SpellEntry Name="Oath of Binding" Level="6" ReferenceAbbrev="CV" />
+        <SpellEntry Name="Bless Crusade" Level="7" ReferenceAbbrev="CV" />
+        <SpellEntry Name="Implore Intercession" Level="8" ReferenceAbbrev="CV" />
+        <SpellEntry Name="Test of Faith" Level="9" ReferenceAbbrev="CV" />
+      </DomainEntries>
+    </Domain>
+  </Domains>
+  <Classes />
+</Reference>

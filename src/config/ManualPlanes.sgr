@@ -1,0 +1,851 @@
+<Reference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Sequence="1" Name="Manual of the Planes" Group="" Abbrev="MotP" Version="1">
+  <Description> </Description>
+  <DevNotes />
+  <Spells>
+    <Spell OriginalReference="">
+      <Name>Portal Alarm</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel *2&amp;" hours [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>36</Page>
+      <SR>false</SR>
+      <Description>Mental or audible alarm sounds each time a creature passes through.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Analyze Portal</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 min</CastingTime>
+      <Range>60 feet</Range>
+      <Duration>="[c] "&amp; CasterLevel &amp;" rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>false</SR>
+      <Description>You can tell if an area contains a magic portal, and information about it.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Improved Alarm</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel *8&amp;" hours"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>35</Page>
+      <SR>false</SR>
+      <Description>="Wards an area for "&amp;8* CasterLevel &amp;" hours, including coterminous / coexistent planes."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Shadow Cache</Name>
+      <Schools>
+        <School>
+          <School>Illusion</School>
+          <Subschool>Shadow</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>39</Page>
+      <SR>false</SR>
+      <Description>Temporarily stash things on the Plane of Shadow.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Ethereal Mount</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>10 min</CastingTime>
+      <Range>0 feet</Range>
+      <Duration>= CasterLevel &amp;" hours"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>35</Page>
+      <SR>false</SR>
+      <Description>="Call "&amp;SIGN( CasterLevel )+INT( CasterLevel /2)&amp;" quasi-real mounts to carry your party.  (Move 240 ft; carries rider and "&amp; CasterLevel *10&amp;" lb.)"</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Portal Alarm, Greater</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel *8&amp;" hours [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>35</Page>
+      <SR>false</SR>
+      <Description>Mental or audible alarm sounds each time a creature passes through.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Portal Beacon</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp;" hours"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>37</Page>
+      <SR>false</SR>
+      <Description>Six creatures hear mental beacon, know direction and distance to portal.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Attune Form</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel *2&amp;" hours (txt)"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>33</Page>
+      <SR>false</SR>
+      <Description>Attune touched creatures to the plane you are currently on, negating harmful effects.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Avoid Planar Effects</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>20 feet</Range>
+      <Duration>= CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>33</Page>
+      <SR>true</SR>
+      <Description>="Attune "&amp; CasterLevel &amp;" creatures to the plane you are currently on, negating harmful effects."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Interplanar Message</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Language</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>(text)</Range>
+      <Duration>1 rd (txt)</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>36</Page>
+      <SR>true</SR>
+      <Description>Send a message of 25 words or less thru the Astral Plane to a targetted creature.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Positive Energy Protection</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>37</Page>
+      <SR>true</SR>
+      <Description>Subject gains partial protection vs. positive energy, including healing and regeneration.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Safety</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel *10&amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>38</Page>
+      <SR>true</SR>
+      <Description>Find shortest, most direct route to a place of safety.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Zone of Respite</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>2 fr</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel *10&amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>40</Page>
+      <SR>false</SR>
+      <Description>="Ward an area ("&amp; CasterLevel &amp;"- 30 ft. cubes) against interplanar intrusion."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Zone of Revelation</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>40</Page>
+      <SR>true</SR>
+      <Description>="All creatures and objects within "&amp;5* CasterLevel &amp;" ft. radius are made visible."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Ether Blast</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>35</Page>
+      <SR>false</SR>
+      <Description>Create a small ether cyclone centered on you (in the Ethereal Plane).</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Make Manifest</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>36</Page>
+      <SR>true</SR>
+      <Description>Cause one creature on coterminous / coexistent plane to appear on yours.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Shadowblast</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Long</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg (txt)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>39</Page>
+      <SR>true</SR>
+      <Description>Stun or damage Shadow natives and undead; 'close' contact with plane.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Mass Manifest</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>36</Page>
+      <SR>true</SR>
+      <Description>Cause all creatures on coterminous / coexistent plane to appear on yours.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Revive Outsider</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Healing</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 min</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None (text)</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>38</Page>
+      <SR>true</SR>
+      <Description>="Restores life to touched outsider who died (up to "&amp; CasterLevel &amp;" hd.)"</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Chamber</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Force</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>34</Page>
+      <SR>true</SR>
+      <Description>Create a prison of force around a target on the Ethereal Plane.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Scramble Portal</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="(text) " &amp; SaveDC</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>39</Page>
+      <SR>false</SR>
+      <Description>Randomize destination of one interplanar portal for duration.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Shadowfade</Name>
+      <Schools>
+        <School>
+          <School>Illusion</School>
+          <Subschool>Shadow</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>40</Page>
+      <SR>true</SR>
+      <Description>="You and "&amp; CasterLevel &amp;" touched may travel thru open portal to the Plane of Shadow."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Xorn Movement</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>40</Page>
+      <SR>true</SR>
+      <Description>Move through natural, solid material, leaving no burrow trail.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Seal Portal</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Perm. [d]</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>39</Page>
+      <SR>false</SR>
+      <Description>Permanently seal an interplanar portal or gate.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Elemental Body</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>See Text</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>34</Page>
+      <SR>false</SR>
+      <Description>Transmute your body and equipment into a particular element.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Reality Maelstrom</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="(text) " &amp; SaveDC</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>38</Page>
+      <SR>true</SR>
+      <Description>Tear a temporary hole in reality, sending creatures &amp; loose material elsewhere.</Description>
+    </Spell>
+  </Spells>
+  <SpellOverrides />
+  <SpellListEntries>
+    <SpellList Name="Bard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Portal Alarm" Level="2" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Analyze Portal" Level="3" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Improved Alarm" Level="3" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Shadow Cache" Level="3" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Ethereal Mount" Level="4" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Portal Alarm, Greater" Level="4" ReferenceAbbrev="MotP" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Cleric" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Portal Beacon" Level="1" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Attune Form" Level="2" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Avoid Planar Effects" Level="2" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Interplanar Message" Level="3" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Positive Energy Protection" Level="3" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Safety" Level="3" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Zone of Respite" Level="3" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Zone of Revelation" Level="3" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Ether Blast" Level="4" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Make Manifest" Level="4" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Shadowblast" Level="4" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Mass Manifest" Level="6" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Revive Outsider" Level="6" ReferenceAbbrev="MotP" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Druid" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Attune Form" Level="2" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Avoid Planar Effects" Level="2" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Shadowblast" Level="4" ReferenceAbbrev="MotP" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Sacred Fist" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Attune Form" Level="2" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Positive Energy Protection" Level="3" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Safety" Level="3" ReferenceAbbrev="MotP" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Sorcerer" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Portal Beacon" Level="1" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Attune Form" Level="2" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Avoid Planar Effects" Level="2" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Portal Alarm" Level="2" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Analyze Portal" Level="3" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Chamber" Level="3" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Improved Alarm" Level="3" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Shadow Cache" Level="3" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Ethereal Mount" Level="4" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Portal Alarm, Greater" Level="4" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Scramble Portal" Level="4" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Zone of Respite" Level="4" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Zone of Revelation" Level="4" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Shadowfade" Level="5" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Xorn Movement" Level="5" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Make Manifest" Level="6" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Seal Portal" Level="6" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Elemental Body" Level="7" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Reality Maelstrom" Level="7" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Mass Manifest" Level="8" ReferenceAbbrev="MotP" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Wizard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Portal Beacon" Level="1" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Attune Form" Level="2" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Avoid Planar Effects" Level="2" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Portal Alarm" Level="2" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Analyze Portal" Level="3" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Chamber" Level="3" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Improved Alarm" Level="3" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Shadow Cache" Level="3" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Ethereal Mount" Level="4" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Portal Alarm, Greater" Level="4" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Scramble Portal" Level="4" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Zone of Respite" Level="4" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Zone of Revelation" Level="4" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Shadowfade" Level="5" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Xorn Movement" Level="5" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Make Manifest" Level="6" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Seal Portal" Level="6" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Elemental Body" Level="7" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Reality Maelstrom" Level="7" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Mass Manifest" Level="8" ReferenceAbbrev="MotP" />
+      </SpellEntries>
+    </SpellList>
+  </SpellListEntries>
+  <Domains />
+  <Classes />
+</Reference>

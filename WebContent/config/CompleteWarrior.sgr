@@ -1,0 +1,497 @@
+<Reference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Sequence="1" Name="Complete Warrior" Group="" Abbrev="CW" Version="1">
+  <Description />
+  <DevNotes />
+  <Spells>
+    <Spell OriginalReference="">
+      <Name>Augment Familiar</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>="[c] "&amp; CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>true</SR>
+      <Description>Your familiar gains +4 to STR, DEX, &amp; CON, DR 5/magic, and +2 to saving throws</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Cloak of Bravery</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>60 ft.</Range>
+      <Duration>=10* CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>117</Page>
+      <SR>true</SR>
+      <Description>="You and your allies gain a +"&amp;MIN(10, CasterLevel )&amp;" bonus on saves vs. fear."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Cloak of Bravery, Greater</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>1 mile</Range>
+      <Duration>= CasterLevel &amp;" hours"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>117</Page>
+      <SR>true</SR>
+      <Description>You and your allies are immune to fear and get a +2 bonus on attacks.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Cursed Blade</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>117</Page>
+      <SR>false</SR>
+      <Description>Weapon deals cursed damage, can't be healed until a Remove Curse is cast.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Hound of Doom</Name>
+      <Schools>
+        <School>
+          <School>Illusion</School>
+          <Subschool>Shadow</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp;" min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>117</Page>
+      <SR>true</SR>
+      <Description>Creates a dire wolf from the Plane of Shadow</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Lion's Roar</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Sonic</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>120 ft.</Range>
+      <Duration>="Inst. or "&amp; CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="(text) " &amp; SaveDC</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>118</Page>
+      <SR>true</SR>
+      <Description>="Deals "&amp;INT( CasterLevel /2)&amp;"d8 dmg to enemies; allies get +1 to attacks and sv. vs. fear; and 1d8+"&amp;MIN(20, CasterLevel )&amp;" temp HP."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Phantom Threat</Name>
+      <Schools>
+        <School>
+          <School>Illusion</School>
+          <Subschool>Phantasm</Subschool>
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>118</Page>
+      <SR>true</SR>
+      <Description>Subject thinks it's flanked.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Valiant Fury</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>118</Page>
+      <SR>true</SR>
+      <Description>Target gains +4 STR &amp; CON, +2 Will saves, and an extra attack</Description>
+    </Spell>
+  </Spells>
+  <SpellOverrides />
+  <SpellListEntries>
+    <SpellList Name="Assassin" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Cursed Blade" Level="4" ReferenceAbbrev="CW" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Bard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Phantom Threat" Level="1" ReferenceAbbrev="CW" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Cleric" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Cloak of Bravery" Level="3" ReferenceAbbrev="CW" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Hexblade" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Alarm" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Arcane Mark" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Cause Fear" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Charm Person" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Detect Magic" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Disguise Self" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Entropic Shield" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Expeditious Retreat" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Identify" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Light" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Magic Weapon" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Mount" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Nystul's Magic Aura" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Prestidigitation" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Protection From Chaos" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Protection From Evil" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Protection From Good" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Protection From Law" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Read Magic" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Sleep" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Tasha's Hideous Laughter" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Undetectable Alignment" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Unseen Servant" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Augment Familiar" Level="1" ReferenceAbbrev="CW" />
+        <SpellEntry Name="Phantom Threat" Level="1" ReferenceAbbrev="CW" />
+        <SpellEntry Name="Alter Self" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Blindness/Deafness" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Bull's Strength" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Darkness" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Eagle's Splendor" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Enthrall" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="False Life" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Glitterdust" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Invisibility" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Mirror Image" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Protection From Arrows" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Pyrotechnics" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Rage" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Resist Energy" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="See Invisibility" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Spider Climb" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Suggestion" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Summon Swarm" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Touch of Idiocy" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Arcane Sight" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Charm Monster" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Confusion" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Deep Slumber" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Dispel Magic" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Invisibility Sphere" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Magic Weapon, Greater" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Nondetection" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Phantom Steed" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Poison" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Protection From Energy" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Repel Vermin" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Slow" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Stinking Cloud" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Vampiric Touch" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Wind Wall" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Hound of Doom" Level="3" ReferenceAbbrev="CW" />
+        <SpellEntry Name="Baleful Polymorph" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Break Enchantment" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Contact Other Plane" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Detect Scrying" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Dimension Door" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Dominate Person" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Enervation" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Fear" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Invisibility, Greater" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Phantasmal Killer" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Polymorph" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Scrying" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Sending" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Solid Fog" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Cursed Blade" Level="4" ReferenceAbbrev="CW" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Paladin_Base" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Cloak of Bravery" Level="2" ReferenceAbbrev="CW" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Sorcerer" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Augment Familiar" Level="2" ReferenceAbbrev="CW" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Wizard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Augment Familiar" Level="2" ReferenceAbbrev="CW" />
+      </SpellEntries>
+    </SpellList>
+  </SpellListEntries>
+  <Domains>
+    <Domain Name="Courage" Abbrev="">
+      <Power>You radiate an aura of courage that grants a +4 morale bonus on saving throws vs. fear effects.</Power>
+      <DomainEntries>
+        <SpellEntry Name="Remove Fear" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Aid" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Cloak of Bravery" Level="3" ReferenceAbbrev="CW" />
+        <SpellEntry Name="Heroism" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Valiant Fury" Level="5" ReferenceAbbrev="CW" />
+        <SpellEntry Name="Heroes' Feast" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Heroism, Greater" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Lion's Roar" Level="8" ReferenceAbbrev="CW" />
+        <SpellEntry Name="Cloak of Bravery, Greater" Level="9" ReferenceAbbrev="CW" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Fate" Abbrev="">
+      <Power>You gain the uncanny dodge ability. If you have another class that grants this, your cleric levels add to that class's level for determining when you gain improved uncanny dodge class feature.</Power>
+      <DomainEntries>
+        <SpellEntry Name="True Strike" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Augury" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Bestow Curse" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Status" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Mark of Justice" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Geas/Quest" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Vision" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Mind Blank" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Foresight" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Nobility" Abbrev="">
+      <Power>As a std action (1/day; spell-like), inspire allies a +2 morale bonus on ability checks, saves, skills, attacks, and damage.  This lasts for (CHA mod) rounds.</Power>
+      <DomainEntries>
+        <SpellEntry Name="Divine Favor" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Enthrall" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Magic Vestment" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Discern Lies" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Command, Greater" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Geas/Quest" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Repulsion" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Demand" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Storm of Vengeance" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Planning" Abbrev="">
+      <Power>Free Extend Spell feat.</Power>
+      <DomainEntries>
+        <SpellEntry Name="Deathwatch" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Augury" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Clairaudience/Clairvoyance" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Status" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Detect Scrying" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Heroes' Feast" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Scrying, Greater" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Discern Location" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Time Stop" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Tyranny" Abbrev="">
+      <Power>Add +1 to the saving throw DC of any compulsion spell you cast.</Power>
+      <DomainEntries>
+        <SpellEntry Name="Command" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Enthrall" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Discern Lies" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Fear" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Command, Greater" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Geas/Quest" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Bigby's Grasping Hand" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Charm Monster, Mass" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Dominate Monster" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+  </Domains>
+  <Classes>
+    <CasterClass>
+      <Name>Hexblade</Name>
+      <Abbrev />
+      <SpellList>Hexblade</SpellList>
+      <CasterType>Arcane</CasterType>
+      <HasCantrips>false</HasCantrips>
+      <MaxSpellLevel>4</MaxSpellLevel>
+      <MaxCasterLevel>20</MaxCasterLevel>
+      <CastingStat>Cha</CastingStat>
+      <BonusSpellStat>Cha</BonusSpellStat>
+      <SaveDCStat>Cha</SaveDCStat>
+      <KnowsAllSpells>false</KnowsAllSpells>
+      <KnowsAllCantrips>false</KnowsAllCantrips>
+      <SpellsKnown>true</SpellsKnown>
+      <CasterLevelMultiplier>0.5</CasterLevelMultiplier>
+      <SpellPyramid>
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots>0</Slots>
+        <Slots>0</Slots>
+        <Slots>1</Slots>
+        <Slots>1</Slots>
+        <Slots>1 0</Slots>
+        <Slots>1 0</Slots>
+        <Slots>1 1</Slots>
+        <Slots>1 1 0</Slots>
+        <Slots>1 1 1</Slots>
+        <Slots>1 1 1</Slots>
+        <Slots>2 1 1 0</Slots>
+        <Slots>2 1 1 1</Slots>
+        <Slots>2 2 1 1</Slots>
+        <Slots>2 2 2 1</Slots>
+        <Slots>3 2 2 1</Slots>
+        <Slots>3 3 3 2</Slots>
+        <Slots>3 3 3 3</Slots>
+      </SpellPyramid>
+      <KnownPyramid>
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots>0 2</Slots>
+        <Slots>0 2</Slots>
+        <Slots>0 3</Slots>
+        <Slots>0 3</Slots>
+        <Slots>0 4 2</Slots>
+        <Slots>0 4 2</Slots>
+        <Slots>0 4 3</Slots>
+        <Slots>0 4 3 2</Slots>
+        <Slots>0 4 4 3</Slots>
+        <Slots>0 4 4 3</Slots>
+        <Slots>0 4 4 4 2</Slots>
+        <Slots>0 4 4 4 3</Slots>
+        <Slots>0 4 4 4 3</Slots>
+        <Slots>0 5 4 4 4</Slots>
+        <Slots>0 5 5 4 4</Slots>
+        <Slots>0 5 5 5 4</Slots>
+        <Slots>0 5 5 5 5</Slots>
+      </KnownPyramid>
+      <ClassSpellPoints>
+        <UseSpellPoints>false</UseSpellPoints>
+        <GiveBonusSpellPointsForStat>true</GiveBonusSpellPointsForStat>
+        <SpellPointCosts />
+        <SpellPointValues />
+        <SpellPointTable ClassName="" />
+        <UseBonusSpellPointFormula>false</UseBonusSpellPointFormula>
+        <BonusSpellPointFormula />
+      </ClassSpellPoints>
+    </CasterClass>
+  </Classes>
+</Reference>

@@ -1,0 +1,907 @@
+<Reference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Sequence="19" Name="Complete Scoundrel" Group="" Abbrev="CSc" Version="1">
+  <Description>(c) 2007 by Wizards of the Coast, Inc.</Description>
+  <DevNotes>Initial info entered by TT</DevNotes>
+  <Spells>
+    <Spell OriginalReference="">
+      <Name>Animate Instrument</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area>None</Area>
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>94</Page>
+      <SR>false</SR>
+      <Description>Target any non-magical instrument that will play at your command, even while you are busy with other actions. You can start the instrument with a Swift Act, effectively mimicking and continuing your performance. The instrument uses your Perform modifier for the purpose of Bardic Music checks. Once the instrument picks up the performance, you do not have to concentrate to maintain its effect. Thus you can continue a performance or bardic music effect that relies on the use of a musical instrument while taking other actions (including another bardic music ability. If the instrument must be carried or held while played, it floats in the air in the square in which you cast the spell. While animated, the instrument is AC 10 (plus any size modifiers, most instruments are Tiny). The instrument will continue to play until the duration ends or the instrument is damaged. Material Component: One working instrument.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Aquatic Escape</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool>Polymorph</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 sw</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area>None</Area>
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>95</Page>
+      <SR>false</SR>
+      <Description>You take the form of a Diminutive Fish. Use the statistics of the Toad (MM 282) except for the following: Add Aquatic subtype, Replace Land speed with Swim speed of 30ft, remove Amphibious SQ and replace Toad's skills with Listen +4, Spot +4 and Swim +13. A fish adds its Dex Mod, not its Str Mod to Swim checks and gains a +8 (racial) to Swim checks due to its Swim Speed. See the Polymorph subschool description on page 91 for more details. </Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Armor Lock</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area>None</Area>
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>95</Page>
+      <SR>true</SR>
+      <Description>Target a creature wearing armor. The target's land speed is reduced to 10ft. If the target has a Burrow, Climb, or Swim speed, these are also reduced to 10ft. Target loses any Dex bonus to AC for the duration. While affected by this spell, the target cannot remove his armor; its joints are too restrictive. The spell has no affect on unarmored opponents, creatures with only Natural Armor or an AC bonus from items other than armor, or those using only shields.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Assassin's Darkness</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Darkness</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " min [d]"</Duration>
+      <Area>40'r em</Area>
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>95</Page>
+      <SR>false</SR>
+      <Description>You call a globe of darkness into being that only you can see through. All other creatures within or who enter the area are blinded while they remain in the area. Even creatures that have Darkvision cannot see, although creatures capable of seeing in magical darkness (such as devils) are not affected by it. While you are outside the sphere, you cannot see in and every creature within has total concealment. Upon entering the area, however, you can see as if the area were brightly lit and can interact with those within as normal, even though they cannot see you.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Blockade</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 sw</CastingTime>
+      <Range>0 ft</Range>
+      <Duration>3 rd</Duration>
+      <Area>5ft cube</Area>
+      <Components>
+        <Component>Material</Component>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>95</Page>
+      <SR>false</SR>
+      <Description>You create a solid cube of wood, which must be created upon solid ground on an empty square. If no solid surface exists that is large enough for the cube to fit upon or if no adjacent square is empty the spell fails. The cube weighs 2000 lbs, has Hardness 5 and 600 HP and it completely fills one 5ft square. Multiple cubes can be stacked. If it is pushed into water, the cube floats.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Catapult</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area>None</Area>
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>95</Page>
+      <SR>false</SR>
+      <Description>="Touched non-living object (up to 5 lbs in weight) flies out of your hand at high speed. Make a normal Ranged Att roll with the object, but with no ability modifier to the Att or Dmg rolls. Instead, you gain a +"&amp; Min(5, Int( CasterLevel /3)) &amp;" (compet.) on Dmg rolls. The range increment is 30ft, regardless of any existing range increment for the object. If the object is not meant to be used as a ranged weapon, you suffer the usual -4 (non-prof.) on the Att roll. An item that isn't a weapon deals 1d6 if it weighs at least 1 lb."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Create Fetch</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel * 10 &amp; " min"</Duration>
+      <Area>None</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>96</Page>
+      <SR>false</SR>
+      <Description>You create a replica of yourself at the time you cast the spell. You ust make a Disguise check when you cast the spell to determine how good the likeness is; this result is opposed by observer's Spot checks. The fetch is mindless but capable of performing simple tasks or imitating you. You have a mental connection with your fetch and can give it new orders as a Std Act. Anyone touching the Fetch finds it rubbery and soft and immediately realizes its magical nature. Although the Fetch carries replicas of your equipment, said replicas are useless fakes that will dissipate if separated from the fetch. At your order, the fetch can retrieve things for you, open unstuck doors, hold chairs, and the like. It cannot perform any task that requires a skill check with a DC higher than 10 or that requires a skill that cannot be used untrained. The Fetch can only use your Land speed. The Fetch automatically fails any Save required. If you attempts to send it beyond the spell's range (measured from your current position), it ceases to exist. The Fetch is never allowed an Att roll. It cannot threaten an area around it and thus cannot flank an enemy. See text for stats.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Disobedience</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " hr [d]"</Duration>
+      <Area>None</Area>
+      <Components>
+        <Component>Material</Component>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>97</Page>
+      <SR>true</SR>
+      <Description>Target a creature which becomes shielded against mind-controlling spells and abilities. Disobedience blocks any attempt to exercise mental control over the subject creature, including those that grant ongoing control over the subject such as Dominate Person or a vampire's Dominate ability. The protection does not prevent targetting, but suporesses the effect for the duration of this spell. In addition to protecting the subject, disobedience sends false information to the creature that is attempting to gain control of the subject. The would-be controller must succeed on a Will save or believe that its spell or ability has taken effect and that the target is now under its control. The subject of Disobedience is aware of the issued commands and can choose to act however it pleases for the duration.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Enlarge Weapon</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area>None</Area>
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Will " &amp; SaveDC &amp; " neg (h,o)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>97</Page>
+      <SR>true</SR>
+      <Description>Melee weapon you hold enlarges by one size catagory. As its size increases, the dmg the weapon deals increases as well (PHB 114). When your weapon is affected by this spell, you do not take a penalty for this over-large weapon. This spell has no effect on a weapon that is already enlarged by another effect (such as Enlarge Person).</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Evacuation Rune</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Teleport</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>24 hrs</Duration>
+      <Area>None</Area>
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>98</Page>
+      <SR>false</SR>
+      <Description>You create a magic mark on a touched surface or inanimate object similar to an Arcane Mark (PHB 201). At any point during the duration you can teleport (as Greater Teleport XX) back to the mark as a Swift Act. After teleporting you cannot take any other actions until your next turn. Mark can be detected as Arcane Mark. You are not alerted if the mark is dispelled or the object is destroyed (or moved to another plane) and any attempt to teleport to such a missing mark still takes a Swift Act but fails. If the object was moved to a space too small for you to appear or otherwise covered by a solid body, you take dmg and are shunted to a random open space (see text for details).</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Fatal Flame</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Fire</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties>
+            <Property>Elemental</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area>None</Area>
+      <Components>
+        <Component>Material</Component>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>99</Page>
+      <SR>true</SR>
+      <Description>="You place a tiny quantity of Elemental Fire within a creature. When the subject dies, its body explodes dealing Fire dmg to each adjacent creature equal to twice the subject's HD or "&amp; Max(20, CasterLevel *2) &amp;" (whichever is less). A successful REF("&amp; SaveDC &amp;") halved the dmg."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Grasping Wall</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= "[c] up to " &amp; CasterLevel &amp; " rd +3 rd"</Duration>
+      <Area>4*5ft sq</Area>
+      <Components>
+        <Component>Material</Component>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Ref " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>99</Page>
+      <SR>false</SR>
+      <Description>You cause hands to sprout from an existing wall within range. All opponents adjacent to the wall are Entangled unless they make the REF save. An opponent must repeat this save each rd it remains adjacent to the wall. Allied creatures can use the hands to gain a +10 (compet.) to Climb checks to scale the wall. If the spell ends while you are still climbing you immediately fall but can make a normal Climb check to catch yourself (PHB 69).</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Harmonic Void</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Centered</Range>
+      <Duration>= "[c] up to " &amp; CasterLevel &amp; " rd"</Duration>
+      <Area>60'r em</Area>
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>99</Page>
+      <SR>false</SR>
+      <Description>="Create a spherical zone around you that interfere with spells that have verbal components. Casters (other than you) within area attempting to cast a spell must make a Concentration (DC "&amp; 20+SpellLevel &amp;") check. On a failure, the spell fails to function and the spell slot is expended as normal. Harmonic Void has no effect on Su abilities, magic items, and other magical effects."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Healer's Vision</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area>None</Area>
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>100</Page>
+      <SR>false</SR>
+      <Description>="You gain a +5 (insight) on Heal checks, and any Cure spell you cast on a living creature heals "&amp; SpellLevel &amp;" pts of dmg. You gain a +2 bonus ot Att and Dmg rolls when making precision-based attacks you possess (such as Sneak Att or Sudden Strike) against a living creature. You cannot make such an attack against creatures normally unaffected by them. This spell does not reveal the true form of creatures affected by Illusions or other magical disguises, so it grants no benefits against such creatures."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Lucky Streak</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " min [d]"</Duration>
+      <Area>None</Area>
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>100</Page>
+      <SR>true</SR>
+      <Description>Target creature gains +2 (luck) to the result of any Luck rolls made for duration of spell.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Mage Burr</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area>None</Area>
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>100</Page>
+      <SR>true</SR>
+      <Description>Target creature wearing armor or using a shield. Arcane spells casters suffer double the normal Arcane Spell Failure chance for armor and shields. In addition, the subject takes a -5 penalty on Concentrate checks total for any armor and shield worn. This spell has no effect on creatures with only Natural Armor or an AC bonus from items other than armor.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Manifestation of the Deity</Name>
+      <Schools>
+        <School>
+          <School>Illusion</School>
+          <Subschool>Pattern</Subschool>
+          <Descriptors>
+            <Descriptor>Fear</Descriptor>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 sw</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= Int(CasterLevel /3) &amp; " rd [d]"</Duration>
+      <Area>None</Area>
+      <Components>
+        <Component>DivineFocus</Component>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>101</Page>
+      <SR>false</SR>
+      <Description>You overlay your form with an illusion of the deity you worship. The manifestation appears ghostly and fearsome, with its favorite weapon drawn. The image is transparent enough that you receive no concealment. Any enemy who can see the effect becomes Shaken for 1 rd, after which the creature is no longer affected by this casting. A successful save negates the effect and the creature can no longer be affected by this casting of the spell.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Mimicry</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area>None</Area>
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>101</Page>
+      <SR>false</SR>
+      <Description>You can perfectly mimic familiar sounds, voices, and accents. These sounds can be any that you've heard before, and must be within the range of noises your voice can create. This spell does not allow you to speak a language you cannot normally speak. You can duplicate a specific individual's voice by making a Bluff check; listeners familiar with the voice being immitated must succeed on a opposed Sense Motive check to discern the voice is not genuine.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Opportune Dodge</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 sw</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area>None</Area>
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>101</Page>
+      <SR>true</SR>
+      <Description>Creature touched gains ability to activate this effect (does not require an action) any time the subject would provoke an AoO. The AoO is denied (so not used by the attacker). Once the subject negates an AoO in this manner, the spell ends.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Scry Location</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool>Scrying</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 hr</CastingTime>
+      <Range>See text</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area>None</Area>
+      <Components>
+        <Component>Focus</Component>
+        <Component>MaterialOrDivineFocus</Component>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>No</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>102</Page>
+      <SR>false</SR>
+      <Description>You can see and hear what occurs at a location, which can be at any distance on the same plane. You must make a successful CL check to scry a specific location. The difficulty of this check depends on your familiarity with the location (see text). If the CL check successds, you create an invis. magical sensor at the location you desire through which you can both see and hear (your vantage being the same as if you were standing there), making Spot and Listen checks as normal. You can rotate the sensor as you wish but may not move it from the original spot where it was created. If the CL check fails you cannot attempt to scry any place within 1 mile of that location until 24 hrs have passed.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Siphon</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 min</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area>None</Area>
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>102</Page>
+      <SR>false</SR>
+      <Description>Touched wand or staff is drained of charges to replace spells you have already cast. As long as the wand or staff has at least 5 charges left, you can expend 5 of those charges to replace a cast spell of a level equal to or less than the highest level spell the item holds. If you cast spells spontaneously, you can regain a spell slot of the appropriate level. If the wand or staff holds enough charges, one casting of this spell can replace multiple spells at once. Siphon has no effect on wands or staffs that do not hold enough charges to replenish the desired number of spells.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Smoke Stairs</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Air</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area>None</Area>
+      <Components>
+        <Component>Material</Component>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>103</Page>
+      <SR>false</SR>
+      <Description>You gain the ability to run up columns of smoke as if they were normal stairs. The smoke must be from a natural fire large enough to fill a 5ft square (normal campfire, bonfire, or any significant amount of burning debris but not a torch or creature made of fire or smoke). You take no dmg from the fire when you step into the smoke. Every 5 ft of upward movement takes 2 squares of movement. If anything dissipates the column of smoke while you are moving through it using this spell, you lose your footing and fall. If the fire is extinguished, the effect last for 1 rd before dispersing.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Spell Theft</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area>None</Area>
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>104</Page>
+      <SR>false</SR>
+      <Description>="You attempt to steal a target creature's spell effects for yourself. Upon casting this spell you instantly discern all spells currently affecting the target (including their effects). For each spell so discerned, you can make a dispel check (1d20+"&amp; Min(15, CasterLevel )&amp;") against a DC of 11+(CL of spells caster). If the check succeeds, the target loses the spell effect and you gain the effect for the remainder of its duration as if it had been cast on you instead. Only spells capable of being dispelled can be affected by Spell Theft. In addition, if you are not a legal target of the spell being stolen, your dispel check automatically fails."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Spore Field</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area>10ft r. sp</Area>
+      <Components>
+        <Component>DivineFocus</Component>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Fort " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>104</Page>
+      <SR>false</SR>
+      <Description>The target area becomes Difficult Terrain (costs 2 squares of movement per square and creatures cannot charge or run through such squares, see PHB 148). The uneven surface created by this spell also increases the DC of Balance and Tumble checks by 5 and the DC of Move Silent checks by 2. Any creature entering or moving through the area must make a Fort save or become Sickened for 1 rd. Treat this spore effect as an Inhaled Poison.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Spymaster's Coin</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool>Scrying</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " hr"</Duration>
+      <Area>None</Area>
+      <Components>
+        <Component>Focus</Component>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>104</Page>
+      <SR>false</SR>
+      <Description>="You imbue a touched Fine object with a dormant magical scrying sensor. Anyone attempting to detect this sensor must succeed in a CL check (DC "&amp; 15+ CasterLevel &amp;"). Any one time during the spells duration, as a Std Act you can concentrate upon the object, enabling you to hear or see (your choice) as if you were in the objects location. This effect otherwise functions as if you cast Clairaudience/Clairvoyance in the object's area. You have no control over the objects movement and gain no special sense. Object must be on the same plane. You must concentrate to continue to see or hear through the Spymaster's Coin. If you stop concentrating, the spell's effect ends. Once activated, the the scrying effect of the spell lasts for "&amp; CasterLevel &amp;" rds."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Wall of Vermin</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>="(c)+"&amp; CasterLevel &amp;" rds"</Duration>
+      <Area>4*5ft sq</Area>
+      <Components>
+        <Component>DivineFocus</Component>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Fort " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>104</Page>
+      <SR>true</SR>
+      <Description>You create a wall of vermin which provides Concealment in both directions (20% miss chance on any Att passing through wall). The wall cannot be created in a square occupied by a creature. Any living creature passing through the wall takes 2d6 pts of dmg and must save or be Nauseated for 1 rd. Any creature thus affected can complete their move action, but cannot take a Std Act for that rd. The wall is immune to weapon dmg, though it can be affected by area spells and effects. It has 20HP and automatically fails any save. Disintegration has no effect on the wall, since it is not a single physical object, though any wind of 50MPH or greater breaks up the wall for 1 rd. The creatures are not natural, and thus are not affected by spells that effect animals or vermin.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Wand Modulation</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 sw</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>Yes (H,O)</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>105</Page>
+      <SR>true</SR>
+      <Description>Target a wand you hold, temporarily altering it to cast a different spell. After casting this spell, the next spell you cast upon the target affects the remaining charges, allowing the wand to discharge that spell instead of the one it was created to cast. The new spell must be of a level lower than the spell the wand normally casts. Replacement spells cast from the affected wand are cast at the min CL. Each use of an affected wand now expends 2 charges from the wand instead of the usual single charge. If the wand holds insufficient charges to invoke the new spell, it cannot be activated. See text for limitation on XP or Material costs of new spell.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Winged Watcher</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool>Polymorph</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 sw</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area>None</Area>
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>106</Page>
+      <SR>false</SR>
+      <Description>You take the form of an owl (MM 277) or raven (MM 278) as chosen when spell is cast. Even though your INT changes to 2, you retain your normal ability to understand your surroundings (unlike a normal animal). See the Polymorph subschool description (CSc 91) for deatils.</Description>
+    </Spell>
+  </Spells>
+  <SpellOverrides />
+  <SpellListEntries>
+    <SpellList Name="Bard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Armor Lock" Level="1" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Lucky Streak" Level="1" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Mage Burr" Level="1" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Mimicry" Level="1" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Animate Instrument" Level="2" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Catapult" Level="2" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Opportune Dodge" Level="2" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Spymaster's Coin" Level="2" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Disobedience" Level="3" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Create Fetch" Level="3" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Spell Theft" Level="4" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Evacuation Rune" Level="5" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Harmonic Void" Level="5" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Scry Location" Level="5" ReferenceAbbrev="CSc" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Cleric" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Healer's Vision" Level="1" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Manifestation of the Deity" Level="2" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Scry Location" Level="5" ReferenceAbbrev="CSc" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Druid" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Aquatic Escape" Level="1" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Blockade" Level="1" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Spore Field" Level="1" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Winged Watcher" Level="1" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Smoke Stairs" Level="2" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Wall of Vermin" Level="3" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Scry Location" Level="7" ReferenceAbbrev="CSc" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Hexblade" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Armor Lock" Level="1" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Mage Burr" Level="1" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Spell Theft" Level="4" ReferenceAbbrev="CSc" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Ranger" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Blockade" Level="1" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Spore Field" Level="2" ReferenceAbbrev="CSc" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Sorcerer" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Blockade" Level="1" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Armor Lock" Level="1" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Mage Burr" Level="1" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Spymaster's Coin" Level="2" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Fatal Flame" Level="2" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Catapult" Level="2" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Enlarge Weapon" Level="2" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Lucky Streak" Level="2" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Disobedience" Level="3" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Grasping Wall" Level="3" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Wand Modulation" Level="3" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Siphon" Level="3" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Create Fetch" Level="4" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Evacuation Rune" Level="5" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Spell Theft" Level="5" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Scry Location" Level="6" ReferenceAbbrev="CSc" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Wizard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Blockade" Level="1" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Armor Lock" Level="1" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Mage Burr" Level="1" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Spymaster's Coin" Level="2" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Fatal Flame" Level="2" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Catapult" Level="2" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Enlarge Weapon" Level="2" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Lucky Streak" Level="2" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Disobedience" Level="3" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Grasping Wall" Level="3" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Wand Modulation" Level="3" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Siphon" Level="3" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Create Fetch" Level="4" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Evacuation Rune" Level="5" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Spell Theft" Level="5" ReferenceAbbrev="CSc" />
+        <SpellEntry Name="Scry Location" Level="6" ReferenceAbbrev="CSc" />
+      </SpellEntries>
+    </SpellList>
+  </SpellListEntries>
+  <Domains />
+  <Classes />
+</Reference>

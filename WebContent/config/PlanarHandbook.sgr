@@ -1,0 +1,2670 @@
+<Reference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Sequence="2" Name="Planar Handbook" Group="" Abbrev="PH" Version="1.01">
+  <Description>(C) Copyright 2004 Wizards of the Coast
+
+1.01 - Fixed Precipitate Breach (and Gr.) and Plane Shift, Greater to use "Conjuration(Teleport)". Fixed error in Touchstone Lightning </Description>
+  <DevNotes />
+  <Spells>
+    <Spell OriginalReference="">
+      <Name>Abyssal Army</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Summoning</Subschool>
+          <Descriptors />
+          <Alignments>
+            <Alignment>Chaotic</Alignment>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>10 min.</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel *10 &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>false</SR>
+      <Description>Summons many demons over time.  They always obey you and never attack you even if controlled by another.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Analyze Portal</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 min.</CastingTime>
+      <Range>60'</Range>
+      <Duration>= "[c] up to " &amp; CasterLevel &amp; " rd"</Duration>
+      <Area>Cone em.</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>92</Page>
+      <SR>false</SR>
+      <Description>You can tell if an area contains a portal.  Further study reveals details about portals in the area.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Analyze Touchstone</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 min.</CastingTime>
+      <Range>60'</Range>
+      <Duration>= "[c] up to " &amp; CasterLevel &amp; " rd"</Duration>
+      <Area>Qtr cir em.</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>93</Page>
+      <SR>false</SR>
+      <Description>You can tell if an area contains a planar touchstone.  Further study reveals details about touchstones in the area.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Anarchic Storm</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors>
+            <Descriptor>Water</Descriptor>
+          </Descriptors>
+          <Alignments>
+            <Alignment>Chaotic</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Centered</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area>20' rad</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>50</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>93</Page>
+      <SR>false</SR>
+      <Description>Driving rain reduces visibility and hearing, damages lawful creatures over time. Material: flask of anarchic water.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Anarchic Water</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Chaotic</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 min.</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area>Flask of water</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>25</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (obj)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>93</Page>
+      <SR>true</SR>
+      <Description>Turns a flask of water into anarchic water (see PH75).  Material: 5 pounds of powdered iron and silver.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Astral Hospice</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Teleport</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " day(s)"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>250</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>93</Page>
+      <SR>false</SR>
+      <Description>Opens a portal from the Astral Plane to a demi-plane.  Natural healing can occur here, only creatures chosen by caster may enter.  Effect ends when caster leaves.  Material: Flawless gem worth at least 250GP.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Attune Form</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel*2 &amp; " hr"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>94</Page>
+      <SR>false</SR>
+      <Description>Creatuers touched are protected from current plane as Avoid Planar Effects (PH94).</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Avoid Planar Effects</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Centered</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>94</Page>
+      <SR>true</SR>
+      <Description>= "Up to " &amp; CasterLevel &amp; " creatures, (no 2 &gt; 20' apart) are protected from the natural effects of the current plane.  Gravity, alignment and magic traits are not affected by this spell.  Others may be as the GM desires."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Axiomatic Storm</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors>
+            <Descriptor>Water</Descriptor>
+          </Descriptors>
+          <Alignments>
+            <Alignment>Lawful</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Centered</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area>20' rad</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>50</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>95</Page>
+      <SR>false</SR>
+      <Description>Driving rain reduces visibility and hearing, damages chaotic creatures over time. Material: flask of axiomatic water.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Axiomatic Water</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Lawful</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 min.</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area>Flask of water</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>25</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (obj)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>95</Page>
+      <SR>true</SR>
+      <Description>Turns a flask of water into axiomatic water (see PH76).  Material: 5 pounds of powdered iron and silver.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Babau Slime</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg (h) and Ref" &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>95</Page>
+      <SR>true</SR>
+      <Description>Creatures and weapons that touch the target must save versus 1d8 acid (hardness does not apply).  Creatures and magic weapons get Ref save.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Balor Nimbus</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>95</Page>
+      <SR>false</SR>
+      <Description>You burst into flames, dealing no damage to you or your equipment.  Creatures in a grapple with you take 6d6 damage per round.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Barghest's Feast</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area>Corpse touched</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>5000</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (o)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>95</Page>
+      <SR>true</SR>
+      <Description>Utterly destroy the corpse touched.  Wish, Miracle and True Resurrection might not restore the victim to life.  Material: A diamond worth 5000GP</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Beastland Ferocity</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>95</Page>
+      <SR>true</SR>
+      <Description>Creature touched fights normally while disabled or dying, but dies normally at -10 hit points.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Belker Claws</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Air</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= INT (CasterLevel / 3) &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>96</Page>
+      <SR>true</SR>
+      <Description>= "One of your hands is transformed into a smoky claw like that of a belker.  Once per round for " &amp; MIN (4,  INT (CasterLevel / 3)) &amp; " rounds you may make a touch attack.  A successful attack deals 3d4 damage per round for " &amp; 1 + MIN (4,  INT (CasterLevel / 3)) &amp; " rounds."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Bodak's Glare</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Death</Descriptor>
+          </Descriptors>
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>30'</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>96</Page>
+      <SR>true</SR>
+      <Description>You channel the gaze of the bodak.  Target a creature that can see you.  That creature dies immediately.  It need not meet your gaze.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Call Kolyarut</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Calling</Subschool>
+          <Descriptors />
+          <Alignments>
+            <Alignment>Lawful</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>10 min.</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+        <Component>XP</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>250</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>96</Page>
+      <SR>false</SR>
+      <Description>You request the aid of a kolyarut inevitable.  See text for details.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Call Marut</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Calling</Subschool>
+          <Descriptors />
+          <Alignments>
+            <Alignment>Lawful</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>10 min.</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+        <Component>XP</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>500</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>96</Page>
+      <SR>false</SR>
+      <Description>You request the aid of a marut inevitable.  See text for details.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Call Zelekhut</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Calling</Subschool>
+          <Descriptors />
+          <Alignments>
+            <Alignment>Lawful</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>10 min.</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+        <Component>XP</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>500</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>96</Page>
+      <SR>false</SR>
+      <Description>You request the aid of a zelekhut inevitable.  See text for details.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Cloak Pool</Name>
+      <Schools>
+        <School>
+          <School>Illusion</School>
+          <Subschool>Glamer</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " hr [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (oh)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>96</Page>
+      <SR>false</SR>
+      <Description>Hides a color pool on the Astral Plane.  Magic still reveals the existence of the pool.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Corporeal Instability</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>97</Page>
+      <SR>true</SR>
+      <Description>Transforms a living creature touched into a spongy, amorphous mass.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Death Throes</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Force</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " hr or until killed"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>97</Page>
+      <SR>false</SR>
+      <Description>= "If you die, you explode in a burst of energy.  This utterly destroys your body and deals " &amp; CasterLevel &amp; "d8 force damage to all in a 30' radius."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Demon Dirge</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst or 1d4 rd</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>97</Page>
+      <SR>true</SR>
+      <Description>Deals 3d6 to all chaotic and evil creatures in range.  Tanar'ri are stunned for 1d4 rounds and take damage each round.  A Fort save reduces the duration to 1 round and negates the stunning.  Tanar'ri SR does not apply.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Devil Blight</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst or 1d6 rd</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>97</Page>
+      <SR>true</SR>
+      <Description>Deals 2d6 (no save) to all lawful and evil creatures in range.  Baatezu are confused for 1d6 rounds and take damage each round.  A Will save reduces the duration to 1 round and negates the confusion  Baatezu SR does not apply.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Discolor Pool</Name>
+      <Schools>
+        <School>
+          <School>Illusion</School>
+          <Subschool>Glamer</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " hr [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " disbelief"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>97</Page>
+      <SR>false</SR>
+      <Description>Causes a color pool on the Astral Plane to appear to be a different color.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Evil Glare</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Fear</Descriptor>
+            <Descriptor>Mind</Descriptor>
+          </Descriptors>
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>30'</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>98</Page>
+      <SR>true</SR>
+      <Description>Your eyes glow with dark energy.  You may target a living creature within range.  That creature is paralyzed with fear for 1d8 rounds.  You must be able to see the creature, and it must be able to see you (although it need not meet your gaze).  You may target a new creature each round for the duration of the spell.  No creature may be targeted twice within a single casting.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>False Gravity</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>98</Page>
+      <SR>true</SR>
+      <Description>The subject can move on any surface as it if had its own gravity.  Down may be changed at will, but only once per round.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Fierce Pride of the Beastlands</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Summoning</Subschool>
+          <Descriptors />
+          <Alignments>
+            <Alignment>Chaotic</Alignment>
+            <Alignment>Good</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>10 min.</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel *10 &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>98</Page>
+      <SR>false</SR>
+      <Description>This spell summons a pride of celestial lions from the Wilderness of the Beastlands.  The creatures obey you explicitly and never attack you even of another creature controls them.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Focus Touchstone Energy</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>98</Page>
+      <SR>true</SR>
+      <Description>By touching a living creature and expending one of your higher-order touchstone uses, you grant 3d6 temporary hit points.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Hamatula Barbs</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel*10 &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>98</Page>
+      <SR>true</SR>
+      <Description>One touched creature grows sharp barbs from its skin, equipment or clothing.  Any creature striking the subject with a handheld or natural weapon takes 1d8 of slashing and piercing damage.  Attackers with reach weapons are not affected.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Heavenly Host</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Summoning</Subschool>
+          <Descriptors />
+          <Alignments>
+            <Alignment>Lawful</Alignment>
+            <Alignment>Good</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>10 min.</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel *10 &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>99</Page>
+      <SR>false</SR>
+      <Description>This spell summons a host of archons from the Seven Mounting Heavens of Celestia.  The creatures obey you explicitly and never attack you even of another creature controls them.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Hellish Horde</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Summoning</Subschool>
+          <Descriptors />
+          <Alignments>
+            <Alignment>Lawful</Alignment>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>10 min.</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel *10 &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>99</Page>
+      <SR>false</SR>
+      <Description>This spell summons a horde of devils from the Nine Hells of Baator.  The creatures obey you explicitly and never attack you even of another creature controls them.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Holy Storm</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors>
+            <Descriptor>Water</Descriptor>
+          </Descriptors>
+          <Alignments>
+            <Alignment>Good</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Centered</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area>20' rad</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>25</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>99</Page>
+      <SR>false</SR>
+      <Description>Driving rain reduces visibility and hearing, damages evil creatures over time. Material: flask of holy water.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Hunters of Hades</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Summoning</Subschool>
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 min.</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel *10 &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>99</Page>
+      <SR>false</SR>
+      <Description>This spell summons a pair of pack fiends (PH128) to serve you.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Infernal Wound</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>99</Page>
+      <SR>false</SR>
+      <Description>One weapon inflicts persistent wounds.  A creature injured by this weapon loses 2 additional hit points for each remaining round in the duration of this spell.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Lay of the Land</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>3 rd</CastingTime>
+      <Range>Personal</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>100</Page>
+      <SR>false</SR>
+      <Description>You instantly gain an overview of the area around you.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Light of Lunia</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Light</Descriptor>
+          </Descriptors>
+          <Alignments>
+            <Alignment>Good</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel *10 &amp; " min [d] or until used"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>100</Page>
+      <SR>true</SR>
+      <Description>You glow with the light of Lunia.  You can expend this light as ray attacks with a range of 30'.  Each attack reduces the radius of your glow by half and deals 1d6 damage.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Light of Mercuria</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Light</Descriptor>
+          </Descriptors>
+          <Alignments>
+            <Alignment>Good</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel *10 &amp; " min [d] or until used"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>100</Page>
+      <SR>true</SR>
+      <Description>You glow with the light of Mercuria.  You can expend this light as ray attacks with a range of 30'.  Each attack reduces the radius of your glow by half and deals 1d6 damage, or 2d6 to undead and evil outsiders.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Light of Venya</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Light</Descriptor>
+          </Descriptors>
+          <Alignments>
+            <Alignment>Good</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel *10 &amp; " min [d] or until used"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>100</Page>
+      <SR>true</SR>
+      <Description>You glow with the light of Venya.  You can expend this light as ray attacks with a range of 30'.  Each attack reduces the radius of your glow by half and deals 1d6 damage, or 3d6 to undead and evil outsiders.  Alternately the ray can heal 3d6 points of damage to any living, non-evil creature.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Locate Touchstone</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>See text</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>100</Page>
+      <SR>false</SR>
+      <Description>You sense the direction of the nearest planar touchstone and gain a vague sense of its power.  Special: You must have the Planar Touchstone feat in order to cast this spell.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Mantle of Chaos</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Chaotic</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>You</Range>
+      <Duration>= CasterLevel *10 &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>100</Page>
+      <SR>true</SR>
+      <Description>= "Grants SR " &amp; 12 + CasterLevel &amp; " against spells with the lawful descriptor."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Mantle of Evil</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>You</Range>
+      <Duration>= CasterLevel *10 &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>100</Page>
+      <SR>true</SR>
+      <Description>= "Grants SR " &amp; 12 + CasterLevel &amp; " against spells with the good descriptor."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Mantle of Good</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Good</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>You</Range>
+      <Duration>= CasterLevel *10 &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>100</Page>
+      <SR>true</SR>
+      <Description>= "Grants SR " &amp; 12 + CasterLevel &amp; " against spells with the evil descriptor."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Mantle of Law</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Lawful</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>You</Range>
+      <Duration>= CasterLevel *10 &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>101</Page>
+      <SR>true</SR>
+      <Description>= "Grants SR " &amp; 12 + CasterLevel &amp; " against spells with the chaotic descriptor."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Mechanus Mind</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind</Descriptor>
+          </Descriptors>
+          <Alignments>
+            <Alignment>Lawful</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>101</Page>
+      <SR>true</SR>
+      <Description>The target creature gains +4 to Will saves versus mind-affecting spells, +2 on Intellignece-based skill checks and -2 on Charisma-based skill checks.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Miasma of Entropy</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>30'</Range>
+      <Duration>Inst.</Duration>
+      <Area>Cone burst or one object</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (o) or Fort " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>101</Page>
+      <SR>true</SR>
+      <Description>= "Causes decay in all inanimate organic objects of " &amp; CasterLevel &amp; " lb or less in a cone, a single obect of " &amp; CasterLevel * 10 &amp; " lb or less, or " &amp; MIN (20, CasterLevel) &amp; "d6 damage to one animated organic object."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Negative Energy Aura</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area>10' em</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>101</Page>
+      <SR>false</SR>
+      <Description>An aura of negative energy surrounds you.  Each round on your turn all living creatures in the area lose two hit points.  Undead creatures in the area are healed of two points of damage.  You are not affected by the spell.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Opalescent Glare</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Death</Descriptor>
+          </Descriptors>
+          <Alignments>
+            <Alignment>Good</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>60'</Range>
+      <Duration>Inst.</Duration>
+      <Area>1 living creature</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>101</Page>
+      <SR>true</SR>
+      <Description>Your eyes glow with a pearly light.  If the target creature is evil and has 5 or fewer Hit Dice, it must save or die.  If it saves, it is affected as if by a fear spell for 2d10 rounds.  Non-evil creatures and evil creatures with more than 5 Hit Dice are not slain, but must save against the fear effect.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Perinarch</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " neg and None (o)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>101</Page>
+      <SR>true</SR>
+      <Description>Allows the caster to control an area of raw Limbo.  See text for details.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Perinarch, Planar</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " neg and None (o)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>102</Page>
+      <SR>true</SR>
+      <Description>As Perinarch, except the caster can control any highly morphic or divinely morphic plane.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Planar Bubble</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel*10 &amp; " min"</Duration>
+      <Area>10' em</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>102</Page>
+      <SR>false</SR>
+      <Description>This spell creates an area around the target creature that emulates its native planar environment.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Planar Exchange</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Calling</Subschool>
+          <Descriptors />
+          <Alignments>
+            <Alignment>SeeText</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>0'</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>102</Page>
+      <SR>false</SR>
+      <Description>You exchange places with an extraplanar creature.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Planar Exchange, Greater</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Calling</Subschool>
+          <Descriptors />
+          <Alignments>
+            <Alignment>SeeText</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>0'</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>103</Page>
+      <SR>false</SR>
+      <Description>You exchange places with an extraplanar creature.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Planar Exchange, Lesser</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Calling</Subschool>
+          <Descriptors />
+          <Alignments>
+            <Alignment>SeeText</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>0'</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>103</Page>
+      <SR>false</SR>
+      <Description>You exchange places with an extraplanar creature.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Planar Tolerance</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Centered</Range>
+      <Duration>= CasterLevel &amp; " hr"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>103</Page>
+      <SR>true</SR>
+      <Description>= "Up to " &amp; CasterLevel &amp; " creatures, (no 2 &gt; 20' apart) are protected from the natural effects of the current plane.  Gravity, alignment and magic traits are not affected by this spell.  Others may be as the GM desires."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Plane Shift, Greater</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Teleport</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>103</Page>
+      <SR>true</SR>
+      <Description>As Plane Shift, except that if you have visited the desired location, the spell takes you to the precise location with no deviation chance.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Positive Energy Aura</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Healing</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area>10' em</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>103</Page>
+      <SR>false</SR>
+      <Description>An aura of positive energy surrounds you.  Each round on your turn all living creatures in the area are healed for two points of damage.  Undead creatures in the area take two points of damage.  You are not affected by the spell.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Precipitate Breach</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Teleport</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>10 min.</CastingTime>
+      <Range>0'</Range>
+      <Duration>See text</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>250</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>103</Page>
+      <SR>true</SR>
+      <Description>You meddle with the boundaries between planes, creating instability and a minor breach (PH152).  See text for details.  Material: Jade dust worth 250GP.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Precipitate Complete Breach</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Teleport</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>10 min.</CastingTime>
+      <Range>0'</Range>
+      <Duration>See text</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Material</Component>
+        <Component>XP</Component>
+      </Components>
+      <MaterialComponentCost>1000</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>1000</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>104</Page>
+      <SR>true</SR>
+      <Description>You meddle with the boundaries between planes, creating instability and a complete breach (PH152).  See text for details.  Material: Jade dust worth 1000GP. Experience: 1000XP.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Protection from Negative Energy</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel*10 &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>104</Page>
+      <SR>true</SR>
+      <Description>The warded (living) creature gains partial protection against negative energy effects.  Subtract 10 from the hit point damage dealt by any negative energy effect that affects the warded creature.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Protection from Positive Energy</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel*10 &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>104</Page>
+      <SR>true</SR>
+      <Description>The warded (undead) creature gains partial protection against positive energy effects.  Subtract 10 from the hit point damage dealt by any positive energy effect that affects the warded creature.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Rary's Interplanar Telepathic Bond</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>104</Page>
+      <SR>false</SR>
+      <Description>As Rary's Telepathic Bond, except that the communication functions both on the same plane and across planes.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Resist Planar Alignment</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel*10 &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>104</Page>
+      <SR>true</SR>
+      <Description>Reduces or eliminates the penalties caused to the target creature by planes with an alignment trait.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Seal Portal</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Permanent (D)</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>50</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>104</Page>
+      <SR>false</SR>
+      <Description>Permanently seals an interplanar portal or gate.  Material: A silver bar worth 50GP.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Spell Vulnerability</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg; see text"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>104</Page>
+      <SR>false</SR>
+      <Description>= "This spell reduces the target's SR by " &amp; MIN (15, CasterLevel) &amp; ".  This reduction cannot lower a subject's SR below 0.  The target takes a -" &amp; CasterLevel &amp; " penalty to the FORT save."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Summon Babau Demon</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Summoning</Subschool>
+          <Descriptors />
+          <Alignments>
+            <Alignment>Chaotic</Alignment>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Close</Range>
+      <Duration>See text</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>104</Page>
+      <SR>false</SR>
+      <Description>= "This spell summons a babau demon from the Infinite Layers of the Abyss.  The creature remains for as long as the caster concentrates (max " &amp; CasterLevel &amp; "rd) plus one round."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Summon Bearded Devil</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Summoning</Subschool>
+          <Descriptors />
+          <Alignments>
+            <Alignment>Lawful</Alignment>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Close</Range>
+      <Duration>See text</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>105</Page>
+      <SR>false</SR>
+      <Description>= "This spell summons a bearded devil from the Nine Hells of Baator.  The creature remains for as long as the caster concentrates (max " &amp; CasterLevel &amp; "rd) plus one round."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Summon Bralani Eladrin</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Summoning</Subschool>
+          <Descriptors />
+          <Alignments>
+            <Alignment>Chaotic</Alignment>
+            <Alignment>Good</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Close</Range>
+      <Duration>See text</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>105</Page>
+      <SR>false</SR>
+      <Description>= "This spell summons a bralani eladrin from the Olympian Glades of Arborea.  The creature remains for as long as the caster concentrates (max " &amp; CasterLevel &amp; "rd) plus one round."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Summon Elementite Swarm</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Summoning</Subschool>
+          <Descriptors />
+          <Alignments>
+            <Alignment>SeeText</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Close</Range>
+      <Duration>See text</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>105</Page>
+      <SR>false</SR>
+      <Description>= "This spell summons an elementite swarm (air, earth, fire or water, at the caster's option).  The creature remains for as long as the caster concentrates (max " &amp; CasterLevel &amp; "rd) plus one round."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Summon Elysian Thrush</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Summoning</Subschool>
+          <Descriptors />
+          <Alignments>
+            <Alignment>Good</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Close</Range>
+      <Duration>8 hours</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>105</Page>
+      <SR>false</SR>
+      <Description>This spell summons an Elysian thrush from the Blessed Fields of Elysia.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Summon Greater Elemental</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Summoning</Subschool>
+          <Descriptors />
+          <Alignments>
+            <Alignment>SeeText</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Close</Range>
+      <Duration>See text</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>105</Page>
+      <SR>false</SR>
+      <Description>= "This spell summons a greater elemental (air, earth, fire or water, at the caster's option).  The creature remains for as long as the caster concentrates (max " &amp; CasterLevel &amp; "rd) plus one round."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Summon Hound Archon</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Summoning</Subschool>
+          <Descriptors />
+          <Alignments>
+            <Alignment>Lawful</Alignment>
+            <Alignment>Good</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Close</Range>
+      <Duration>See text</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>106</Page>
+      <SR>false</SR>
+      <Description>= "This spell summons a hound archon from the Seven Mounting Heavens of Celestia.  The creature remains for as long as the caster concentrates (max " &amp; CasterLevel &amp; "rd) plus one round."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Touchstone Lightning</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Electricity</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>106</Page>
+      <SR>true</SR>
+      <Description>= "You may convert up to " &amp; Min(3, Int(( CasterLevel -7)/5)+1) &amp;" higher-order touchstone uses into rays of lightning that deal 5d6 points of electricity damage on a successful ranged touch attack."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Unholy Storm</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors>
+            <Descriptor>Water</Descriptor>
+          </Descriptors>
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Centered</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area>20' rad</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>25</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>106</Page>
+      <SR>false</SR>
+      <Description>Driving rain reduces visibility and hearing, damages good creatures over time. Material: flask of unholy water.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Wall of Gears</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>106</Page>
+      <SR>false</SR>
+      <Description>= "Creates a wall of gears that fills " &amp; INT (CasterLevel/2) &amp; " 5' squares.  Each square has hardness 10 and 180 hit points.  Creatures within 10' of the wall must make a REF (" &amp; SaveDC &amp; ") save or take " &amp; MIN (15, INT (CasterLevel/2)) &amp; "d6 of damage.  A successful save halves this damage."</Description>
+    </Spell>
+  </Spells>
+  <SpellOverrides />
+  <SpellListEntries>
+    <SpellList Name="Bard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Beastland Ferocity" Level="1" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Locate Touchstone" Level="1" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Cloak Pool" Level="2" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Discolor Pool" Level="2" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Summon Elysian Thrush" Level="2" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Analyze Portal" Level="3" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Analyze Touchstone" Level="3" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Lay of the Land" Level="4" ReferenceAbbrev="PH" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Blackguard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Mantle of Evil" Level="3" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Unholy Storm" Level="4" ReferenceAbbrev="PH" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Cleric" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Anarchic Water" Level="1" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Axiomatic Water" Level="1" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Light of Lunia" Level="1" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Resist Planar Alignment" Level="1" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Avoid Planar Effects" Level="2" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Light of Mercuria" Level="2" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Locate Touchstone" Level="2" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Summon Elysian Thrush" Level="2" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Anarchic Storm" Level="3" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Analyze Touchstone" Level="3" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Attune Form" Level="3" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Axiomatic Storm" Level="3" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Devil Blight" Level="3" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Hamatula Barbs" Level="3" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Holy Storm" Level="3" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Light of Venya" Level="3" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Mantle of Chaos" Level="3" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Mantle of Evil" Level="3" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Mantle of Good" Level="3" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Mantle of Law" Level="3" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Protection from Negative Energy" Level="3" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Protection from Positive Energy" Level="3" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Astral Hospice" Level="4" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Balor Nimbus" Level="4" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Demon Dirge" Level="4" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Evil Glare" Level="4" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Focus Touchstone Energy" Level="4" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Infernal Wound" Level="4" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Negative Energy Aura" Level="4" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Planar Exchange, Lesser" Level="4" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Planar Tolerance" Level="4" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Positive Energy Aura" Level="4" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Spell Vulnerability" Level="4" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Summon Bearded Devil" Level="4" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Summon Hound Archon" Level="4" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Call Zelekhut" Level="5" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Death Throes" Level="5" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Opalescent Glare" Level="5" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Summon Bralani Eladrin" Level="5" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Unholy Storm" Level="5" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Barghest's Feast" Level="6" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Planar Exchange" Level="6" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Summon Babau Demon" Level="6" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Call Kolyarut" Level="7" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Planar Bubble" Level="7" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Planar Exchange, Greater" Level="7" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Bodak's Glare" Level="8" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Fierce Pride of the Beastlands" Level="8" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Planar Exchange, Greater" Level="8" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Abyssal Army" Level="9" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Call Marut" Level="9" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Heavenly Host" Level="9" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Hellish Horde" Level="9" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Hunters of Hades" Level="9" ReferenceAbbrev="PH" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Druid" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Beastland Ferocity" Level="1" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Locate Touchstone" Level="1" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Resist Planar Alignment" Level="1" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Avoid Planar Effects" Level="2" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Attune Form" Level="3" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Babau Slime" Level="3" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Lay of the Land" Level="4" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Perinarch" Level="4" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Planar Tolerance" Level="4" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Summon Elementite Swarm" Level="4" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Touchstone Lightning" Level="4" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Astral Hospice" Level="5" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Focus Touchstone Energy" Level="5" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Miasma of Entropy" Level="6" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Summon Greater Elemental" Level="6" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Perinarch, Planar" Level="9" ReferenceAbbrev="PH" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Paladin" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Axiomatic Water" Level="1" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Resist Planar Alignment" Level="1" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Holy Storm" Level="3" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Mantle of Good" Level="3" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Mantle of Law" Level="3" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Axiomatic Storm" Level="4" ReferenceAbbrev="PH" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Ranger" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Lay of the Land" Level="1" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Resist Planar Alignment" Level="1" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Planar Tolerance" Level="4" ReferenceAbbrev="PH" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Sorcerer" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Resist Planar Alignment" Level="1" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Locate Touchstone" Level="1" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Light of Lunia" Level="1" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Mechanus Mind" Level="2" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Light of Mercuria" Level="2" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Cloak Pool" Level="2" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Discolor Pool" Level="2" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Belker Claws" Level="2" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Avoid Planar Effects" Level="3" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Analyze Portal" Level="3" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Analyze Touchstone" Level="3" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Light of Venya" Level="3" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Babau Slime" Level="3" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Devil Blight" Level="3" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Hamatula Barbs" Level="3" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Spell Vulnerability" Level="3" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Evil Glare" Level="4" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Attune Form" Level="4" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Balor Nimbus" Level="4" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Corporeal Instability" Level="4" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Demon Dirge" Level="4" ReferenceAbbrev="PH" />
+        <SpellEntry Name="False Gravity" Level="4" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Infernal Wound" Level="4" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Perinarch" Level="4" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Touchstone Lightning" Level="4" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Planar Tolerance" Level="5" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Call Zelekhut" Level="5" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Precipitate Breach" Level="5" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Death Throes" Level="5" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Opalescent Glare" Level="5" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Seal Portal" Level="6" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Wall of Gears" Level="6" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Rary's Interplanar Telepathic Bond" Level="6" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Planar Bubble" Level="7" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Call Kolyarut" Level="7" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Barghest's Feast" Level="7" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Miasma of Entropy" Level="7" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Fierce Pride of the Beastlands" Level="8" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Plane Shift, Greater" Level="8" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Abyssal Army" Level="9" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Call Marut" Level="9" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Heavenly Host" Level="9" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Hellish Horde" Level="9" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Precipitate Complete Breach" Level="9" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Perinarch, Planar" Level="9" ReferenceAbbrev="PH" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Wizard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Resist Planar Alignment" Level="1" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Locate Touchstone" Level="1" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Light of Lunia" Level="1" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Mechanus Mind" Level="2" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Light of Mercuria" Level="2" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Cloak Pool" Level="2" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Discolor Pool" Level="2" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Belker Claws" Level="2" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Avoid Planar Effects" Level="3" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Analyze Portal" Level="3" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Analyze Touchstone" Level="3" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Light of Venya" Level="3" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Babau Slime" Level="3" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Devil Blight" Level="3" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Hamatula Barbs" Level="3" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Spell Vulnerability" Level="3" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Evil Glare" Level="4" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Attune Form" Level="4" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Balor Nimbus" Level="4" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Corporeal Instability" Level="4" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Demon Dirge" Level="4" ReferenceAbbrev="PH" />
+        <SpellEntry Name="False Gravity" Level="4" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Infernal Wound" Level="4" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Perinarch" Level="4" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Touchstone Lightning" Level="4" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Planar Tolerance" Level="5" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Call Zelekhut" Level="5" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Precipitate Breach" Level="5" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Death Throes" Level="5" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Opalescent Glare" Level="5" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Seal Portal" Level="6" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Wall of Gears" Level="6" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Rary's Interplanar Telepathic Bond" Level="6" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Planar Bubble" Level="7" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Call Kolyarut" Level="7" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Barghest's Feast" Level="7" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Miasma of Entropy" Level="7" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Fierce Pride of the Beastlands" Level="8" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Plane Shift, Greater" Level="8" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Abyssal Army" Level="9" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Call Marut" Level="9" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Heavenly Host" Level="9" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Hellish Horde" Level="9" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Precipitate Complete Breach" Level="9" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Perinarch, Planar" Level="9" ReferenceAbbrev="PH" />
+      </SpellEntries>
+    </SpellList>
+  </SpellListEntries>
+  <Domains>
+    <Domain Name="Abyss" Abbrev="">
+      <Power>Once per day, +4 STR and -2 AC for 5 rounds.  Add Intimidate to cleric class skills.</Power>
+      <DomainEntries>
+        <SpellEntry Name="Align Weapon" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Cause Fear" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Bull's Strength" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Death Knell" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Babau Slime" Level="3" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Summon Monster III" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Balor Nimbus" Level="4" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Poison" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Slay Living" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Summon Monster V" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Bull's Strength, Mass" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Harm" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Destruction" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Summon Monster VII" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Finger of Death" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Bodak's Glare" Level="8" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Implosion" Level="9" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Summon Monster IX" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Arborea" Abbrev="">
+      <Power>Once per day, add CHA bonus to weapon damage and fear/charm saves as a moral bonus.  Add Survival to cleric class skills.</Power>
+      <DomainEntries>
+        <SpellEntry Name="Endure Elements" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Aid" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Eagle's Splendor" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Longstrider" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Heroism" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Summon Monster III" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Neutralize Poison" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Opalescent Glare" Level="4" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Summon Monster V" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Break Enchantment" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Heroes' Feast" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Eagle's Splendor, Mass" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Spell Turning" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Summon Monster VII" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Heroism, Greater" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Mind Blank" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Freedom" Level="9" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Summon Monster IX" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Baator" Abbrev="">
+      <Power>You can see perfectly in darkness of any kind.  Add Bluff to your cleric class skills.</Power>
+      <DomainEntries>
+        <SpellEntry Name="Bane" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Disguise Self" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Darkness" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Fox's Cunning" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Detect Thoughts" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Summon Monster III" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Deeper Darkness" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Suggestion" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Spell Resistance" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Summon Monster V" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Dominate Person" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Fox's Cunning, Mass" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Repulsion" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Summon Nature's Ally VII" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Spell Turning" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Demand" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Imprisonment" Level="9" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Summon Monster IX" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Celestia" Abbrev="">
+      <Power>Once per day, generate an aura of menace.  Add Sense Motive to you cleric class skills.</Power>
+      <DomainEntries>
+        <SpellEntry Name="Light of Lunia" Level="1" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Shield of Faith" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Bear's Endurance" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Shield Other" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Magic Vestment" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Summon Monster III" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Divine Power" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Magic Weapon, Greater" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Righteous Might" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Summon Monster V" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Blade Barrier" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Bear's Endurance, Mass" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Regenerate" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Summon Monster VII" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Power Word, Stun" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Shield of Law" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Summon Monster IX" Level="9" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Foresight" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Elysium" Abbrev="">
+      <Power>You can smite evil once per day, plus one per five class levels.</Power>
+      <DomainEntries>
+        <SpellEntry Name="Charm Person" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Protection From Evil" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Enthrall" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Planar Tolerance" Level="2" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Magic Circle against Evil" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Mantle of Good" Level="3" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Charm Monster" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Holy Smite" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Dispel Evil" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Cure Light Wounds, Mass" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Find the Path" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Mind Fog" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Holy Word" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Control Weather" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Holy Aura" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Sunburst" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Heal, Mass" Level="9" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Moment of Prescience" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Hades" Abbrev="">
+      <Power>You can smite good once per day, plus one per five class levels</Power>
+      <DomainEntries>
+        <SpellEntry Name="Doom" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Protection From Good" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Resist Planar Alignment" Level="2" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Magic Circle against Good" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Mantle of Evil" Level="3" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Contagion" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Unholy Blight" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Crushing Despair" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Dispel Good" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Mind Fog" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Waves of Fatigue" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Plane Shift" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Blasphemy" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Waves of Exhaustion" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Unholy Aura" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Gate" Level="9" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Energy Drain" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Limbo" Abbrev="">
+      <Power>You can smite law once per day, plus one per five levels.</Power>
+      <DomainEntries>
+        <SpellEntry Name="Confusion, Lesser" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Protection From Law" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Entropic Shield" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Resist Planar Alignment" Level="2" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Magic Circle against Law" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Mantle of Chaos" Level="3" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Perinarch" Level="4" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Chaos Hammer" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Baleful Polymorph" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Dispel Law" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Animate Objects" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Insanity" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Word of Chaos" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Song of Discord" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Otto's Irresistible Dance" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Cloak of Chaos" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Perinarch, Planar" Level="9" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Shapechange" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Mechanus" Abbrev="">
+      <Power>You can smite chaos once per day, plus one per five levels.</Power>
+      <DomainEntries>
+        <SpellEntry Name="Command" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Protection From Chaos" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Calm Emotions" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Mechanus Mind" Level="2" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Mantle of Law" Level="3" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Magic Circle against Chaos" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Order's Wrath" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Discern Lies" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Dispel Chaos" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Mark of Justice" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Hold Monster" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Wall of Gears" Level="6" ReferenceAbbrev="PH" />
+        <SpellEntry Name="Dictum" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Hold Person. Mass" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Iron Body" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Shield of Law" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Mordenkainen's Disjunction" Level="9" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Call Marut" Level="9" ReferenceAbbrev="PH" />
+      </DomainEntries>
+    </Domain>
+  </Domains>
+  <Classes />
+</Reference>

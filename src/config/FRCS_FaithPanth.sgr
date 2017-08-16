@@ -1,0 +1,54 @@
+<Reference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Sequence="1" Name="FRCS - Faiths and Pantheons" Group="Forgotton Realms" Abbrev="FaP" Version="1.01">
+  <Description>1.01 - Name change</Description>
+  <DevNotes />
+  <Spells>
+    <Spell OriginalReference="">
+      <Name>Surelife</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1r</CastingTime>
+      <Range>Personal</Range>
+      <Duration>=INT( CasterLevel /2)&amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>false</SR>
+      <Description>Protect against a single natural condition, suffering no damage.</Description>
+    </Spell>
+  </Spells>
+  <SpellOverrides />
+  <SpellListEntries />
+  <Domains>
+    <Domain Name="Repose" Abbrev="">
+      <Power>You may use a death touch (Sp) once per day.  Make a melee touch attack; roll 0d6.  If this amount is more than that creature's remaining HP, that creature dies.</Power>
+      <DomainEntries>
+        <SpellEntry Name="Deathwatch" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Gentle Repose" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Speak with Dead" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Death Ward" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Slay Living" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Undeath to Death" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Destruction" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Surelife" Level="8" ReferenceAbbrev="FaP" />
+        <SpellEntry Name="Wail of the Banshee" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+  </Domains>
+  <Classes />
+</Reference>

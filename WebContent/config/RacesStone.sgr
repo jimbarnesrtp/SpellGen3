@@ -1,0 +1,247 @@
+<Reference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Sequence="1" Name="Races of Stone" Group="" Abbrev="RcStn" Version="1">
+  <Description>(c)  2004 by Wizards of the Coast, Inc., a Hasbro company </Description>
+  <DevNotes />
+  <Spells>
+    <Spell OriginalReference="">
+      <Name>Earth Glide</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>true</SR>
+      <Description>Grant subject ability to glide through earth and stone (but not metal) as easily as an Earth Elemental. Movement leaves no tunnel or hole.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Earth Hammer</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 swift act</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>162</Page>
+      <SR>true</SR>
+      <Description>Infuse melee weapon. Base dmg improves by 1 step (as if weapon were 1 size cat. larger). Weapon now does bludgeon dmg and counts as adamantine vs. DR, any other special materials or damage types are lost for duration.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Eye of Stone</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool>Scrying</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>162</Page>
+      <SR>false</SR>
+      <Description>Create invis, magical sensor that can move through solid stone and send you info. Otherwise functions as Arcane Eye (PHB, p. 200).</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Harmonize</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>162</Page>
+      <SR>false</SR>
+      <Description>While duration lasts, you can start a bardic music effect as a move action. Concentrating on an effect istill requires a standard action.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Harmonize, Greater</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>162</Page>
+      <SR>false</SR>
+      <Description>As Harmonize, starting a bardic music effect is now a move action, however that alos applies to effects that require concentration.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Stone Fist</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>163</Page>
+      <SR>false</SR>
+      <Description>Your fists become rocky lumps. Your unarmed att do not provoke AoO, and deal lethal bludgeon dmg. Dmg also increases according to size (see text).</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Walk the Mountains Path</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel*10 &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>163</Page>
+      <SR>true</SR>
+      <Description>Creature you touch gains the following: Not affected by slopes (DMG, p. 89), gains climb = base land speed, gains +10 (enhance) bonus on Jump and Balance checks.</Description>
+    </Spell>
+  </Spells>
+  <SpellOverrides />
+  <SpellListEntries>
+    <SpellList Name="Cleric" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Stone Fist" Level="2" ReferenceAbbrev="RcStn" />
+        <SpellEntry Name="Earth Hammer" Level="5" ReferenceAbbrev="RcStn" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Druid" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Walk the Mountains Path" Level="3" ReferenceAbbrev="RcStn" />
+        <SpellEntry Name="Earth Glide" Level="8" ReferenceAbbrev="RcStn" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Bard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Harmonize" Level="2" ReferenceAbbrev="RcStn" />
+        <SpellEntry Name="Harmonize, Greater" Level="4" ReferenceAbbrev="RcStn" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Paladin_Base" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Stone Fist" Level="2" ReferenceAbbrev="RcStn" />
+        <SpellEntry Name="Earth Hammer" Level="3" ReferenceAbbrev="RcStn" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Sorcerer" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Walk the Mountains Path" Level="3" ReferenceAbbrev="RcStn" />
+        <SpellEntry Name="Eye of Stone" Level="6" ReferenceAbbrev="RcStn" />
+        <SpellEntry Name="Earth Glide" Level="8" ReferenceAbbrev="RcStn" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Wizard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Walk the Mountains Path" Level="3" ReferenceAbbrev="RcStn" />
+        <SpellEntry Name="Eye of Stone" Level="6" ReferenceAbbrev="RcStn" />
+        <SpellEntry Name="Earth Glide" Level="8" ReferenceAbbrev="RcStn" />
+      </SpellEntries>
+    </SpellList>
+  </SpellListEntries>
+  <Domains />
+  <Classes />
+</Reference>

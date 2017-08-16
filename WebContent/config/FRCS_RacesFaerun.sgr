@@ -1,0 +1,453 @@
+<Reference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Sequence="1" Name="FRCS - Races of Faerun" Group="Forgotton Realms" Abbrev="RoF" Version="1.01">
+  <Description>1.01 - Name change</Description>
+  <DevNotes />
+  <Spells>
+    <Spell OriginalReference="">
+      <Name>Aerial Summoning Dance</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Summoning</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>3 rounds</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel *10&amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>false</SR>
+      <Description>Summons a Large air elemental (as Summon Monster VI)</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Burrow</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>189</Page>
+      <SR>false</SR>
+      <Description>Hands sprout claws as hard as stone, allowing you to burrow 10 ft/ rd.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Commune with Earth</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>10 min</CastingTime>
+      <Range>Personal</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>189</Page>
+      <SR>false</SR>
+      <Description>="Learn about underground terrain in a "&amp;INT( CasterLevel /2)&amp;" miles radius and "&amp;INT( CasterLevel /4)&amp;" miles deep."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Contagion, Mass</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>190</Page>
+      <SR>true</SR>
+      <Description>Infects subjects with chosen disease.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Detect Metal and Minerals</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>60 feet</Range>
+      <Duration>= CasterLevel &amp;" min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>189</Page>
+      <SR>false</SR>
+      <Description>Detects large accumulations of metals and minerals.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Handfang</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " half (txt)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>190</Page>
+      <SR>false</SR>
+      <Description>Mouth appears on hand; deals d8 dmg; free grapple, d6 dmg per round grapple held.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Lawful Sword</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Lawful</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>190</Page>
+      <SR>false</SR>
+      <Description>Weapon touched becomes +5 magic weapon; +2d6 dmg vs. chaos.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Plague Carrier</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>190</Page>
+      <SR>true</SR>
+      <Description>Infects a subject with chosen disease, but with a contagious incubation period.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Shadow Canopy</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Darkness</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>fr</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp;" hours"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="(text) " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>190</Page>
+      <SR>true</SR>
+      <Description>="Create a dome of shadow 25' high, "&amp;100+(50* CasterLevel )&amp;"' in diameter, which conceals objects inside."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Shape Metal</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+        <Component>Focus</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>191</Page>
+      <SR>false</SR>
+      <Description>="Sculpts metal (up to "&amp;10+ CasterLevel &amp;" cu. ft.) into any form."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Spore Cloak</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel *10&amp;" min "</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="(text) " &amp; SaveDC</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>191</Page>
+      <SR>true</SR>
+      <Description>Shrouds self in dense cloud of yellow mold spores for 1/2 concealment</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Stone Body</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp;" min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>191</Page>
+      <SR>false</SR>
+      <Description>Your body becomes living stone, with 20/+2 DR, +4 STR &amp; -4 DEX.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Verraketh's Shadow Crown</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Charm</Subschool>
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>191</Page>
+      <SR>false</SR>
+      <Description>Creates a crown of magical shadow that grants +4 to Perform checks.</Description>
+    </Spell>
+  </Spells>
+  <SpellOverrides />
+  <SpellListEntries>
+    <SpellList Name="Bard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Verraketh's Shadow Crown" Level="3" ReferenceAbbrev="RoF" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Cleric" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Burrow" Level="3" ReferenceAbbrev="RoF" />
+        <SpellEntry Name="Detect Metal and Minerals" Level="3" ReferenceAbbrev="RoF" />
+        <SpellEntry Name="Handfang" Level="3" ReferenceAbbrev="RoF" />
+        <SpellEntry Name="Plague Carrier" Level="3" ReferenceAbbrev="RoF" />
+        <SpellEntry Name="Aerial Summoning Dance" Level="4" ReferenceAbbrev="RoF" />
+        <SpellEntry Name="Shape Metal" Level="4" ReferenceAbbrev="RoF" />
+        <SpellEntry Name="Commune with Earth" Level="5" ReferenceAbbrev="RoF" />
+        <SpellEntry Name="Contagion, Mass" Level="5" ReferenceAbbrev="RoF" />
+        <SpellEntry Name="Stone Body" Level="6" ReferenceAbbrev="RoF" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Druid" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Plague Carrier" Level="3" ReferenceAbbrev="RoF" />
+        <SpellEntry Name="Commune with Earth" Level="5" ReferenceAbbrev="RoF" />
+        <SpellEntry Name="Contagion, Mass" Level="5" ReferenceAbbrev="RoF" />
+        <SpellEntry Name="Spore Cloak" Level="5" ReferenceAbbrev="RoF" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Paladin" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Lawful Sword" Level="4" ReferenceAbbrev="RoF" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Sorcerer" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Burrow" Level="3" ReferenceAbbrev="RoF" />
+        <SpellEntry Name="Detect Metal and Minerals" Level="3" ReferenceAbbrev="RoF" />
+        <SpellEntry Name="Handfang" Level="3" ReferenceAbbrev="RoF" />
+        <SpellEntry Name="Plague Carrier" Level="4" ReferenceAbbrev="RoF" />
+        <SpellEntry Name="Shape Metal" Level="5" ReferenceAbbrev="RoF" />
+        <SpellEntry Name="Contagion, Mass" Level="6" ReferenceAbbrev="RoF" />
+        <SpellEntry Name="Shadow Canopy" Level="6" ReferenceAbbrev="RoF" />
+        <SpellEntry Name="Spore Cloak" Level="6" ReferenceAbbrev="RoF" />
+        <SpellEntry Name="Stone Body" Level="6" ReferenceAbbrev="RoF" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Wizard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Burrow" Level="3" ReferenceAbbrev="RoF" />
+        <SpellEntry Name="Detect Metal and Minerals" Level="3" ReferenceAbbrev="RoF" />
+        <SpellEntry Name="Handfang" Level="3" ReferenceAbbrev="RoF" />
+        <SpellEntry Name="Plague Carrier" Level="4" ReferenceAbbrev="RoF" />
+        <SpellEntry Name="Contagion, Mass" Level="5" ReferenceAbbrev="RoF" />
+        <SpellEntry Name="Shape Metal" Level="5" ReferenceAbbrev="RoF" />
+        <SpellEntry Name="Shadow Canopy" Level="6" ReferenceAbbrev="RoF" />
+        <SpellEntry Name="Spore Cloak" Level="6" ReferenceAbbrev="RoF" />
+        <SpellEntry Name="Stone Body" Level="6" ReferenceAbbrev="RoF" />
+      </SpellEntries>
+    </SpellList>
+  </SpellListEntries>
+  <Domains />
+  <Classes />
+</Reference>

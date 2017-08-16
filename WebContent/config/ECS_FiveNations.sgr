@@ -1,0 +1,120 @@
+<Reference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Sequence="2" Name="ECS - Five nations" Group="Eberron" Abbrev="EbbFN" Version="1.01">
+  <Description>(c) 2005 by Wizards of the Coast, Inc. </Description>
+  <DevNotes>Entered by: Someone
+1.01 Fixed descriptions to use calculated formulas.</DevNotes>
+  <Spells>
+    <Spell OriginalReference="">
+      <Name>Flamebound Symbol</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Silver Flame</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1sw.</CastingTime>
+      <Range>Personal</Range>
+      <Duration>1 rd.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>false</SR>
+      <Description>="Cast before turning undead as a swift action.  All undead within 60 feet take "&amp; Casterlevel &amp;"d6 of sacred dmg.  A Fort "&amp; 10+Int( CasterLevel /2)+CastingMod &amp;" reduces the dmg by half. Special: Only clerics and paladins of the Silver Flame can cast this spell."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Flamebound Weapon</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Silver Flame</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1sw.</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>155</Page>
+      <SR>true</SR>
+      <Description>You imbue a weapon you hold with the power of the Silver Flame and it deals an additional 1d6 (sacred) dmg upon striking an evil creature. Special: Only Paladins of the Silver Flame can cast this spell.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Whispering Flame</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " day"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>155</Page>
+      <SR>false</SR>
+      <Description>Two held candles gain the ability to transmit and recieve messages over any distance on the same plane of existence.  The spell lasts 1 day per caster level, but the candle can only burn 8 hours.</Description>
+    </Spell>
+  </Spells>
+  <SpellOverrides />
+  <SpellListEntries>
+    <SpellList Name="Cleric" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Whispering Flame" Level="2" ReferenceAbbrev="EbbFN" />
+        <SpellEntry Name="Flamebound Symbol" Level="3" ReferenceAbbrev="EbbFN" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Druid" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Whispering Flame" Level="2" ReferenceAbbrev="EbbFN" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Paladin" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Flamebound Weapon" Level="1" ReferenceAbbrev="EbbFN" />
+        <SpellEntry Name="Flamebound Symbol" Level="3" ReferenceAbbrev="EbbFN" />
+      </SpellEntries>
+    </SpellList>
+  </SpellListEntries>
+  <Domains />
+  <Classes />
+</Reference>

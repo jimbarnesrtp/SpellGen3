@@ -1,0 +1,1365 @@
+<Reference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Sequence="1" Name="Tome and Blood" Group="" Abbrev="TaB" Version="1">
+  <Description> </Description>
+  <DevNotes />
+  <Spells>
+    <Spell OriginalReference="">
+      <Name>Filter</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel *10&amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>89</Page>
+      <SR>true</SR>
+      <Description>Protects against toxic and noxious elements in the air.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Gaze Screen</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel *10&amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>90</Page>
+      <SR>true</SR>
+      <Description>Creature touched has a 50% chance to avoid gaze attacks.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Mass Resist Elements</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>93</Page>
+      <SR>true</SR>
+      <Description>="Up to "&amp; CasterLevel &amp;" subjects ignore 12 dmg per rnd from [acid, cold, fire, electricity, sonic] source."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Energy Immunity</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>24 hours</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>88</Page>
+      <SR>true</SR>
+      <Description>Subject is immune to damage from one energy type [acid, cold, electricity, fire, sonic].</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Repair Minor Damage</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>96</Page>
+      <SR>true</SR>
+      <Description>="Repairs 1 HP damage to a construct."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Lesser Acid Orb</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Acid</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>92</Page>
+      <SR>true</SR>
+      <Description>="Ranged touch attack; "&amp;MIN(5,INT(( CasterLevel +1)/2))&amp;" missiles deal 1d8 (acid) damage"</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Lesser Cold Orb</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Cold</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>92</Page>
+      <SR>true</SR>
+      <Description>="Ranged touch attack; "&amp;MIN(5,INT(( CasterLevel +1)/2))&amp;" missiles deal 1d8 (cold) damage"</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Lesser Electric Orb</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Electricity</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>92</Page>
+      <SR>true</SR>
+      <Description>="Ranged touch attack; "&amp;MIN(5,INT(( CasterLevel +1)/2))&amp;" missiles deal 1d8 (electricity) damage"</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Lesser Fire Orb</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Fire</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>93</Page>
+      <SR>true</SR>
+      <Description>="Ranged touch attack; "&amp;MIN(5,INT(( CasterLevel +1)/2))&amp;" missiles deal 1d8 (fire) damage"</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Lesser Sonic Orb</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Sonic</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>93</Page>
+      <SR>true</SR>
+      <Description>="Ranged touch attack; "&amp;MIN(5,INT(( CasterLevel +1)/2))&amp;" missiles deal 1d8 (sonic) damage"</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Negative Energy Ray</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " half (txt)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>93</Page>
+      <SR>true</SR>
+      <Description>="Ranged touch attack; "&amp;MIN(5,INT(( CasterLevel +1)/2))&amp;"d6 negative energy damage to a single target."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Repair Light Damage</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>95</Page>
+      <SR>true</SR>
+      <Description>="Repairs 1d8+"&amp;MIN(5, CasterLevel )&amp;" damage to a construct."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Choke</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors>
+            <Descriptor>Force</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " half (txt)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>86</Page>
+      <SR>true</SR>
+      <Description>Target takes d4 dmg; -2 (circumstance) to attacks, checks (or -4 if speaks)</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Disguise Undead</Name>
+      <Schools>
+        <School>
+          <School>Illusion</School>
+          <Subschool>Glamer</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel *10&amp;" min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>87</Page>
+      <SR>true</SR>
+      <Description>Alter appearance of undead; +10 to disguise checks if creating disguise.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Familiar Pocket</Name>
+      <Schools>
+        <School>
+          <School>Universal</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" hours [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>88</Page>
+      <SR>false</SR>
+      <Description>Enspell a garment or container to provide a safe haven for your familiar.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Ice Knife</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors>
+            <Descriptor>Cold</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Long</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="(text) " &amp; SaveDC</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>91</Page>
+      <SR>true</SR>
+      <Description>Ranged attack.  1d8 (cold) damage, 2 (cold) Dexterity damage.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Indifference</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>fr</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" hours [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (txt)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>92</Page>
+      <SR>true</SR>
+      <Description>Drain emotion from subject; immune 1st-2nd lvl emotion spells, plus see spell.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Repair Moderate Damage</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>96</Page>
+      <SR>true</SR>
+      <Description>="Repairs 2d8+"&amp;MIN(10, CasterLevel )&amp;" damage to a construct."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Corpse Candle</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp;" min [d](txt)"</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>86</Page>
+      <SR>false</SR>
+      <Description>Floating candlelight (5' radius) illuminatres hidden, ethereal, and invisible.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Enhance Familiar</Name>
+      <Schools>
+        <School>
+          <School>Universal</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" hours"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None (h)</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>88</Page>
+      <SR>true</SR>
+      <Description>="Familiar gains +2 (competence) to attacks, saves, damage; +2 dodge to AC."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Feign Death</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" hours"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>89</Page>
+      <SR>true</SR>
+      <Description>Makes one willing, living creature appear dead.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Ice Burst</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Cold</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>91</Page>
+      <SR>true</SR>
+      <Description>="Chunks of ice deal "&amp;MIN(10, CasterLevel )&amp;"d4 (cold) dmg, "&amp;MIN(10, CasterLevel )&amp;" (blunt) dmg, 30' radius."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Negative Energy Burst</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " half (txt)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>93</Page>
+      <SR>true</SR>
+      <Description>="1d8+"&amp;MIN(10, CasterLevel )&amp;" negative energy damage in a 20' radius."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Repair Serious Damage</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>96</Page>
+      <SR>true</SR>
+      <Description>="Repairs 3d8+"&amp;MIN(15, CasterLevel )&amp;" damage to a construct."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Acid Orb</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Acid</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " half (txt)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>85</Page>
+      <SR>true</SR>
+      <Description>="Create acid orb"&amp;IIF( CasterLevel &gt;1,"(s)","")&amp;" which do a total of "&amp;MIN(15, CasterLevel )&amp;"d6 (acid) damage, nauseates."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Cold Orb</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Cold</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " half (txt)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>86</Page>
+      <SR>true</SR>
+      <Description>="Create cold orb(s) which do a total of "&amp;MIN(15, CasterLevel )&amp;"d6 (cold) damage, blinds."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Electric Orb</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Electricity</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " half (txt)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>87</Page>
+      <SR>true</SR>
+      <Description>="Create electric orb(s) which do a total of "&amp;MIN(15, CasterLevel )&amp;"d6 (electricity) damage, magnetizes."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Fire Orb</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Fire</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " half (txt)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>89</Page>
+      <SR>true</SR>
+      <Description>="Create fire orb(s) which do a total of "&amp;MIN(15, CasterLevel )&amp;"d6 (fire) damage, dazes."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Fortify Familiar</Name>
+      <Schools>
+        <School>
+          <School>Universal</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" hours"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>89</Page>
+      <SR>true</SR>
+      <Description>="Familiar gains +2 (enh) to nat. armor; 25% avoid extra dmg; +2d8 temp hp."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Mass Darkvision</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>10 feet</Range>
+      <Duration>= CasterLevel &amp;" hours"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>93</Page>
+      <SR>true</SR>
+      <Description>All within 10' gain the ability to see 60' (b&amp;w) even in total darkness.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Negative Energy Wave</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>50 feet</Range>
+      <Duration>50'</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (txt)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>94</Page>
+      <SR>true</SR>
+      <Description>="Surge of negative energy rebukes or bolsters "&amp;MIN(15, CasterLevel )&amp;"d6 HD worth of undead."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Otiluke's Dispelling Screen</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp;" min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>94</Page>
+      <SR>false</SR>
+      <Description>="Cancels magical spells and effects; d20+"&amp;MIN(10, CasterLevel )&amp;" vs. 11+spellcaster's lvl"</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Repair Critical Damage</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>95</Page>
+      <SR>true</SR>
+      <Description>="Repairs 4d8+"&amp;MIN(20, CasterLevel )&amp;" damage to a construct."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Sonic Orb</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Sonic</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " half (txt)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>96</Page>
+      <SR>true</SR>
+      <Description>="Create sonic orb(s) which do a total of "&amp;MIN(15, CasterLevel )&amp;"d6 (sonic) damage, deafens."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Energy Buffer</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>24 hours (disch)</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>87</Page>
+      <SR>false</SR>
+      <Description>="Absorbs "&amp; CasterLevel &amp;"d6 damage from one type of energy."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Ghostform</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp;" min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>90</Page>
+      <SR>false</SR>
+      <Description>You assume a visible, incorporeal form.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Mass Fly</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel *10&amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>93</Page>
+      <SR>true</SR>
+      <Description>="Up to "&amp; CasterLevel &amp;" subjects flies at speed of 90 ft (60 ft. if medium / heavy armor.)"</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Spiritwall</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp;" min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>96</Page>
+      <SR>false</SR>
+      <Description>Creates a wall of wailing spirits that inspire fear; d10 dmg, energy drain on contact.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Imbue Familiar with Spell Ability</Name>
+      <Schools>
+        <School>
+          <School>Universal</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" hours"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>91</Page>
+      <SR>true</SR>
+      <Description>="Imbue your familiar with up to "&amp;INT( CasterLevel /3)&amp;" spells (max spell level: "&amp;INT( CasterLevel /3)&amp;".)"</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Mass Teleport</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Teleport</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>fr</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="(text) " &amp; SaveDC</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>93</Page>
+      <SR>true</SR>
+      <Description>="Instantly transports up to "&amp; CasterLevel *100&amp;" lb. anywhere."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Otiluke's Greater Dispelling Screen</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp;" min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>94</Page>
+      <SR>false</SR>
+      <Description>="Cancels magical spells and effects; d20+"&amp;MIN(20, CasterLevel )&amp;" vs. 11+spellcaster's lvl"</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Absorption</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>10 min (disch)</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>false</SR>
+      <Description>Absorbs incoming spell energy to cast your own spells.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Hide Life</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 day</CastingTime>
+      <Range>Personal</Range>
+      <Duration>discharge</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>91</Page>
+      <SR>false</SR>
+      <Description>You lock away your life force in a small receptacle and cannot be killed.</Description>
+    </Spell>
+  </Spells>
+  <SpellOverrides />
+  <SpellListEntries>
+    <SpellList Name="Cleric" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Filter" Level="2" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Gaze Screen" Level="2" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Mass Resist Elements" Level="3" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Energy Immunity" Level="6" ReferenceAbbrev="TaB" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Druid" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Filter" Level="2" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Gaze Screen" Level="2" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Mass Resist Elements" Level="3" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Energy Immunity" Level="6" ReferenceAbbrev="TaB" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Sacred Fist" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Gaze Screen" Level="2" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Mass Resist Elements" Level="3" ReferenceAbbrev="TaB" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Sorcerer" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Repair Minor Damage" Level="0" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Lesser Acid Orb" Level="1" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Lesser Cold Orb" Level="1" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Lesser Electric Orb" Level="1" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Lesser Fire Orb" Level="1" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Lesser Sonic Orb" Level="1" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Negative Energy Ray" Level="1" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Repair Light Damage" Level="1" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Choke" Level="2" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Disguise Undead" Level="2" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Familiar Pocket" Level="2" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Filter" Level="2" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Gaze Screen" Level="2" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Ice Knife" Level="2" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Indifference" Level="2" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Repair Moderate Damage" Level="2" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Corpse Candle" Level="3" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Enhance Familiar" Level="3" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Feign Death" Level="3" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Ice Burst" Level="3" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Negative Energy Burst" Level="3" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Repair Serious Damage" Level="3" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Acid Orb" Level="4" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Cold Orb" Level="4" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Electric Orb" Level="4" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Fire Orb" Level="4" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Fortify Familiar" Level="4" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Mass Darkvision" Level="4" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Mass Resist Elements" Level="4" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Negative Energy Wave" Level="4" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Otiluke's Dispelling Screen" Level="4" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Repair Critical Damage" Level="4" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Sonic Orb" Level="4" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Energy Buffer" Level="5" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Ghostform" Level="5" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Mass Fly" Level="5" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Spiritwall" Level="5" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Imbue Familiar with Spell Ability" Level="6" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Energy Immunity" Level="7" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Mass Teleport" Level="7" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Otiluke's Greater Dispelling Screen" Level="7" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Absorption" Level="9" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Hide Life" Level="9" ReferenceAbbrev="TaB" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Wizard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Repair Minor Damage" Level="0" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Lesser Acid Orb" Level="1" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Lesser Cold Orb" Level="1" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Lesser Electric Orb" Level="1" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Lesser Fire Orb" Level="1" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Lesser Sonic Orb" Level="1" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Negative Energy Ray" Level="1" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Repair Light Damage" Level="1" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Choke" Level="2" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Disguise Undead" Level="2" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Familiar Pocket" Level="2" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Filter" Level="2" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Gaze Screen" Level="2" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Ice Knife" Level="2" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Indifference" Level="2" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Repair Moderate Damage" Level="2" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Corpse Candle" Level="3" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Enhance Familiar" Level="3" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Feign Death" Level="3" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Ice Burst" Level="3" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Negative Energy Burst" Level="3" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Repair Serious Damage" Level="3" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Acid Orb" Level="4" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Cold Orb" Level="4" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Electric Orb" Level="4" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Fire Orb" Level="4" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Fortify Familiar" Level="4" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Mass Darkvision" Level="4" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Mass Resist Elements" Level="4" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Negative Energy Wave" Level="4" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Otiluke's Dispelling Screen" Level="4" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Repair Critical Damage" Level="4" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Sonic Orb" Level="4" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Energy Buffer" Level="5" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Ghostform" Level="5" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Mass Fly" Level="5" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Spiritwall" Level="5" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Imbue Familiar with Spell Ability" Level="6" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Energy Immunity" Level="7" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Mass Teleport" Level="7" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Otiluke's Greater Dispelling Screen" Level="7" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Absorption" Level="9" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Hide Life" Level="9" ReferenceAbbrev="TaB" />
+      </SpellEntries>
+    </SpellList>
+  </SpellListEntries>
+  <Domains />
+  <Classes />
+</Reference>

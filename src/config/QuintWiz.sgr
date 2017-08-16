@@ -1,0 +1,592 @@
+<Reference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Sequence="1" Name="Quintessential Wizard" Group="" Abbrev="QWiz" Version="1">
+  <Description> </Description>
+  <DevNotes />
+  <Spells>
+    <Spell OriginalReference="">
+      <Name>Far Strike</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (oh)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>true</SR>
+      <Description>Single piece of ammunition, or thrown weapon, has range multiplied by 5.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Mantle of Dread</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>77</Page>
+      <SR>false</SR>
+      <Description>Gain a +4 competence bonus to Intimidate checks.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Hero's Luck</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" hr (disch)"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>76</Page>
+      <SR>true</SR>
+      <Description>Gain a +2 insight bonus to a single attack, skill check, or save.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Mystic Lullaby</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>79</Page>
+      <SR>true</SR>
+      <Description>="One Large or smaller creature of up to "&amp; CasterLevel &amp;" hd falls asleep."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Unseen Trickster</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>80</Page>
+      <SR>false</SR>
+      <Description>Improved unseen servant may aid another, or filtch items (Pick Pockets +4).</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Melzek's Diabolic Treasurer</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Summoning</Subschool>
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>77</Page>
+      <SR>false</SR>
+      <Description>Calls an imp with 10 ranks in Appraise to evaluate items given to it.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Palsy</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Fear</Descriptor>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>79</Page>
+      <SR>true</SR>
+      <Description>One creature loses fine motor control; Concentration DC 15 to cast somatic spell.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Monk's Fighting Grace</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>78</Page>
+      <SR>false</SR>
+      <Description>You gain monk's unarmed fighting skills, +2 bonus to hit with unarmed attacks.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>War Mastery</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>81</Page>
+      <SR>true</SR>
+      <Description>Grants touched target single feat on the fighter's bonus feat list.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Feast of Flesh</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>30 min</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp;" hr"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="(text) " &amp; SaveDC</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>75</Page>
+      <SR>false</SR>
+      <Description>="Unarmed strikes +2 to hit, paralyze for d6+2 min (Fort DC "&amp; SaveDC &amp;"); also +2 to save vs. mind-affect."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Imbue Touch Spell</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>discharge</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>76</Page>
+      <SR>true</SR>
+      <Description>Imbue the next person you touch with the touch spell you are holding.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Phantom Artillery</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>=10 *  CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>79</Page>
+      <SR>true</SR>
+      <Description>="Calls forth a ballista" &amp; IIF(CasterLevel &gt; 11," or light catapult","") &amp; IIF( CasterLevel &gt; 16," or heavy catapult","") &amp; " that you and allies may man and fire."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Loyal Guardian</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>77</Page>
+      <SR>false</SR>
+      <Description>Magical energy automatically absorbs one attack per round.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Wall of Bones</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="(text) " &amp; SaveDC</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>80</Page>
+      <SR>false</SR>
+      <Description>="Wall of bones ("&amp;INT( CasterLevel /4)&amp;" in. thick, "&amp;INT( CasterLevel /4)*20&amp;" hp, hardness 5) may march and grapple."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Weapon Ward</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>1 hour</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>81</Page>
+      <SR>false</SR>
+      <Description>="Grants damage reduction "&amp; CasterLevel &amp;" vs. piercing, bludgeoning, or slashing weapons."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Wall of Snakes</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Summoning</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="(text) " &amp; SaveDC</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>80</Page>
+      <SR>false</SR>
+      <Description>="Wall of snakes ("&amp;INT( CasterLevel /4)&amp;" in. thick, "&amp;INT( CasterLevel /4)*15&amp;" hp, hardness 5, attacks cause half dmg, regenerates 3/rd)."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Grave Storm</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>76</Page>
+      <SR>true</SR>
+      <Description>="Cone of death magic deals "&amp;MIN(15, CasterLevel )&amp;"d6 damage; those killed rised as zombies."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Melzek's Swarm of Voracious Hell Beetles</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Summoning</Subschool>
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="(text) " &amp; SaveDC</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>78</Page>
+      <SR>false</SR>
+      <Description>Hell beetles fill 15 ft. radius spread, deal 10d6 dmg, 1d4 temp Con dmg per round.</Description>
+    </Spell>
+  </Spells>
+  <SpellOverrides />
+  <SpellListEntries>
+    <SpellList Name="Bard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Far Strike" Level="1" ReferenceAbbrev="QWiz" />
+        <SpellEntry Name="Mantle of Dread" Level="1" ReferenceAbbrev="QWiz" />
+        <SpellEntry Name="Hero's Luck" Level="2" ReferenceAbbrev="QWiz" />
+        <SpellEntry Name="Mystic Lullaby" Level="2" ReferenceAbbrev="QWiz" />
+        <SpellEntry Name="Unseen Trickster" Level="2" ReferenceAbbrev="QWiz" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Ranger" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Far Strike" Level="1" ReferenceAbbrev="QWiz" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Sorcerer" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Far Strike" Level="1" ReferenceAbbrev="QWiz" />
+        <SpellEntry Name="Mantle of Dread" Level="1" ReferenceAbbrev="QWiz" />
+        <SpellEntry Name="Melzek's Diabolic Treasurer" Level="1" ReferenceAbbrev="QWiz" />
+        <SpellEntry Name="Palsy" Level="1" ReferenceAbbrev="QWiz" />
+        <SpellEntry Name="Hero's Luck" Level="2" ReferenceAbbrev="QWiz" />
+        <SpellEntry Name="Monk's Fighting Grace" Level="2" ReferenceAbbrev="QWiz" />
+        <SpellEntry Name="Mystic Lullaby" Level="2" ReferenceAbbrev="QWiz" />
+        <SpellEntry Name="Unseen Trickster" Level="2" ReferenceAbbrev="QWiz" />
+        <SpellEntry Name="War Mastery" Level="3" ReferenceAbbrev="QWiz" />
+        <SpellEntry Name="Feast of Flesh" Level="4" ReferenceAbbrev="QWiz" />
+        <SpellEntry Name="Imbue Touch Spell" Level="4" ReferenceAbbrev="QWiz" />
+        <SpellEntry Name="Phantom Artillery" Level="4" ReferenceAbbrev="QWiz" />
+        <SpellEntry Name="Loyal Guardian" Level="5" ReferenceAbbrev="QWiz" />
+        <SpellEntry Name="Wall of Bones" Level="5" ReferenceAbbrev="QWiz" />
+        <SpellEntry Name="Weapon Ward" Level="5" ReferenceAbbrev="QWiz" />
+        <SpellEntry Name="Wall of Snakes" Level="6" ReferenceAbbrev="QWiz" />
+        <SpellEntry Name="Grave Storm" Level="7" ReferenceAbbrev="QWiz" />
+        <SpellEntry Name="Melzek's Swarm of Voracious Hell Beetles" Level="8" ReferenceAbbrev="QWiz" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Wizard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Far Strike" Level="1" ReferenceAbbrev="QWiz" />
+        <SpellEntry Name="Mantle of Dread" Level="1" ReferenceAbbrev="QWiz" />
+        <SpellEntry Name="Melzek's Diabolic Treasurer" Level="1" ReferenceAbbrev="QWiz" />
+        <SpellEntry Name="Palsy" Level="1" ReferenceAbbrev="QWiz" />
+        <SpellEntry Name="Hero's Luck" Level="2" ReferenceAbbrev="QWiz" />
+        <SpellEntry Name="Monk's Fighting Grace" Level="2" ReferenceAbbrev="QWiz" />
+        <SpellEntry Name="Mystic Lullaby" Level="2" ReferenceAbbrev="QWiz" />
+        <SpellEntry Name="Unseen Trickster" Level="2" ReferenceAbbrev="QWiz" />
+        <SpellEntry Name="War Mastery" Level="3" ReferenceAbbrev="QWiz" />
+        <SpellEntry Name="Feast of Flesh" Level="4" ReferenceAbbrev="QWiz" />
+        <SpellEntry Name="Imbue Touch Spell" Level="4" ReferenceAbbrev="QWiz" />
+        <SpellEntry Name="Phantom Artillery" Level="4" ReferenceAbbrev="QWiz" />
+        <SpellEntry Name="Loyal Guardian" Level="5" ReferenceAbbrev="QWiz" />
+        <SpellEntry Name="Wall of Bones" Level="5" ReferenceAbbrev="QWiz" />
+        <SpellEntry Name="Weapon Ward" Level="5" ReferenceAbbrev="QWiz" />
+        <SpellEntry Name="Wall of Snakes" Level="6" ReferenceAbbrev="QWiz" />
+        <SpellEntry Name="Grave Storm" Level="7" ReferenceAbbrev="QWiz" />
+        <SpellEntry Name="Melzek's Swarm of Voracious Hell Beetles" Level="8" ReferenceAbbrev="QWiz" />
+      </SpellEntries>
+    </SpellList>
+  </SpellListEntries>
+  <Domains />
+  <Classes />
+</Reference>

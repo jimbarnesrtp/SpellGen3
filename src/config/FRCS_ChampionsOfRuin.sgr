@@ -1,0 +1,1408 @@
+<Reference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Sequence="2" Name="FRCS - Champions of Ruin" Group="Forgotton Realms" Abbrev="CoR" Version="1.03">
+  <Description>(c) 2005 Wizards of the Coast
+
+1.03 - Fixed 'tr' spell school on "Bloodfreeze Arrow", "Bloodspear", "Brilliant Energy Arrow". Fixed error in "Control Darkness and Shadows"
+ </Description>
+  <DevNotes>Contains all spells and classes. (MRF)
+
+
+1.02 - Name change
+1.01 fixed bug</DevNotes>
+  <Spells>
+    <Spell OriginalReference="">
+      <Name>Air Breathing</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel *2&amp; " hr"</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>true</SR>
+      <Description>Subject can breath air freely
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Anathema</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Unlimited</Range>
+      <Duration>Permanent</Duration>
+      <Area>One creature of the same faith as the spellcaster</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>28</Page>
+      <SR>false</SR>
+      <Description>Break the divine link between your god and lower-ranked members of your faith.
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Arrowsplit</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1sw.</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area>One masterwork arrow or bolt</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>28</Page>
+      <SR>true</SR>
+      <Description>Transform a masterwork arrow or bold mid-flight into 1d6+1 masterwork missles
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Battle Line</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area>Up to contiguous 5 ft. squares/level, max. 15 squares</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>28</Page>
+      <SR>true</SR>
+      <Description>Creates an area of doom on the battlefield.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Bedevil</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Summoning</Subschool>
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>See text</Range>
+      <Duration>= CasterLevel &amp; " day"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>29</Page>
+      <SR>true</SR>
+      <Description>Summon a mischievous spirit to torment your enemies
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Bloodfreeze Arrow</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1sw.</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area>One masterwork arrow or bolt</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>29</Page>
+      <SR>true</SR>
+      <Description>Masterwork arrow or bold deals extra 2d6 cold dmg and paralyzes target
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Bloodspear</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area>Spear touched</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>29</Page>
+      <SR>false</SR>
+      <Description>Makes one spear into a wounding weapon.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Brilliant Energy Arrow</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1sw.</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>29</Page>
+      <SR>true</SR>
+      <Description>Masterwork arrow or bold radiates light and ignores armor
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Control Darkness and Shadow</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Darkness</Descriptor>
+            <Descriptor>Shadow</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= "Concentration +"&amp; CasterLevel &amp;" rd"</Duration>
+      <Area>Shadows in one 5 ft. cube/level</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>29</Page>
+      <SR>true</SR>
+      <Description>Manipulate existing areas of darkness and shadow
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Darkflame Arrow</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area>One masterwork arrow or bolt</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>30</Page>
+      <SR>true</SR>
+      <Description>Masterwork arrow or bold deals normal damage plus 2d6 damage each round for 3 rounds
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Doublestrike Arrow</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1sw.</CastingTime>
+      <Range>Touch</Range>
+      <Duration>1 round</Duration>
+      <Area>One arrow or bolt</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>30</Page>
+      <SR>false</SR>
+      <Description>One arrow or bolt strikes two targets within 30 ft of eachother
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Enrage Animals</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area>Animals within 30 ft. of each other</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>31</Page>
+      <SR>true</SR>
+      <Description>Render normal animals hostile and viscious
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Locate Node</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>=CasterLevel &amp; "mile"</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area>Circle centered on you, with a radius of 1 mile/level</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>FocusOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>31</Page>
+      <SR>false</SR>
+      <Description>Finds closest earth node 
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Love's Lament</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>60 ft.</Range>
+      <Duration>Inst.</Duration>
+      <Area>Cone-shaped burst</Area>
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>31</Page>
+      <SR>false</SR>
+      <Description>Creatures in 60 ft cone take 1d6 Wisdom dmg and are nauseated for 1d4 rounds
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Mantle of the Slime Lord</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel *10 &amp; " min [d]"</Duration>
+      <Area>Nimbus of divine energy</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>31</Page>
+      <SR>false</SR>
+      <Description>Nonintelligent oozes do not attack you, and you gain some ooze immunities.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Mark of the Unfaithful</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Unlimited</Range>
+      <Duration>Permanent</Duration>
+      <Area>One creature</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>31</Page>
+      <SR>true</SR>
+      <Description>Mark someone as an enemy of your faith
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Necrotic Skull Bomb</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area>20 ft. radius spread</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>32</Page>
+      <SR>true</SR>
+      <Description>Exploding skull releases negative energy, targets each gain 1d4 negative levels
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Node Door</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Teleportation</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Varies; see text</Range>
+      <Duration>Inst.</Duration>
+      <Area>You and touched objects or other touched willing creatures</Area>
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>32</Page>
+      <SR>true</SR>
+      <Description>Allows teleportation between known nodes 
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Node Genesis</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 tenday</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area>One Class 1 node with a 10 ft. radius</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>XP</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>33</Page>
+      <SR>false</SR>
+      <Description>Creates a Class 1 earth node
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Node Lock</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Permanent</Duration>
+      <Area>One node</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>33</Page>
+      <SR>false</SR>
+      <Description>Deters others from using an earth node
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Pocket Cave</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " hr [d]"</Duration>
+      <Area>Extradimensional cave, up to two 10 ft. cubes/level</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>33</Page>
+      <SR>false</SR>
+      <Description>Creates an extradimensional space where you and your allies can hide.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Ravage</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area>10 ft. radius cylinder, 40 ft. high</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>33</Page>
+      <SR>true</SR>
+      <Description>A pillar of black, unholy power deals 1d6 vile dmg/2 levels (max 10d6)
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Remorseless Charm</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind</Descriptor>
+          </Descriptors>
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>See text</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>34</Page>
+      <SR>true</SR>
+      <Description>Suppress the target's alignment, removing all alignment-related inhibitions
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Scourge of Force</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Force</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area>One or more targets, no two of which can be more that 30 ft. apart</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>34</Page>
+      <SR>true</SR>
+      <Description>Tendrils of force lash foes for 1d8+1/2 lvls dmg each
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Serpent Arrow</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel*10 &amp; " min"</Duration>
+      <Area>Up to eight projectiles, all of which must be within 40 ft. of each other at the time of casting</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>34</Page>
+      <SR>false</SR>
+      <Description>Wooden arrows turn into Tiny vipers
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Shadow Arrow</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1sw.</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area>One masterwork arrow or bolt</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>34</Page>
+      <SR>true</SR>
+      <Description>Masterwork arrow or bolt that deals 1d6 points of Str dmg</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Shadow Trap</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Summoning</Subschool>
+          <Descriptors>
+            <Descriptor>Shadow</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>10 min.</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " hr [d]"</Duration>
+      <Area />
+      <Components />
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>34</Page>
+      <SR>true</SR>
+      <Description>Bind a greater shadow to an object as its guardian
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Slashing Darkness</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area>Ray</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>35</Page>
+      <SR>true</SR>
+      <Description>Ray deals 1d8/2 lev damage, heals undead 
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Slime Hurl</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area>Three globs of green slime</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>35</Page>
+      <SR>false</SR>
+      <Description>Hurl up to three globs of green slime</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Spellslayer Arrow</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1sw.</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area>One masterwork arrow or bolt</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>35</Page>
+      <SR>true</SR>
+      <Description>Masterwork arrow or bold deals extra damage to a creatue with ongoing spells cast upon it
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Symphonic Nightmare</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " days (D)"</Duration>
+      <Area>Living creature touched</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>35</Page>
+      <SR>true</SR>
+      <Description>Haunting music disrupts target's sleep for 1 day/level
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Tvash-Prull's Bonefiddle</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= "[c] up to " &amp; CasterLevel &amp; " rd"</Duration>
+      <Area>One creature that has a skeleton or exoskeleton</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>36</Page>
+      <SR>true</SR>
+      <Description>Target takes 1d6 sonic dmg/round and -20 penalty on Move Silently checks.
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Undersong</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area>You</Area>
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>36</Page>
+      <SR>false</SR>
+      <Description>Make Perform check in place of Concentration check
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Unholy Beast</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area>One animal of up to 1 HD/level</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>36</Page>
+      <SR>true</SR>
+      <Description>Target animal transforms into an unholy minon under your control
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Whip of Thorns</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area>15 ft. long whip covered with sharp thorns</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>36</Page>
+      <SR>false</SR>
+      <Description>Create a thorny whip that can damage or entangle opponents
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Woodwisp Arrow</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " min [d]"</Duration>
+      <Area>One masterwork arrow or bolt</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>37</Page>
+      <SR>false</SR>
+      <Description>Enables a masterwork arrow or bolt to pass through wood
+</Description>
+    </Spell>
+  </Spells>
+  <SpellOverrides />
+  <SpellListEntries>
+    <SpellList Name="Assassin" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Woodwisp Arrow" Level="1" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Brilliant Energy Arrow" Level="2" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Spellslayer Arrow" Level="2" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Arrowsplit" Level="3" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Darkflame Arrow" Level="3" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Bloodfreeze Arrow" Level="4" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Shadow Arrow" Level="4" ReferenceAbbrev="CoR" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Bard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Undersong" Level="1" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Control Darkness and Shadow" Level="2" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Tvash-Prull's Bonefiddle" Level="2" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Love's Lament" Level="3" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Remorseless Charm" Level="5" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Symphonic Nightmare" Level="6" ReferenceAbbrev="CoR" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Blackguard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Bedevil" Level="3" ReferenceAbbrev="CoR" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Cleric" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Air Breathing" Level="3" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Locate Node" Level="3" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Slashing Darkness" Level="3" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Necrotic Skull Bomb" Level="5" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Ravage" Level="6" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Remorseless Charm" Level="6" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Mark of the Unfaithful" Level="7" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Shadow Trap" Level="7" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Anathema" Level="9" ReferenceAbbrev="CoR" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Druid" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Enrage Animals" Level="1" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Woodwisp Arrow" Level="1" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Locate Node" Level="2" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Whip of Thorns" Level="2" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Air Breathing" Level="3" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Node Door" Level="3" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Unholy Beast" Level="4" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Mark of the Unfaithful" Level="7" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Anathema" Level="9" ReferenceAbbrev="CoR" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Ranger" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Enrage Animals" Level="1" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Woodwisp Arrow" Level="1" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Brilliant Energy Arrow" Level="2" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Spellslayer Arrow" Level="2" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Arrowsplit" Level="3" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Darkflame Arrow" Level="3" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Bloodfreeze Arrow" Level="4" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Doublestrike Arrow" Level="4" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Shadow Arrow" Level="4" ReferenceAbbrev="CoR" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Sorcerer" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Locate Node" Level="2" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Scourge of Force" Level="2" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Air Breathing" Level="3" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Control Darkness and Shadow" Level="3" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Bedevil" Level="3" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Node Door" Level="3" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Serpent Arrow" Level="4" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Necrotic Skull Bomb" Level="5" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Remorseless Charm" Level="6" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Shadow Trap" Level="7" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Node Genesis" Level="9" ReferenceAbbrev="CoR" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Wizard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Locate Node" Level="2" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Node Lock" Level="2" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Scourge of Force" Level="2" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Air Breathing" Level="3" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Control Darkness and Shadow" Level="3" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Bedevil" Level="3" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Node Door" Level="3" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Serpent Arrow" Level="4" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Necrotic Skull Bomb" Level="5" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Remorseless Charm" Level="6" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Shadow Trap" Level="7" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Node Genesis" Level="9" ReferenceAbbrev="CoR" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Initiate of Ghaunadaur" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Corrosive Grasp" Level="1" ReferenceAbbrev="MoFR" />
+        <SpellEntry Name="Blindsight" Level="2" ReferenceAbbrev="PGtFR2" />
+        <SpellEntry Name="Amorphous Form" Level="3" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Slime Hurl" Level="5" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Mantle of the Slime Lord" Level="7" ReferenceAbbrev="CoR" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Initiate of Gruumsh" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Battle Line" Level="2" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Bloodspear" Level="3" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Pocket Cave" Level="5" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Eyebite" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Waves of Exhaustion" Level="7" ReferenceAbbrev="PHB" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Initiate of Kossuth" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Aganazzar's Scorcher" Level="2" ReferenceAbbrev="FRCS" />
+        <SpellEntry Name="Fire Stride" Level="4" ReferenceAbbrev="FRCS" />
+        <SpellEntry Name="Shroud of Flame" Level="5" ReferenceAbbrev="PGtFR2" />
+        <SpellEntry Name="Incendiary Cloud" Level="8" ReferenceAbbrev="PHB" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Initiate of Loviatar" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Nybor's Gentle Reminder" Level="2" ReferenceAbbrev="PGtFR2" />
+        <SpellEntry Name="Mystic Lash" Level="3" ReferenceAbbrev="PGtFR2" />
+        <SpellEntry Name="Fleshshiver" Level="5" ReferenceAbbrev="PGtFR2" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Initiate of Shar" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Disguise Self" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Crushing Despair" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Armor of Darkness" Level="4" ReferenceAbbrev="FRCS" />
+        <SpellEntry Name="Darkbolt" Level="5" ReferenceAbbrev="FRCS" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Initiate of Varae" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Blinding Spittle" Level="2" ReferenceAbbrev="PGtFR2" />
+        <SpellEntry Name="Serpent Arrow" Level="4" ReferenceAbbrev="SerKng" />
+        <SpellEntry Name="Veil" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Animal Shapes" Level="8" ReferenceAbbrev="PHB" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Justice of Weald and Woe" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Camouflage" Level="1" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Detect Snares and Pits" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Endure Elements" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Faerie Fire" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Hide from Animals" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Jump" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Longstrider" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Obscuring Mist" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Pass without Trace" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Woodwisp Arrow" Level="1" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Barkskin" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Brilliant Energy Arrow" Level="2" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Cat's Grace" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Fog Cloud" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Snare" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Spellslayer Arrow" Level="2" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Speak with Plants" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Spider Climb" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Tree Shape" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Arrowsplit" Level="3" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Darkflame Arrow" Level="3" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Darkvision" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Meld into Stone" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Serpent Arrow" Level="3" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Spider Climb" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Water Breathing" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Wind Wall" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Bloodfreeze Arrow" Level="4" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Darkflame Arrow" Level="4" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Freedom of Movement" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Poison" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Scrying" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Shadow Arrow" Level="4" ReferenceAbbrev="CoR" />
+        <SpellEntry Name="Spike Stones" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Tree Stride" Level="4" ReferenceAbbrev="PHB" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Shade Hunter" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Delay Poison" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Detect Snares and Pits" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Identify" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Jump" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Longstrider" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Pass without Trace" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Read Magic" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Camouflage" Level="1" ReferenceAbbrev="Ud" />
+        <SpellEntry Name="Surefoot" Level="1" ReferenceAbbrev="MoFR" />
+        <SpellEntry Name="Bear's Endurance" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Bull's Strength" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Cat's Grace" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Cure Moderate Wounds" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Make Whole" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Snare" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Detect Metal and Minerals" Level="2" ReferenceAbbrev="RoF" />
+        <SpellEntry Name="Continual Flame" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Daylight" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Locate Object" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Neutralize Poison" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Obscure Object" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Remove Disease" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Commune with Nature" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Dispel Magic" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Freedom of Movement" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Nondetection" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Remove Curse" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Stone Shape" Level="4" ReferenceAbbrev="PHB" />
+      </SpellEntries>
+    </SpellList>
+  </SpellListEntries>
+  <Domains />
+  <Classes>
+    <CasterClass>
+      <Name>Justice of Weald and Woe</Name>
+      <Abbrev />
+      <SpellList>Justice of Weald and Woe</SpellList>
+      <CasterType>Divine</CasterType>
+      <HasCantrips>false</HasCantrips>
+      <MaxSpellLevel>4</MaxSpellLevel>
+      <MaxCasterLevel>10</MaxCasterLevel>
+      <CastingStat>Wis</CastingStat>
+      <BonusSpellStat>Wis</BonusSpellStat>
+      <SaveDCStat>Wis</SaveDCStat>
+      <KnowsAllSpells>false</KnowsAllSpells>
+      <KnowsAllCantrips>false</KnowsAllCantrips>
+      <SpellsKnown>true</SpellsKnown>
+      <CasterLevelMultiplier>1</CasterLevelMultiplier>
+      <SpellPyramid>
+        <Slots>0 0</Slots>
+        <Slots>0 1</Slots>
+        <Slots>0 2 0</Slots>
+        <Slots>0 3 1</Slots>
+        <Slots>0 3 2 0</Slots>
+        <Slots>0 3 3 1</Slots>
+        <Slots>0 3 3 2 0</Slots>
+        <Slots>0 3 3 3 1</Slots>
+        <Slots>0 3 3 3 2</Slots>
+        <Slots>0 3 3 3 3</Slots>
+      </SpellPyramid>
+      <KnownPyramid>
+        <Slots>0 2</Slots>
+        <Slots>0 3</Slots>
+        <Slots>0 3 2</Slots>
+        <Slots>0 4 3</Slots>
+        <Slots>0 4 3 2</Slots>
+        <Slots>0 4 4 3</Slots>
+        <Slots>0 4 4 3 2</Slots>
+        <Slots>0 4 4 4 3</Slots>
+        <Slots>0 4 4 4 3</Slots>
+        <Slots>0 4 4 4 4</Slots>
+      </KnownPyramid>
+      <ClassSpellPoints>
+        <UseSpellPoints>false</UseSpellPoints>
+        <GiveBonusSpellPointsForStat>true</GiveBonusSpellPointsForStat>
+        <SpellPointCosts />
+        <SpellPointValues />
+        <SpellPointTable ClassName="" />
+        <UseBonusSpellPointFormula>false</UseBonusSpellPointFormula>
+        <BonusSpellPointFormula />
+      </ClassSpellPoints>
+    </CasterClass>
+    <CasterClass>
+      <Name>Shade Hunter</Name>
+      <Abbrev />
+      <SpellList>Shade Hunter</SpellList>
+      <CasterType>Arcane</CasterType>
+      <HasCantrips>false</HasCantrips>
+      <MaxSpellLevel>4</MaxSpellLevel>
+      <MaxCasterLevel>10</MaxCasterLevel>
+      <CastingStat>Int</CastingStat>
+      <BonusSpellStat>Int</BonusSpellStat>
+      <SaveDCStat>Int</SaveDCStat>
+      <KnowsAllSpells>false</KnowsAllSpells>
+      <KnowsAllCantrips>false</KnowsAllCantrips>
+      <SpellsKnown>true</SpellsKnown>
+      <CasterLevelMultiplier>1</CasterLevelMultiplier>
+      <SpellPyramid>
+        <Slots>0 0</Slots>
+        <Slots>0 1</Slots>
+        <Slots>0 2 0</Slots>
+        <Slots>0 3 1</Slots>
+        <Slots>0 3 2 0</Slots>
+        <Slots>0 3 3 1</Slots>
+        <Slots>0 3 3 2 0</Slots>
+        <Slots>0 3 3 3 1</Slots>
+        <Slots>0 3 3 3 2</Slots>
+        <Slots>0 3 3 3 3</Slots>
+      </SpellPyramid>
+      <KnownPyramid>
+        <Slots>0 2</Slots>
+        <Slots>0 3</Slots>
+        <Slots>0 3 2</Slots>
+        <Slots>0 4 3</Slots>
+        <Slots>0 4 3 2</Slots>
+        <Slots>0 4 4 3</Slots>
+        <Slots>0 4 4 3 2</Slots>
+        <Slots>0 4 4 4 3</Slots>
+        <Slots>0 4 4 4 3</Slots>
+        <Slots>0 4 4 4 4</Slots>
+      </KnownPyramid>
+      <ClassSpellPoints>
+        <UseSpellPoints>false</UseSpellPoints>
+        <GiveBonusSpellPointsForStat>true</GiveBonusSpellPointsForStat>
+        <SpellPointCosts />
+        <SpellPointValues />
+        <SpellPointTable ClassName="" />
+        <UseBonusSpellPointFormula>false</UseBonusSpellPointFormula>
+        <BonusSpellPointFormula />
+      </ClassSpellPoints>
+    </CasterClass>
+  </Classes>
+</Reference>

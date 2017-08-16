@@ -1,0 +1,1058 @@
+<Reference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Sequence="1" Name="Wizards of the Coast" Group="" Abbrev="wotc" Version="1.01">
+  <Description>Data from the WotC Website. (c) 2004 by Wizards of the Coast, Inc.
+
+1.01 - Change spell description for Hide the Path to correct error (boskone2) </Description>
+  <DevNotes />
+  <Spells>
+    <Spell OriginalReference="">
+      <Name>Animate Dead Familiar</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1r</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>XP</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>false</SR>
+      <Description>Your dead familiar is restored to a zombielike undead, restoring some abilities.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Arcane Bolt</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Force</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>10</Page>
+      <SR>true</SR>
+      <Description>="Ranged touch; "&amp;MIN(5,INT(( CasterLevel +1)/2))&amp;" bolts shoot out, dealing d6+1 dmg."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Bite of the Werebear</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>6</Page>
+      <SR>false</SR>
+      <Description>You take on certain qualities of a bear.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Bite of the Wereboar</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>3</Page>
+      <SR>false</SR>
+      <Description>You take on certain qualities of a boar.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Bite of the Wererat</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>2</Page>
+      <SR>false</SR>
+      <Description>You take on certain qualities of a dire rat.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Bite of the Weretiger</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>5</Page>
+      <SR>false</SR>
+      <Description>You take on certain qualities of a tiger.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Bite of the Werewolf</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>4</Page>
+      <SR>false</SR>
+      <Description>You take on certain qualities of a wolf.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Bladesong</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (oh)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>1</Page>
+      <SR>true</SR>
+      <Description>Bladed weapon given free action to touch; dazed for 1 round.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Dirge of Discord</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Sonic</Descriptor>
+          </Descriptors>
+          <Alignments>
+            <Alignment>Chaotic</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>="2d4+"&amp; CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>6</Page>
+      <SR>true</SR>
+      <Description>30' radius spread suffer -4 to hit, Concentration; -8 to Dex.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Divine Interdiction</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>4</Page>
+      <SR>true</SR>
+      <Description>Ranged touch attack; target loses ability to turn or rebuke undead.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Elemental Familiar</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>10 min</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+        <Component>XP</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>11</Page>
+      <SR>true</SR>
+      <Description>Your familiar changes, becoming a tiny elemental familiar.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Exacting Shot</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>6</Page>
+      <SR>false</SR>
+      <Description>Weapon touched; every threaten is a critical, negates concealment.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Expeditious Excavation</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Earth</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 min</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " hr [d]"</Duration>
+      <Area>= CasterLevel &amp;"x 10' cu."</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>false</SR>
+      <Description>Telekinetic forces move all earth and stone form an area, repairing any stone walls or other sturctures for duration of spell. Non earth or stone are not affected, nor are carvings, freezes, or other materials repaired. Once duration expired, the rubble crashes down. Those still in area must make Ref "&amp; SaveDC &amp;" save or suffer 8d6 dmg. Any that cannot exit area in 1 rd automatically fail the check. Those that fail are trapped and will suffocate (see DMG, p. XX). This spell's effect can be made permanent. Material Component: Diamond Dust worth at least 500gp. Focus: miniature platinum pickaxe worth 500 gp. [Spells of the Lost City, 22-Oct-04]</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Fearsome Grapple</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>1</Page>
+      <SR>false</SR>
+      <Description>="You grow "&amp;2+( CasterLevel &gt;8)*2&amp;" extra arms, gaining a +"&amp;4+( CasterLevel &gt;8)*4&amp;" circumstance bonus to grapple checks."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Felathael's Burnout</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Fire</Descriptor>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>true</SR>
+      <Description>="Ray forces "&amp; CasterLevel &amp;" spell levels out of mind, or deals 4d6 [fire] damage"</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Felathael's Flame Mantle</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Fire</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>=SIGN( CasterLevel )*10+ CasterLevel &amp;" rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>false</SR>
+      <Description>="Ignore "&amp;12* CasterLevel &amp;" hp dmg from cold and fire; creatures attacking you suffer 2d6+"&amp; CasterLevel &amp;" [fire] dmg."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Felathael's Ultimate Incinerator</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Fire</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>true</SR>
+      <Description>Burning globe moves as pointed; ranged touch disintegrates target / 5d6 [fire] dmg.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Felathael's Wildfire</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Fire</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>="[c] +"&amp; CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>true</SR>
+      <Description>20' radius, 10' tall carpet of flames moves as directed.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Foebane</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>7</Page>
+      <SR>false</SR>
+      <Description>Against favored enemy, weapon acts as +5 magic, deals +2d6 dmg.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Force Talons</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Force</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>true</SR>
+      <Description>Translucent line of foot-long nails attack target.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Ghost Storm</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Death</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area>30' r. sprd</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>true</SR>
+      <Description>Calls upon the residual energies of those that died in a set of ruins. All living creatures in area who make a Fort save are shaken for 1 rd and a new save is required each rd in the storm. Those that fail become obsessed with ghosts swirling around them. They can make only a single move act  per turn and lose DEX bonus to AC. Worse, the contact causes 1 negative lvl per failed Fort save, although these fade at the rate of 1 per min. Any creature who suffers negative levels equal to levels / HD is immediately slain. Once created, the storm remains stationary. If created in an area less than a city (see DMG pl 137) the storm occupies only a single 10' sq. [Spells of the Lost City, 22-Oct-04]</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Guidance of the Avatar</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>1 min (disch)</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>5</Page>
+      <SR>true</SR>
+      <Description>Target gets +20 competence bonus to single skill check; must declare before use.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Heal Animal Companion</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Healing</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>9</Page>
+      <SR>true</SR>
+      <Description>Wipe away disease and injury in one animal companion.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Hide the Path</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>10 min</CastingTime>
+      <Range>Anywhere in area to be warded</Range>
+      <Duration>1 day</Duration>
+      <Area>= CasterLevel &amp;"x 60' cu (S)"</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>true</SR>
+      <Description>="Wards area with powerful abjuration that negates Find the Path. It also interferes with other divination spells of 6th level or less, causing the caster to make a Caster level check with a bonus of the divination spells level versus a DC of "&amp; 11+CasterLevel &amp;", failure causes divination spell to reveal nothing for that rd. Any creature touching the focus may case divination spells without interference. Focus: 6 inch onyx sphere mounded on obsidian stand. Focus worth no less than 1000 gp.[Spells of the Lost City, 22-Oct-04]"</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Master's Touch</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>2</Page>
+      <SR>false</SR>
+      <Description>Caster becomes proficient in single weapon or shield held while casting.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Mindless Rage</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>12</Page>
+      <SR>true</SR>
+      <Description>Target focuses on caster; physical attacks (no activation/concentration).</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Mirror Move</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>9</Page>
+      <SR>false</SR>
+      <Description>Allows you to reproduce any general feat that you've seen recently.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Planar Familiar</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>10 min</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+        <Component>XP</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>10</Page>
+      <SR>true</SR>
+      <Description>Your companion transforms into a celestial, fiendish, axiomatic, or anarchic creature.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Ray of Depletion</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>3</Page>
+      <SR>true</SR>
+      <Description>="Ranged touch attack; target loses "&amp;SIGN( CasterLevel )+INT( CasterLevel /2)&amp;" Psionic power points."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Ruin Delver's Fortune</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>free act</CastingTime>
+      <Range>Personal</Range>
+      <Duration>1d4 rd</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>false</SR>
+      <Description>Cast as free action, even if not your turn (counts toward limit of 1 quickened spell / rd) Choose one of following: (1) Gain insight bonus = CHA mod to Fort saves plus immunity to poison; (2) Gaininsight bonus = CHA mod to Ref saves plus evasion class ability; (3) Gain insight bonus = CHA mod to Will saves plus immunity to Fear; (4) Cure 2d8+Cha mod dmg; (5) Gain SR = Bard lvl + CHA mod; (6) Gain insight bonus = CHA mod to AC. After spell expires, make a DC 15 CON check or become fatigued. [Spells of the Lost City, 22-Oct-04]</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Sonic Blast</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Sonic</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>7</Page>
+      <SR>true</SR>
+      <Description>="Sonic energy deals "&amp;MIN(10, CasterLevel )&amp;"d6 damage in 5 ft. wide path to range."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Understand Object</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 min</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>11</Page>
+      <SR>false</SR>
+      <Description>Determines the non-magical functions of an object.</Description>
+    </Spell>
+  </Spells>
+  <SpellOverrides />
+  <SpellListEntries>
+    <SpellList Name="Bard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Master's Touch" Level="1" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Understand Object" Level="1" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Bladesong" Level="2" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Mindless Rage" Level="2" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Mirror Move" Level="2" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Ray of Depletion" Level="3" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Ruin Delver's Fortune" Level="4" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Felathael's Burnout" Level="6" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Hide the Path" Level="6" ReferenceAbbrev="wotc" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Cleric" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Guidance of the Avatar" Level="2" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Planar Familiar" Level="3" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Divine Interdiction" Level="4" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Dirge of Discord" Level="5" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Ghost Storm" Level="5" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Hide the Path" Level="7" ReferenceAbbrev="wotc" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Druid" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Force Talons" Level="2" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Bite of the Wererat" Level="3" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Bite of the Werewolf" Level="4" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Felathael's Flame Mantle" Level="5" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Heal Animal Companion" Level="5" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Bite of the Wereboar" Level="6" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Felathael's Wildfire" Level="6" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Bite of the Weretiger" Level="7" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Hide the Path" Level="7" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Bite of the Werebear" Level="8" ReferenceAbbrev="wotc" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Ranger" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Exacting Shot" Level="1" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Heal Animal Companion" Level="3" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Foebane" Level="4" ReferenceAbbrev="wotc" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Sacred Fist" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Guidance of the Avatar" Level="2" ReferenceAbbrev="wotc" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Sorcerer" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Arcane Bolt" Level="1" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Master's Touch" Level="1" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Bladesong" Level="2" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Fearsome Grapple" Level="2" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Mindless Rage" Level="2" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Mirror Move" Level="2" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Understand Object" Level="2" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Elemental Familiar" Level="3" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Ray of Depletion" Level="3" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Sonic Blast" Level="3" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Bite of the Wererat" Level="4" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Bite of the Werewolf" Level="4" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Animate Dead Familiar" Level="5" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Animate Dead Familiar" Level="5" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Ghost Storm" Level="5" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Felathael's Burnout" Level="6" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Felathael's Flame Mantle" Level="6" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Felathael's Wildfire" Level="6" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Bite of the Wereboar" Level="7" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Expeditious Excavation" Level="7" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Bite of the Weretiger" Level="8" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Felathael's Ultimate Incinerator" Level="8" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Bite of the Werebear" Level="9" ReferenceAbbrev="wotc" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Wizard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Arcane Bolt" Level="1" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Master's Touch" Level="1" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Bladesong" Level="2" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Fearsome Grapple" Level="2" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Mindless Rage" Level="2" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Mirror Move" Level="2" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Understand Object" Level="2" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Elemental Familiar" Level="3" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Ray of Depletion" Level="3" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Sonic Blast" Level="3" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Bite of the Wererat" Level="4" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Bite of the Werewolf" Level="4" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Ghost Storm" Level="5" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Felathael's Burnout" Level="6" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Felathael's Flame Mantle" Level="6" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Felathael's Wildfire" Level="6" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Bite of the Wereboar" Level="7" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Expeditious Excavation" Level="7" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Bite of the Weretiger" Level="8" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Felathael's Ultimate Incinerator" Level="8" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Bite of the Werebear" Level="9" ReferenceAbbrev="wotc" />
+      </SpellEntries>
+    </SpellList>
+  </SpellListEntries>
+  <Domains />
+  <Classes />
+</Reference>

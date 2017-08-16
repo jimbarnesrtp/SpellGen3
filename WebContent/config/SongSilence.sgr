@@ -1,0 +1,900 @@
+<Reference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Sequence="1" Name="Song and Silence" Group="" Abbrev="SaS" Version="1">
+  <Description>(c) 2001 by Wizards of the Coast, a Hasbro company </Description>
+  <DevNotes>A number of spells are not included in this file, as they have been superceded by spells in the Player's Handbook 3.5E.</DevNotes>
+  <Spells>
+    <Spell OriginalReference="">
+      <Name>Absorb Weapon</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" hours [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (o)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>true</SR>
+      <Description>Harmlessly absorbs a light weapon into your arm without penalty.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Allegro</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>10 ft</Range>
+      <Duration>= CasterLevel &amp;" min"</Duration>
+      <Area>10' r. brst</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>89</Page>
+      <SR>true</SR>
+      <Description>Target yourself and your companions within the area. Doubles speed and maximum jumping distance.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Ambient Song</Name>
+      <Schools>
+        <School>
+          <School>Illusion</School>
+          <Subschool>Glamer</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal (text)</Range>
+      <Duration>= CasterLevel &amp;" min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " disblf"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>89</Page>
+      <SR>false</SR>
+      <Description>Masks bardic music effects as other sounds.Those hearing it are unaware it is bardic music, but are still affected by it normally.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Blunt Weapon</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp;" min"</Duration>
+      <Area>20' r. brst</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>89</Page>
+      <SR>true</SR>
+      <Description>Base damage of all piercing and slashing weapons within area is halved.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Choir</Name>
+      <Schools>
+        <School>
+          <School>Illusion</School>
+          <Subschool>Pattern</Subschool>
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>[c] +4 rd</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " (text)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>89</Page>
+      <SR>false</SR>
+      <Description>Three spectral accompanists appear; +2 (circum) to Perform. Those that save are not affected by the bonus, and receive an additional -2 (circum) penalty to any other perform checks by the bard against that subject.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Crescendo</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>30 feet</Range>
+      <Duration>4 rounds</Duration>
+      <Area>30' r . sphere</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>90</Page>
+      <SR>true</SR>
+      <Description>You and allies within 30' gain +0, +1, +2, then +3 (morale) bonus on attacks. Allies moving farther than 30' from you lose bonus.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Easy Math</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>1 rd</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>90</Page>
+      <SR>true</SR>
+      <Description>Allows instant counting and distance calculation. You must make a Perform 15 check. Success gueses number within 10%, failure indicates estimate is off by 20% or more.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Fanfare</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>100 ft</Range>
+      <Duration>Inst.</Duration>
+      <Area>Cone</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>90</Page>
+      <SR>true</SR>
+      <Description>Cone; 4d6 damage (unless save made), stuns for 1d4 rounds, and deafens for twice stun duration regardless of save result.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Fine-Tuning</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>90</Page>
+      <SR>true</SR>
+      <Description>Normal instrument performs as if masterwork; +2 (circumstance) to Perform or alternate effect for some instruments.Focus: The instrument to be augmented.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Focusing Chant</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel *5&amp;" rd (d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None (h)</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>91</Page>
+      <SR>true</SR>
+      <Description>Gain +1 (circumstance) bonus to attack, skill, or ability check for as long as you keep chanting and continuing the same activity.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Follow the Leader</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+            <Descriptor>Sonic</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Medium</Range>
+      <Duration>="[c] "&amp; CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>91</Page>
+      <SR>true</SR>
+      <Description>="Causes "&amp;MIN(10, CasterLevel )&amp;" hd of creatures to follow you. Least HD first. Once cap is reached, no further creatures are affected. Leading subjects into danager allows second Will save."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Fortissimo</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>91</Page>
+      <SR>false</SR>
+      <Description>Target one creature (and items) or item. +2 on save DCs, +1d6 on sonic or language-based attacks generated by subject. Fortissimo counters and dispels Silence and is likewise countered by it.
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Getaway</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>=10 *  CasterLevel &amp;" min"</Duration>
+      <Area>= CasterLevel &amp;" city blocks"</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>92</Page>
+      <SR>true</SR>
+      <Description>Causes pursuers to go astray 50% of the time once they lose sight of you.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Harmonic Chorus</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>="[c] "&amp; CasterLevel &amp;" rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>92</Page>
+      <SR>true</SR>
+      <Description>Target one living creature, Increase save DCs of target's spells by 1d4+1 and damage by +1/die (if applicable).</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Harmonize</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>3 rd</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>92</Page>
+      <SR>true</SR>
+      <Description>Up to four bards participate (no 2 &gt;10' from nearest other target); lead bard gets +1 to Perform for every 3 levels of backup bard. Focus: Your instrument.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Healthful Slumber</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Healing</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>10 min.</CastingTime>
+      <Range>Close</Range>
+      <Duration>1 day</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>92</Page>
+      <SR>true</SR>
+      <Description>Living creatures within range gain double natural healing. Focus: Your instrument.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Hymn of Praise</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Sonic</Descriptor>
+          </Descriptors>
+          <Alignments>
+            <Alignment>Good</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1r</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area>= 100 + (CasterLevel * 10) &amp;"' r. sphere"</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>92</Page>
+      <SR>true</SR>
+      <Description>Good aligned divine casters gain +1 effective casting level, plus Hallow effects (+4 (sacred) bonus to CHA checks to turn undead). Focus: Your Instrument.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Improvisation</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>92</Page>
+      <SR>false</SR>
+      <Description>="Gains pool of "&amp; CasterLevel *2&amp;" luck points to apply towards attacks, skills, and checks. Musbe declared before roll is made."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Infernal Thredony</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Sonic</Descriptor>
+          </Descriptors>
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1r</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area>= 100 + (CasterLevel * 10) &amp;"' r. sphere"</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>93</Page>
+      <SR>true</SR>
+      <Description>Evil aligned divine casters gain +1 effective casting level, plus Unhallow effects (+4 (profane) bonus on CHA checks to rebuke undead).</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Insidious Rhythm</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>3r</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp;" hr"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>93</Page>
+      <SR>true</SR>
+      <Description>="Target has -4 (circum) penalty to INT checks, Concentration check with DC="&amp; SaveDC &amp;"+ spell lvl to cast any spells. Focus: Your instrument."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Joyful Noise</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1r</CastingTime>
+      <Range>10 feet</Range>
+      <Duration>(text)</Duration>
+      <Area>10' r. em.</Area>
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>93</Page>
+      <SR>true</SR>
+      <Description>Negates Silence effects within area (centered on you) for as long as you gesture. Focus: Your instrument.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Listening Coin</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp;" hr"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>93</Page>
+      <SR>false</SR>
+      <Description>Allows remote eavesdropping via two coins, one receiver, one sensor.Any creature with an INT of 12+ can make a Scry 20 check. Sensor can be dispelled.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Otto's Resistible Dance</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Close</Range>
+      <Duration>(text)</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>94</Page>
+      <SR>true</SR>
+      <Description>= CasterLevel &amp;" targets suffer -2 (circum.) to AC, Will saves, Concentration &amp; Spellcraft checks for as long as you keep playing. Focus: Your instrument."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Percussion</Name>
+      <Schools>
+        <School>
+          <School>Illusion</School>
+          <Subschool>Figment</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>=5 *  CasterLevel &amp;" min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " disblf-i"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>94</Page>
+      <SR>false</SR>
+      <Description>Fills area with the sounds of drums, chimes, and percussive instruments. Concentrate for 1 rd to change rythm.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Protege</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>3 rd.</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>94</Page>
+      <SR>true</SR>
+      <Description>="Grants touched creature bardic abilities. Subject functions as Bard of "&amp; Int(CasterLevel / 2 ) &amp;" level for bardic music and knowledge, but does not gain spell casting ability. Subject uses their own Perform skill, or half of yours (whichever is better). Focus: Your instrument."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Sniper's Eye</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>95</Page>
+      <SR>true</SR>
+      <Description>Enhance your senses. Gain Darkvision, ranged sneak attacks to 60 ft, death attacks to 30 ft, +15 (competence) to Spot. If you move more than 5ft from that spot, lose all benefits unless you return to that spot or duration expires.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Spectral Weapon</Name>
+      <Schools>
+        <School>
+          <School>Illusion</School>
+          <Subschool>Shadow</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " (text)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>95</Page>
+      <SR>false</SR>
+      <Description>="Quasi-real weapon from Shadow Plane is +"&amp;MAX(1,INT( CasterLevel /5))&amp;", has Ghost Touch; Will save, take 1/5th dmg. Focus: Your instument."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Spring Sheath</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>=10 *  CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (oh)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>95</Page>
+      <SR>true</SR>
+      <Description>Sheath/buckles enchanted; acts as if you have the Quick Draw feat.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Wail of Doom</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Sonic</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst. (text)</Duration>
+      <Area>Cone</Area>
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>96</Page>
+      <SR>true</SR>
+      <Description>= "Save or suffer "&amp; CasterLevel &amp;"d4 damage, -2 (morale) to saves for "&amp; CasterLevel &amp;" rd and flees from caster for duration (50% chance to drop item held.)"</Description>
+    </Spell>
+  </Spells>
+  <SpellOverrides />
+  <SpellListEntries>
+    <SpellList Name="Assassin" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Spring Sheath" Level="1" ReferenceAbbrev="SaS" />
+        <SpellEntry Name="Getaway" Level="2" ReferenceAbbrev="SaS" />
+        <SpellEntry Name="Absorb Weapon" Level="3" ReferenceAbbrev="SaS" />
+        <SpellEntry Name="Sniper's Eye" Level="4" ReferenceAbbrev="SaS" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Bard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Easy Math" Level="0" ReferenceAbbrev="SaS" />
+        <SpellEntry Name="Fine-Tuning" Level="0" ReferenceAbbrev="SaS" />
+        <SpellEntry Name="Percussion" Level="0" ReferenceAbbrev="SaS" />
+        <SpellEntry Name="Ambient Song" Level="1" ReferenceAbbrev="SaS" />
+        <SpellEntry Name="Focusing Chant" Level="1" ReferenceAbbrev="SaS" />
+        <SpellEntry Name="Joyful Noise" Level="1" ReferenceAbbrev="SaS" />
+        <SpellEntry Name="Crescendo" Level="2" ReferenceAbbrev="SaS" />
+        <SpellEntry Name="Fortissimo" Level="2" ReferenceAbbrev="SaS" />
+        <SpellEntry Name="Harmonize" Level="2" ReferenceAbbrev="SaS" />
+        <SpellEntry Name="Blunt Weapon" Level="3" ReferenceAbbrev="SaS" />
+        <SpellEntry Name="Healthful Slumber" Level="3" ReferenceAbbrev="SaS" />
+        <SpellEntry Name="Hymn of Praise" Level="3" ReferenceAbbrev="SaS" />
+        <SpellEntry Name="Infernal Thredony" Level="3" ReferenceAbbrev="SaS" />
+        <SpellEntry Name="Allegro" Level="4" ReferenceAbbrev="SaS" />
+        <SpellEntry Name="Choir" Level="4" ReferenceAbbrev="SaS" />
+        <SpellEntry Name="Follow the Leader" Level="4" ReferenceAbbrev="SaS" />
+        <SpellEntry Name="Harmonic Chorus" Level="4" ReferenceAbbrev="SaS" />
+        <SpellEntry Name="Listening Coin" Level="4" ReferenceAbbrev="SaS" />
+        <SpellEntry Name="Spectral Weapon" Level="4" ReferenceAbbrev="SaS" />
+        <SpellEntry Name="Improvisation" Level="5" ReferenceAbbrev="SaS" />
+        <SpellEntry Name="Otto's Resistible Dance" Level="5" ReferenceAbbrev="SaS" />
+        <SpellEntry Name="Wail of Doom" Level="5" ReferenceAbbrev="SaS" />
+        <SpellEntry Name="Fanfare" Level="6" ReferenceAbbrev="SaS" />
+        <SpellEntry Name="Insidious Rhythm" Level="6" ReferenceAbbrev="SaS" />
+        <SpellEntry Name="Protege" Level="6" ReferenceAbbrev="SaS" />
+      </SpellEntries>
+    </SpellList>
+  </SpellListEntries>
+  <Domains />
+  <Classes />
+</Reference>

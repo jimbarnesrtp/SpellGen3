@@ -1,0 +1,1169 @@
+<Reference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Sequence="1" Name="Necromancy: Beyond the Grave" Group="" Abbrev="NBtG" Version="1">
+  <Description />
+  <DevNotes />
+  <Spells>
+    <Spell OriginalReference="">
+      <Name>Animate Animal</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>false</SR>
+      <Description>One dead animal into a skeleton/zombie which follows your commands.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Detect Dead</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Caster</Range>
+      <Duration>="[c] "&amp; CasterLevel &amp;" min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>23</Page>
+      <SR>false</SR>
+      <Description>Detects hidden corpses within a 60' quarter circle.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Identify Undead</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Caster</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>25</Page>
+      <SR>false</SR>
+      <Description>Detects undead type within a 60' quarter circle.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Skull Snare</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>30</Page>
+      <SR>false</SR>
+      <Description>Skull (1 HP; AC 10) guards a 10' radius.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Animate Skeleton</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>20</Page>
+      <SR>false</SR>
+      <Description>One dead creature into a skeleton which follows your commands.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Chill Blood</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>22</Page>
+      <SR>true</SR>
+      <Description>="Ranged Touch; deals d4+"&amp; CasterLevel &amp;" hp (negative energy) dmg; stunned one round."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Death's Shadow</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>22</Page>
+      <SR>true</SR>
+      <Description>Touch deals 1d12 hp of temporary damage (recover 1 hp per round).</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Protection from Undead</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>26</Page>
+      <SR>false</SR>
+      <Description>Versus undead: +2 AC and saves, counters mind control / possession.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Wound</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>=2 *  CasterLevel  &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>33</Page>
+      <SR>true</SR>
+      <Description>Ranged touch; subject loses an additional HP each time it takes damage.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Animate Zombie</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>20</Page>
+      <SR>false</SR>
+      <Description>One dead creature into a zombie which follows your commands.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Bleeding Wound</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>=2 *  CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>21</Page>
+      <SR>true</SR>
+      <Description>Target loses one extra HP each time it is wounded.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Bones of Steel</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 hour</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>21</Page>
+      <SR>false</SR>
+      <Description>Cast on a skeleton, will grant +2 (ench) to AC.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Sensory Link</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>=10 *  CasterLevel &amp;" min."</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>28</Page>
+      <SR>false</SR>
+      <Description>See and hear via a controlled undead creature.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Visage of the Dead</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>=10 *  CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>32</Page>
+      <SR>false</SR>
+      <Description>Alter appearance to a corpse; +2 (resist) to saves vs. cold, electrical, sleep, poison.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Voice of Deathly Whispers</Name>
+      <Schools>
+        <School>
+          <School>Illusion</School>
+          <Subschool>Glamer</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel  &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>32</Page>
+      <SR>false</SR>
+      <Description>Projects your voice from any corporal undead you control.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Invigoration of Undeath</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>30 feet</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>25</Page>
+      <SR>false</SR>
+      <Description>Zombies gain Improved Initiative, lose "Partial Actions Only" note.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Shadow Horror</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Special</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (txt)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>28</Page>
+      <SR>true</SR>
+      <Description>="Target loses d4 Str, stunned one rnd; -2 (morale) to hit, ability, skills, saves for "&amp;INT( CasterLevel /2)&amp;" rnds"</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Shadow Mastery</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>28</Page>
+      <SR>true</SR>
+      <Description>="Any NEC spell deals "&amp; CasterLevel &amp;" hp more dmg; -1 to save vs. NEC spells; healing spells -"&amp; CasterLevel &amp;" hp healed."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Strike Barren</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Permanent</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>31</Page>
+      <SR>true</SR>
+      <Description>Target becomes infertile.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Undead Conduit</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>32</Page>
+      <SR>false</SR>
+      <Description>Targetted controlled undead creature "casts" your spells.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Ghoulish Curse</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>23</Page>
+      <SR>true</SR>
+      <Description>Transforms touched subject into a ghoul over a period of days.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Graft Weapon</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 hour</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>24</Page>
+      <SR>false</SR>
+      <Description>Fuses weapon into a skeleton's or zombie's hand.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Wall of Bone</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>33</Page>
+      <SR>false</SR>
+      <Description>Shapeable wall; 10 hp per inch of thickness (hardness 5); attacks (see description)</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Annihilation</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Death</Descriptor>
+          </Descriptors>
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>21</Page>
+      <SR>true</SR>
+      <Description>Destroy plant life and animals under 1 hd; kills creatures (d6 hp remaining.)</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Recall Spirit</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 hour</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="(text) " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>28</Page>
+      <SR>true</SR>
+      <Description>Summon a spirit back to the body it once inhabited.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Shrieking Missile</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Fear</Descriptor>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="(text) " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>29</Page>
+      <SR>false</SR>
+      <Description>="Subjects within "&amp;INT(5+ CasterLevel /2)*5&amp;" ft. of missile target flee for "&amp; CasterLevel &amp;" rounds (Will neg)."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Skeletal Spikes</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>=10 *  CasterLevel  &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>30</Page>
+      <SR>false</SR>
+      <Description>Make d3 gore attacks/rnd for d6 dmg; living casters reduced to 0 HP.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Longevity</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 hour</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>25</Page>
+      <SR>true</SR>
+      <Description>Negates effects of natural aging on the target for one day.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Threshhold of Unlife</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>30 min</CastingTime>
+      <Range>100 feet</Range>
+      <Duration>Perm. [d]</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>31</Page>
+      <SR>true</SR>
+      <Description>Healing spells -50%; damage +50%; 10% conceal; undead regen 1 hp/rnd.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Unfetter Undead</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>1 day</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>32</Page>
+      <SR>false</SR>
+      <Description>Undead within 50 ft. rad. become uncontrolled; -4 to all turn checks for 1 hr.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Raise Death Hulk</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 day</CastingTime>
+      <Range>Long</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+        <Component>XP</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>27</Page>
+      <SR>false</SR>
+      <Description>Raise a ruined ship, crewed with undead.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Flesh Made Foul</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>23</Page>
+      <SR>true</SR>
+      <Description>="Ranged touch; target gains d4+"&amp; CasterLevel &amp;" negative levels for "&amp; CasterLevel &amp;" hours, or heals undead."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Shadow Skin</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp;" hours (disch)"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>29</Page>
+      <SR>true</SR>
+      <Description>Immune to energy drain; DR 10/+1; your touch deals 1 negative level.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Raise City</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 day</CastingTime>
+      <Range>Special</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+        <Component>XP</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>26</Page>
+      <SR>false</SR>
+      <Description>From a ruined settlement, gain skeleton hordes.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Raise Death Fleet</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 day</CastingTime>
+      <Range>Long</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+        <Component>XP</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>26</Page>
+      <SR>false</SR>
+      <Description>Raise a fleet of ruined ships, crewed with undead.</Description>
+    </Spell>
+  </Spells>
+  <SpellOverrides />
+  <SpellListEntries>
+    <SpellList Name="Sorcerer" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Animate Animal" Level="0" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Detect Dead" Level="0" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Identify Undead" Level="0" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Skull Snare" Level="0" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Animate Skeleton" Level="1" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Chill Blood" Level="1" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Death's Shadow" Level="1" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Protection from Undead" Level="1" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Wound" Level="1" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Animate Zombie" Level="2" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Bleeding Wound" Level="2" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Bones of Steel" Level="2" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Sensory Link" Level="2" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Visage of the Dead" Level="2" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Voice of Deathly Whispers" Level="2" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Invigoration of Undeath" Level="3" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Shadow Horror" Level="3" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Shadow Mastery" Level="3" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Strike Barren" Level="3" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Undead Conduit" Level="3" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Ghoulish Curse" Level="4" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Graft Weapon" Level="4" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Wall of Bone" Level="4" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Annihilation" Level="5" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Recall Spirit" Level="5" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Shrieking Missile" Level="5" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Skeletal Spikes" Level="5" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Longevity" Level="6" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Threshhold of Unlife" Level="6" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Unfetter Undead" Level="6" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Raise Death Hulk" Level="7" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Flesh Made Foul" Level="8" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Shadow Skin" Level="8" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Raise City" Level="9" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Raise Death Fleet" Level="9" ReferenceAbbrev="NBtG" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Truth Seeker (Arcane)" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Daze" Level="0" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Detect Dead" Level="0" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Detect Magic" Level="0" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Detect Poison" Level="0" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Identify Undead" Level="0" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Mage Hand" Level="0" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Mental Alarm" Level="0" ReferenceAbbrev="BoEM" />
+        <SpellEntry Name="Prestidigitation" Level="0" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Charm Person" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Comprehend Languages" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Detect Secret Doors" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Detect Undead" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Guilt" Level="1" ReferenceAbbrev="BoEM" />
+        <SpellEntry Name="Hypnotism" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Identify" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Know Protections" Level="1" ReferenceAbbrev="MoFR" />
+        <SpellEntry Name="Master's Touch" Level="1" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Nybor's Gentle Reminder" Level="1" ReferenceAbbrev="MoFR" />
+        <SpellEntry Name="Sleep" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="True Strike" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Detect Thoughts" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Indifference" Level="2" ReferenceAbbrev="TaB" />
+        <SpellEntry Name="Locate Object" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Mindless Rage" Level="2" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="See Invisibility" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Sensory Link" Level="2" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Tasha's Hideous Laughter" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Understand Object" Level="2" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Analyze Portal" Level="3" ReferenceAbbrev="FRCS" />
+        <SpellEntry Name="Analyze Portal" Level="3" ReferenceAbbrev="MotP" />
+        <SpellEntry Name="Arcane Sight" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Clairaudience/Clairvoyance" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Deep Slumber" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Hold Person" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Nybor's Mild Admonishment" Level="3" ReferenceAbbrev="MoFR" />
+        <SpellEntry Name="Suggestion" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Tongues" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Arcane Eye" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Charm Monster" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Confusion" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Detect Scrying" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Geas, Lesser" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Locate Creature" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Scrying" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Zone of Revelation" Level="4" ReferenceAbbrev="MotP" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Wizard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Animate Animal" Level="0" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Detect Dead" Level="0" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Identify Undead" Level="0" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Skull Snare" Level="0" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Animate Skeleton" Level="1" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Chill Blood" Level="1" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Death's Shadow" Level="1" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Protection from Undead" Level="1" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Wound" Level="1" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Animate Zombie" Level="2" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Bleeding Wound" Level="2" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Bones of Steel" Level="2" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Sensory Link" Level="2" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Visage of the Dead" Level="2" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Voice of Deathly Whispers" Level="2" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Invigoration of Undeath" Level="3" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Shadow Horror" Level="3" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Shadow Mastery" Level="3" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Strike Barren" Level="3" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Undead Conduit" Level="3" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Ghoulish Curse" Level="4" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Graft Weapon" Level="4" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Wall of Bone" Level="4" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Annihilation" Level="5" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Recall Spirit" Level="5" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Shrieking Missile" Level="5" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Skeletal Spikes" Level="5" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Longevity" Level="6" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Threshhold of Unlife" Level="6" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Unfetter Undead" Level="6" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Raise Death Hulk" Level="7" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Flesh Made Foul" Level="8" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Shadow Skin" Level="8" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Raise City" Level="9" ReferenceAbbrev="NBtG" />
+        <SpellEntry Name="Raise Death Fleet" Level="9" ReferenceAbbrev="NBtG" />
+      </SpellEntries>
+    </SpellList>
+  </SpellListEntries>
+  <Domains />
+  <Classes />
+</Reference>

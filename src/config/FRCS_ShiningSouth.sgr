@@ -1,0 +1,1082 @@
+<Reference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Sequence="1" Name="FRCS - Shining South" Group="Forgotton Realms" Abbrev="ShinSth" Version="1.01">
+  <Description>1.01 - Name change</Description>
+  <DevNotes />
+  <Spells>
+    <Spell OriginalReference="">
+      <Name>Arcane Sensitivity</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>false</SR>
+      <Description>With a touch, you instantly determine if a creature can cast arcane spells and the maximum spell level it can cast.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Brittleskin</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components />
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>44</Page>
+      <SR>true</SR>
+      <Description>You cause a creature's natural armor to crystallize.  Whenever the target is hit in combat, part of the hide cracks and shatters, dealing additional lethal damage equal to its natural armor bonus.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Circlet of Enervation</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area>6-inch circlet of negative energy</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>100</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>44</Page>
+      <SR>true</SR>
+      <Description>= "You form a small ring of negative energy in your hand.  On a ranged touch attack, you deal 2d6 points of damage and the target must make a DC " &amp; SaveDC &amp; " Fort save or gain 1 negative level.  Once launched, another circlet appears in your hand for the duration of the spell."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Coral Growth</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Permanent</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>45</Page>
+      <SR>false</SR>
+      <Description>= "Causes  a " &amp; 5*CasterLevel &amp; " ft. cube of coral to grow at an accelerated rate in the shape desired by the caster."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Daltim's Fiery Tentacles</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors>
+            <Descriptor>Fire</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area>20-ft. radius spread</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>45</Page>
+      <SR>true</SR>
+      <Description>= "This spell functions similarly to Evard's Black Tentacles except the tantacles are limned in blue-white fire that deals " &amp; Max(CasterLevel,15) &amp; " points of damage each round.  A DC" &amp; SaveDC &amp; " Ref save halves this damage, but a grappled target cannot make the save."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Darsson's Chilling Chamber</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Cold</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " hr [d]"</Duration>
+      <Area>= "Up to a " &amp; 10*CasterLevel &amp; "-ft. cube (S)."</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>45</Page>
+      <SR>true</SR>
+      <Description>You lower the temperature in the affected area to a level of extreme cold.  For every minute spent in the area, vulnerable creatures take 1d6 points of lethal damage (no save).  In addition, a DC 15 (+1 per previous check) Fort save or take 1d4 points of non-lethal damage.  Those wearing metal armor (or contacting metal that has been in the area for at least 1 hour) are affected as per a chill metal spell.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Darsson's Cooling Breeze</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Air</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>60 ft.</Range>
+      <Duration>= CasterLevel &amp; " hr [d]"</Duration>
+      <Area>Line-shaped breeze from a designated point within 10 ft. of caster out to 60-ft.</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>45</Page>
+      <SR>true</SR>
+      <Description>You create a 9 mph breeze.  Any airborne vapors, gasses, clouds, fumes, etc. drift away at a speed of 80 ft. per round and dissipate in 1/4 the normal time.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Darssons's Fiery Furnace</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Fire</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " hr [d]"</Duration>
+      <Area>= "Up to a " &amp; 10*CasterLevel &amp; "-ft. cube (S)."</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>46</Page>
+      <SR>true</SR>
+      <Description>You raise the temperature of the area to the level of extreme heat.  For every minute spent breathing the air, a vulnerable creature takes 1d6 points of lethal damage (no save).  Additionally, it must make a DC 15 (+1 per previous check) Fort save every 5 minutes or suffer and additional 1d4 points of non-lethal damage.  Those wearing heavy clothing or any armor take a -4 penalty to the save.  This wearing metal armor (or in contact with metal that has been in the area for at least 1 hr) suffer the effects of a heat metal spell.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Dispel Fog</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area>= "Up to " &amp; 4*CasterLevel &amp; " 10-ft. cubes."</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>46</Page>
+      <SR>true</SR>
+      <Description>= "You make normal or magical fog completely vanish.  The areas stays clear for " &amp; CasterLevel &amp; " minutes regardless of other conditions.  Natural fog reforms within 1 minute of expiration of the spell.  Magical fog requires a Dispel check of 1d20 +" &amp; Max(CasterLevel,10) &amp; " vs. a DC of 11 + the caster's level.  Fog or mist creatures must immediately assume another shape and make a DC " &amp; SaveDC &amp; " Fort save or take 2d10 points of damage."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Easy Trail</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " hr [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>46</Page>
+      <SR>false</SR>
+      <Description>You radiate energy that gently pushes plants aside, allowing easy movement and hiding your trail after you pass.  Track DC for those attempting to follow is increased by 5.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Entropic Shield, Mass</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel *10 &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>46</Page>
+      <SR>false</SR>
+      <Description>= "As per Entropic Shield, except it affects " &amp; CasterLevel &amp; " creatures, no two of which can be more than 30 ft. apart."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Fiery Vision</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Fire</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>46</Page>
+      <SR>false</SR>
+      <Description>You can emit two fiery rays immediately upon casting, and every round thereafter, targeting one or two creatures as a free action during your turn each round.  A successful ranged touch attack deals 4d6 points of fire damage.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Jump, Mass</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " min [d]"</Duration>
+      <Area>= CasterLevel &amp; " creatures, no two of which can be more than 30 ft. apart."</Area>
+      <Components />
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>47</Page>
+      <SR>true</SR>
+      <Description>As per Jump, except it affects multiple creatures.  Each gains a +10 enhancement bonus on Jump checks.  This increases to +20 at caster level 10 and +30 at caster level 14.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Kyristan's Malevolent Tentacles</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area>20 ft. spread</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>47</Page>
+      <SR>false</SR>
+      <Description>= "As per Evard's Black Tentacles, except they are made of negative energy.  Living creatures grappled gain 1 negative level each round unless they succeed on a DC " &amp; SaveDC &amp; " Fort save."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Land Womb</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel *10 &amp; " min [d]"</Duration>
+      <Area>= "You and " &amp; CasterLevel &amp; " other creature(s)."</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>47</Page>
+      <SR>true</SR>
+      <Description>You descend into a protective bubble 10 ft. below the earth.  See text.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Lightning Fog</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Electricity</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area>20 ft. radius, 20 ft. high</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>47</Page>
+      <SR>false</SR>
+      <Description>= "You conjure a smoky cloud that fills the area with electrical discharges.  The smoke obscures sight as per fog cloud.  The discharges deal 1d4+" &amp; Max(CasterLevel,15) &amp; " points of damage to everything within the cloud each round."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Mycontil's Last Resort</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>Inst.</Duration>
+      <Area>30-ft. radius burst</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>5000</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>48</Page>
+      <SR>true</SR>
+      <Description>You unleash deadly explosive power, converting any remaining spell slots into a blast of magical energy.  All creatures within 10 ft. take 8 points of damage per spell slot.  Creatures between 11 and 20 ft. take 6 pts. per slot, and thouse between 21 and 30 ft. take 4 pts. per slot.  You take max damage and are allowed no save.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Protection from Winged Flyers</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>48</Page>
+      <SR>false</SR>
+      <Description>As per Protection from Evil, except the bonuses apply to attacks from creatures that have wings and a fly speed.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Redirect Spell</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>48</Page>
+      <SR>true</SR>
+      <Description>You create a magical connection with an ally such that spells directed toward the ally are redirected toward you instead.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Rock Catch</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>48</Page>
+      <SR>true</SR>
+      <Description>A single creature you touch gains the ability to catch hurled rocks of Small to Large size (including projectiles of a similar size and shape.)  Once per round, as an immediate action, when the subject of the spell would normally be hit, he can make a Ref save to catch it vs. a DC 15 (up to Small), 20 (Medium) or 25 (Large) .</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Rockburst</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area>20-ft. burst radius</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>48</Page>
+      <SR>false</SR>
+      <Description>= "You cause a stone object with a volume of at least 8 cu-ft. to burst.  All in the area take 1d4+" &amp; Max(CasterLevel,15) &amp; " points of damage.  A Ref save vs. DC " &amp; SaveDC &amp; " halves the damage.  A magic stone object or an object in the possession of another gets a Fort save vs. DC " &amp; SaveDC &amp; " to negate the affect.  This spell does not affect creatures made of stone."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Safe Clearing</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " hr"</Duration>
+      <Area>30-ft. spread</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>48</Page>
+      <SR>true</SR>
+      <Description>You make an area safe from attacks, as if the space were under a sanctuary spell.  Opponents attempting to attack those inside must make a successful Will save to carry out the attack.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Sea Legs</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " hr [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>49</Page>
+      <SR>true</SR>
+      <Description>You grant a creature the ability to maneuver easily aboard ship.  Creatures affected automatically succeed on Balance checks of DC 20 or lower.  Furthermore, the creature can move at normal speed.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Shuffle</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Teleport</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>49</Page>
+      <SR>true</SR>
+      <Description>= "You grant " &amp; 1+(Round(CasterLevel/5,0)) &amp; " creatures the ability to teleport a short distance as a move action.  Each subject can use the ability once per round up to " &amp; 5*Max(Round(CasterLevel/2,0),10) &amp; " ft away."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Sparkles</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Long</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area>= 10*CasterLevel &amp; "-ft. radius spread."</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>49</Page>
+      <SR>false</SR>
+      <Description>You create a cloud of multi-colored sparkling motes that shower down and attack to any living creatures in the area.  Those covered in motes take a -40 on Hide checks.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Sticks and Stones</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>49</Page>
+      <SR>false</SR>
+      <Description>You animate a pile of debris into the crude shape of a Medium sized skeleton that attacks as a 2HD skeleton except that it also has a Wight's energy drain.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Stone Trap</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>See Text</Duration>
+      <Area>= "Stone Object up to " &amp; 200*CasterLevel &amp; " pounds."</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>49</Page>
+      <SR>false</SR>
+      <Description>You cause a block of stone to turn invisible and hover at a designates point in air.  Creatures hit by the stone suffer 1d6 points of damage per 200 pounds plus 1d6 for every 10 feet the stone falls.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Stonefire</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Fire</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area>= Round(CasterLevel/4,0)+1 &amp; " 5-ft. square."</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>50</Page>
+      <SR>true</SR>
+      <Description>You cause natural rock to combust, dealing 2d6 points of fire damage each round to those in contact, 2d4 points of damage to those within 10 ft, and 1d4 points of damage to those between 11 and 20 ft away.  Undead take double damage.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Streamers</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>50</Page>
+      <SR>true</SR>
+      <Description>= "You cause " &amp; 1+Max(Round((CasterLevel+9)/3,0),3) &amp; " streamers to shoot forth at one or more creatures.  On a successful touch attack, the streamer deals 5d10 points of damage."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Sun Bolt</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Light</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>1 rd</Duration>
+      <Area>Ray</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>51</Page>
+      <SR>true</SR>
+      <Description>= "A ray of burning sunlight springs from your hand.  A successful ranged touch attack causes the target to be blinded for 1 round and take 2d6 points of damage.  Creatures harmed by sunlight take double damage.  Undead damaged by sunlight (such as vampires) take triple damage.  A DC " &amp; SaveDC &amp; " Ref save negates the blindness."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Suspension</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= "1d4+" &amp; CasterLevel &amp; " days (d)"</Duration>
+      <Area>= "Any nonliving object up to " &amp; 1000*CasterLevel &amp; " pounds."</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>51</Page>
+      <SR>false</SR>
+      <Description>As per levitate except you can move the object up or down as much as 45 ft per round.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Tidal Wave</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>10 min.</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area>A wave 75 ft. high and 500 ft. wide</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+        <Component>XP</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>500</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>51</Page>
+      <SR>false</SR>
+      <Description>See Text</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Wall of Pain</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area>= "Wall up to " &amp; CasterLevel &amp; " 10-ft. squares."</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>51</Page>
+      <SR>true</SR>
+      <Description>= "You fill an area with horrid energy.  Affected creatures take a -2 penalty on all attacks, saves, and checks.  Additionally, the wall deals " &amp; Max(CasterLevel,15) &amp; "d4 points of non-lethal damage per round."</Description>
+    </Spell>
+  </Spells>
+  <SpellOverrides />
+  <SpellListEntries>
+    <SpellList Name="Bard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Sea Legs" Level="1" ReferenceAbbrev="ShinSth" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Cleric" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Protection from Winged Flyers" Level="1" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Sea Legs" Level="1" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Dispel Fog" Level="2" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Rock Catch" Level="2" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Sun Bolt" Level="2" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Entropic Shield, Mass" Level="3" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Redirect Spell" Level="3" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Rockburst" Level="3" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Sticks and Stones" Level="3" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Wall of Pain" Level="4" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Stonefire" Level="5" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Streamers" Level="5" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Fiery Vision" Level="6" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Stone Trap" Level="7" ReferenceAbbrev="ShinSth" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Druid" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Darsson's Cooling Breeze" Level="1" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Protection from Winged Flyers" Level="1" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Dispel Fog" Level="2" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Easy Trail" Level="2" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Rockburst" Level="2" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Brittleskin" Level="3" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Coral Growth" Level="3" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Jump, Mass" Level="3" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Land Womb" Level="4" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Shuffle" Level="6" ReferenceAbbrev="ShinSth" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Hathran" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Land Womb" Level="4" ReferenceAbbrev="ShinSth" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Paladin" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Protection from Winged Flyers" Level="1" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Redirect Spell" Level="3" ReferenceAbbrev="ShinSth" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Ranger" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Dispel Fog" Level="2" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Easy Trail" Level="2" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Rock Catch" Level="2" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Brittleskin" Level="3" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Jump, Mass" Level="3" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Safe Clearing" Level="3" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Land Womb" Level="4" ReferenceAbbrev="ShinSth" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Sorcerer" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Arcane Sensitivity" Level="1" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Darsson's Cooling Breeze" Level="1" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Protection from Winged Flyers" Level="1" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Sea Legs" Level="1" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Darsson's Chilling Chamber" Level="2" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Darssons's Fiery Furnace" Level="2" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Dispel Fog" Level="2" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Sun Bolt" Level="2" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Brittleskin" Level="3" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Jump, Mass" Level="3" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Rockburst" Level="3" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Sticks and Stones" Level="3" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Coral Growth" Level="4" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Lightning Fog" Level="4" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Sparkles" Level="4" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Suspension" Level="4" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Wall of Pain" Level="4" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Circlet of Enervation" Level="5" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Daltim's Fiery Tentacles" Level="5" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Streamers" Level="5" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Kyristan's Malevolent Tentacles" Level="6" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Shuffle" Level="6" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Stone Trap" Level="7" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Mycontil's Last Resort" Level="9" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Tidal Wave" Level="9" ReferenceAbbrev="ShinSth" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Wizard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Arcane Sensitivity" Level="1" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Darsson's Cooling Breeze" Level="1" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Protection from Winged Flyers" Level="1" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Sea Legs" Level="1" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Darsson's Chilling Chamber" Level="2" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Darssons's Fiery Furnace" Level="2" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Dispel Fog" Level="2" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Sun Bolt" Level="2" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Brittleskin" Level="3" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Jump, Mass" Level="3" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Rockburst" Level="3" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Sticks and Stones" Level="3" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Coral Growth" Level="4" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Lightning Fog" Level="4" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Sparkles" Level="4" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Suspension" Level="4" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Wall of Pain" Level="4" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Circlet of Enervation" Level="5" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Daltim's Fiery Tentacles" Level="5" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Streamers" Level="5" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Kyristan's Malevolent Tentacles" Level="6" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Shuffle" Level="6" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Stone Trap" Level="7" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Mycontil's Last Resort" Level="9" ReferenceAbbrev="ShinSth" />
+        <SpellEntry Name="Tidal Wave" Level="9" ReferenceAbbrev="ShinSth" />
+      </SpellEntries>
+    </SpellList>
+  </SpellListEntries>
+  <Domains />
+  <Classes />
+</Reference>

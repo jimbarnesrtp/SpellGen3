@@ -1,0 +1,533 @@
+<Reference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Sequence="1" Name="FRCS - Lords of Darkness" Group="Forgotton Realms" Abbrev="LoD" Version="1.01">
+  <Description>1.01 - Name change</Description>
+  <DevNotes />
+  <Spells>
+    <Spell OriginalReference="">
+      <Name>Battletide</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>true</SR>
+      <Description>Targets get -2 (circum.) on saves, to hit, dmg; you gain extra part. action.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Combust</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Fire</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst. (text)</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>185</Page>
+      <SR>true</SR>
+      <Description>="You cause a creature (2d6+"&amp;MIN(10, CasterLevel )&amp;" dmg) or object (1d6 dmg/rnd) to burst into flame."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Darkfire</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Fire</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>0 feet</Range>
+      <Duration>= CasterLevel &amp;" rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>186</Page>
+      <SR>true</SR>
+      <Description>="Dark flames appear in your hand; melee or ranged touch, d4+"&amp;MIN(10,INT( CasterLevel /2))&amp;" [fire] dmg."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Devastate Undead</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>186</Page>
+      <SR>true</SR>
+      <Description>Undead are destroyed; you get 5 HP of negative energy per HD of undead.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Dread Blast</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst. (text)</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " half (txt)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>186</Page>
+      <SR>true</SR>
+      <Description>="Ray deals 3d8+"&amp;MIN(15, CasterLevel )&amp;" damage, or cures this amount of damage to undead."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Greater Shadow Tentacle</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool>Shadow</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>186</Page>
+      <SR>false</SR>
+      <Description>="Shadow extends up to "&amp;MIN(10, CasterLevel )*10&amp;" feet, and grapples target you select."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Handfang</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " half (txt)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>187</Page>
+      <SR>false</SR>
+      <Description>Mouth appears on hand; deals d8 dmg; free grapple, d6 dmg per round grapple held.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Lesser Shadow Tentacle</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool>Shadow</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>="[c] "&amp; CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>187</Page>
+      <SR>false</SR>
+      <Description>="Shadow extends up to "&amp;MIN(10, CasterLevel )*5&amp;" feet, and grapples target you select."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Mystic Lash</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Electricity</Descriptor>
+          </Descriptors>
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>0 feet</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg (txt)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>187</Page>
+      <SR>true</SR>
+      <Description>="Ranged touch attack; Immaterial whip does 1d8+"&amp;INT( CasterLevel /2)&amp;" dmg, stuns."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Night's Mantle</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>=10 *  CasterLevel &amp;" min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>187</Page>
+      <SR>false</SR>
+      <Description>Invisible shield protects against sunlight.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Phantom Plow</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Earth</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Text</Range>
+      <Duration>Perm.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="(text) " &amp; SaveDC</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>188</Page>
+      <SR>false</SR>
+      <Description>="Furrow the earth in a straight line up to "&amp;20* CasterLevel &amp;" ft, plus other effects."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Shadow Canopy</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Darkness</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>fr</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp;" hours"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="(text) " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>188</Page>
+      <SR>true</SR>
+      <Description>="Create a dome of shadow 25' high, "&amp;100+50* CasterLevel &amp;"' in diameter, which conceals objects inside."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Skull Eyes</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>See Text</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>=INT( CasterLevel /3)&amp;" rd (text)"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="(text) " &amp; SaveDC</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>188</Page>
+      <SR>true</SR>
+      <Description>Charm or confuse one subject.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Stasis Clone</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>10 min</CastingTime>
+      <Range>Personal</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>189</Page>
+      <SR>false</SR>
+      <Description>Duplicate awakens when original dies; does not rot.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Stone Walk</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Teleport</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>10 min</CastingTime>
+      <Range>Touch</Range>
+      <Duration>discharge</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+        <Component>XP</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (o)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>189</Page>
+      <SR>true</SR>
+      <Description>="With command word, teleport from one stone to another ("&amp; CasterLevel &amp;" teleports,"&amp;50* CasterLevel &amp;" lbs. max.)"</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Triple Mask</Name>
+      <Schools>
+        <School>
+          <School>Illusion</School>
+          <Subschool>Shadow</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp;" rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " disblf-i"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>189</Page>
+      <SR>false</SR>
+      <Description>Creates three shadow duplicates of you which are intangible.</Description>
+    </Spell>
+  </Spells>
+  <SpellOverrides />
+  <SpellListEntries>
+    <SpellList Name="Cleric" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Darkfire" Level="3" ReferenceAbbrev="LoD" />
+        <SpellEntry Name="Handfang" Level="3" ReferenceAbbrev="LoD" />
+        <SpellEntry Name="Phantom Plow" Level="3" ReferenceAbbrev="LoD" />
+        <SpellEntry Name="Dread Blast" Level="4" ReferenceAbbrev="LoD" />
+        <SpellEntry Name="Night's Mantle" Level="4" ReferenceAbbrev="LoD" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Cleric (FR)" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Mystic Lash" Level="3" ReferenceAbbrev="LoD" />
+        <SpellEntry Name="Phantom Plow" Level="3" ReferenceAbbrev="LoD" />
+        <SpellEntry Name="Dread Blast" Level="4" ReferenceAbbrev="LoD" />
+        <SpellEntry Name="Battletide" Level="5" ReferenceAbbrev="LoD" />
+        <SpellEntry Name="Skull Eyes" Level="5" ReferenceAbbrev="LoD" />
+        <SpellEntry Name="Stone Walk" Level="6" ReferenceAbbrev="LoD" />
+        <SpellEntry Name="Triple Mask" Level="7" ReferenceAbbrev="LoD" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Druid" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Phantom Plow" Level="3" ReferenceAbbrev="LoD" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Sorcerer" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Combust" Level="2" ReferenceAbbrev="LoD" />
+        <SpellEntry Name="Greater Shadow Tentacle" Level="3" ReferenceAbbrev="LoD" />
+        <SpellEntry Name="Handfang" Level="3" ReferenceAbbrev="LoD" />
+        <SpellEntry Name="Lesser Shadow Tentacle" Level="3" ReferenceAbbrev="LoD" />
+        <SpellEntry Name="Shadow Canopy" Level="6" ReferenceAbbrev="LoD" />
+        <SpellEntry Name="Devastate Undead" Level="8" ReferenceAbbrev="LoD" />
+        <SpellEntry Name="Stasis Clone" Level="9" ReferenceAbbrev="LoD" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Wizard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Combust" Level="2" ReferenceAbbrev="LoD" />
+        <SpellEntry Name="Greater Shadow Tentacle" Level="3" ReferenceAbbrev="LoD" />
+        <SpellEntry Name="Handfang" Level="3" ReferenceAbbrev="LoD" />
+        <SpellEntry Name="Lesser Shadow Tentacle" Level="3" ReferenceAbbrev="LoD" />
+        <SpellEntry Name="Shadow Canopy" Level="6" ReferenceAbbrev="LoD" />
+        <SpellEntry Name="Devastate Undead" Level="8" ReferenceAbbrev="LoD" />
+        <SpellEntry Name="Stasis Clone" Level="9" ReferenceAbbrev="LoD" />
+      </SpellEntries>
+    </SpellList>
+  </SpellListEntries>
+  <Domains />
+  <Classes />
+</Reference>

@@ -1,0 +1,121 @@
+<Reference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Sequence="2" Name="ECS - Sharn" Group="Eberron" Abbrev="Sharn" Version="1">
+  <Description>Sharn: City of Towers for ECS
+(c) 2004 by Wizards of the Coast, Inc. </Description>
+  <DevNotes>Written by Tristan Tewksbury</DevNotes>
+  <Spells>
+    <Spell OriginalReference="">
+      <Name>Arcane Seal</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Perm.</Duration>
+      <Area>="Up to "&amp; 30*CasterLevel &amp;" sq ft"</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>false</SR>
+      <Description>Target a door, chest, or portal, which becomes magically sealed and attaches a magical alarm to that location. A platinum key is bound to the target and cannot be used again. The bearer of the key can freely pass the Arcane Seal without affecting it. Otherwise, a door or object secured with this spell can be opened only by breaking in or with a successful Dispel Magic or Knock spell. Add 10 to the noraml DC to break open a door or portal affected by this spell. If the door is opened in any manner, the bearer of the key receives a mental alert; a xingle word, set when the spell is cast. A Knock spell suppresses the Seal for 10 minutes, while Dispel Magic permanently detroys the Seal. However, the Seal sends its mental alert even if its magic is dispelled. A rogue or artificer can sense the presense of an Arcane Seal by making a successful Search check (DC 28). A rogue or artificer can temporarily disable the alarm using an Arcane Key (see Sharn, p. 169).</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Force Hammer</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Force</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area>Ray</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>168</Page>
+      <SR>true</SR>
+      <Description>="Fire a ray of force at a single target, making an RTA. If you hit, the bolt deal "&amp; Min (10, CasterLevel ) &amp;"d4 dmg. If the target fails its save, it is dazed for 1 rd. A successful save does not reduce the damage. Force Hammer has no effect on nonliving creatures or objects. Creatures that are immune to nonlethal dmg cannot be dazed by this spell."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Shock Wave</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Force</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area>20' r brst</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>true</SR>
+      <Description>="Creates a burst of concussive force that disorients victims without causing any permanent dmg, dealing "&amp; Min(10, CasterLevel ) &amp;"d4 to every creature within area and dazes them for 1 rd. Successful save reduces dmg by half and negates daze effect. The showckwave has no effect on nonliving creatures or objects. Creatures that are immune to nonlethal dmg cannot be dazed by this spell."</Description>
+    </Spell>
+  </Spells>
+  <SpellOverrides />
+  <SpellListEntries>
+    <SpellList Name="Magewright" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Arcane Seal" Level="3" ReferenceAbbrev="Sharn" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Sorcerer" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Force Hammer" Level="2" ReferenceAbbrev="Sharn" />
+        <SpellEntry Name="Arcane Seal" Level="3" ReferenceAbbrev="Sharn" />
+        <SpellEntry Name="Shock Wave" Level="3" ReferenceAbbrev="Sharn" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Wizard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Force Hammer" Level="2" ReferenceAbbrev="Sharn" />
+        <SpellEntry Name="Arcane Seal" Level="3" ReferenceAbbrev="Sharn" />
+        <SpellEntry Name="Shock Wave" Level="3" ReferenceAbbrev="Sharn" />
+      </SpellEntries>
+    </SpellList>
+  </SpellListEntries>
+  <Domains />
+  <Classes />
+</Reference>

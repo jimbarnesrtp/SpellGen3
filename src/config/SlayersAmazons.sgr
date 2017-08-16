@@ -1,0 +1,98 @@
+<Reference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Sequence="1" Name="Slayers Guide to Amazons" Group="" Abbrev="SG2A" Version="1">
+  <Description> </Description>
+  <DevNotes />
+  <Spells>
+    <Spell OriginalReference="">
+      <Name>Mother's Milk</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>fr</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Perm.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>26</Page>
+      <SR>false</SR>
+      <Description>="Convert rain water into "&amp; CasterLevel &amp;" doses of Mother's Milk (see sgA:11)."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Cold of Night</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>fr</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>true</SR>
+      <Description>="Non-amazons within 15' cube / level take "&amp; CasterLevel &amp;"d6 (cold) damage."</Description>
+    </Spell>
+  </Spells>
+  <SpellOverrides />
+  <SpellListEntries />
+  <Domains>
+    <Domain Name="MP:Moon" Abbrev="">
+      <Power>Add +0 to Intelligence, Wisdom, or Charisma for 0 rounds, once per day, as an extraordinary ability.</Power>
+      <DomainEntries>
+        <SpellEntry Name="Cause Fear" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Darkness" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Deeper Darkness" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Quench" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Mother's Milk" Level="5" ReferenceAbbrev="SG2A" />
+        <SpellEntry Name="Cone of Cold" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Circle of Death" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Cold of Night" Level="8" ReferenceAbbrev="SG2A" />
+        <SpellEntry Name="Etherealness" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="MP:Sisterhood" Abbrev="">
+      <Power>Add +0 to Strength, Dexterity, or Constitution for 0 rounds, once per day, as an extraordinary ability.</Power>
+      <DomainEntries>
+        <SpellEntry Name="Shield" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Shield Other" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Prayer" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Invisibility Sphere" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Globe of Invulnerability, Lesser" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Veil" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Globe of Invulnerability" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Unholy Aura" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Protection From Spells" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+  </Domains>
+  <Classes />
+</Reference>

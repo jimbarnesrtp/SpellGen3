@@ -1,0 +1,140 @@
+<Campaign xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="4eb10396-be9d-45e1-8796-ee84788c1294" Sequence="100" Name="3.5e">
+  <Description>Campaign File for 3.5e.</Description>
+  <ExcludeOnAnySchool>true</ExcludeOnAnySchool>
+  <SpellSchoolBonusType>Maximum</SpellSchoolBonusType>
+  <ReferenceGroup>DND_Core</ReferenceGroup>
+  <AllowReferenceSelection>true</AllowReferenceSelection>
+  <MaximumSpellLevel>20</MaximumSpellLevel>
+  <SaveDCExpression>= 10 + SpellLevel + SaveDCMod</SaveDCExpression>
+  <MinimumStat>3</MinimumStat>
+  <MaximumStat>60</MaximumStat>
+  <Statistics>
+    <Statistic>Str</Statistic>
+    <Statistic>Dex</Statistic>
+    <Statistic>Con</Statistic>
+    <Statistic>Int</Statistic>
+    <Statistic>Wis</Statistic>
+    <Statistic>Cha</Statistic>
+  </Statistics>
+  <StatModifiers>
+    <Modifier StatValue="3" MaximumSpellLevel="-1">-4</Modifier>
+    <Modifier StatValue="4" MaximumSpellLevel="-1">-3</Modifier>
+    <Modifier StatValue="5" MaximumSpellLevel="-1">-3</Modifier>
+    <Modifier StatValue="6" MaximumSpellLevel="-1">-2</Modifier>
+    <Modifier StatValue="7" MaximumSpellLevel="-1">-2</Modifier>
+    <Modifier StatValue="8" MaximumSpellLevel="-1">-1</Modifier>
+    <Modifier StatValue="9" MaximumSpellLevel="-1">-1</Modifier>
+    <Modifier StatValue="10" MaximumSpellLevel="0">0</Modifier>
+    <Modifier StatValue="11" MaximumSpellLevel="1">0</Modifier>
+    <Modifier StatValue="12" MaximumSpellLevel="2">1</Modifier>
+    <Modifier StatValue="13" MaximumSpellLevel="3">1</Modifier>
+    <Modifier StatValue="14" MaximumSpellLevel="4">2</Modifier>
+    <Modifier StatValue="15" MaximumSpellLevel="5">2</Modifier>
+    <Modifier StatValue="16" MaximumSpellLevel="6">3</Modifier>
+    <Modifier StatValue="17" MaximumSpellLevel="7">3</Modifier>
+    <Modifier StatValue="18" MaximumSpellLevel="8">4</Modifier>
+    <Modifier StatValue="19" MaximumSpellLevel="9">4</Modifier>
+    <Modifier StatValue="20" MaximumSpellLevel="10">5</Modifier>
+    <Modifier StatValue="21" MaximumSpellLevel="11">5</Modifier>
+    <Modifier StatValue="22" MaximumSpellLevel="12">6</Modifier>
+    <Modifier StatValue="23" MaximumSpellLevel="13">6</Modifier>
+    <Modifier StatValue="24" MaximumSpellLevel="14">7</Modifier>
+    <Modifier StatValue="25" MaximumSpellLevel="15">7</Modifier>
+    <Modifier StatValue="26" MaximumSpellLevel="16">8</Modifier>
+    <Modifier StatValue="27" MaximumSpellLevel="17">8</Modifier>
+    <Modifier StatValue="28" MaximumSpellLevel="18">9</Modifier>
+    <Modifier StatValue="29" MaximumSpellLevel="19">9</Modifier>
+    <Modifier StatValue="30" MaximumSpellLevel="20">10</Modifier>
+    <Modifier StatValue="31" MaximumSpellLevel="21">10</Modifier>
+    <Modifier StatValue="32" MaximumSpellLevel="22">11</Modifier>
+    <Modifier StatValue="33" MaximumSpellLevel="23">11</Modifier>
+    <Modifier StatValue="34" MaximumSpellLevel="24">12</Modifier>
+    <Modifier StatValue="35" MaximumSpellLevel="25">12</Modifier>
+    <Modifier StatValue="36" MaximumSpellLevel="26">13</Modifier>
+    <Modifier StatValue="37" MaximumSpellLevel="27">13</Modifier>
+    <Modifier StatValue="38" MaximumSpellLevel="28">14</Modifier>
+    <Modifier StatValue="39" MaximumSpellLevel="29">14</Modifier>
+    <Modifier StatValue="40" MaximumSpellLevel="30">15</Modifier>
+    <Modifier StatValue="41" MaximumSpellLevel="31">15</Modifier>
+    <Modifier StatValue="42" MaximumSpellLevel="32">16</Modifier>
+    <Modifier StatValue="43" MaximumSpellLevel="33">16</Modifier>
+    <Modifier StatValue="44" MaximumSpellLevel="34">17</Modifier>
+    <Modifier StatValue="45" MaximumSpellLevel="35">17</Modifier>
+    <Modifier StatValue="46" MaximumSpellLevel="36">18</Modifier>
+    <Modifier StatValue="47" MaximumSpellLevel="37">18</Modifier>
+    <Modifier StatValue="48" MaximumSpellLevel="38">19</Modifier>
+    <Modifier StatValue="49" MaximumSpellLevel="39">19</Modifier>
+    <Modifier StatValue="50" MaximumSpellLevel="40">20</Modifier>
+    <Modifier StatValue="51" MaximumSpellLevel="41">20</Modifier>
+    <Modifier StatValue="52" MaximumSpellLevel="42">21</Modifier>
+    <Modifier StatValue="53" MaximumSpellLevel="43">21</Modifier>
+    <Modifier StatValue="54" MaximumSpellLevel="44">22</Modifier>
+    <Modifier StatValue="55" MaximumSpellLevel="45">22</Modifier>
+    <Modifier StatValue="56" MaximumSpellLevel="46">23</Modifier>
+    <Modifier StatValue="57" MaximumSpellLevel="47">23</Modifier>
+    <Modifier StatValue="58" MaximumSpellLevel="48">24</Modifier>
+    <Modifier StatValue="59" MaximumSpellLevel="49">24</Modifier>
+    <Modifier StatValue="60" MaximumSpellLevel="50">25</Modifier>
+  </StatModifiers>
+  <GiveBonusSpellSlotsForStat>true</GiveBonusSpellSlotsForStat>
+  <BonusSpellSlots>
+    <Slots StatValue="3"></Slots>
+    <Slots StatValue="4"></Slots>
+    <Slots StatValue="5"></Slots>
+    <Slots StatValue="6"></Slots>
+    <Slots StatValue="7"></Slots>
+    <Slots StatValue="8"></Slots>
+    <Slots StatValue="9"></Slots>
+    <Slots StatValue="10"></Slots>
+    <Slots StatValue="11"></Slots>
+    <Slots StatValue="12">0 1</Slots>
+    <Slots StatValue="13">0 1</Slots>
+    <Slots StatValue="14">0 1 1</Slots>
+    <Slots StatValue="15">0 1 1</Slots>
+    <Slots StatValue="16">0 1 1 1</Slots>
+    <Slots StatValue="17">0 1 1 1</Slots>
+    <Slots StatValue="18">0 1 1 1 1</Slots>
+    <Slots StatValue="19">0 1 1 1 1</Slots>
+    <Slots StatValue="20">0 2 1 1 1 1</Slots>
+    <Slots StatValue="21">0 2 1 1 1 1</Slots>
+    <Slots StatValue="22">0 2 2 1 1 1 1</Slots>
+    <Slots StatValue="23">0 2 2 1 1 1 1</Slots>
+    <Slots StatValue="24">0 2 2 2 1 1 1 1</Slots>
+    <Slots StatValue="25">0 2 2 2 1 1 1 1</Slots>
+    <Slots StatValue="26">0 2 2 2 2 1 1 1 1</Slots>
+    <Slots StatValue="27">0 2 2 2 2 1 1 1 1</Slots>
+    <Slots StatValue="28">0 3 2 2 2 2 1 1 1 1</Slots>
+    <Slots StatValue="29">0 3 2 2 2 2 1 1 1 1</Slots>
+    <Slots StatValue="30">0 3 3 2 2 2 2 1 1 1 2</Slots>
+    <Slots StatValue="31">0 3 3 2 2 2 2 1 1 1 2</Slots>
+    <Slots StatValue="32">0 3 3 3 2 2 2 2 1 1 2 2</Slots>
+    <Slots StatValue="33">0 3 3 3 2 2 2 2 1 1 2 2</Slots>
+    <Slots StatValue="34">0 3 3 3 3 2 2 2 2 1 2 2 2</Slots>
+    <Slots StatValue="35">0 3 3 3 3 2 2 2 2 1 2 2 2</Slots>
+    <Slots StatValue="36">0 4 3 3 3 3 2 2 2 2 2 2 2 2</Slots>
+    <Slots StatValue="37">0 4 3 3 3 3 2 2 2 2 2 2 2 2</Slots>
+    <Slots StatValue="38">0 4 4 3 3 3 3 2 2 2 3 2 2 2 2</Slots>
+    <Slots StatValue="39">0 4 4 3 3 3 3 2 2 2 3 2 2 2 2</Slots>
+    <Slots StatValue="40">0 4 4 4 3 3 3 3 2 2 3 3 2 2 2 2</Slots>
+    <Slots StatValue="41">0 4 4 4 3 3 3 3 2 2 3 3 2 2 2 2</Slots>
+    <Slots StatValue="42">0 4 4 4 4 3 3 3 3 2 3 3 3 2 2 2 2</Slots>
+    <Slots StatValue="43">0 4 4 4 4 3 3 3 3 2 3 3 3 2 2 2 2</Slots>
+    <Slots StatValue="44">0 5 4 4 4 4 3 3 3 3 3 3 3 3 2 2 2 2</Slots>
+    <Slots StatValue="45">0 5 4 4 4 4 3 3 3 3 3 3 3 3 2 2 2 2</Slots>
+    <Slots StatValue="46">0 5 5 4 4 4 4 3 3 3 4 3 3 3 3 2 2 2 2</Slots>
+    <Slots StatValue="47">0 5 5 4 4 4 4 3 3 3 4 3 3 3 3 2 2 2 2</Slots>
+    <Slots StatValue="48">0 5 5 5 4 4 4 4 3 3 4 4 3 3 3 3 2 2 2 2</Slots>
+    <Slots StatValue="49">0 5 5 5 4 4 4 4 3 3 4 4 3 3 3 3 2 2 2 2</Slots>
+    <Slots StatValue="50">0 5 5 5 5 4 4 4 4 3 4 4 4 3 3 3 3 2 2 2 2</Slots>
+    <Slots StatValue="51">0 5 5 5 5 4 4 4 4 3 4 4 4 3 3 3 3 2 2 2 2</Slots>
+    <Slots StatValue="52">0 6 5 5 5 5 4 4 4 4 4 4 4 4 3 3 3 3 2 2 2 2</Slots>
+    <Slots StatValue="53">0 6 5 5 5 5 4 4 4 4 4 4 4 4 3 3 3 3 2 2 2 2</Slots>
+    <Slots StatValue="54">0 6 6 5 5 5 5 4 4 4 5 4 4 4 4 3 3 3 3 2 2 2 2</Slots>
+    <Slots StatValue="55">0 6 6 5 5 5 5 4 4 4 5 4 4 4 4 3 3 3 3 2 2 2 2</Slots>
+    <Slots StatValue="56">0 6 6 6 5 5 5 5 4 4 5 5 4 4 4 4 3 3 3 3 2 2 2 2</Slots>
+    <Slots StatValue="57">0 6 6 6 5 5 5 5 4 4 5 5 4 4 4 4 3 3 3 3 2 2 2 2</Slots>
+    <Slots StatValue="58">0 6 6 6 6 5 5 5 5 4 5 5 5 4 4 4 4 3 3 3 3 2 2 2 2</Slots>
+    <Slots StatValue="59">0 6 6 6 6 5 5 5 5 4 5 5 5 4 4 4 4 3 3 3 3 2 2 2 2</Slots>
+    <Slots StatValue="60">0 7 6 6 6 6 5 5 5 5 5 5 5 5 4 4 4 4 3 3 3 3 2 2 2 2</Slots>
+  </BonusSpellSlots>  
+</Campaign>

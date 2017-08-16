@@ -1,0 +1,2073 @@
+<Reference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Sequence="4" Name="Frostburn" Group="" Abbrev="FrstBrn" Version="1.02">
+  <Description>(c) 2004 by Wizards of the Coast, Inc., a Hasbro Company
+
+Frostfell components are listed in the description of the spell, and Coldfire components are listed as Material Components.
+
+1.01 - Fixed Frostbite description and Boreal Wind spell list entry (boskone2) &#xD;
+&#xD;
+1.02 - Fixed Snow Walk, Column of Ice</Description>
+  <DevNotes>Spells done through Frostfell (all spells up to p 95). Scattered other spells were done to allow fleshing out of spell lists for classes included in file.</DevNotes>
+  <Spells>
+    <Spell OriginalReference="">
+      <Name>Algid Enhancement</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Cold</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Close</Range>
+      <Duration>24 hrs</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>false</SR>
+      <Description>="Energize "&amp; CasterLEvel &amp;" cold creatures with coldfire. Creatures with the Cold subtype gain +"&amp; 1+Int( ( CasterLevel ) / 3) &amp;" (deflect) to AC, +1d8+"&amp; Int( ( CasterLevel ) / 3) &amp;" temp HP, +"&amp; 1+Int( ( CasterLevel ) / 3) &amp;" (enhance) to Att, and +"&amp; 2+Int( ( CasterLevel ) / 3) &amp;" bonus on saves vs. Fire effects. Material Component: One ounce of Coldfire."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Animate Snow</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Cold</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>88</Page>
+      <SR>false</SR>
+      <Description>Snow to animate may be natural or magically created. Fallen snow animates as animated object (see MM, p. 13). You can animate 4 Large, 2 Huge objects, or 1 Gargant. object which have the Cold subtype and do +1d6 cold dmg. Animated Snow possesses the Blind and Trample special att.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Anticold Sphere</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Centered</Range>
+      <Duration>= CasterLevel *10 &amp; " min [d]"</Duration>
+      <Area>10' r em.</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>88</Page>
+      <SR>false</SR>
+      <Description>Create a mobile spherical energy field that protects against cold. All creatures in sphere gain immunity to cold. Creatures with Cold subtype may not enter. (See Abjuration, p. 172 of PHB)</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Arctic Haze</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors>
+            <Descriptor>Cold</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel*10 &amp; " min"</Duration>
+      <Area>30' r. sprd</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>88</Page>
+      <SR>false</SR>
+      <Description>Create a bank of fog composed of razor-sharp shards of ice. Obscure all sight (incl. Darkvision) beyond 5' Creatures 5' away have concealment (20% miss chance), but if farther than that, they have total concealment (50% miss chance, cannot use sight to target). Shards do 4 dmg each rd (half Cold dmg). See text for dispersal.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Aura of Cold, Greater</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Cold</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Centered</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area>10' r. em.</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>88</Page>
+      <SR>true</SR>
+      <Description>Cold emanates from your body, dealing 2d6 cold dmg at the start of your rd to each creature within 10 ft.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Aura of Cold, Lesser</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Cold</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Centered</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area>5' r. em.</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>88</Page>
+      <SR>true</SR>
+      <Description>Cold emanates from your body, dealing 1d6 cold dmg at the start of your rd to each creature within 5 ft.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Binding Snow</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Cold</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " hr [d]"</Duration>
+      <Area>= CasterLevel &amp;"x 10' sq."</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>89</Page>
+      <SR>true</SR>
+      <Description>Must be cast on a Frostfell site that is a snow field. Snow freezes, any creature caught in area moves at half speed. STR 20 check or Escape Artist 25 check allows normal move for that rd. Those that made the initial REF save are not affected at all.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Blizzard</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Cold</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Long</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area>= CasterLevel * 100 &amp;"'' r. sprd"</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>89</Page>
+      <SR>false</SR>
+      <Description>Upon completion of spell, temp drops below freezing, and blizzard erupts. Visibility is reduced to 0 making Spot, Seach, and Listen checks and all ranged att impossible. Creatures unprotected from cold must save or suffer 1d6 nonlethal cold dmg. 1 ft of snow falls per rd (See Frostburn, p. 12 for movement restrictions in snow).</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Blood Snow</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Cold</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area>= CasterLevel &amp;"x 20' sq."</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>89</Page>
+      <SR>true</SR>
+      <Description>You must cast this spell on a snow field, which becomes corrupted by neg. energy. For each td a creature is in contact with the blood snow, they must make a Fort save or suffer 1d2 CON drain and become nauseated.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Bone Chill</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area>Ray</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>89</Page>
+      <SR>false</SR>
+      <Description>Corporeal undead struck by ray are covered in ice, rendered immobile as if held. Each rd, subject may attempt a new save to break free. (This is a full-round action that does not provoke AoO).</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Boreal Wind</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Cold</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Long</Range>
+      <Duration>= 1+ Int( CasterLevel / 2) &amp;" rd"</Duration>
+      <Area>20' w line</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>89</Page>
+      <SR>true</SR>
+      <Description>="Blast of arctic air flows from you to extent of range, like Gust of Wind. All creatures in area take "&amp; Min(15, CasterLevel ) &amp;"d4 cold dmg. Successful save negate the gust's effects. Those that fail are pushed away from the caster "&amp; CasterLevel * 3 &amp;"ft. You can change direction as a move action otherwise it continues to blow in the same direction."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Brumal Stiffening</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Cold</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>89</Page>
+      <SR>true</SR>
+      <Description>Target weapon becomes brittle, reduce Hardness by 5 for the duration (making sunder easier). Rolling a 1 on an attack with the subject weapon causes it to take damage equivalent to the damage from a successful hit.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Call Avalanche</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Cold</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Long</Range>
+      <Duration>Inst.</Duration>
+      <Area>= CasterLevel * 10 &amp;"' r. sprd"</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>90</Page>
+      <SR>false</SR>
+      <Description>="May only be cast outside. An avalanche of ice and snow falls from the sky, burrying "&amp; IIF( CasterLevel &gt; 11, IIF( CasterLevel &gt;14, IIF( CasterLevel &gt;17, "Colossal",  "Gargant."), "Huge"), "Large") &amp;" or smaller creatures and.dealing 8d6 crushing dmg. Ref save for half, and those that fail take 1d6 nonlethal dmg per min while buried. Ice and snow remain until melted (see Freezing and Thawing, Frostburn p. 10)."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Column of Ice</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors>
+            <Descriptor>Cold</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Perm.</Duration>
+      <Area>10' r.</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>90</Page>
+      <SR>false</SR>
+      <Description>="Column of ice rises from the ground, "&amp; CasterLevel *5 &amp;"ft high. Creatures making the save can avoid being lifted into the air. Moving or fighting on the column requires a Balance 10 check, failure requires a Ref 12 check or slip off the column. If the column slams into a roof, etc, those on it take 4d6 dmg. Column is 10' thick, Hardness 16; hp 160; Break DC 90; Climb DC 30."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Cometstrike</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors>
+            <Descriptor>Cold</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>3 rds</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>90</Page>
+      <SR>true</SR>
+      <Description>="May only be cast in an outside area. Three frozen comets strike 3 different creatures or objects if you make a ranged touch att. Each target struck takes 3d6 bludg. dmg and "&amp; Min(10, CasterLevel ) &amp;"d4 cold dmg and is stunned for 1 rd. Ref save negates the bludg. dmg and stun effect, but not cold dmg.Each rd another 3 comets rain down upon the original targets unless you select new targets as a std action."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Conjure Ice Beast 1</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors>
+            <Descriptor>Cold</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>91</Page>
+      <SR>false</SR>
+      <Description>This spell functions like Summon Monster I, but the creature is created out of magical ice. Choose a 1st-level creature from either the Summon Monster or Summon Nature's Ally tables (PHB, p. 287-288). The conjured creature cannot have the Fire subtype, but gains the Ice Beast template (Fostburn, p. 138).</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Conjure Ice Beast 2</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors>
+            <Descriptor>Cold</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>91</Page>
+      <SR>false</SR>
+      <Description>This spell functions like Conjure Ice Beast  I, but you can choose one 2nd -level or two of the same 1st-level creatures </Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Conjure Ice Beast 3</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors>
+            <Descriptor>Cold</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>91</Page>
+      <SR>false</SR>
+      <Description>This spell functions like Conjure Ice Beast  I, but you can choose one 3rd-level or two of the same kind of 2nd -level or four of the same 1st-level creatures </Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Conjure Ice Beast 4</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors>
+            <Descriptor>Cold</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>91</Page>
+      <SR>false</SR>
+      <Description>This spell functions like Conjure Ice Beast  I, but you can choose one creature of 4th-level or two of the same kind of 3rd -level or four of the same from any lower level list's creatures </Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Conjure Ice Beast 5</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors>
+            <Descriptor>Cold</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>91</Page>
+      <SR>false</SR>
+      <Description>This spell functions like Conjure Ice Beast  I, but you can choose one creature of 5th-level or two of the same kind of 4th-level or four of the same kind of creature from any lower level list </Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Conjure Ice Beast 6</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors>
+            <Descriptor>Cold</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>91</Page>
+      <SR>false</SR>
+      <Description>This spell functions like Conjure Ice Beast  I, but you can choose one creature of 6th-level or two of the same kind of 5th-level or four of the same kind of creature from any lower level list </Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Conjure Ice Beast 7</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors>
+            <Descriptor>Cold</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>91</Page>
+      <SR>false</SR>
+      <Description>This spell functions like Conjure Ice Beast  I, but you can choose one creature of 7th-level or two of the same kind of 6th-level or four of the same kind of creature from any lower level list </Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Conjure Ice Beast 8</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors>
+            <Descriptor>Cold</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>91</Page>
+      <SR>false</SR>
+      <Description>This spell functions like Conjure Ice Beast  I, but you can choose one creature of 8th-level or two of the same kind of 7th-level or four of the same kind of creature from any lower level list </Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Conjure Ice Beast 9</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors>
+            <Descriptor>Cold</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>91</Page>
+      <SR>false</SR>
+      <Description>This spell functions like Conjure Ice Beast  I, but you can choose one creature of 9th-level or two of the same kind of 8th-level or four of the same kind of creature from any lower level list </Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Conjure Ice Object</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors>
+            <Descriptor>Cold</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel*10 &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>91</Page>
+      <SR>false</SR>
+      <Description>="Conjure into being a block of transparent ice in the shape of any object you have seen, up to "&amp; Min(50, CasterLevel * 5 ) &amp;" lbs. Objects with moving parts do not function, and you must make a Craft check to make a complex item."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Control Snow and Ice</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Long</Range>
+      <Duration>= CasterLevel *10 &amp; " min [d]"</Duration>
+      <Area>= CasterLevel * 10 &amp;"x"&amp; CasterLevel * 10 &amp;"x"&amp; CasterLevel * 2 &amp;" vol."</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>92</Page>
+      <SR>false</SR>
+      <Description>Raise or Lower a volumne of Ice and snow.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Control Temperature</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Centered</Range>
+      <Duration>= CasterLevel &amp; " hr"</Duration>
+      <Area>= CasterLevel * 20 &amp;" cu. ft. em."</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>92</Page>
+      <SR>false</SR>
+      <Description>="You imbue an area with Cold or Fire energy, reducing or raising the temp by up to "&amp; Int( CasterLevel / 5 ) &amp;" bands. See Cold Dangers (Frostburn, p. 8) or Heat Dangers (DMG p. 303) for information on the effects."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Crack Ice</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Force</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area>= CasterLevel * 10 &amp;"' r. sprd"</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>50</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " half (text)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>92</Page>
+      <SR>true</SR>
+      <Description>Create a sudden explosive burst that shatters ice bridges, etc or damages an Icy creature (SR applies in the latter case). The area is broken to 1' depth, and counts as one catagory thinner (see Frostburn, P. 11). Against an ice creature (such as an Ice Golem) the target suffers "&amp; Min(10, CasterLevel) &amp;"d6 with Fort save for half."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Crunchy Snow</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Cold</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " hr"</Duration>
+      <Area>= CasterLevel &amp;"x 20' sq."</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>92</Page>
+      <SR>false</SR>
+      <Description>Must be cast in FrostFell area. An area of fallen snow become hard and crumbly, generating a loud crunch when walked upon. Creatures take a -20 to Move Silent checks on Crunchy Snow.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Death Hail</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors>
+            <Descriptor>Cold</Descriptor>
+            <Descriptor>Death</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area>40' r. cyl.</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>92</Page>
+      <SR>false</SR>
+      <Description>Creatures in area must save or suffer 1d2 points of STR and CON damage.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Defile Snow and Ice</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Cold</Descriptor>
+          </Descriptors>
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area>= CasterLevel * 10 &amp;"' r. sprd"</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>92</Page>
+      <SR>true</SR>
+      <Description>Imbue area of snow or ice with neg. energy, granting all undead within the area a +4 (profane) against turn attempts. In addition, all Cold creatures gain SR 15 against Fire effects.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Detect Fire</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Cold</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>60 ft</Range>
+      <Duration>="[c] up to "&amp; CasterLevel * 10 &amp;" min"</Duration>
+      <Area>Cone</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>92</Page>
+      <SR>false</SR>
+      <Description>Functions as Detect Evil (PHB, p. 218) except that it detects heat energy from normal fire, fire spells, fire magic items, clerics of fire deities, and all living beings other than those with the Cold subtype. You are vulnerable to an overwhelming Heat aura if you have the Cold subtype. Living beings without the Fire subtype detect as faint only, regardless of level/HD.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Dispel Cold</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Fire</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>="up to "&amp; CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>93</Page>
+      <SR>true</SR>
+      <Description>This spell functions like Dispel Evil (PHB, p. 222) except that you are surrounded by  constant red, yellow, orange flames and the spell effects Cold creatures and spells rather than evil ones.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Dispel Fire</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Fire</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>="up to "&amp; CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>93</Page>
+      <SR>true</SR>
+      <Description>This spell functions like Dispel Evil (PHB, p. 222) except that you are surrounded by constant blue-white cold energy and the spell effects Fire creatures and spells rather than evil ones.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Ease of Breath</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Cold</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " hr"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>93</Page>
+      <SR>false</SR>
+      <Description>Grant touched creature the ability to survive in thin air, conferring a +20 (inherent) bonus on Fort saves to resist altitude sickness as well as saves to resist fatigue due to altitiude or thin air.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Entomb</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Cold</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>(text)</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>500</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>93</Page>
+      <SR>true</SR>
+      <Description>= CasterLevel &amp;" creatures (no 2 &gt;30' apart) become trapped in a block of ice for "&amp; CasterLevel &amp;" rd. Those that save shake off the ice, but still suffer 6d6 cold dmg. Those that fail begin suffocating (see Drowning, p. 304 DMG) and take 2d12 cold dmg plus 1 CON damage per rd from contact with the ice. Escaping requires a STR 20 check or the application of 20 pts of Fire dmg."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Evergreen</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Fire</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>See text</Duration>
+      <Area>10' r.</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>93</Page>
+      <SR>false</SR>
+      <Description>="Imbue area of plant life with magical heat, healing 1d8+"&amp; Min(10, CasterLevel) &amp;" pts and granting immunity to cold for "&amp; CasterLevel &amp;" hr. Affects natural plants as well as magical plant creatures."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Fimbulwinter</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Cold</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>10 min.</CastingTime>
+      <Range>Close</Range>
+      <Duration>1d12 weeks</Duration>
+      <Area>= CasterLevel &amp; " mi. r."</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>XP</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>100</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>93</Page>
+      <SR>false</SR>
+      <Description>You change the weather in an area centered on you to a state of permanent winter. See text for effects. XP Cost: 100.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Flash-Freeze</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Cold</Descriptor>
+            <Descriptor>Earth</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area>= CasterLevel &amp;"x 10' sq"</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>94</Page>
+      <SR>false</SR>
+      <Description>All earth, stone, and water in the spell's area is drained of heat. Earth, mud, and stone become everfrost and water freezes. Creatures of those materials are not affected.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Flesh to Ice</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>94</Page>
+      <SR>true</SR>
+      <Description>Target creature (along with gear) turns into a mindless inert ice sculpture. If the sculpt is broken, melted, or damaged, the subject has similar damage or deformities if restored. Creature is not dead, but does not count as alive either. Only creatures made of flesh are affected.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Float</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Long</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>94</Page>
+      <SR>true</SR>
+      <Description>Target Large or smaller creature or object gains buoyancy and can float on water. It cannot swim below the surface.If the target is underwater at the time, it rises toward the surface at speed of 30 ft.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Fortify Cold Creatures</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Cold</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>94</Page>
+      <SR>false</SR>
+      <Description>= "Up to " &amp; CasterLevel &amp; " creatures (no 2 &gt;30' apart) with the Cold subtype gain a +1 (sacred) on all Att rolls and saves vs. Fire effects."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Freeze Armor</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Cold</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>94</Page>
+      <SR>true</SR>
+      <Description>="Target the equipment of up to "&amp; CasterLevel &amp;" creatures. Their metal armor and equipment are encased in ice. Creatures wearing metal armor that fail their save suffer -8 to DEX and cannot move. Spellcasters must make Concentration "&amp; 15+ SpellLevel &amp;" or lose their spell. See text for amount of metal and damage taken each round."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Freezing Glance</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Cold</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>95</Page>
+      <SR>true</SR>
+      <Description>="Each rd you may target a single living creature. It must save or be frozen in place. Those frozen cannot move, att, cast, or defend themselves; they are considered immobile (-4 AC) , losing shield and DEX bonus to AC as well. Frozen creatures who are attacked get an additional save, but this provides no immunity to the gaze.Victims remain immobile for "&amp; CasterLevel &amp;" min."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Frost Weapon</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (ho)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>95</Page>
+      <SR>true</SR>
+      <Description>Weapon touched gains ability similar to frost special ability, doing an additional 1d6 points of cold dmg. This stacks with the Frost special ability, but not with itself.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Frostbite</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors>
+            <Descriptor>Cold</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>95</Page>
+      <SR>true</SR>
+      <Description>="Up to "&amp; Int( CasterLevel /2) &amp;" creatures (no 2 &gt;30ft apart) suffer 6d6 cold dmg and 2d6 DEX dmg. Creatures dropped to 0 DEX are frozen in a layer of ice, unable to attack, move, or defend."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Frostburn</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Cold</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>95</Page>
+      <SR>true</SR>
+      <Description>="You channel cold energy through your touch that deals 3d12+"&amp; Min(20, CasterLevel ) &amp;" frostburn dmg. If cast on a creature with the cold subtype, this spell heals a like amount of dmg instead."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Frostburn, Lesser</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Cold</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>95</Page>
+      <SR>true</SR>
+      <Description>="You channel cold energy through your touch that deals 1d12+"&amp; Min(5, CasterLevel ) &amp;" frostburn dmg. If cast on a creature with the cold subtype, this spell heals a like amount of dmg instead."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Frostburn, Mass</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Cold</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>95</Page>
+      <SR>true</SR>
+      <Description>="Cold energy sprds through the area that deals 3d12+"&amp; Min(20, CasterLevel ) &amp;" frostburn dmg. Any creatures with the cold subtype in the area are healed a like amount of dmg instead."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Frostfell</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Cold</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " hr"</Duration>
+      <Area>= CasterLevel &amp;"x 20' cu."</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " part (text)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>95</Page>
+      <SR>false</SR>
+      <Description>="Area you designate becomes an icy environment, dropping temp by 3 bands (see Frostburn, p 9). Living creatures caught in area instantly turn to ice (as per Flesh to Ice, Frostburn, p. 94). If the creature saves, it suffers "&amp; Min(20, CasterLevel ) &amp;"d6 of frostburn dmg. Equipment is covered in frost, and weilder must make a DEX 10 check to avoid dropping the item. Cold spells in area gain a +1 Caster Lvl."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Glacial Globe of Invulnerability</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Cold</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Centered</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area>10' r. em</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>96</Page>
+      <SR>false</SR>
+      <Description>Frosty sphere appears around you that excludes all spells and spell-like abilities with the fire descriptor of 3rd lvl or lower. It otherwise functions as Globe of Invulnerability (PHB p. 236). Globe also grants concealment to those within against att from outside or vice versa.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Ice Darts</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors>
+            <Descriptor>Cold</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>98</Page>
+      <SR>false</SR>
+      <Description>= 1 + Int( ( CasterLevel - 1) / 2) &amp;" icicles shoot from your fingertips. Make an RTA for each dart, which deals 2d4 dmg (half is Cold)."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Ivory Flesh</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " hr"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>101</Page>
+      <SR>true</SR>
+      <Description>Subject's flesh and all equipment turns white, granting +5 (circum) to Hide checks in heavy snow or ice areas. In any non-white hued area (including Ebony Ice) the subject instead suffers a -5 penalry to Hide checks.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Obedient Avalanche</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors>
+            <Descriptor>Cold</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area>20' r.</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " half (txt)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>102</Page>
+      <SR>false</SR>
+      <Description>="Those within area take "&amp; Min(10, Int( CasterLevel /2)) &amp;"d8 +"&amp; Int( CasterLevel /2) &amp;"d6 cold dmg; save or burried. Those out to 40ft take 1/2 impact (Ref neg) and must resist Bull Rush by snow (see text)."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Snow Walk</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel*10 &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>104</Page>
+      <SR>true</SR>
+      <Description>= CasterLevel &amp; " creatures touched can walk on top of snow. avoiding usual movement penalties and leaving neither tracks nor scent. Gliding along surface of snow adds +10 to creature's land speed."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Snowsight</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " hr"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>104</Page>
+      <SR>true</SR>
+      <Description>Subject gains the ability to see even in whiteout conditions and ignored penalties due to snow glare or snow blindness. Snowsight does not grant the ability to see in darkness, only ignore snowglare.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Snowsong</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>30 ft</Range>
+      <Duration>= CasterLevel *10 &amp; " min"</Duration>
+      <Area>30' r.</Area>
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>104</Page>
+      <SR>true</SR>
+      <Description>You must designate all creatures in area as either allies or enemies. Allies gain +4 (morale) to Charisma and att rolls;,+4 (insight) to AC, Fast Heal 1 and Resist Cold 15. All att by allies in snowsong deal +1d6 Cold dmg. Enemies suffer a 20% failure (both divine and arcane) while casting spells with verbals. Will save avoids spell failure. If any creature leaves the area, the effect ends unilt the creature returns.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Summon Giants</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Summoning</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>FocusOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>105</Page>
+      <SR>false</SR>
+      <Description>You summon one or more giants who attack your enemeies. They appear where you desginate and attack immediately, on your turn. If you speak Giant you can direct them. Summoned giants act normally on their last rd, disappearing at the end of their turn. See text for giant types and quantities.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Winter's Embrace</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Cold</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>106</Page>
+      <SR>true</SR>
+      <Description>Target creature is covered with ice and snow. Fort save means material sloughs off, and the victim suffers a mere 1d4 points of cold dmg and ending the effect. Failure means the ice and snow cling causing 1d8 cold dmg each rd. During subject's turn, it can attempt another save to avoid damage for that rd. If a creature takes dmg twice from Winter's Embrace they become Fatigued. The fourth time they take damage the creature becomes Exhausted.</Description>
+    </Spell>
+  </Spells>
+  <SpellOverrides />
+  <SpellListEntries>
+    <SpellList Name="Thrym" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Cause Fear" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Corrupt Weapon (see DMG p182-3)" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Divine Favor" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Doom" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Magic Weapon" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Obscuring Mist" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Protection From Good" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Protection From Law" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Detect Fire" Level="1" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Ease of Breath" Level="1" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Bull's Strength" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Chill Metal" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Eagle's Splendor" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Fog Cloud" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Blood Snow" Level="2" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Conjure Ice Object" Level="2" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Sleet Storm" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Binding Snow" Level="3" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Boreal Wind" Level="4" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Summon Giants" Level="4" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Ice Storm" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Stoneskin" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Wall of Ice" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Dispel Good" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Dispel Law" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Dispel Fire" Level="5" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Entomb" Level="5" ReferenceAbbrev="FrstBrn" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Cleric" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Conjure Ice Beast 1" Level="1" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Detect Fire" Level="1" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Ease of Breath" Level="1" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Fortify Cold Creatures" Level="1" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Blood Snow" Level="2" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Brumal Stiffening" Level="2" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Conjure Ice Beast 2" Level="2" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Conjure Ice Object" Level="2" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Frost Weapon" Level="2" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Frostburn, Lesser" Level="2" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Aura of Cold, Lesser" Level="3" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Binding Snow" Level="3" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Conjure Ice Beast 3" Level="3" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Control Snow and Ice" Level="3" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Defile Snow and Ice" Level="3" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Conjure Ice Beast 4" Level="4" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Winter's Embrace" Level="4" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Glacial Globe of Invulnerability" Level="4" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Freeze Armor" Level="4" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Frostburn" Level="4" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Boreal Wind" Level="5" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Conjure Ice Beast 5" Level="5" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Dispel Cold" Level="5" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Dispel Fire" Level="5" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Frostbite" Level="5" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Algid Enhancement" Level="6" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Conjure Ice Beast 6" Level="6" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Frostburn, Mass" Level="6" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Aura of Cold, Greater" Level="7" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Conjure Ice Beast 7" Level="7" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Conjure Ice Beast 8" Level="8" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Summon Giants" Level="8" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Conjure Ice Beast 9" Level="9" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Fimbulwinter" Level="9" ReferenceAbbrev="FrstBrn" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Druid" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Conjure Ice Beast 1" Level="1" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Crunchy Snow" Level="1" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Ease of Breath" Level="1" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Ivory Flesh" Level="1" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Snowsight" Level="1" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Blood Snow" Level="2" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Brumal Stiffening" Level="2" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Conjure Ice Beast 2" Level="2" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Conjure Ice Object" Level="2" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Evergreen" Level="2" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Snow Walk" Level="2" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Flash-Freeze" Level="2" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Frost Weapon" Level="2" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Arctic Haze" Level="3" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Aura of Cold, Lesser" Level="3" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Binding Snow" Level="3" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Column of Ice" Level="3" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Conjure Ice Beast 3" Level="3" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Control Temperature" Level="3" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Winter's Embrace" Level="3" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Boreal Wind" Level="4" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Conjure Ice Beast 4" Level="4" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Freeze Armor" Level="4" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Blizzard" Level="5" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Call Avalanche" Level="5" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Conjure Ice Beast 5" Level="5" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Animate Snow" Level="6" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Conjure Ice Beast 6" Level="6" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Death Hail" Level="6" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Entomb" Level="6" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Aura of Cold, Greater" Level="7" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Conjure Ice Beast 7" Level="7" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Conjure Ice Beast 8" Level="8" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Fimbulwinter" Level="8" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Frostfell" Level="8" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Cometstrike" Level="9" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Conjure Ice Beast 9" Level="9" ReferenceAbbrev="FrstBrn" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Sorcerer" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Float" Level="1" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Bone Chill" Level="2" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Brumal Stiffening" Level="2" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Ice Darts" Level="2" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Frost Weapon" Level="2" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Arctic Haze" Level="3" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Blood Snow" Level="3" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Control Temperature" Level="3" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Crack Ice" Level="3" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Glacial Globe of Invulnerability" Level="3" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Column of Ice" Level="4" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Anticold Sphere" Level="5" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Boreal Wind" Level="5" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Flesh to Ice" Level="5" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Entomb" Level="6" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Freezing Glance" Level="6" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Fimbulwinter" Level="8" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Frostfell" Level="9" ReferenceAbbrev="FrstBrn" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Wizard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Float" Level="1" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Bone Chill" Level="2" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Brumal Stiffening" Level="2" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Ice Darts" Level="2" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Frost Weapon" Level="2" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Arctic Haze" Level="3" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Blood Snow" Level="3" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Control Temperature" Level="3" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Crack Ice" Level="3" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Glacial Globe of Invulnerability" Level="3" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Column of Ice" Level="4" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Anticold Sphere" Level="5" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Boreal Wind" Level="5" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Flesh to Ice" Level="5" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Entomb" Level="6" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Freezing Glance" Level="6" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Fimbulwinter" Level="8" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Frostfell" Level="9" ReferenceAbbrev="FrstBrn" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Paladin_Base" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Binding Snow" Level="3" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Aura of Cold, Lesser" Level="4" ReferenceAbbrev="FrstBrn" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Ranger" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Conjure Ice Beast 1" Level="1" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Crunchy Snow" Level="1" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Ease of Breath" Level="1" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Ivory Flesh" Level="1" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Snowsight" Level="1" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Conjure Ice Beast 2" Level="2" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Snow Walk" Level="2" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Binding Snow" Level="3" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Conjure Ice Beast 3" Level="3" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Aura of Cold, Lesser" Level="4" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Conjure Ice Beast 4" Level="4" ReferenceAbbrev="FrstBrn" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Bard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Ivory Flesh" Level="1" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Ice Darts" Level="2" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Boreal Wind" Level="5" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Snowsong" Level="6" ReferenceAbbrev="FrstBrn" />
+      </SpellEntries>
+    </SpellList>
+  </SpellListEntries>
+  <Domains>
+    <Domain Name="Cold" Abbrev="Cold">
+      <Power>You can turn or destroy Fire creatures as a good cleric turns undead. You can rebuke or conmmand cold creatures as an evil cleric rebukes undead.</Power>
+      <DomainEntries>
+        <SpellEntry Name="Chill Touch" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Chill Metal" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Sleet Storm" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Ice Storm" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Wall of Ice" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Cone of Cold" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Control Weather" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Polar Ray" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Obedient Avalanche" Level="9" ReferenceAbbrev="FrstBrn" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Winter" Abbrev="Wntr">
+      <Power>During the Winter season, you gain +2 (sacred) on all WIS-based skill checks.</Power>
+      <DomainEntries>
+        <SpellEntry Name="Ice Storm" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Control Weather" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Blizzard" Level="5" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Death Hail" Level="6" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Fimbulwinter" Level="9" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Snow Walk" Level="2" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Snowsight" Level="1" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Summon Giants" Level="8" ReferenceAbbrev="FrstBrn" />
+        <SpellEntry Name="Winter's Embrace" Level="3" ReferenceAbbrev="FrstBrn" />
+      </DomainEntries>
+    </Domain>
+  </Domains>
+  <Classes>
+    <CasterClass>
+      <Name>Disciple of Thrym</Name>
+      <Abbrev>DiscThrm</Abbrev>
+      <SpellList>Thrym</SpellList>
+      <CasterType>Divine</CasterType>
+      <HasCantrips>false</HasCantrips>
+      <MaxSpellLevel>5</MaxSpellLevel>
+      <MaxCasterLevel>10</MaxCasterLevel>
+      <CastingStat>Wis</CastingStat>
+      <BonusSpellStat>Wis</BonusSpellStat>
+      <SaveDCStat>Wis</SaveDCStat>
+      <KnowsAllSpells>true</KnowsAllSpells>
+      <KnowsAllCantrips>true</KnowsAllCantrips>
+      <SpellsKnown>false</SpellsKnown>
+      <CasterLevelMultiplier>1</CasterLevelMultiplier>
+      <SpellPyramid>
+        <Slots>0 1</Slots>
+        <Slots>0 2</Slots>
+        <Slots>0 2 1</Slots>
+        <Slots>0 3 2</Slots>
+        <Slots>0 3 2 1</Slots>
+        <Slots>0 3 3 2</Slots>
+        <Slots>0 4 3 2 1</Slots>
+        <Slots>0 4 3 3 2</Slots>
+        <Slots>0 4 4 3 2 1</Slots>
+        <Slots>0 4 4 3 3 2</Slots>
+      </SpellPyramid>
+      <KnownPyramid>
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+      </KnownPyramid>
+      <ClassSpellPoints>
+        <UseSpellPoints>false</UseSpellPoints>
+        <GiveBonusSpellPointsForStat>true</GiveBonusSpellPointsForStat>
+        <SpellPointCosts />
+        <SpellPointValues />
+        <SpellPointTable ClassName="" />
+        <UseBonusSpellPointFormula>false</UseBonusSpellPointFormula>
+        <BonusSpellPointFormula />
+      </ClassSpellPoints>
+    </CasterClass>
+  </Classes>
+</Reference>

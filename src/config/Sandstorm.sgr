@@ -1,0 +1,2352 @@
+<Reference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Sequence="16" Name="Sandstorm" Group="" Abbrev="Snd" Version="1.2">
+  <Description>Spells from the Sandstorm book (c) 2006 Wizards of the Coast</Description>
+  <DevNotes>1.2 Corrected variable effect spell descriptions corrected [Mind] to [Mind Affecting] and various tweaks (Rowan Dunch)&#xD;
+1.1 - Fixed spell list names (bleedingedge)&#xD;
+
+1.0 - Initial version </DevNotes>
+  <Spells>
+    <Spell OriginalReference="">
+      <Name>Antifire Sphere</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area>10-ft.-radius eman</Area>
+      <Components />
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>110</Page>
+      <SR>false</SR>
+      <Description>Creatures within sphere gain immunity to fire damage. Can hedge out [Fire] creatures - see text</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Ashen Union</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area>One living creature</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Fort " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>110</Page>
+      <SR>true</SR>
+      <Description>="Deals " &amp; Min(10, Floor(CasterLevel/2)) &amp; "d6 dessication damage to target and dehydrates it.  If target takes more than 50% of its current hit points then must save-or-die."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Ashstar</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area>One ashstar; see text</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>111</Page>
+      <SR>false</SR>
+      <Description>Hovering construct dehydrates a wounded creature and casts 20 ft. light.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Awaken Sand</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area>15-ft. area of sand touched</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>XP</Component>
+        <Component>FocusOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>500</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>111</Page>
+      <SR>false</SR>
+      <Description>A region of sand turns into a Huge animated, sentient sand creature</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Black Sand</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Darkness</Descriptor>
+          </Descriptors>
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area>20-ft.-radius spread</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>111</Page>
+      <SR>true</SR>
+      <Description>Creates a 20-ft.-radius area of black sand.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Blast of Sand</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors>
+            <Descriptor>Earth</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>30 ft.</Range>
+      <Duration>Inst.</Duration>
+      <Area>Cone-shaped burst</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>112</Page>
+      <SR>false</SR>
+      <Description>="Cone of sand deals " &amp; Min(10, CasterLevel) &amp; "d6 damage."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Body Blaze</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Fire</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal; see text</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>112</Page>
+      <SR>false</SR>
+      <Description>="You are surrounded by fire and leave a wall-like trail of flame in your wake that deals 2d6+" &amp; Min(20, CasterLevel) &amp; " damage to any creature passing through."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Choking Sands</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.; see text</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg; see text"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>112</Page>
+      <SR>true</SR>
+      <Description>Touched creature begins to suffocate on sand.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Cloak of Shade</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " hr [d]"</Duration>
+      <Area>Creature Touched</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>112</Page>
+      <SR>true</SR>
+      <Description>Touched creatures gets protection from heat and sun.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Control Sand</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Long</Range>
+      <Duration>= CasterLevel *10 &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>FocusOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>113</Page>
+      <SR>false</SR>
+      <Description>="Raise or lower the level of sand in an area " &amp; 10 * CasterLevel &amp; " ft. wide, " &amp; 10 * CasterLevel &amp; " ft. long by up to "  &amp; 2 * CasterLevel &amp; " ft.  Area is shapeable.  Slows earth based creatures."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Desert Binding</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 min.</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " years [d]"</Duration>
+      <Area>One living creature</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>500</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC-4 &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>113</Page>
+      <SR>true</SR>
+      <Description>Functions like Binding (PHB 204) and imprisons a creature as sand in an hourglass or wind in the waste.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Desert Diversion</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Teleportation</Subschool>
+          <Descriptors>
+            <Descriptor>Teleport</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>113</Page>
+      <SR>true</SR>
+      <Description>A successful ranged touch attack prevents the target from using teleportation or plane shifting effects for the duration of the spell, sending them to a wasteland instead.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Desiccate</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>114</Page>
+      <SR>true</SR>
+      <Description>="Deals " &amp; Min(5, CasterLevel) &amp; "d6 dessication damage and dehydrates a single living creature."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Desiccate, Mass</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>114</Page>
+      <SR>true</SR>
+      <Description>="Deals " &amp; Min(5, CasterLevel) &amp; "d6 dessication damage and dehydrates up to " &amp; CasterLevel &amp; " living creatures, no two of which may be more than 30 ft. apart."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Dispel Water</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>114</Page>
+      <SR>true</SR>
+      <Description>Dries up water, can be used as a counterspell for water spells and effects or dismisses water creatures</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Flashflood</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors>
+            <Descriptor>Water</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>120 ft.</Range>
+      <Duration>1 round</Duration>
+      <Area>Cone-shaped spread</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>114</Page>
+      <SR>false</SR>
+      <Description>="Wave of water smashes everything in its path and floods area, dealing " &amp; Min(4,1+Floor(CasterLevel/5)) &amp; "d6 nonlethal damage."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Flaywind Burst</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Earth</Descriptor>
+            <Descriptor>Air</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd</CastingTime>
+      <Range>60 ft.</Range>
+      <Duration>Inst.</Duration>
+      <Area>Cone-shaped burst</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>115</Page>
+      <SR>false</SR>
+      <Description>="Spell produces violent windstorm that deals " &amp; Min(10, CasterLevel) &amp; "d6 damage and may be pushed backwards or knocked prone."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Flesh to Salt</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area>One creature</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " part; See text"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>116</Page>
+      <SR>true</SR>
+      <Description>="Deals " &amp; Min(10, Floor(CasterLevel/2)) &amp; "d6 damage to the target.  If it takes more than 50% of its current hit points then save-or-die, turned to a pillar of salt."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Flesh to Salt, Mass</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area>One living creature/level, no two of which can be more than 30 ft. apart</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " part; see text"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>116</Page>
+      <SR>true</SR>
+      <Description>="Deals " &amp; Min(10, Floor(CasterLevel/2)) &amp; "d6 damage to up to " &amp; Min(5, Floor(CasterLevel/5)) &amp; " creatures, no two of which can be more than 30 ft. apart.  If a creature takes more than 50% of its current hit points then save-or-die, turned to a pillar of salt."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Freedom of Breath</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel * 10 &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>116</Page>
+      <SR>true</SR>
+      <Description>Protects against suffocation and dangerous vapors and grants a +2 bonus to Fort saves against things like Cloudkill.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Fuse Sand</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Earth</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>116</Page>
+      <SR>false</SR>
+      <Description>="Causes sand to melt and then fuse in an area up to " &amp; CasterLevel*2 &amp; " 10 ft. cubes (s)."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Haboob</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors>
+            <Descriptor>Earth</Descriptor>
+            <Descriptor>Air</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area>Abrasive dust spreads in 20-ft. radius, 20-ft. high</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None or Reflex half; see text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>117</Page>
+      <SR>true</SR>
+      <Description>="Creates a cloud of dust and grit that obscures sight and abrades those who pass through it.  The cload deals " &amp; Min(5, Floor(CasterLevel/2)) &amp; "d4 damage."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Halo of Sand</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Earth</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel*10 &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>117</Page>
+      <SR>false</SR>
+      <Description>="Swirling band of sand grants a +" &amp; Min(4,Floor(CasterLevel/3)) &amp; " deflection bonus to AC."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Hydrate</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Healing</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " half; see text"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>117</Page>
+      <SR>true</SR>
+      <Description>="Heals 2d8+" &amp; Min(10, CasterLevel) &amp; " points of dessication damage.  Can damage [Fire] creatures instead."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Impede Sun's Brilliance</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel * 10 &amp; " min [d]"</Duration>
+      <Area>Cylinder (10-ft. radius, 20-ft. high)</Area>
+      <Components>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>117</Page>
+      <SR>false</SR>
+      <Description>Diminishes the heat and light of the sun in an area.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Locate Water</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Long</Range>
+      <Duration>= "[c] up to " &amp; CasterLevel * 10 &amp; " min"</Duration>
+      <Area>Cone-shaped emanation</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>FocusOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>117</Page>
+      <SR>false</SR>
+      <Description>Reveals location, size, and quality of water sources</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Mantle of the Fiery Spirit</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+        <Component>XP</Component>
+      </Components>
+      <MaterialComponentCost>5000</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>2000</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>118</Page>
+      <SR>true</SR>
+      <Description>Permanently grants one creature the [Fire] subtype.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Mephit Mob</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Summoning</Subschool>
+          <Descriptors>
+            <Descriptor>See Text</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 min.</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel *10 &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>118</Page>
+      <SR>false</SR>
+      <Description>Summon 2d6 mephits of a kind you designate.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Mummify</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " part; see text"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>118</Page>
+      <SR>true</SR>
+      <Description>Touched living creature dies and is mummified.  Take 6d6 damage and be dehydrated on a successful save.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Parboil</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Fire</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area>20-ft. radius spread</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " part; see text"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>118</Page>
+      <SR>true</SR>
+      <Description>Flash heated air deals 6d6 fire and 2d4 Intelligence damage to one or more creatures.  Half fire and no Int damage on successful save.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Parching Touch</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " part; see text"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>118</Page>
+      <SR>true</SR>
+      <Description>="Touch attack deals 1d6 dessication damage. On failed save target takes 1 Con damage and is dehydrated.  You can use this attack up to " &amp; CasterLevel &amp; " times."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Protection from Dessication</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>FocusOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>119</Page>
+      <SR>true</SR>
+      <Description>="Absorbs up to " &amp; Min(100, 10*CasterLevel) &amp; " points of dessication damage."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Sandform</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>119</Page>
+      <SR>false</SR>
+      <Description>You become an ooze-like being of sand.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Sandstorm</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors>
+            <Descriptor>Earth</Descriptor>
+            <Descriptor>Air</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>= CasterLevel*40 &amp; " ft."</Range>
+      <Duration>= CasterLevel * 10 &amp; " min"</Duration>
+      <Area>= "Cylinder (" &amp; CasterLevel*40 &amp; " ft. radius, 40 ft. high)"</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>119</Page>
+      <SR>false</SR>
+      <Description>Creates a controlled sandstorm.  See text for description of storm's uberness...</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Scalding Mud</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Earth</Descriptor>
+            <Descriptor>Fire</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Permanent; see text</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>120</Page>
+      <SR>false</SR>
+      <Description>Functions as per Transmute Rock to Mud except mud is sticky and boiling hot..  Creatures mired in the mud take 5d6 fire damage per round while those submerged take 10d6 fire damage per round.  Mud sticks for 1d3 rounds after you leave and eventually cools.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Scimitar of Sand</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Earth</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>0 ft.</Range>
+      <Duration>= CasterLevel &amp; " min [d]"</Duration>
+      <Area>Scimitar of grinding sand</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>120</Page>
+      <SR>true</SR>
+      <Description>="Creates a sword made of sand.  Attacks are melee touch attacks and sword deals 1d6+" &amp; Min(10,Floor(casterLevel/2)) &amp; " damage.  Also renders target dehydrated on a failed Fort save."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Searing Exposure</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Fire</Descriptor>
+            <Descriptor>Light</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area>One living creature</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " part; see text"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>120</Page>
+      <SR>true</SR>
+      <Description>="Target suffers hours of wasteland exposure in a moment taking " &amp; Min(15, casterLevel) &amp; "d4 nonlethal damage and becomes dazzled, sunburned and dehydrated."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Skin of the Cactus</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel*10 &amp; " min"</Duration>
+      <Area>Living creature touched</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>120</Page>
+      <SR>true</SR>
+      <Description>Grants +3 enhancement bonus to natural armor (increases to +4 at cl 10 and +5 at cl 13), needles that do 1d6 to anyone striking them and resistance to dehydration.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Sleep Mote</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " rd; see text"</Duration>
+      <Area>5-ft.-diameter sphere</Area>
+      <Components>
+        <Component>MaterialOrDivineFocus</Component>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>121</Page>
+      <SR>true</SR>
+      <Description>Dust devil of magic sand puts foes to sleep.  Can be moved around wil move action or programmed with standard action.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Slipsand</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Permanent</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>121</Page>
+      <SR>false</SR>
+      <Description>="Creates a volume of slipsand equal to " &amp; CasterLevel &amp; " 10 ft. cubes."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Soul of the Waste</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Earth</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel *10 &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>121</Page>
+      <SR>false</SR>
+      <Description>Meld into surrounding sand.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Storm Mote</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Earth</Descriptor>
+            <Descriptor>Air</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area>Cylinder (5-ft. radius, 10 ft. high)</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>121</Page>
+      <SR>true</SR>
+      <Description>Creates a vortex of sand that flies at 60 ft. (perfect) that can be programmed (std action) or controlled (move action).  Stops when it touches a creature, dealing 2d8 damage.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Summon Desert Ally I</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Summoning</Subschool>
+          <Descriptors>
+            <Descriptor>See Text</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp;" rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>122</Page>
+      <SR>false</SR>
+      <Description>Calls one dustform creature to fight for you.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Summon Desert Ally II</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Summoning</Subschool>
+          <Descriptors>
+            <Descriptor>See Text</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp;" rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>122</Page>
+      <SR>false</SR>
+      <Description>Calls one or more dustform creatures, no two of which can be more than 30 ft. apart, to fight for you.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Summon Desert Ally III</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Summoning</Subschool>
+          <Descriptors>
+            <Descriptor>See Text</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp;" rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>122</Page>
+      <SR>false</SR>
+      <Description>Calls one or more dustform creatures, no two of which can be more than 30 ft. apart, to fight for you.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Summon Desert Ally IV</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Summoning</Subschool>
+          <Descriptors>
+            <Descriptor>See Text</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp;" rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>123</Page>
+      <SR>false</SR>
+      <Description>Calls one or more dustform creatures, no two of which can be more than 30 ft. apart, to fight for you.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Summon Desert Ally IX</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Summoning</Subschool>
+          <Descriptors>
+            <Descriptor>See Text</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp;" rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>123</Page>
+      <SR>false</SR>
+      <Description>Calls one or more dustform creatures, no two of which can be more than 30 ft. apart, to fight for you.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Summon Desert Ally V</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Summoning</Subschool>
+          <Descriptors>
+            <Descriptor>See Text</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp;" rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>123</Page>
+      <SR>false</SR>
+      <Description>Calls one or more dustform creatures, no two of which can be more than 30 ft. apart, to fight for you.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Summon Desert Ally VI</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Summoning</Subschool>
+          <Descriptors>
+            <Descriptor>See Text</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp;" rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>123</Page>
+      <SR>false</SR>
+      <Description>Calls one or more dustform creatures, no two of which can be more than 30 ft. apart, to fight for you.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Summon Desert Ally VII</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Summoning</Subschool>
+          <Descriptors>
+            <Descriptor>See Text</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp;" rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>123</Page>
+      <SR>false</SR>
+      <Description>Calls one or more dustform creatures, no two of which can be more than 30 ft. apart, to fight for you.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Summon Desert Ally VIII</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Summoning</Subschool>
+          <Descriptors>
+            <Descriptor>See Text</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp;" rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>123</Page>
+      <SR>false</SR>
+      <Description>Calls one or more dustform creatures, no two of which can be more than 30 ft. apart, to fight for you.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Sunstroke</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area>One Living Creature</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " part; see text"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>123</Page>
+      <SR>true</SR>
+      <Description>Target takes 2d6 nonlethal damage and is fatigued</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Surelife</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>123</Page>
+      <SR>false</SR>
+      <Description>Protects you from death due to hazards</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Symbol of Thirst</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>10 min.</CastingTime>
+      <Range>0 ft.; see text</Range>
+      <Duration>See text</Duration>
+      <Area>One symbol</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>5000</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>123</Page>
+      <SR>true</SR>
+      <Description>="Triggered rune overwhelms nearby creatures with thirst as per Tormenting Thirst for " &amp; CasterLevel * 10 &amp; " minutes."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Tormenting Thirst</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area>One living creature</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>124</Page>
+      <SR>true</SR>
+      <Description>Subject is overwhelmed by thirst</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Transcribe Symbol</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>10 minutes or until discharged</Duration>
+      <Area>Magic symbol touched</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>124</Page>
+      <SR>false</SR>
+      <Description>Safely moves an untriggered symbol to another location.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Transmute Sand to Glass</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Earth</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Permanent</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>124</Page>
+      <SR>false</SR>
+      <Description>="Transforms up to " &amp; CasterLevel*2 &amp; " 10-ft. cubes (s) of sand to solid glass."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Transmute Sand to Stone</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Earth</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Permanent</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>124</Page>
+      <SR>false</SR>
+      <Description>="Transforms up to " &amp; CasterLevel*2 &amp; " 10-ft. cubes (s) of sand to stone."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Transmute Stone to Sand</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Earth</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Permanent</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>125</Page>
+      <SR>false</SR>
+      <Description>="Transforms up to " &amp; CasterLevel*2 &amp; " 10-ft. cubes (s) of stone to sand."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Unearthly Heat</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area>Living creature touched</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg; see text"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>125</Page>
+      <SR>true</SR>
+      <Description>="Target is subjected to unearthly heat for " &amp; CasterLevel &amp; " rounds.  Each round they take 1d6 lethal and 1d4 nonlethal damage (Fort to avoid each round -4 to saves in heavy clothes or armour).  target is also fatigued (then exhausted) if they take damage."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Vitrify</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Earth</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Permanent</Duration>
+      <Area>Up to one 10-ft. cubes/5 levels (S)</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>125</Page>
+      <SR>false</SR>
+      <Description>="Transforms up to " &amp; Floor(CasterLevel/5) &amp; " 10-ft. cubes (s) of sand to molten glass.  ANy creature failing the refkex save takes 10d6 damage the first round, diminishing by 1 dice per round thereafter."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Wall of Magma</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors>
+            <Descriptor>Earth</Descriptor>
+            <Descriptor>Fire</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>126</Page>
+      <SR>true</SR>
+      <Description>="Creates a wall of molten stone whose area is up to " &amp; CasterLevel &amp; " 5-ft. squares (s) which deals 2d6 fire damage out to 10-ft. and 1d6 out to 20-ft.  Passing through wall deals 5d6+" &amp; Min(20, CasterLevel) &amp; " fire damage."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Wall of Salt</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors>
+            <Descriptor>Earth</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>127</Page>
+      <SR>false</SR>
+      <Description>="Creates a wall of salt whose area is up to " &amp; CasterLevel &amp; " 5-ft. squares (S)."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Wall of Sand</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors>
+            <Descriptor>Earth</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>127</Page>
+      <SR>false</SR>
+      <Description>="Creates a wall of moving sand up to " &amp; CasterLevel &amp; " 10-ft. squares (s) that impedes movement, obscures vision, and blocks some attacks."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Wall of Water</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors>
+            <Descriptor>Water</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>128</Page>
+      <SR>false</SR>
+      <Description>="Creates a wall of water 1-ft. thick whose area is up to " &amp; CasterLevel &amp; " 10-ft. squares (s) that impedes movement and can drown creatures."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Waste Strider</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " hr [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>128</Page>
+      <SR>true</SR>
+      <Description>="Allows " &amp; CasterLevel &amp; " creatures to move through desert and waste terrain without hindrance."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Whispering Sand</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Language Dependent</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>See text</Range>
+      <Duration>= CasterLevel *10 &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>128</Page>
+      <SR>false</SR>
+      <Description>="Allows you to communicate with up to " &amp; casterLevel &amp; " others as long as they have an appropriate focus and are on the same plane."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Wither</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area>One living creature</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>128</Page>
+      <SR>true</SR>
+      <Description>="Deals " &amp; Min(10, CasterLevel) &amp; "d6 dessication damage and dehydrates a living creature."</Description>
+    </Spell>
+  </Spells>
+  <SpellOverrides />
+  <SpellListEntries>
+    <SpellList Name="Sorcerer" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Locate Water" Level="1" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Parching Touch" Level="1" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Sunstroke" Level="1" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Ashstar" Level="2" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Scimitar of Sand" Level="2" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Desiccate" Level="2" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Body Blaze" Level="3" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Haboob" Level="3" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Protection from Dessication" Level="3" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Storm Mote" Level="3" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Tormenting Thirst" Level="3" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Whispering Sand" Level="3" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Blast of Sand" Level="4" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Desert Diversion" Level="4" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Wall of Salt" Level="4" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Wall of Sand" Level="4" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Wall of Water" Level="4" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Searing Exposure" Level="4" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Parboil" Level="4" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Wither" Level="4" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Sandform" Level="4" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Fuse Sand" Level="4" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Antifire Sphere" Level="5" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Dispel Water" Level="5" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Wall of Magma" Level="5" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Sleep Mote" Level="5" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Flaywind Burst" Level="5" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Flesh to Salt" Level="5" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Choking Sands" Level="5" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Transmute Sand to Glass" Level="5" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Transmute Sand to Stone" Level="5" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Transmute Stone to Sand" Level="5" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Unearthly Heat" Level="5" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Symbol of Thirst" Level="6" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Ashen Union" Level="6" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Desiccate, Mass" Level="6" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Mummify" Level="6" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Scalding Mud" Level="6" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Flesh to Salt, Mass" Level="7" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Vitrify" Level="7" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Transcribe Symbol" Level="8" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Desert Binding" Level="8" ReferenceAbbrev="Snd" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Wizard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Locate Water" Level="1" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Parching Touch" Level="1" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Sunstroke" Level="1" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Ashstar" Level="2" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Scimitar of Sand" Level="2" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Desiccate" Level="2" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Body Blaze" Level="3" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Haboob" Level="3" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Protection from Dessication" Level="3" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Storm Mote" Level="3" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Tormenting Thirst" Level="3" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Whispering Sand" Level="3" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Blast of Sand" Level="4" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Desert Diversion" Level="4" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Wall of Salt" Level="4" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Wall of Sand" Level="4" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Wall of Water" Level="4" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Searing Exposure" Level="4" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Parboil" Level="4" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Wither" Level="4" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Sandform" Level="4" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Fuse Sand" Level="4" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Antifire Sphere" Level="5" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Dispel Water" Level="5" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Wall of Magma" Level="5" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Sleep Mote" Level="5" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Flaywind Burst" Level="5" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Flesh to Salt" Level="5" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Choking Sands" Level="5" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Transmute Sand to Glass" Level="5" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Transmute Sand to Stone" Level="5" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Transmute Stone to Sand" Level="5" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Unearthly Heat" Level="5" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Symbol of Thirst" Level="6" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Ashen Union" Level="6" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Desiccate, Mass" Level="6" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Mummify" Level="6" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Scalding Mud" Level="6" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Flesh to Salt, Mass" Level="7" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Vitrify" Level="7" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Transcribe Symbol" Level="8" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Desert Binding" Level="8" ReferenceAbbrev="Snd" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Bard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Hydrate" Level="2" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Tormenting Thirst" Level="3" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Dispel Water" Level="4" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Mephit Mob" Level="6" ReferenceAbbrev="Snd" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Cleric" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Cloak of Shade" Level="1" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Locate Water" Level="1" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Freedom of Breath" Level="2" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Hydrate" Level="2" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Desiccate" Level="2" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Black Sand" Level="3" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Control Sand" Level="3" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Haboob" Level="3" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Protection from Dessication" Level="3" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Soul of the Waste" Level="3" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Wall of Salt" Level="4" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Wall of Sand" Level="4" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Wall of Water" Level="4" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Choking Sands" Level="5" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Dispel Water" Level="5" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Flaywind Burst" Level="5" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Parboil" Level="5" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Wall of Magma" Level="5" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Desiccate, Mass" Level="6" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Mummify" Level="6" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Symbol of Thirst" Level="6" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Flashflood" Level="8" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Mantle of the Fiery Spirit" Level="9" ReferenceAbbrev="Snd" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Druid" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Cloak of Shade" Level="1" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Impede Sun's Brilliance" Level="1" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Locate Water" Level="1" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Summon Desert Ally I" Level="1" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Sunstroke" Level="1" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Waste Strider" Level="1" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Desiccate" Level="2" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Freedom of Breath" Level="2" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Halo of Sand" Level="2" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Hydrate" Level="2" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Protection from Dessication" Level="2" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Summon Desert Ally II" Level="2" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Scimitar of Sand" Level="2" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Summon Desert Ally III" Level="3" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Control Sand" Level="3" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Haboob" Level="3" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Soul of the Waste" Level="3" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Whispering Sand" Level="3" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Summon Desert Ally IV" Level="4" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Wall of Water" Level="4" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Wall of Sand" Level="4" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Wall of Salt" Level="4" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Slipsand" Level="4" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Searing Exposure" Level="4" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Skin of the Cactus" Level="4" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Sandform" Level="4" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Dispel Water" Level="4" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Blast of Sand" Level="4" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Summon Desert Ally V" Level="5" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Choking Sands" Level="5" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Flaywind Burst" Level="5" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Flesh to Salt" Level="5" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Fuse Sand" Level="5" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Transmute Sand to Glass" Level="5" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Transmute Sand to Stone" Level="5" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Transmute Stone to Sand" Level="5" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Summon Desert Ally VI" Level="6" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Awaken Sand" Level="6" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Desiccate, Mass" Level="6" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Mephit Mob" Level="6" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Mummify" Level="6" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Sandstorm" Level="6" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Scalding Mud" Level="6" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Wall of Magma" Level="6" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Summon Desert Ally VII" Level="7" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Flesh to Salt, Mass" Level="7" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Summon Desert Ally VIII" Level="8" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Flashflood" Level="8" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Mantle of the Fiery Spirit" Level="8" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Summon Desert Ally IX" Level="9" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Sleep Mote" Level="5" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Storm Mote" Level="3" ReferenceAbbrev="Snd" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Paladin_Base" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Freedom of Breath" Level="2" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Hydrate" Level="2" ReferenceAbbrev="Snd" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Ranger" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Impede Sun's Brilliance" Level="1" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Locate Water" Level="1" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Summon Desert Ally I" Level="1" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Waste Strider" Level="1" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Freedom of Breath" Level="2" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Halo of Sand" Level="2" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Hydrate" Level="2" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Protection from Dessication" Level="2" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Summon Desert Ally II" Level="2" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Haboob" Level="3" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Skin of the Cactus" Level="3" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Summon Desert Ally III" Level="3" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Summon Desert Ally IV" Level="4" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Slipsand" Level="4" ReferenceAbbrev="Snd" />
+      </SpellEntries>
+    </SpellList>
+  </SpellListEntries>
+  <Domains>
+    <Domain Name="Nobility" Abbrev="Nob">
+      <Power>Once per day, you can inspire allies that hear you speak for 1 round.  Each such ally gains a +1 morale bonus on saving throws, attack rols, ability checks, skill checks, and damage rolls.  Using this spell-like ability is a standard action, and the effect lasts for a number of rounds equal to your Charisma modifier (minimum 1 tound).</Power>
+      <DomainEntries>
+        <SpellEntry Name="Divine Favor" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Magic Vestment" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Enthrall" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Discern Lies" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Command, Greater" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Geas/Quest" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Repulsion" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Demand" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Storm of Vengeance" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Repose" Abbrev="Rps">
+      <Power>You may use a death touch once per day.  You must succeed on a melee touch attack against a living creature (using the rules for touch spells).  When you touch roll 1d6 per cleric level you posess.  If the total at least equals the creature's current hit points, it dies (no save). The death touch is a supernatural ability that produces a death effect.</Power>
+      <DomainEntries>
+        <SpellEntry Name="Surelife" Level="8" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Deathwatch" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Gentle Repose" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Speak with Dead" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Discern Lies" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Command, Greater" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Undeath to Death" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Destruction" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Wail of the Banshee" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Rune" Abbrev="Run">
+      <Power>Gain Scribe Scroll as a bonus feat.</Power>
+      <DomainEntries>
+        <SpellEntry Name="Erase" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Secret Page" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Glyph of Warding" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Glyph of Warding, Greater" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Explosive Runes" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Planar Binding, Lesser" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Drawmij's Instant Summons" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Transcribe Symbol" Level="8" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Teleportation Circle" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Sand" Abbrev="Snd">
+      <Power>Once per day, you can shape a small amount of sand into any solid object you can imagine, up to 8 cubic feet in volume.  You can shape one object or several, up to a number equal to your Wisdom Bonus, as long as the total volume does not exceed 8 cubic feet.</Power>
+      <DomainEntries>
+        <SpellEntry Name="Summon Desert Ally IX" Level="9" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Desert Binding" Level="8" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Vitrify" Level="7" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Awaken Sand" Level="6" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Flaywind Burst" Level="5" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Blast of Sand" Level="4" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Haboob" Level="3" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Black Sand" Level="2" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Waste Strider" Level="1" ReferenceAbbrev="Snd" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Summer" Abbrev="Smr">
+      <Power>You are considered a native of the waste for purposes of heat resistance (you have 1 level of protection).  During the summer season, you gain a +2 bonus on all Wisdom-based skills.</Power>
+      <DomainEntries>
+        <SpellEntry Name="Impede Sun's Brilliance" Level="1" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Sunstroke" Level="2" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Protection from Dessication" Level="3" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Skin of the Cactus" Level="4" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Unearthly Heat" Level="5" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Sunbeam" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Control Weather" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Sunburst" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Storm of Vengeance" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Thirst" Abbrev="Ths">
+      <Power>Rebuke or command oozes as an evil cleric rebukes or commands undead.  Use this ability a total number of times per day equal to 3 + your Charisma modifier.  You also gain a +2 bonus on Constitution checks to resist dehydration.</Power>
+      <DomainEntries>
+        <SpellEntry Name="Parching Touch" Level="1" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Desiccate" Level="2" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Tormenting Thirst" Level="3" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Dispel Water" Level="4" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Desiccate, Mass" Level="5" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Symbol of Thirst" Level="6" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Mephit Mob" Level="7" ReferenceAbbrev="Snd" />
+        <SpellEntry Name="Horrid Wilting" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Energy Drain" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+  </Domains>
+  <Classes />
+</Reference>

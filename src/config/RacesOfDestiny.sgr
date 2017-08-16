@@ -1,0 +1,1669 @@
+<Reference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Sequence="1" Name="Races of Destiny" Group="" Abbrev="RcDst" Version="1">
+  <Description>(c) 2004 by Wizards of the Coast, Inc. </Description>
+  <DevNotes>Written by Tristan Tewksbury
+
+This file follows the Paladin_Base mechanism.
+
+Contains duplicate spells Bestow Curse, Greater and Stalwart Pact from Complete Divine.
+
+If using an Initiate Feat, replace cleric class with corresponding initiate class at the equivalent level. Those include all Cleric spells, but adds the extra spells of the Initiate Feat.
+
+If you have a Chameleon character, you should include the Chameleon (Arcane Focus) and Chameleon (Divine Focus) spell classes levels as required by your character.
+</DevNotes>
+  <Spells>
+    <Spell OriginalReference="">
+      <Name>Animate City</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd</CastingTime>
+      <Range>Centered</Range>
+      <Duration>= CasterLevel &amp; " min [d]"</Duration>
+      <Area>60' r. em.</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>false</SR>
+      <Description>You must case this spell only within a community at least as large as a small city (DMG p137). The buildings and other structures animate and attack your enemies. Every rd on your turn, every enemy within the area is subject to on e melee att as if from a Gargantuan animated object (slam +15 for 2d8+10 dmg). The animated city's attack disregards cover and concealment (even invisibility is useless). In addition, all enemies move at half normal speed (regardless of mode). Dmg dealt to the animated city structures has no effect.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Bestow Curse, Greater</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Permanent</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>164</Page>
+      <SR>true</SR>
+      <Description>One of 4 effects: (1) one Ability reduced to 1 or 2 by -6 (min 1), (2) -8 on Att, Saves, checks, (3) 25% chance to act each round or (4) custom.Only a Miracle or Wish can break this curse.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Charm Person, Mass</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Charm</Subschool>
+          <Descriptors>
+            <Descriptor>Mind</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " hr"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>164</Page>
+      <SR>true</SR>
+      <Description>="Charm up to "&amp; CasterLevel*2 &amp;" HD of creatures (no 2 &gt;30' apart), or one creature regardless of HD. If there are more potential targets, you choose them one at a time until you choose a creature with too many HD."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Choose Destiny</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 swift act</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>164</Page>
+      <SR>false</SR>
+      <Description>For the duration of the spell, any time you make an Att roll or Save, you may roll twice and select which result to use.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>City Lights</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Light</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>60 ft</Range>
+      <Duration>Inst</Duration>
+      <Area>60' r. brst</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " part."</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>164</Page>
+      <SR>true</SR>
+      <Description>Any artificial light (incl. magical and mundane sources) flickers out momentarily, then a burst of light flares from you. All creatures within the area (except you) are blinded for 1 rd if they fail the save; regardless of the save result, all creatures in the area are dazzled for one minute (PHB p. 307 or DMG p. 300) for 1 min. Sightless creatures are not affected. The spell only functions if at least 4 active light sources (torches, lanterns, light spells, and so forth) are within 60 ft. of the caster. City Lights counters or dispels any darkness spell of equal or lower level.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>City Stride</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Teleport</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (o)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>164</Page>
+      <SR>true</SR>
+      <Description>="Instantly transports you and touched objects or willing creatures from one community to another (which you have visited in the past). Each community must be at least as large as a small city (DMG p 137). The destination may be as distant as "&amp; CasterLevel * 100 &amp;" miles, but not interplanar. You can bring along objects as long as they do not exceed your max load. You may also bring along up to "&amp; Int(CasterLevel/3) &amp;" extra, willing Medium or smaller creatures (with their gear). Lrge counts as 2 Medium, Huge counts as 2 Large, etc. All creatures to be transported must be in contact with you. Only objects held or in use (attended) by another person receive saves and spell resistance. You will arrive at some random, safe point within the city (not within a building)."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>City's Might</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>165</Page>
+      <SR>false</SR>
+      <Description>You gain an enhance bonus depending on size of city (see text). If you are not within 100 ft of a community when the spell is cast, the spell has no effect. If you move more than 100 ft from the community before the duration lapses, the spell's effect ends immediately.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Commune with City</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>10 min</CastingTime>
+      <Range>Personal</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>165</Page>
+      <SR>false</SR>
+      <Description>You gain knowledge of the surrounding community. You instantly gain of as many as three facts from among the following: The population of the community, the dominant race (and its percentage of pop), any given races percentage of pop, the level of the higherst level character of a given class, the type and alignment of one of the power centers (roll randomly), a significant economic factor affecting trade within the community, or a maajor news item within the community (see Gather Information, PHB, p 74).</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Delay Death</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>165</Page>
+      <SR>true</SR>
+      <Description>Subject of this spell is unable to die from hit point damage. While under the protection of this spell, the normal limit of -9 HP is extended without limit. A condition or spell that destroyed enough of the subjects body to prohibit Raise Dead (such as Disintegrate) still kills the creature, as does death brought about by ability damage or (level) drain or death effects. The spell does not prevent the subject from entering the dying state by dropping to -1 HP. It merely prevents death as a result of HP loss. If the subject has fewer than -9 HP when the duration expires, so does the subject.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Discern Bloodline</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= "Conc. up to "&amp; CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>165</Page>
+      <SR>true</SR>
+      <Description>Each rd, instantly tell the race of one target individual, plus any inherited templates (such as celestial or half-dragon). Each rd you can choose a new target as long as you concentrate.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Friendly Face</Name>
+      <Schools>
+        <School>
+          <School>Illusion</School>
+          <Subschool>Glamer</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel *10 &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>166</Page>
+      <SR>false</SR>
+      <Description>You subtly change your appearance so that is seems friendly to the viewer. You gain a +5 (circum) to Diplomacy and Gather Information checks made to influence or gain information from creatures with INT 3+ as long as those creatures are not already hostile to you. This spell does not alter your appearance in any significant way, and thus provides no bonus to Disguise.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Insignia of Alarm</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Centered</Range>
+      <Duration>Inst.</Duration>
+      <Area>= 400+(CasterLevel*40) &amp;"' spd."</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>166</Page>
+      <SR>true</SR>
+      <Description>Alerts all wearers of a specific insignia (see text) within range. Such creatures hear a single mental "ping" (see Alarm spell PHB  p 197) when this spell is cast. The insignia is also the focus of the spell.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Insignia of Blessing</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Centered</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area>= 400+(CasterLevel*40) &amp;"' spd."</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>166</Page>
+      <SR>true</SR>
+      <Description>Functions as Insignia of Alarm (RoDst, p 166) except that insignia wearers are also filled with courage. Each wearer gains +1 (morale) to Att and Saves vs. Fear effects.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Insignia of Healing</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Healing</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Centered</Range>
+      <Duration>Inst.</Duration>
+      <Area>= 400+(CasterLevel*40) &amp;"' spd."</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>166</Page>
+      <SR>true</SR>
+      <Description>="Functions as Insignia of Alarm (RoDst, p 166) except that insignia wearers are instead healed by positive energy. The spell cures 1d8+"&amp; Min(10,CasterLevel) &amp;" to all wearers of the insignia. Since undead are powered by negative energy, this spell deals damage to them instead. Any undead can apply SR and attempt a Will save to take half dmg."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Insignia of Warding</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Centered</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area>= 400+(CasterLevel*40) &amp;"' spd."</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>166</Page>
+      <SR>true</SR>
+      <Description>Functions as Insignia of Alarm (RoDst, p 166) except that insignia wearers also gain a +1 (divine) to AC and Fort saves..</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Locate City</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd</CastingTime>
+      <Range>Centered</Range>
+      <Duration>Inst.</Duration>
+      <Area>= CasterLevel*10 &amp;" mile r."</Area>
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>false</SR>
+      <Description>You sense the distance and direction to the nearest community of a minimum size designated by you at the time of casting. The spell measures distance to the "nearest" community as the min. distance once would have to travel to reach a city without moving through solid objects.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Omen of Peril</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd</CastingTime>
+      <Range>Personal</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>25</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>166</Page>
+      <SR>false</SR>
+      <Description>="A brief supplication grants you a vision of your immediate future. Based on an assessment of the caster's immediate surroundings and likely path of travel, the caster receives one of 3 visions: safety, peril, or great danger (see text). The base chance is "&amp; 70+Min(20, CasterLevel) &amp;"%; the DM makes the roll secretly. If the roll fails, you recieve one of the other results. See text for details."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Phantom Guardians</Name>
+      <Schools>
+        <School>
+          <School>Illusion</School>
+          <Subschool>Figment</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " hr"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " dsblf-i"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>167</Page>
+      <SR>false</SR>
+      <Description>This spell creates illusions of one or more Small or Medium figures of a chosen humanoid race. Each figure is effectively a Minor Image (PHB, p. 254) and can appear dressed in any way the caster chooses. When the spell is cast, each figure is given a brief set of orders to follow for the spell's duration (see text). Instructions can be different for each figure, but cannot change later. Illusory figures cannot speak or react to their surroundings - they are typically used to scare off would-be intruders (as the name suggests).</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Proud Arrogance</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Charm</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>167</Page>
+      <SR>true</SR>
+      <Description>="Up to "&amp; CasterLevel &amp;" creatures (no 2 &gt;30' apart) are resistant to effects that attempt to alter their course of action. The creatures gain a +4 (resist) on Saves vs. Charm, Compulsion, and Fear. The spell only functions for creatures of the same race as the caster."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Rooftop Strider</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>167</Page>
+      <SR>false</SR>
+      <Description>You can run across rooftops or similar uneven surfaces. You gain a +5 (competence) on Balance and Jump checks. You automatically succeed on all Jump checks to clear a horizontal distance of 5' or less. You do not need to make Balance checks for running or charging across a sloped surface.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Scholar's Touch</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= "[c] up to "&amp; CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>167</Page>
+      <SR>false</SR>
+      <Description>Touch a book or scroll and absorb the knowledge contained within as if you had read it. This is equiv to a solid reading but not a deep study - the character does not gain perfect recall of the information, just what would be gotten from reading it completely once. If you can't read the language, the spell has no effect. This spell cannot be used to prepare spells or to cast magical scrolls nor does it have any effect when reading a magical book.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Shadow Guardians</Name>
+      <Schools>
+        <School>
+          <School>Illusion</School>
+          <Subschool>Figment</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " hr"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " dsblf-i"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>168</Page>
+      <SR>false</SR>
+      <Description>As Phantom Guardians (RcDst p. 167) except the figures are partially real. See text for statistics of figures (regardless of size). In addition to the brief orders , the caster can give each guardian a simple trigger that causes it to attack (see text). The shadows have no special visual acuity - invis. disguises and the like can easily fool them. The guardians deal normal damage unless the target saves, in which case they deal half damage.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Skyline Runner</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " hr"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>168</Page>
+      <SR>false</SR>
+      <Description>You can walk normally on any city surface as if it were level ground. This includes perfecly vertical walls, glass windows, and even clothes drying lines. Your movement speed remains unchanged even when walking straight up a wall.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Stalwart Pact</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>10 min</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+        <Component>XP</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>250</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>168</Page>
+      <SR>true</SR>
+      <Description>="Once reduced to &lt;half HP, spell activates and you gain "&amp; CasterLevel *5&amp;"hp, DR 5/magic and +4 (luck) to all Saves."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Unseen Servant, Mass</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " hr"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>168</Page>
+      <SR>false</SR>
+      <Description>="This spell functions as Unseen Servant (PHB, p. 297) except that it creates "&amp; CasterLevel &amp;" servants."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Urban Shield</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 immediate act.</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>168</Page>
+      <SR>false</SR>
+      <Description>The city shields you from harm. You gain cover (+4 to AC, +2 bonus on REF save) against all Att and spells. At the same time, the city reshapes itself to accomodate your attacks. Against your Att and spells. enemies within the city neve benefit from cover that would otherwise be gained from the walls, objects, or other parts of the city and its structures. You must be within a community no smaller than a small city (DMG, p. 137) to cast this spell.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Warp Destiny</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 immediate act</CastingTime>
+      <Range>Personal</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>169</Page>
+      <SR>false</SR>
+      <Description>You reshape your personal fate to avoid some tragic action. After learning the result of a save that you rolled, you may cast this spell to reroll the save, but with an insight bonus of +"&amp; Min(20, CasterLevel ) &amp;". Alternately, if you are struck in combat you can apply the insight bonus to your AC against the Att (even if flat-footed). If your new AC exceed the Att roll, then the attack misses. Until the start of your next turn, you take a -4 penalty to all Saves and your AC.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Winding Alleys</Name>
+      <Schools>
+        <School>
+          <School>Illusion</School>
+          <Subschool>Phantasm</Subschool>
+          <Descriptors>
+            <Descriptor>Mind</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>169</Page>
+      <SR>true</SR>
+      <Description>Target creature suddenly feels as if the walls of the city are closing in around him. If the subject fails its save, he beleives he is trapped in a maze of narrow city alleys that twist and turn in circles. The subject remains in his current location, but is effectively stunned as long as spell lasts. Each rd, at the end of his turn, the subject may attempt a DC 15 INT check to escape the maze and end the effect. If the subject takes dmg, the spell ends immediately. Spell must be cast in a community no smaller than a small town (DMG, p. 137) or it has no effect.</Description>
+    </Spell>
+  </Spells>
+  <SpellOverrides />
+  <SpellListEntries>
+    <SpellList Name="Bard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Scholar's Touch" Level="1" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="Discern Bloodline" Level="1" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="Friendly Face" Level="1" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="Locate City" Level="1" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="Proud Arrogance" Level="2" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="Insignia of Alarm" Level="2" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="Insignia of Healing" Level="3" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="Winding Alleys" Level="3" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="Charm Person, Mass" Level="4" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="Bestow Curse, Greater" Level="6" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="City Stride" Level="6" ReferenceAbbrev="RcDst" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Cleric" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Scholar's Touch" Level="1" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="Omen of Peril" Level="1" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="Insignia of Alarm" Level="2" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="Delay Death" Level="3" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="Insignia of Blessing" Level="3" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="Insignia of Healing" Level="3" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="Insignia of Warding" Level="3" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="Stalwart Pact" Level="5" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="Bestow Curse, Greater" Level="7" ReferenceAbbrev="RcDst" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Sorcerer" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Scholar's Touch" Level="1" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="Discern Bloodline" Level="1" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="Friendly Face" Level="1" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="Locate City" Level="1" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="Proud Arrogance" Level="2" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="City Lights" Level="2" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="Phantom Guardians" Level="3" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="Unseen Servant, Mass" Level="4" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="Charm Person, Mass" Level="5" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="Shadow Guardians" Level="5" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="Bestow Curse, Greater" Level="7" ReferenceAbbrev="RcDst" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Wizard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Scholar's Touch" Level="1" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="Locate City" Level="1" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="Friendly Face" Level="1" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="Discern Bloodline" Level="1" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="Proud Arrogance" Level="2" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="City Lights" Level="2" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="Phantom Guardians" Level="3" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="Unseen Servant, Mass" Level="4" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="Charm Person, Mass" Level="5" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="Shadow Guardians" Level="5" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="Bestow Curse, Greater" Level="7" ReferenceAbbrev="RcDst" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Paladin_Base" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Insignia of Alarm" Level="2" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="Insignia of Blessing" Level="3" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="Insignia of Warding" Level="3" ReferenceAbbrev="RcDst" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Ranger" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Locate City" Level="1" ReferenceAbbrev="RcDst" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Druid" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Omen of Peril" Level="1" ReferenceAbbrev="RcDst" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Assassin" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Rooftop Strider" Level="1" ReferenceAbbrev="RcDst" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Arcane Insight" Inherits="Cleric">
+      <SpellEntries>
+        <SpellEntry Name="True Strike" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Arcane Sight" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Rary's Telepathic Bond" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Arcane Sight, Greater" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Moment of Prescience" Level="8" ReferenceAbbrev="PHB" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Dread Tyranny" Inherits="Cleric">
+      <SpellEntries>
+        <SpellEntry Name="Scare" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Evard's Black Tentacles" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Dominate Person" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Eyebite" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Demand" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Dominate Monster" Level="9" ReferenceAbbrev="PHB" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Eternal Strength" Inherits="Cleric">
+      <SpellEntries>
+        <SpellEntry Name="Heroism" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Waves of Fatigue" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Heroism, Greater" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Waves of Exhaustion" Level="7" ReferenceAbbrev="PHB" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Far Horizons" Inherits="Cleric">
+      <SpellEntries>
+        <SpellEntry Name="Expeditious Retreat" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Leomund's Tiny Hut" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Overland Flight" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Shadow Walk" Level="6" ReferenceAbbrev="PHB" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Law Inviolate" Inherits="Cleric">
+      <SpellEntries>
+        <SpellEntry Name="Color Spray" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Daze Monster" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Suggestion" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Passwall" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Suggestion, Mass" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Power Word, Stun" Level="8" ReferenceAbbrev="PHB" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Radiant Fire" Inherits="Cleric">
+      <SpellEntries>
+        <SpellEntry Name="Scorching Ray" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Summon Monster III" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Summon Monster V" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Summon Monster VI" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Summon Monster VIII" Level="8" ReferenceAbbrev="PHB" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Undying Fate" Inherits="Cleric">
+      <SpellEntries>
+        <SpellEntry Name="False Life" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Halt Undead" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Blight" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Finger of Death" Level="7" ReferenceAbbrev="PHB" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Whispered Secrets" Inherits="Cleric">
+      <SpellEntries>
+        <SpellEntry Name="Disguise Self" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Darkvision" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Glibness" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Arcane Eye" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Prying Eyes" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Analyze Dweomer" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Mind Blank" Level="8" ReferenceAbbrev="PHB" />
+      </SpellEntries>
+    </SpellList>
+  </SpellListEntries>
+  <Domains>
+    <Domain Name="City" Abbrev="City">
+      <Power>Add Gather Information and Knowledge (Local) to your list of cleric class skills.</Power>
+      <DomainEntries>
+        <SpellEntry Name="Rooftop Strider" Level="1" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="City Lights" Level="2" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="Commune with City" Level="4" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="City Stride" Level="6" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="City's Might" Level="8" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="Animate City" Level="9" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="Skyline Runner" Level="5" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="Urban Shield" Level="7" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="Winding Alleys" Level="3" ReferenceAbbrev="RcDst" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Destiny" Abbrev="Dest">
+      <Power>1x/day as immediate action you can grant willing creature within 30; the ability to reroll an Att, Save, Ability check, or skill check. You must be able to see the creature to be affected. You canoot use this power on yourself, and it is a supernatural ability.</Power>
+      <DomainEntries>
+        <SpellEntry Name="Omen of Peril" Level="1" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="Delay Death" Level="3" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="Bestow Curse, Greater" Level="7" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="Choose Destiny" Level="9" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="Stalwart Pact" Level="5" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="Warp Destiny" Level="6" ReferenceAbbrev="RcDst" />
+        <SpellEntry Name="Augury" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Bestow Curse" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Moment of Prescience" Level="8" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+  </Domains>
+  <Classes>
+    <CasterClass>
+      <Name>Initiate of Boccob</Name>
+      <Abbrev>Boccob</Abbrev>
+      <SpellList>Arcane Insight</SpellList>
+      <CasterType>Divine</CasterType>
+      <HasCantrips>true</HasCantrips>
+      <MaxSpellLevel>9</MaxSpellLevel>
+      <MaxCasterLevel>20</MaxCasterLevel>
+      <CastingStat>Wis</CastingStat>
+      <BonusSpellStat>Wis</BonusSpellStat>
+      <SaveDCStat>Wis</SaveDCStat>
+      <KnowsAllSpells>true</KnowsAllSpells>
+      <KnowsAllCantrips>true</KnowsAllCantrips>
+      <SpellsKnown>false</SpellsKnown>
+      <CasterLevelMultiplier>1</CasterLevelMultiplier>
+      <SpellPyramid>
+        <Slots>3 1</Slots>
+        <Slots>4 2</Slots>
+        <Slots>4 2 1</Slots>
+        <Slots>5 3 2</Slots>
+        <Slots>5 3 2 1</Slots>
+        <Slots>5 3 3 2</Slots>
+        <Slots>6 4 3 2 1</Slots>
+        <Slots>6 4 3 3 2</Slots>
+        <Slots>6 4 4 3 2 1</Slots>
+        <Slots>6 4 4 3 3 2</Slots>
+        <Slots>6 5 4 4 3 2 1</Slots>
+        <Slots>6 5 4 4 3 3 2</Slots>
+        <Slots>6 5 5 4 4 3 2 1</Slots>
+        <Slots>6 5 5 4 4 3 3 2</Slots>
+        <Slots>6 5 5 5 4 4 3 2 1</Slots>
+        <Slots>6 5 5 5 4 4 3 3 2</Slots>
+        <Slots>6 5 5 5 5 4 4 3 2 1</Slots>
+        <Slots>6 5 5 5 5 4 4 3 3 2</Slots>
+        <Slots>6 5 5 5 5 5 4 4 3 3</Slots>
+        <Slots>6 5 5 5 5 5 4 4 4 4</Slots>
+      </SpellPyramid>
+      <KnownPyramid>
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+      </KnownPyramid>
+      <ClassSpellPoints>
+        <UseSpellPoints>false</UseSpellPoints>
+        <GiveBonusSpellPointsForStat>true</GiveBonusSpellPointsForStat>
+        <SpellPointCosts />
+        <SpellPointValues />
+        <SpellPointTable ClassName="" />
+        <UseBonusSpellPointFormula>false</UseBonusSpellPointFormula>
+        <BonusSpellPointFormula />
+      </ClassSpellPoints>
+    </CasterClass>
+    <CasterClass>
+      <Name>Initiate of Hextor</Name>
+      <Abbrev>Hextor</Abbrev>
+      <SpellList>Dread Tyranny</SpellList>
+      <CasterType>Divine</CasterType>
+      <HasCantrips>true</HasCantrips>
+      <MaxSpellLevel>9</MaxSpellLevel>
+      <MaxCasterLevel>20</MaxCasterLevel>
+      <CastingStat>Wis</CastingStat>
+      <BonusSpellStat>Wis</BonusSpellStat>
+      <SaveDCStat>Wis</SaveDCStat>
+      <KnowsAllSpells>true</KnowsAllSpells>
+      <KnowsAllCantrips>true</KnowsAllCantrips>
+      <SpellsKnown>false</SpellsKnown>
+      <CasterLevelMultiplier>1</CasterLevelMultiplier>
+      <SpellPyramid>
+        <Slots>3 1</Slots>
+        <Slots>4 2</Slots>
+        <Slots>4 2 1</Slots>
+        <Slots>5 3 2</Slots>
+        <Slots>5 3 2 1</Slots>
+        <Slots>5 3 3 2</Slots>
+        <Slots>6 4 3 2 1</Slots>
+        <Slots>6 4 3 3 2</Slots>
+        <Slots>6 4 4 3 2 1</Slots>
+        <Slots>6 4 4 3 3 2</Slots>
+        <Slots>6 5 4 4 3 2 1</Slots>
+        <Slots>6 5 4 4 3 3 2</Slots>
+        <Slots>6 5 5 4 4 3 2 1</Slots>
+        <Slots>6 5 5 4 4 3 3 2</Slots>
+        <Slots>6 5 5 5 4 4 3 2 1</Slots>
+        <Slots>6 5 5 5 4 4 3 3 2</Slots>
+        <Slots>6 5 5 5 5 4 4 3 2 1</Slots>
+        <Slots>6 5 5 5 5 4 4 3 3 2</Slots>
+        <Slots>6 5 5 5 5 5 4 4 3 3</Slots>
+        <Slots>6 5 5 5 5 5 4 4 4 4</Slots>
+      </SpellPyramid>
+      <KnownPyramid>
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+      </KnownPyramid>
+      <ClassSpellPoints>
+        <UseSpellPoints>false</UseSpellPoints>
+        <GiveBonusSpellPointsForStat>true</GiveBonusSpellPointsForStat>
+        <SpellPointCosts />
+        <SpellPointValues />
+        <SpellPointTable ClassName="" />
+        <UseBonusSpellPointFormula>false</UseBonusSpellPointFormula>
+        <BonusSpellPointFormula />
+      </ClassSpellPoints>
+    </CasterClass>
+    <CasterClass>
+      <Name>Initiate of Kord</Name>
+      <Abbrev>Kord</Abbrev>
+      <SpellList>Eternal Strength</SpellList>
+      <CasterType>Divine</CasterType>
+      <HasCantrips>true</HasCantrips>
+      <MaxSpellLevel>9</MaxSpellLevel>
+      <MaxCasterLevel>20</MaxCasterLevel>
+      <CastingStat>Wis</CastingStat>
+      <BonusSpellStat>Wis</BonusSpellStat>
+      <SaveDCStat>Wis</SaveDCStat>
+      <KnowsAllSpells>true</KnowsAllSpells>
+      <KnowsAllCantrips>true</KnowsAllCantrips>
+      <SpellsKnown>false</SpellsKnown>
+      <CasterLevelMultiplier>1</CasterLevelMultiplier>
+      <SpellPyramid>
+        <Slots>3 1</Slots>
+        <Slots>4 2</Slots>
+        <Slots>4 2 1</Slots>
+        <Slots>5 3 2</Slots>
+        <Slots>5 3 2 1</Slots>
+        <Slots>5 3 3 2</Slots>
+        <Slots>6 4 3 2 1</Slots>
+        <Slots>6 4 3 3 2</Slots>
+        <Slots>6 4 4 3 2 1</Slots>
+        <Slots>6 4 4 3 3 2</Slots>
+        <Slots>6 5 4 4 3 2 1</Slots>
+        <Slots>6 5 4 4 3 3 2</Slots>
+        <Slots>6 5 5 4 4 3 2 1</Slots>
+        <Slots>6 5 5 4 4 3 3 2</Slots>
+        <Slots>6 5 5 5 4 4 3 2 1</Slots>
+        <Slots>6 5 5 5 4 4 3 3 2</Slots>
+        <Slots>6 5 5 5 5 4 4 3 2 1</Slots>
+        <Slots>6 5 5 5 5 4 4 3 3 2</Slots>
+        <Slots>6 5 5 5 5 5 4 4 3 3</Slots>
+        <Slots>6 5 5 5 5 5 4 4 4 4</Slots>
+      </SpellPyramid>
+      <KnownPyramid>
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+      </KnownPyramid>
+      <ClassSpellPoints>
+        <UseSpellPoints>false</UseSpellPoints>
+        <GiveBonusSpellPointsForStat>true</GiveBonusSpellPointsForStat>
+        <SpellPointCosts />
+        <SpellPointValues />
+        <SpellPointTable ClassName="" />
+        <UseBonusSpellPointFormula>false</UseBonusSpellPointFormula>
+        <BonusSpellPointFormula />
+      </ClassSpellPoints>
+    </CasterClass>
+    <CasterClass>
+      <Name>Initiate of Fharlanghn</Name>
+      <Abbrev>Fharl.</Abbrev>
+      <SpellList>Far Horizons</SpellList>
+      <CasterType>Divine</CasterType>
+      <HasCantrips>true</HasCantrips>
+      <MaxSpellLevel>9</MaxSpellLevel>
+      <MaxCasterLevel>20</MaxCasterLevel>
+      <CastingStat>Wis</CastingStat>
+      <BonusSpellStat>Wis</BonusSpellStat>
+      <SaveDCStat>Wis</SaveDCStat>
+      <KnowsAllSpells>true</KnowsAllSpells>
+      <KnowsAllCantrips>true</KnowsAllCantrips>
+      <SpellsKnown>false</SpellsKnown>
+      <CasterLevelMultiplier>1</CasterLevelMultiplier>
+      <SpellPyramid>
+        <Slots>3 1</Slots>
+        <Slots>4 2</Slots>
+        <Slots>4 2 1</Slots>
+        <Slots>5 3 2</Slots>
+        <Slots>5 3 2 1</Slots>
+        <Slots>5 3 3 2</Slots>
+        <Slots>6 4 3 2 1</Slots>
+        <Slots>6 4 3 3 2</Slots>
+        <Slots>6 4 4 3 2 1</Slots>
+        <Slots>6 4 4 3 3 2</Slots>
+        <Slots>6 5 4 4 3 2 1</Slots>
+        <Slots>6 5 4 4 3 3 2</Slots>
+        <Slots>6 5 5 4 4 3 2 1</Slots>
+        <Slots>6 5 5 4 4 3 3 2</Slots>
+        <Slots>6 5 5 5 4 4 3 2 1</Slots>
+        <Slots>6 5 5 5 4 4 3 3 2</Slots>
+        <Slots>6 5 5 5 5 4 4 3 2 1</Slots>
+        <Slots>6 5 5 5 5 4 4 3 3 2</Slots>
+        <Slots>6 5 5 5 5 5 4 4 3 3</Slots>
+        <Slots>6 5 5 5 5 5 4 4 4 4</Slots>
+      </SpellPyramid>
+      <KnownPyramid>
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+      </KnownPyramid>
+      <ClassSpellPoints>
+        <UseSpellPoints>false</UseSpellPoints>
+        <GiveBonusSpellPointsForStat>true</GiveBonusSpellPointsForStat>
+        <SpellPointCosts />
+        <SpellPointValues />
+        <SpellPointTable ClassName="" />
+        <UseBonusSpellPointFormula>false</UseBonusSpellPointFormula>
+        <BonusSpellPointFormula />
+      </ClassSpellPoints>
+    </CasterClass>
+    <CasterClass>
+      <Name>Initiate of St. Cuthbert</Name>
+      <Abbrev>Cuthbert</Abbrev>
+      <SpellList>Law Inviolate</SpellList>
+      <CasterType>Divine</CasterType>
+      <HasCantrips>true</HasCantrips>
+      <MaxSpellLevel>9</MaxSpellLevel>
+      <MaxCasterLevel>20</MaxCasterLevel>
+      <CastingStat>Wis</CastingStat>
+      <BonusSpellStat>Wis</BonusSpellStat>
+      <SaveDCStat>Wis</SaveDCStat>
+      <KnowsAllSpells>true</KnowsAllSpells>
+      <KnowsAllCantrips>true</KnowsAllCantrips>
+      <SpellsKnown>false</SpellsKnown>
+      <CasterLevelMultiplier>1</CasterLevelMultiplier>
+      <SpellPyramid>
+        <Slots>3 1</Slots>
+        <Slots>4 2</Slots>
+        <Slots>4 2 1</Slots>
+        <Slots>5 3 2</Slots>
+        <Slots>5 3 2 1</Slots>
+        <Slots>5 3 3 2</Slots>
+        <Slots>6 4 3 2 1</Slots>
+        <Slots>6 4 3 3 2</Slots>
+        <Slots>6 4 4 3 2 1</Slots>
+        <Slots>6 4 4 3 3 2</Slots>
+        <Slots>6 5 4 4 3 2 1</Slots>
+        <Slots>6 5 4 4 3 3 2</Slots>
+        <Slots>6 5 5 4 4 3 2 1</Slots>
+        <Slots>6 5 5 4 4 3 3 2</Slots>
+        <Slots>6 5 5 5 4 4 3 2 1</Slots>
+        <Slots>6 5 5 5 4 4 3 3 2</Slots>
+        <Slots>6 5 5 5 5 4 4 3 2 1</Slots>
+        <Slots>6 5 5 5 5 4 4 3 3 2</Slots>
+        <Slots>6 5 5 5 5 5 4 4 3 3</Slots>
+        <Slots>6 5 5 5 5 5 4 4 4 4</Slots>
+      </SpellPyramid>
+      <KnownPyramid>
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+      </KnownPyramid>
+      <ClassSpellPoints>
+        <UseSpellPoints>false</UseSpellPoints>
+        <GiveBonusSpellPointsForStat>true</GiveBonusSpellPointsForStat>
+        <SpellPointCosts />
+        <SpellPointValues />
+        <SpellPointTable ClassName="" />
+        <UseBonusSpellPointFormula>false</UseBonusSpellPointFormula>
+        <BonusSpellPointFormula />
+      </ClassSpellPoints>
+    </CasterClass>
+    <CasterClass>
+      <Name>Initiate of Pelor</Name>
+      <Abbrev>Pelor</Abbrev>
+      <SpellList>Radiant Fire</SpellList>
+      <CasterType>Divine</CasterType>
+      <HasCantrips>true</HasCantrips>
+      <MaxSpellLevel>9</MaxSpellLevel>
+      <MaxCasterLevel>20</MaxCasterLevel>
+      <CastingStat>Wis</CastingStat>
+      <BonusSpellStat>Wis</BonusSpellStat>
+      <SaveDCStat>Wis</SaveDCStat>
+      <KnowsAllSpells>true</KnowsAllSpells>
+      <KnowsAllCantrips>true</KnowsAllCantrips>
+      <SpellsKnown>false</SpellsKnown>
+      <CasterLevelMultiplier>1</CasterLevelMultiplier>
+      <SpellPyramid>
+        <Slots>3 1</Slots>
+        <Slots>4 2</Slots>
+        <Slots>4 2 1</Slots>
+        <Slots>5 3 2</Slots>
+        <Slots>5 3 2 1</Slots>
+        <Slots>5 3 3 2</Slots>
+        <Slots>6 4 3 2 1</Slots>
+        <Slots>6 4 3 3 2</Slots>
+        <Slots>6 4 4 3 2 1</Slots>
+        <Slots>6 4 4 3 3 2</Slots>
+        <Slots>6 5 4 4 3 2 1</Slots>
+        <Slots>6 5 4 4 3 3 2</Slots>
+        <Slots>6 5 5 4 4 3 2 1</Slots>
+        <Slots>6 5 5 4 4 3 3 2</Slots>
+        <Slots>6 5 5 5 4 4 3 2 1</Slots>
+        <Slots>6 5 5 5 4 4 3 3 2</Slots>
+        <Slots>6 5 5 5 5 4 4 3 2 1</Slots>
+        <Slots>6 5 5 5 5 4 4 3 3 2</Slots>
+        <Slots>6 5 5 5 5 5 4 4 3 3</Slots>
+        <Slots>6 5 5 5 5 5 4 4 4 4</Slots>
+      </SpellPyramid>
+      <KnownPyramid>
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+      </KnownPyramid>
+      <ClassSpellPoints>
+        <UseSpellPoints>false</UseSpellPoints>
+        <GiveBonusSpellPointsForStat>true</GiveBonusSpellPointsForStat>
+        <SpellPointCosts />
+        <SpellPointValues />
+        <SpellPointTable ClassName="" />
+        <UseBonusSpellPointFormula>false</UseBonusSpellPointFormula>
+        <BonusSpellPointFormula />
+      </ClassSpellPoints>
+    </CasterClass>
+    <CasterClass>
+      <Name>Initiate of Wee Jas</Name>
+      <Abbrev>WeeJas</Abbrev>
+      <SpellList>Undying Fate</SpellList>
+      <CasterType>Divine</CasterType>
+      <HasCantrips>true</HasCantrips>
+      <MaxSpellLevel>9</MaxSpellLevel>
+      <MaxCasterLevel>20</MaxCasterLevel>
+      <CastingStat>Wis</CastingStat>
+      <BonusSpellStat>Wis</BonusSpellStat>
+      <SaveDCStat>Wis</SaveDCStat>
+      <KnowsAllSpells>true</KnowsAllSpells>
+      <KnowsAllCantrips>true</KnowsAllCantrips>
+      <SpellsKnown>false</SpellsKnown>
+      <CasterLevelMultiplier>1</CasterLevelMultiplier>
+      <SpellPyramid>
+        <Slots>3 1</Slots>
+        <Slots>4 2</Slots>
+        <Slots>4 2 1</Slots>
+        <Slots>5 3 2</Slots>
+        <Slots>5 3 2 1</Slots>
+        <Slots>5 3 3 2</Slots>
+        <Slots>6 4 3 2 1</Slots>
+        <Slots>6 4 3 3 2</Slots>
+        <Slots>6 4 4 3 2 1</Slots>
+        <Slots>6 4 4 3 3 2</Slots>
+        <Slots>6 5 4 4 3 2 1</Slots>
+        <Slots>6 5 4 4 3 3 2</Slots>
+        <Slots>6 5 5 4 4 3 2 1</Slots>
+        <Slots>6 5 5 4 4 3 3 2</Slots>
+        <Slots>6 5 5 5 4 4 3 2 1</Slots>
+        <Slots>6 5 5 5 4 4 3 3 2</Slots>
+        <Slots>6 5 5 5 5 4 4 3 2 1</Slots>
+        <Slots>6 5 5 5 5 4 4 3 3 2</Slots>
+        <Slots>6 5 5 5 5 5 4 4 3 3</Slots>
+        <Slots>6 5 5 5 5 5 4 4 4 4</Slots>
+      </SpellPyramid>
+      <KnownPyramid>
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+      </KnownPyramid>
+      <ClassSpellPoints>
+        <UseSpellPoints>false</UseSpellPoints>
+        <GiveBonusSpellPointsForStat>true</GiveBonusSpellPointsForStat>
+        <SpellPointCosts />
+        <SpellPointValues />
+        <SpellPointTable ClassName="" />
+        <UseBonusSpellPointFormula>false</UseBonusSpellPointFormula>
+        <BonusSpellPointFormula />
+      </ClassSpellPoints>
+    </CasterClass>
+    <CasterClass>
+      <Name>Initiate of Vecna</Name>
+      <Abbrev>Vecna</Abbrev>
+      <SpellList>Whispered Secrets</SpellList>
+      <CasterType>Divine</CasterType>
+      <HasCantrips>true</HasCantrips>
+      <MaxSpellLevel>9</MaxSpellLevel>
+      <MaxCasterLevel>20</MaxCasterLevel>
+      <CastingStat>Wis</CastingStat>
+      <BonusSpellStat>Wis</BonusSpellStat>
+      <SaveDCStat>Wis</SaveDCStat>
+      <KnowsAllSpells>true</KnowsAllSpells>
+      <KnowsAllCantrips>true</KnowsAllCantrips>
+      <SpellsKnown>false</SpellsKnown>
+      <CasterLevelMultiplier>1</CasterLevelMultiplier>
+      <SpellPyramid>
+        <Slots>3 1</Slots>
+        <Slots>4 2</Slots>
+        <Slots>4 2 1</Slots>
+        <Slots>5 3 2</Slots>
+        <Slots>5 3 2 1</Slots>
+        <Slots>5 3 3 2</Slots>
+        <Slots>6 4 3 2 1</Slots>
+        <Slots>6 4 3 3 2</Slots>
+        <Slots>6 4 4 3 2 1</Slots>
+        <Slots>6 4 4 3 3 2</Slots>
+        <Slots>6 5 4 4 3 2 1</Slots>
+        <Slots>6 5 4 4 3 3 2</Slots>
+        <Slots>6 5 5 4 4 3 2 1</Slots>
+        <Slots>6 5 5 4 4 3 3 2</Slots>
+        <Slots>6 5 5 5 4 4 3 2 1</Slots>
+        <Slots>6 5 5 5 4 4 3 3 2</Slots>
+        <Slots>6 5 5 5 5 4 4 3 2 1</Slots>
+        <Slots>6 5 5 5 5 4 4 3 3 2</Slots>
+        <Slots>6 5 5 5 5 5 4 4 3 3</Slots>
+        <Slots>6 5 5 5 5 5 4 4 4 4</Slots>
+      </SpellPyramid>
+      <KnownPyramid>
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+      </KnownPyramid>
+      <ClassSpellPoints>
+        <UseSpellPoints>false</UseSpellPoints>
+        <GiveBonusSpellPointsForStat>true</GiveBonusSpellPointsForStat>
+        <SpellPointCosts />
+        <SpellPointValues />
+        <SpellPointTable ClassName="" />
+        <UseBonusSpellPointFormula>false</UseBonusSpellPointFormula>
+        <BonusSpellPointFormula />
+      </ClassSpellPoints>
+    </CasterClass>
+    <CasterClass>
+      <Name>Chameleon (Divine Focus)</Name>
+      <Abbrev>ChamDiv</Abbrev>
+      <SpellList>Cleric</SpellList>
+      <CasterType>Divine</CasterType>
+      <HasCantrips>true</HasCantrips>
+      <MaxSpellLevel>6</MaxSpellLevel>
+      <MaxCasterLevel>10</MaxCasterLevel>
+      <CastingStat>Wis</CastingStat>
+      <BonusSpellStat>Wis</BonusSpellStat>
+      <SaveDCStat>Wis</SaveDCStat>
+      <KnowsAllSpells>true</KnowsAllSpells>
+      <KnowsAllCantrips>true</KnowsAllCantrips>
+      <SpellsKnown>false</SpellsKnown>
+      <CasterLevelMultiplier>1</CasterLevelMultiplier>
+      <SpellPyramid>
+        <Slots>4 2 0</Slots>
+        <Slots>4 3 1</Slots>
+        <Slots>4 3 2 0</Slots>
+        <Slots>4 4 3 1</Slots>
+        <Slots>4 4 3 2 0</Slots>
+        <Slots>4 4 4 3 1</Slots>
+        <Slots>4 4 4 4 2 0</Slots>
+        <Slots>4 4 4 4 3 1</Slots>
+        <Slots>4 4 4 4 4 2 0</Slots>
+        <Slots>4 4 4 4 4 3 1</Slots>
+      </SpellPyramid>
+      <KnownPyramid>
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+      </KnownPyramid>
+      <ClassSpellPoints>
+        <UseSpellPoints>false</UseSpellPoints>
+        <GiveBonusSpellPointsForStat>true</GiveBonusSpellPointsForStat>
+        <SpellPointCosts />
+        <SpellPointValues />
+        <SpellPointTable ClassName="" />
+        <UseBonusSpellPointFormula>false</UseBonusSpellPointFormula>
+        <BonusSpellPointFormula />
+      </ClassSpellPoints>
+    </CasterClass>
+    <CasterClass>
+      <Name>Chameleon (Arcane Focus)</Name>
+      <Abbrev>ChamArc</Abbrev>
+      <SpellList>Wizard</SpellList>
+      <CasterType>Arcane</CasterType>
+      <HasCantrips>true</HasCantrips>
+      <MaxSpellLevel>6</MaxSpellLevel>
+      <MaxCasterLevel>10</MaxCasterLevel>
+      <CastingStat>Int</CastingStat>
+      <BonusSpellStat>Int</BonusSpellStat>
+      <SaveDCStat>Int</SaveDCStat>
+      <KnowsAllSpells>false</KnowsAllSpells>
+      <KnowsAllCantrips>true</KnowsAllCantrips>
+      <SpellsKnown>false</SpellsKnown>
+      <CasterLevelMultiplier>1</CasterLevelMultiplier>
+      <SpellPyramid>
+        <Slots>4 2 0</Slots>
+        <Slots>4 3 1</Slots>
+        <Slots>4 3 2 0</Slots>
+        <Slots>4 4 3 1</Slots>
+        <Slots>4 4 3 2 0</Slots>
+        <Slots>4 4 4 3 1</Slots>
+        <Slots>4 4 4 4 2 0</Slots>
+        <Slots>4 4 4 4 3 1</Slots>
+        <Slots>4 4 4 4 4 2 0</Slots>
+        <Slots>4 4 4 4 4 3 1</Slots>
+      </SpellPyramid>
+      <KnownPyramid>
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+      </KnownPyramid>
+      <ClassSpellPoints>
+        <UseSpellPoints>false</UseSpellPoints>
+        <GiveBonusSpellPointsForStat>true</GiveBonusSpellPointsForStat>
+        <SpellPointCosts />
+        <SpellPointValues />
+        <SpellPointTable ClassName="" />
+        <UseBonusSpellPointFormula>false</UseBonusSpellPointFormula>
+        <BonusSpellPointFormula />
+      </ClassSpellPoints>
+    </CasterClass>
+  </Classes>
+</Reference>

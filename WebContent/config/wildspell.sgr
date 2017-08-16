@@ -1,0 +1,1176 @@
+<Reference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Sequence="1" Name="Wild Spellcraft" Group="" Abbrev="Wild" Version="1">
+  <Description> </Description>
+  <DevNotes />
+  <Spells>
+    <Spell OriginalReference="">
+      <Name>Meece's Cartomantic Flourish</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Wild</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>20 ft.</Range>
+      <Duration>1 hour</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="(text) " &amp; SaveDC</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>51</Page>
+      <SR>false</SR>
+      <Description>You can control the results of games of chance for one hour.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Minor Mishap</Name>
+      <Schools>
+        <School>
+          <School>Universal</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Wild</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="(text) " &amp; SaveDC</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>51</Page>
+      <SR>true</SR>
+      <Description>You tap into chaos and release a (minor) mishap. DCs are reduced by 5.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Flashy Defenses</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Force</Descriptor>
+            <Descriptor>Wild</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>49</Page>
+      <SR>false</SR>
+      <Description>A barrier of randomly determined composition protects you.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Understand Unorthodoxy</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Wild</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>2 min</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>57</Page>
+      <SR>false</SR>
+      <Description>="You gain insight into chaos and disorder. AoE "&amp; CasterLevel &amp;" 10' cubes."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Delude Divination</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Wild</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" hr"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>48</Page>
+      <SR>true</SR>
+      <Description>Divinations cast on target are scrambled.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Jibba Jabba</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Wild</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel *10&amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>51</Page>
+      <SR>true</SR>
+      <Description>All affected creatures speak a seemingly random language that only they can understand.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Bestow Fluctuating Curse</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Wild</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" days"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>true</SR>
+      <Description>Target is cursed with various afflictions that change daily.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Rodinn's Rhyming Doom</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Wild</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>(text)</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (o; txt)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>54</Page>
+      <SR>true</SR>
+      <Description>="1d4 +"&amp; CasterLevel /5&amp;" items are polymorphed into something that rhymes with their respective names."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Mishap Protector</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Wild</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>52</Page>
+      <SR>false</SR>
+      <Description>Contain mishaps within your 5' square, or exclude it.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Shift Aim</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Force</Descriptor>
+            <Descriptor>Wild</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>55</Page>
+      <SR>true</SR>
+      <Description>Target is protected against targeted missile attacks, which are randomly determined among all targets within 15'.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Pandora's Blessing</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Wild</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Perm.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>53</Page>
+      <SR>true</SR>
+      <Description>Target is permanently cursed with the Wild Spellcaster Template.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Entropic Burst</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Wild</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>49</Page>
+      <SR>true</SR>
+      <Description>="A 20' rad. spread of entropy causes "&amp; CasterLevel &amp;"d6 points of damage to living creatures; tarnishes everything else."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Spirit Current</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Wild</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Long</Range>
+      <Duration>= CasterLevel &amp;" hr"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>55</Page>
+      <SR>true</SR>
+      <Description>Any spell that is [mind-affecting], [death] or requires a Will save is randomly targeted among recipients.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Chaosphere</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Wild</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel *10&amp;" minutes"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>47</Page>
+      <SR>false</SR>
+      <Description>Any spellcaster or magical item within 20' has the WS Template.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Free Your Mind</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Wild</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="(text) " &amp; SaveDC</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>49</Page>
+      <SR>false</SR>
+      <Description>Chaos disrupts all orderly magic within 50'.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Entropic Wave</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Wild</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " half (o; txt)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>49</Page>
+      <SR>true</SR>
+      <Description>= CasterLevel &amp;"d8 to living creatures in a 20' spread and "&amp; CasterLevel &amp;" points to objects, ignoring hardness. See text for more."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Twiddle Chaos</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Wild</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>10 min</CastingTime>
+      <Range>Close</Range>
+      <Duration>1 year</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>57</Page>
+      <SR>false</SR>
+      <Description>In a 30' radius, you stabilize wild magic in the area or create a chaos field.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Malcolm's Chaos Theory</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Wild</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1r</CastingTime>
+      <Range>Close</Range>
+      <Duration>Concen.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="(text) " &amp; SaveDC</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>51</Page>
+      <SR>true</SR>
+      <Description>You are able to make fluids move in defiance of common sense and normal physics.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Polymorphic Aura</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Wild</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>=CasterLevel&amp;" hr"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>53</Page>
+      <SR>true</SR>
+      <Description>Target can Polymorph Other on self for the duration.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Corporeal Instability</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Wild</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg (txt)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>47</Page>
+      <SR>true</SR>
+      <Description>Target's body loses cohesion.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Morphic Curse</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Wild</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Perm.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg (txt)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>52</Page>
+      <SR>true</SR>
+      <Description>As corporeal instability, except the duration is permanent.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Nadia's Spellbrush</Name>
+      <Schools>
+        <School>
+          <School>Illusion</School>
+          <Subschool>Glamer</Subschool>
+          <Descriptors>
+            <Descriptor>Wild</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel *10&amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>53</Page>
+      <SR>false</SR>
+      <Description>You gain the ability to alter the sensory details of your spells as you cast them.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Chaos Bolt</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Force</Descriptor>
+            <Descriptor>Wild</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>46</Page>
+      <SR>true</SR>
+      <Description>="A bolt of magical energy grants target "&amp;MIN(5,INT( CasterLevel /2))&amp;"d4 damage and WS Template for one round."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Correct Fate</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Wild</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>= CasterLevel *5&amp;" ft"</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="(text) " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>48</Page>
+      <SR>true</SR>
+      <Description>As a readied partial action, force a reroll of one roll within range.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Tri'ni's Telepathic Tribulation</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Wild</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>57</Page>
+      <SR>true</SR>
+      <Description>+4 on saves to resist mental effects. Reading target's thoughts forces a Will save else 1d10 damage plus stunned for 1 round.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Chaos Blast</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Wild</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>See text</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="(text) " &amp; SaveDC</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>45</Page>
+      <SR>true</SR>
+      <Description>Random attack with random results.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Soliptic Disillusionment</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Wild</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1r</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp;" rds"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (o)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>55</Page>
+      <SR>true</SR>
+      <Description>Item that fits within a 10' cube randomly shifts in and out of reality.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Nadia's Brief Reprieve</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Teleport</Descriptor>
+            <Descriptor>Wild</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>53</Page>
+      <SR>true</SR>
+      <Description>The target is randomly teleported away for a short time.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Surgeshield</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Wild</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>Special (D)</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>56</Page>
+      <SR>true</SR>
+      <Description>50% concealment; absorb and redirect 1d4 + 6 spell levels.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Mirror Distorted</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Wild</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>51</Page>
+      <SR>false</SR>
+      <Description>You absorb spell energy and can reshape it into other magical effects.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Wildstroke</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Wild</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Special</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>58</Page>
+      <SR>true</SR>
+      <Description>="You blast the target with wild energy for "&amp;MIN(20, CasterLevel )&amp;"d6, plus a special version of the Wild Spellcaster template."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Chaos in the Mind's Eye</Name>
+      <Schools>
+        <School>
+          <School>Illusion</School>
+          <Subschool>Phantasm</Subschool>
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+            <Descriptor>Wild</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>="1 min + "&amp; CasterLevel &amp;" rds"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>47</Page>
+      <SR>true</SR>
+      <Description>All creatures affected by this spell perceive the world around them as constantly changing.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Rodinn's Roaring Paradoxical Pandaemonic Chaotic Conflagration</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Wild</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1r</CastingTime>
+      <Range>300 feet</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="(text) " &amp; SaveDC</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>54</Page>
+      <SR>true</SR>
+      <Description>Mass damage of a random elemental nature in a 300' radius emanation, misc. other effects.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>The Road Left Untaken</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Teleport</Descriptor>
+            <Descriptor>Wild</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp;" rds"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>56</Page>
+      <SR>false</SR>
+      <Description>You possibly exist in two locations, and once per round may choose which you exist in.</Description>
+    </Spell>
+  </Spells>
+  <SpellOverrides />
+  <SpellListEntries>
+    <SpellList Name="Bard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Meece's Cartomantic Flourish" Level="0" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Minor Mishap" Level="0" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Flashy Defenses" Level="1" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Understand Unorthodoxy" Level="1" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Delude Divination" Level="2" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Jibba Jabba" Level="2" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Bestow Fluctuating Curse" Level="3" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Rodinn's Rhyming Doom" Level="4" ReferenceAbbrev="Wild" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Cleric" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Minor Mishap" Level="0" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Mishap Protector" Level="1" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Delude Divination" Level="2" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Understand Unorthodoxy" Level="2" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Shift Aim" Level="3" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Bestow Fluctuating Curse" Level="4" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Pandora's Blessing" Level="4" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Entropic Burst" Level="6" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Spirit Current" Level="6" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Chaosphere" Level="7" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Free Your Mind" Level="8" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Entropic Wave" Level="9" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Twiddle Chaos" Level="9" ReferenceAbbrev="Wild" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Druid" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Minor Mishap" Level="0" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Malcolm's Chaos Theory" Level="1" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Understand Unorthodoxy" Level="1" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Delude Divination" Level="2" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Polymorphic Aura" Level="3" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Corporeal Instability" Level="4" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Entropic Burst" Level="5" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Morphic Curse" Level="6" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Chaosphere" Level="7" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Twiddle Chaos" Level="8" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Entropic Wave" Level="9" ReferenceAbbrev="Wild" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Sorcerer" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Meece's Cartomantic Flourish" Level="0" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Minor Mishap" Level="0" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Flashy Defenses" Level="1" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Malcolm's Chaos Theory" Level="1" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Nadia's Spellbrush" Level="1" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Understand Unorthodoxy" Level="1" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Chaos Bolt" Level="2" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Delude Divination" Level="2" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Mishap Protector" Level="2" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Shift Aim" Level="2" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Bestow Fluctuating Curse" Level="3" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Correct Fate" Level="3" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Tri'ni's Telepathic Tribulation" Level="3" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Chaos Blast" Level="4" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Polymorphic Aura" Level="4" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Soliptic Disillusionment" Level="4" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Corporeal Instability" Level="5" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Entropic Burst" Level="5" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Pandora's Blessing" Level="5" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Rodinn's Rhyming Doom" Level="5" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Chaosphere" Level="6" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Nadia's Brief Reprieve" Level="6" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Surgeshield" Level="6" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Mirror Distorted" Level="7" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Spirit Current" Level="7" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Wildstroke" Level="7" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Chaos in the Mind's Eye" Level="8" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Entropic Wave" Level="8" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Morphic Curse" Level="8" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Twiddle Chaos" Level="8" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Free Your Mind" Level="9" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Rodinn's Roaring Paradoxical Pandaemonic Chaotic Conflagration" Level="9" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="The Road Left Untaken" Level="9" ReferenceAbbrev="Wild" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Wizard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Meece's Cartomantic Flourish" Level="0" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Minor Mishap" Level="0" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Flashy Defenses" Level="1" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Malcolm's Chaos Theory" Level="1" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Nadia's Spellbrush" Level="1" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Understand Unorthodoxy" Level="1" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Chaos Bolt" Level="2" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Delude Divination" Level="2" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Mishap Protector" Level="2" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Shift Aim" Level="2" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Bestow Fluctuating Curse" Level="3" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Correct Fate" Level="3" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Tri'ni's Telepathic Tribulation" Level="3" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Chaos Blast" Level="4" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Polymorphic Aura" Level="4" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Soliptic Disillusionment" Level="4" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Corporeal Instability" Level="5" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Entropic Burst" Level="5" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Pandora's Blessing" Level="5" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Rodinn's Rhyming Doom" Level="5" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Chaosphere" Level="6" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Nadia's Brief Reprieve" Level="6" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Surgeshield" Level="6" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Mirror Distorted" Level="7" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Spirit Current" Level="7" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Wildstroke" Level="7" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Chaos in the Mind's Eye" Level="8" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Entropic Wave" Level="8" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Morphic Curse" Level="8" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Twiddle Chaos" Level="8" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Free Your Mind" Level="9" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="Rodinn's Roaring Paradoxical Pandaemonic Chaotic Conflagration" Level="9" ReferenceAbbrev="Wild" />
+        <SpellEntry Name="The Road Left Untaken" Level="9" ReferenceAbbrev="Wild" />
+      </SpellEntries>
+    </SpellList>
+  </SpellListEntries>
+  <Domains />
+  <Classes />
+</Reference>

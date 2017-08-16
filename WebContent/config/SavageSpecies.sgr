@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Reference xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  Sequence="2" Name="Savage Species" Group="" Abbrev="SavS" Version="1.1">
+  <Description>(c) 2003 by Wizards of the Coast, Inc. 
+Entered by BI.
+
+1.1 - All spell list and domain uploaded, Sanctified spells added (after spell name there is an abbr. (S)) to each standard nonspontaneous casting class' spell list (Cleric, Druid, Paladin, Ranger, Wizard).
+
+
+</Description>
+  <DevNotes>1.03 - Removed duplicate version of Sword of Conscience
+1.02 - Paladin spell list
+1.01 - Name change
+</DevNotes>
+  <Spells>
+    <Spell OriginalReference="">
+      <Name>Air Breathing</Name>
+      <School>
+      	<School>Transmutation</School>
+      </School>
+      <Subschool />
+      <Descriptors />
+      <Alignments />       
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>2hours/ CasterLevel</Duration>
+      <Area />
+      <Components>
+        <Component>Material</Component>
+        <Component>Somatic</Component>
+        <Component>Divine Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>63</Page>
+      <SR>true</SR>
+      <Description>The Transmuted creatures can breath air freely. Divide the duration evenly among all the creatures you touch.  The spell
+      does not make creatures unable to breathe Water, Counters Water breathing.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Resistance, Superior</Name>
+      <School>
+      	<School>Abjuration</School>
+      </School>
+      <Subschool />
+      <Descriptors />
+      <Alignments />       
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>1 hour / CasterLevel</Duration>
+      <Area />
+      <Components>
+        <Component>Material</Component>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+        <Component>Divine Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>71</Page>
+      <SR>true</SR>
+      <Description>Touched creature gets a +6 bonus on saves.</Description>
+    </Spell>
+   
+  </Spells>
+  <SpellOverrides />
+  <SpellListEntries>
+    <SpellList Name="Cleric" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Air Breathing" Level="3" ReferenceAbbrev="SavS" />
+        <SpellEntry Name="Resistance, Superior" Level="5" ReferenceAbbrev="SavS" />        
+      </SpellEntries>
+    </SpellList>
+   
+    <SpellList Name="Bard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Resistance, Superior" Level="5" ReferenceAbbrev="SavS" /> 
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Druid" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Air Breathing" Level="3" ReferenceAbbrev="SavS" />
+        <SpellEntry Name="Resistance, Superior" Level="5" ReferenceAbbrev="SavS" />
+      </SpellEntries>
+    </SpellList>   
+    <SpellList Name="Sorcerer" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Air Breathing" Level="3" ReferenceAbbrev="SavS" />
+        <SpellEntry Name="Resistance, Superior" Level="5" ReferenceAbbrev="SavS" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Wizard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Air Breathing" Level="3" ReferenceAbbrev="SavS" />
+        <SpellEntry Name="Resistance, Superior" Level="5" ReferenceAbbrev="SavS" />
+      </SpellEntries>
+    </SpellList>
+  </SpellListEntries>
+  <Classes />
+</Reference>

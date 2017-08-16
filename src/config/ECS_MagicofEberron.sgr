@@ -1,0 +1,1432 @@
+<Reference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Sequence="2" Name="ECS - Magic of Eberron" Group="Eberron" Abbrev="MoE" Version="1.01">
+  <Description>(c) 2005 by Wizards of the Coast, Inc. </Description>
+  <DevNotes>1.01 Modified the following spells to add variable calculations for caster level to many spells. Added Mark information to spells as well. Fixed durations to use std [d] for dischargable spells.
+</DevNotes>
+  <Spells>
+    <Spell OriginalReference="">
+      <Name>Ablative Armor</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 min.</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel*10 &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>false</SR>
+      <Description>="Target armor gains DR "&amp; Min(15, 4 + CasterLevel ) &amp;"/- for next attack that deals dmg. Once the infused item prevents dmg from a single attack (even if not all the DR is needed) the effect ends. Special: character with any Mark of Sentinel or with Favored in House (Deneith) casts this infusion at +1 caster level."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Adamantine Weapon</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 min.</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>93</Page>
+      <SR>true</SR>
+      <Description>Transform target metal weapon into adamantine. This effect replaces any other properties of other special materials the weapon might have originally possessed for the duration of the spell.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Ancient Knowledge</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 min.</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " hr [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>100</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>94</Page>
+      <SR>false</SR>
+      <Description>During duration of spell, as an Immediate act gain a +5 insight bonus on a single Knowledge check (untrained skills are still untrained). Special: Subject with any Mark of Finding or Favored in House (Tharashk)  treat any skill as trained, even if untrained.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Blast Rod</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 min.</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel*10 &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None (object)</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>94</Page>
+      <SR>true</SR>
+      <Description>="Touched rod stores "&amp; Min(10, CasterLevel )&amp;"d8 of destructive energy. Release some or all dice of dmg as RTA ray."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Censure Elementals</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>94</Page>
+      <SR>true</SR>
+      <Description>="Target object gains field that deals 2d4+"&amp; Min(15, CasterLevel) &amp;" dmg each round to elementals within 20' r (WILL "&amp; SaveDC &amp;" for half). This dmg repeats each rd at start of Artificer's action. Special: character with any Mark of Making or Favored in House (Cannith) casts spell at +1 caster level."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Clothier's Closet</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>10 min.</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " hr [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>100</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>94</Page>
+      <SR>false</SR>
+      <Description>Conjure several sets of clothing. See text for types available. Special: characters with Mark of Hospitality or Favore in House (Ghallands) can cast this spell without material components but clothes last only for duration of spell.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Concurrent Infusions</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1im.</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None (object)</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>94</Page>
+      <SR>true</SR>
+      <Description>Target object is infused with three 1st-level infusions simultaneously, but the 3 infusions do not count against your allotment.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Control Elemental</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>95</Page>
+      <SR>true</SR>
+      <Description>="Gain control of target elemental creature with HD&lt;="&amp; CasterLevel *2 &amp;". Elemental remembers you controlled it at end of duration."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Detect Dragonmark</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>60 ft.</Range>
+      <Duration>= "[c]" &amp; CasterLevel * 10 &amp; " min"</Duration>
+      <Area>Cone</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>95</Page>
+      <SR>false</SR>
+      <Description>Detect and identify dragonmarks within effect. See text for information gained.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Dimension Leap</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Teleport</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>= CasterLevel *10 &amp;"ft"</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>95</Page>
+      <SR>false</SR>
+      <Description>You teleport to any spot within range (in increments of 10 ft). You can bring along any objects you were touching as spell was cast, as long as their weight does not exceed your maximum load. You cannot bring along creatures. Special: character with any Mark of Passage or Favored in House (Orien) uses his character level rather than caster level to determine range.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Distracting Shadows</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Darkness</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>24 hours</Duration>
+      <Area>10' r. spd</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>95</Page>
+      <SR>false</SR>
+      <Description>="Touched object radiates effect creating -5 penalty on Search and Spot checks in area. Shadows are insufficient concealment for Hide check. Counters or dispels any Light or Darkness spell of "&amp; SpellLevel &amp;" or lower."&amp; IIf( CasterLevel &gt;9, " Can be made permanent for 1000 XP).","") &amp;" Special: character with any Mark of Shadow or Favored in House (Phiarlan or Thuranni) can cast spell with 20' r. spread."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Elemental Prod</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 min.</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None (object)</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>96</Page>
+      <SR>false</SR>
+      <Description>="Touched pole or staff  can be used to move an elemental creature as a std Act. Total distance indicated cannot exceed "&amp; 10+(Int( CasterLevel /2)*5) &amp;"ft. Elementals that resist take 1d6 dmg and move only 5ft."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Expose the Dead</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>96</Page>
+      <SR>false</SR>
+      <Description>="Gain +"&amp; Min(10, CasterLevel ) &amp;" (insight) on Survival checks made to track undead (and can follow tracks with DC &gt;10 as if you had Track). You gain same bonus to Listen and Spot against Undead creatures. Also gain bonus to Search checks made while examining a dead body (treat as if you had Investigate feat from p. 55 ECS). Increase save DC by 2 for castings of Speak with Dead for duration."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Glimpse of Eternity</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= Int( CasterLevel /3) &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>96</Page>
+      <SR>true</SR>
+      <Description>="Target takes "&amp; Min(15, CasterLevel ) &amp;"d6 nonlethal damage and is Confused for duration. Successful save reduces dmg by half and negates confusion. Elves and similar long-lived creatures are still affected normally."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Glimpse of the Prophecy</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " hr [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>96</Page>
+      <SR>false</SR>
+      <Description>="Gain +1 (insight) to AC and saves for duration. Once during duration, gain +"&amp; Min(10, Int( CasterLevel /2)) &amp;" (insight) on any one save as an Immediate Act (choose before rolling), but spell ends immediately afterward. Special: character with Dragon Prophecier feat ( MoE, p 46) you can enter state of Prophetic Favor as an Immediate Act instead of Full Round Act. This still counts as one of your daily uses of Prophetic Favor and also ends this spell. You cannot have mroe than one Glimpse of the Prophecy spell active on you at any time."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Hidden Ward</Name>
+      <Schools>
+        <School>
+          <School>Illusion</School>
+          <Subschool>Glamer</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>10 min.</CastingTime>
+      <Range>Touch</Range>
+      <Duration>24 hours</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>100</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>96</Page>
+      <SR>false</SR>
+      <Description>="Hide magical effects on touched object. Caster of Detect Magic must succeed at Caster Level check versus DC "&amp; 10+ CasterLevel &amp;" to find magical auras due to active spells. A single successful check reveals both the Hidden Ward spell as well as the spells it hides. In addition, casting this spell on a magical trap increases the Search DC by "&amp; Min(5, Int( CasterLevel /2)) &amp;". This spell cannot be used to conceal nonmagical traps nor does it hide the magical properties of an item that are not the result of active spells (such as +1 aura). Special: character with any Mark of Warding or Favored in House (Kundarak)increases duration by "&amp; CasterLevel &amp;" days."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Indisputable Possession</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Teleport</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 min.</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel*10 &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None (object)</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>97</Page>
+      <SR>true</SR>
+      <Description>="Touched item is bonded to you, allowing you to call the item back to your hand if it leaves your possession as a Move Act. The link is severed if the item is out of your possession for more than "&amp; CasterLevel &amp;" min. If item is held or worn by another creature, that creature can make a Will "&amp; SaveDC &amp;" check to retain possession of object, but merely carrying object in a backpack or similar does not count."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Khyber Trap</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>97</Page>
+      <SR>true</SR>
+      <Description>Trap extraplanar creature within a Khyber dragonshard for duration. Trapped creature can take no actions, but can communicate if capable of Telepathy. If shard is broken creature is released, and shard may only hold one creature at a time. Focus: Khyber shard worth 100gp/HD of target creature.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Leap Into Animal</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>10 ft.</Range>
+      <Duration>= CasterLevel &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>97</Page>
+      <SR>true</SR>
+      <Description>Merge yourself (plus up to 100# of gear) with willing animal (your size or larger) and control its action. Suicidal or self-descructive actions are ignored. While merged you receive direct sensory input from the creature using its normal senses and modifiers. You cannot take any mental actions other than directing the animal or dismissing the effect while merged. Special: character with any Mark of Handling or Favored in House (Vadalis) can use this spell to merge with an unwilling animal.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Leech Undeath</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>true</SR>
+      <Description>="Target undead creature is drained of negative energy, which is transferred to you in the form of temporary healing. The spell deals "&amp; Min(100, CasterLevel *5) &amp;" dmg to target (up to its current HP) and heals you for amount equal to dmg dealt. Mindless undead cannot be commanded to voluntarily fail their saves, but intelligent undead can."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Lucky Blade</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 min.</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel *10 &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>98</Page>
+      <SR>false</SR>
+      <Description>Weapon grants a single reroll of an attack or critical confirmation made with that weapon. Declaration must be made before the DM declares the results of the attack roll. Weilder must take the results of the second roll.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Lucky Cape</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 min.</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel *10 &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None (object)</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>98</Page>
+      <SR>true</SR>
+      <Description>Touched cape grants a single reroll of a saving throw. Decision to use this ability must be made before DM declares success of save. Wearer must take result of reroll.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Magic Weapon, Greater Legion's</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area>20 ft. burst</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>98</Page>
+      <SR>false</SR>
+      <Description>="Functions like Greater Magic Weapon ( PHB, p 251) except it affects all allies' weapons held at time of casting within area. Affected weapons gain +"&amp; Min(5, Int( CasterLevel /3)) &amp;" (enhance).  This spell has no effect on ammunition."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Magic Weapon, Legion's</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area>20 ft. burst</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>99</Page>
+      <SR>true</SR>
+      <Description>Functions like Magic Weapon (PHB, p 251) except that it affects all Allies' within area, and all their held weapons, granting each a +1 (enhance). It has no effect on ammunition.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Metamagic Scroll</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>99</Page>
+      <SR>true</SR>
+      <Description>Apply a metamagic feat you know to a single spell stored in a spell completion item (such as a scroll or minor schema). For the duration anyone who uses the imbued item applies the effect of that metamagic feat to the spell. You can only apply a metamagic feat that adjusts the spell's level by 2 lvls or less. No more than one feat can be applied to any single spell in this way.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Mindburn</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= Int( CasterLevel /3) &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>99</Page>
+      <SR>true</SR>
+      <Description>Target creature loses its highest lvl spell or infusion each round unless it successfully saves, at which point the spell ends.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Orb of Dancing Death</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= Int( CasterLevel /3) &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>99</Page>
+      <SR>true</SR>
+      <Description>="Create a small orb you control that allow you to perform a RTA each round that bestows 1 negative lvl. You may select a new target each rd for duration. Assuming target survives, it regainst lost lvls after "&amp; Min(15, CasterLevel ) &amp;" hrs. These neg lvls have no chance of becoming permanent. Undead touched gain 5 temp HP for 1 hr."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Overwhelming Revelations</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area>20-ft. rad. burst</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>100</Page>
+      <SR>true</SR>
+      <Description>Creatures in area take -2d6 penalty to Wisdom, are Confused for 1 round. Save reduces penalty by half and negates Confusion. Special: characters with Dragon Prophesier (MoE, p. 46) are immune to this spell. Furthermore, while in area of spell such a character can choose to enter Prophetic Favor as an Immediate Act. This counts as a daily use of Favor. character with a Dragon mark takes a -2 penalty on the save vs. this spell.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Pending Potion</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 min.</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel*10 &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None (object)</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>100</Page>
+      <SR>false</SR>
+      <Description>Target potion or oil takes effect at a later time. Imbiber can activate effect as a Swift Act at any point during duration of spell. If infusion expires, potion or oil takes effect immediately. No creature or object can have more than one delayed-effect potion or oil in effect at the same time.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Reinforce Construct</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " hr [d]"</Duration>
+      <Area />
+      <Components />
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>100</Page>
+      <SR>false</SR>
+      <Description>="Traget construct gains 1d6 + "&amp; Min(10, CasterLevel ) &amp;" temp HP. Special: character with Mark of Making or Favored in House (Cannith) casts this infusion with +1 CL"</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Scalding Touch</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Fire</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>100</Page>
+      <SR>true</SR>
+      <Description>="MTA deals 13d6 fire damage and Dazes victim unless save is successful;  You can use MTA up to "&amp; CasterLevel &amp;" times."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Scry Trap</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " hr"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>101</Page>
+      <SR>false</SR>
+      <Description>="If touched reature comes within 10ft of Scry sensor, the Scry Trap automatically activate, dealing "&amp; Min(15, CasterLevel ) &amp;"d6 dmg and Blinds caster of Scry spell (Will "&amp; SaveDC &amp;" for half dmg and negate Blindness, SR applies to this effect). Furthermore, caster of Scry must succeed at a CL "&amp; 10+ CasterLevel &amp;" check or Scry is dispelled (SR does not apply). Subject of Scry Trap becomes automatically aware when spell triggers. Special: character with any Mark of Detection or Favored in House (Medani) cast this spell at +1 CL."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Semblance of Life</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>See Text</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>101</Page>
+      <SR>true</SR>
+      <Description>Targeted Undead (no 2 &gt;30' apart) take 3d6 dmg each round (no save); intelligent undead also dazed 1 round unless Will save is made.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Sense Weakness</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>24 hours</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>101</Page>
+      <SR>true</SR>
+      <Description>Target creature may automatically confirm one critical hit during duration of this spell. Subject must declare the use of the spell before rolling to confirm.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Shared Healing</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Healing</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " half[h]"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>101</Page>
+      <SR>true</SR>
+      <Description>="Subject creature is granted the ability to cure up to "&amp; CasterLevel *2 &amp;" of its own hit points during duration of spell, dividing points up as it sees fit. Drawing on the power of this spell is a Std. Act that does not provoke an AoO. If alotted healing is used up before duration expires, the spell automatically ends and if any curing remains at end of duration, it is immediately applied. Special: character with any Mark of Healing or Favored in House (Jorasco) casts this spell at +1 CL (+2 HP cured)"</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Slaying Arrow</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>See Text</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 min.</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel*10 &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>102</Page>
+      <SR>false</SR>
+      <Description>="Arrow or Bolt touched gains +1 (enhance) to Att and Dmg rolls versus a specific type of creature. If projectile hits creature of designated type, the target must make a Fort "&amp; SaveDC &amp;" save or die (or be destroyed in case of unliving targets). Even creatures normally exempt from Fort saves must save or die. When keyed against a type of living creature, this is a Death effect."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Speaking Stones</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>See Text</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>102</Page>
+      <SR>false</SR>
+      <Description>Touched pair of stones become communicators linked together. Link allows each stone to pass a single message to the other, no matter how great the distance. Message can be no more than 25 words and is sent as a Std Act. Message is played at other stone loud enough to be heard by anyone within 5'. The spell ends after each stone passes its single message to its twin, or the duration expires. No object can have more than one Speaking Stone spell cast upon it. Special: character with any Mark of Scribing or Favored in House (Sivis) can send a message of up to 100 words instead.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Spell Snare</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 min.</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel*10 &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>25</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None (object)</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>102</Page>
+      <SR>false</SR>
+      <Description>Touched dragonshard will absorb the next spell or spell-like effect of up to 3rd level that targets the holder so that the spell has no effect. Once an effect is absorbed, the dragonshard crumbles. A character can only benefit from one Spell Snare at any given time.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Spell Snare, Greater</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 min.</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " hr"</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>100</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None (object)</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>102</Page>
+      <SR>true</SR>
+      <Description>Touched dragonshard will absorb the next spell or spell-like effect of up to 6th level that targets the holder so that the spell has no effect. Once an effect is absorbed, the dragonshard crumbles. A character can only benefit from one Spell Snare at any given time.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Storm Touch</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Electricity</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>103</Page>
+      <SR>true</SR>
+      <Description>="MTA deals 9d6 electricity dmg and Stuns victim for 1 rd. Save to avoid Stunning. You can use this MTA up to "&amp; CasterLevel &amp;" times. Special: character with any Mark of Storms or Favored in House (Lyrandar) deals +1d6 dmg with each touch."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Suffer the Flesh</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1sw.</CastingTime>
+      <Range>Personal</Range>
+      <Duration>1 rd.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>250</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>103</Page>
+      <SR>false</SR>
+      <Description>="Voluntarily ake Con dmg (max "&amp; Min(10, CasterLevel ) &amp;" to make your spellcasting more potent. for every 2 pts you get +1 CL. You max and current HP drop accordingly. A creature that has no Con score or is immune to Con dmg cannot cast this spell."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Suppress Dragonmark</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 min.</CastingTime>
+      <Range>Close</Range>
+      <Duration>24 hours</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>25</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>103</Page>
+      <SR>false</SR>
+      <Description>MTA or RTA with prepared dragonshard suppresses the spell-like abilities of target's dragonmark. Save or lose the ability to use any spell-like abilities granted by its dragonmarck for the duration of the spell. dragonshard takes 1 hr to prepare before it can be used as the focus for this spell.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Undying Aura</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>500</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>103</Page>
+      <SR>true</SR>
+      <Description>="Subject gains immunity to death effects, energy drain, and negative energy effects. At any time during duration, subject can make a MTA against an undead creature, dealing "&amp; Min(15, CasterLevel ) &amp;"d6 dmg and Dazing the creature (Save for half and no Daze). Incorporeal creatures do note gain miss chance against this attack. Using the MTA ends the spell. A deathless creature struck by the MTA heals the same number of points instead."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Watchful Ancestors</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Summoning</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>103</Page>
+      <SR>false</SR>
+      <Description>="Spiritual manifestations prevent you from being flanked (as Impr. Uncanny Dodge, but use CL "&amp; CasterLevel &amp;" rather than Barbarian levels to determine whether a rogue can Sneak you). In addition, you can (as Immediate Act) gain a +"&amp; CasterLevel &amp;" (insight) to Ref (declared before roll), but spell then immediately ends."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Wind's Favor</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Air</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " hr [d]"</Duration>
+      <Area>See Text</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>104</Page>
+      <SR>true</SR>
+      <Description>Create localized area of strong wind (~30 mph). See Wind Effects in DMG, p. 95) as well as propelling sailing craft. By concentrating as a Full Rd Act, you can change the direction of the wind by 45 degrees. This spell is identical to the spell-like ability gained by a character with Lesser Mark of Storm (ECS, p. 66), except the range and affected areas differ.</Description>
+    </Spell>
+  </Spells>
+  <SpellOverrides />
+  <SpellListEntries>
+    <SpellList Name="Artificer" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Ablative Armor" Level="1" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Indisputable Possession" Level="1" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Metamagic Scroll" Level="1" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Pending Potion" Level="1" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Elemental Prod" Level="2" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Lucky Blade" Level="2" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Reinforce Construct" Level="2" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Suppress Dragonmark" Level="2" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Adamantine Weapon" Level="3" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Blast Rod" Level="3" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Lucky Cape" Level="3" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Spell Snare" Level="3" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Censure Elementals" Level="4" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Concurrent Infusions" Level="4" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Slaying Arrow" Level="5" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Spell Snare, Greater" Level="6" ReferenceAbbrev="MoE" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Cleric" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Detect Dragonmark" Level="1" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Expose the Dead" Level="2" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Magic Weapon, Legion's" Level="2" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Sense Weakness" Level="2" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Shared Healing" Level="2" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Watchful Ancestors" Level="4" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Orb of Dancing Death" Level="5" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Scry Trap" Level="5" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Undying Aura" Level="5" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Glimpse of the Prophecy" Level="6" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Magic Weapon, Greater Legion's" Level="6" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Semblance of Life" Level="6" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Leech Undeath" Level="7" ReferenceAbbrev="MoE" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Druid" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Leap Into Animal" Level="2" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Wind's Favor" Level="3" ReferenceAbbrev="MoE" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Ranger" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Leap Into Animal" Level="2" ReferenceAbbrev="MoE" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Paladin" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Expose the Dead" Level="2" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Magic Weapon, Legion's" Level="2" ReferenceAbbrev="MoE" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Sorcerer" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Ancient Knowledge" Level="1" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Detect Dragonmark" Level="1" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Distracting Shadows" Level="1" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Hidden Ward" Level="1" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Clothier's Closet" Level="2" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Dimension Leap" Level="2" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Expose the Dead" Level="2" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Magic Weapon, Legion's" Level="2" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Mindburn" Level="2" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Sense Weakness" Level="2" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Speaking Stones" Level="2" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Suffer the Flesh" Level="2" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Suppress Dragonmark" Level="2" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Khyber Trap" Level="3" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Spell Snare" Level="4" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Watchful Ancestors" Level="4" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Glimpse of Eternity" Level="5" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Magic Weapon, Greater Legion's" Level="5" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Orb of Dancing Death" Level="5" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Scry Trap" Level="5" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Storm Touch" Level="5" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Control Elemental" Level="6" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Glimpse of the Prophecy" Level="6" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Overwhelming Revelations" Level="6" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Scalding Touch" Level="7" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Spell Snare, Greater" Level="7" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Leech Undeath" Level="8" ReferenceAbbrev="MoE" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Wizard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Ancient Knowledge" Level="1" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Detect Dragonmark" Level="1" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Distracting Shadows" Level="1" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Hidden Ward" Level="1" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Clothier's Closet" Level="2" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Dimension Leap" Level="2" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Expose the Dead" Level="2" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Magic Weapon, Legion's" Level="2" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Mindburn" Level="2" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Sense Weakness" Level="2" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Speaking Stones" Level="2" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Suffer the Flesh" Level="2" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Suppress Dragonmark" Level="2" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Khyber Trap" Level="3" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Spell Snare" Level="4" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Watchful Ancestors" Level="4" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Glimpse of Eternity" Level="5" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Magic Weapon, Greater Legion's" Level="5" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Orb of Dancing Death" Level="5" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Scry Trap" Level="5" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Storm Touch" Level="5" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Overwhelming Revelations" Level="6" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Glimpse of the Prophecy" Level="6" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Control Elemental" Level="6" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Scalding Touch" Level="7" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Spell Snare, Greater" Level="7" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Leech Undeath" Level="8" ReferenceAbbrev="MoE" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Bard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Ancient Knowledge" Level="1" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Distracting Shadows" Level="1" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Hidden Ward" Level="1" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Clothier's Closet" Level="2" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Dimension Leap" Level="2" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Watchful Ancestors" Level="4" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Glimpse of Eternity" Level="5" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Glimpse of the Prophecy" Level="6" ReferenceAbbrev="MoE" />
+      </SpellEntries>
+    </SpellList>
+  </SpellListEntries>
+  <Domains />
+  <Classes />
+</Reference>

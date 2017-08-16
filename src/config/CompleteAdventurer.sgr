@@ -1,0 +1,2440 @@
+<Reference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Sequence="4" Name="Complete Adventurer" Group="" Abbrev="CAdv" Version="1.1">
+  <Description>(c) 2005 by Wizards of the Coast, Inc.
+
+1.10 - Added working Spell Thief Class (AWorms)
+1.03 - Fixed error in Cacophonic Shield
+1.02 - Added Spellthief class from Lady Dragon
+1.01 - Fixed Vigilante PRC</Description>
+  <DevNotes>Entered by TT
+
+Supports Paladin_Base and Hexblade from CW.
+
+Swift Action spells are noted with sw
+Immediate Action spells are noted with imm
+</DevNotes>
+  <Spells>
+    <Spell OriginalReference="">
+      <Name>Absorb Weapon</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" hours [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (o)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>true</SR>
+      <Description>Harmlessly absorbs a light weapon you are touching (incl. a poisoned weapon) into your arm without penalty so long as it is not in another creatures possession..Detect Magic will reveal an aura. Touch spot as a Move Act to draw weapon. When duration ends, weapon appears in your hand. If you Att with weapon on rd you draw it, you may attempt a Bluff check to feint as a Free Act and you gain a +4 bonus on the Bluff. An Intelligent weapon gets a save against the spell, but other weapons do not.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Accelerated Movement</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>sw</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>142</Page>
+      <SR>false</SR>
+      <Description>You can move at your normal speed when using Balance, Climb, or Move Silently without taking any penalty on your check. This spell does not affect the penalty for using those skills while running or charging.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Allegro</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Centered</Range>
+      <Duration>= CasterLevel &amp; " min [d]"</Duration>
+      <Area>10' r. brst</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>142</Page>
+      <SR>true</SR>
+      <Description>Each creature within the spells area gainst a +30 (enhance) to its land speed, up to a max of double the creature's land speed. Affected creatures retain these effects for the duration of the spell, even if they leave the original area.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Arrow Mind</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>imm</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>143</Page>
+      <SR>false</SR>
+      <Description>You focus yourself on using your bow. While you are weilding a longbow, shortbow, greatbow (or a composite version of any of the above) you threaten all squares within your normal melee reach with your bow. allowing you to make AoO with arrows shot from the bow. In addition, you do not provoke AoO when you shoot a bow.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Arrow Storm</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>sw</CastingTime>
+      <Range>Personal</Range>
+      <Duration>1 rd</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>143</Page>
+      <SR>false</SR>
+      <Description>You can cast this spell only at the beginning of your turn, before you take any other actions. You can then use a Full Rd Act to make one ranged Att with a bow (with which you are proficient) against every foe within a distance equal to the weapon's range increment. You can Att a max num of creatures equal to your character level. If you choose not to take the Full-Rd Act, the spell has no effect.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Balancing Lorecall</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>143</Page>
+      <SR>false</SR>
+      <Description>You gain a +4 (insight) on Balance checks. If you have sufficient ranks in Balance, you can balance on an otherwise impossible surface with a DC 20 check. See text for details.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Blade Storm</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>sw</CastingTime>
+      <Range>Personal</Range>
+      <Duration>1 rd</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>144</Page>
+      <SR>false</SR>
+      <Description>You can cast this spell only at the beginning of your turn, before you take any other actions. You can then take a Full-Rd Act to make one Att with each melee weapon you are currently weilding against every foe within reach. If you weild 2 weapons or a double weapon you can attack each foe once with each weapon or end, using the normal rules for two-weapon fighting. If you choose not to spend the Full-Rd Act, then the spell has no effect.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Bladeweave</Name>
+      <Schools>
+        <School>
+          <School>Illusion</School>
+          <Subschool>Pattern</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>sw</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>144</Page>
+      <SR>true</SR>
+      <Description>Any rd that you Att with a melee weapon, you can make a single additional touch Att with that weapon at your normal Att bonus as a Free Act. This Att deals no dmg. Instead, anyone successfully touched by the weapon must make a Will save or be Dazed for 1 rd. SR applies to this effect.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Bloodhound</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>24 hrs [d]</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>144</Page>
+      <SR>false</SR>
+      <Description>If you fail a Survive check to track, you may roll again using the same DC. If the reroll fails, you must search for 30 min (outdoors) or 5 min (indoors) before trying again.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Branch to Branch</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel *10 &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>144</Page>
+      <SR>false</SR>
+      <Description>You gain +10 (compet) on Climb checks made in trees. As long as you remain at least 10 ft above ground, you can brachiate in medium or dense forest, but not in spare forest. When you brachiate you gain a +10 (enhance) to your land speed and ignore the hambered movement for undergrowth and other terrain features. You can charge while brachiating, but you cannot run.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Cacophonic Shield</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Sonic</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Centered</Range>
+      <Duration>= CasterLevel &amp; " min [d]"</Duration>
+      <Area>10' r. em.</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>144</Page>
+      <SR>true</SR>
+      <Description>="Create a sonic barrier 10 ft from yourself. Creatures on either side of the barrier hear it as a loud but harmless buzzing. Nonmagical sound (including sound produced by a thunderstone) does not cross the barrier. Supernatural or spell-based sounds or sonic effects penetrate the barrier only if the caster or originator of the effect succeed on a caster level check (DC "&amp; 11+ CasterLevel &amp;"). A creature crossing the barrer takes 1d6+"&amp; Min(20,CasterLevel) &amp;" dmg and must save or be deafened for 1 min. The vibrations create a 20% miss chance for any missile crossing the barrier. The barrier moves with you, but you cannot force another creature to pass through it. If you force a creature to pass through, the barrier has no effect on that creature."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Cloak of the Sea</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " hrs [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>144</Page>
+      <SR>true</SR>
+      <Description>Subject's form appears composed of water; special bonuses underwater. See text.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Critical Strike</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>sw</CastingTime>
+      <Range>Personal</Range>
+      <Duration>1 rd</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>145</Page>
+      <SR>false</SR>
+      <Description>Whenever you make a melee Att against a flanked foe (or one denied their DEX bonus) you deal an extra 1d6, your weapons threat range is doubled (as if under Keen Edge) and you gain a +4 (insight) on rolls made to confirm crits. The increased threat range does not stack with any other effect that increases threat range. Creatures immune to sneak Att are immune to the extra dmg dealt by your Att.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Daggerspell Stance</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>sw</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>145</Page>
+      <SR>false</SR>
+      <Description>="This spell will not function unless you are weilding two daggers, but the spell does not end if you drop, throw, or otherwise lose one or both of your daggers. While in effect, if you make a Full Att while holding daggers you gain +2 (insight) on Att and Dmg rolls. While weilding two daggers and fighting defensively, you gain SR "&amp; 5+ CasterLevel &amp;". While taking a Total Defense act, you gain both SR as above and DR 5/magic."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Dirge of Discord</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind</Descriptor>
+          </Descriptors>
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>="[c]+"&amp; CasterLevel &amp;"rd."</Duration>
+      <Area>20' r. sprd</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>145</Page>
+      <SR>true</SR>
+      <Description>You create an unholy cacophonous dirge. Affected creatures take a -4 penalty on Att and Concentration checks, a -4 penalty on DEX and a 50% reduction in their speed (to a minimum of 5 ft).</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Dissonant Chord</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Sonic</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Centered</Range>
+      <Duration>Inst</Duration>
+      <Area>10' r. brst</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>145</Page>
+      <SR>true</SR>
+      <Description>="You emit a piercing note and creatures (other than you) in the area take "&amp; Max(5,Int( CasterLevel /2)) &amp;"d8 sonic dmg."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Distort Speech</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Sonic</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>145</Page>
+      <SR>true</SR>
+      <Description>Voice of target becomes warped and nearly incomprehensible. Target has a 20% miscast chance if spell has V component, and any time subject speaks (including command activated items) there is a 50% chance that the attempt fails.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Distract Assailant</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>sw</CastingTime>
+      <Range>Close</Range>
+      <Duration>1 rd.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>146</Page>
+      <SR>true</SR>
+      <Description>Target creature is Flat-footed until the beginning of its next turn.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Divine Insight</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " hr [text]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>147</Page>
+      <SR>false</SR>
+      <Description>="Once during the spell's duration, you can choose to use its effect, granting you a +"&amp; Min(15, 5+ CasterLevel ) &amp;" (insight) on any single Skill check. Activating the effect requires an Immediate Act. You must choose before you roll. Once used, the spell ends. You cannot have more than one of this spell acive on you at the same time."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Easy Climb</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel *10 &amp; " min [d]"</Duration>
+      <Area>="10ft X "&amp; CasterLevel * 20 &amp;"ft tall"</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>147</Page>
+      <SR>false</SR>
+      <Description>You create a path of handholds and footholds up the surface of a cliff or other vertical surface. This effect makes surface equivalent of a very rough wall (DC 10 Climb).</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Easy Trail</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>40 ft</Range>
+      <Duration>= CasterLevel &amp; " hr [d]"</Duration>
+      <Area>40' r. em.</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>147</Page>
+      <SR>true</SR>
+      <Description>You radiate an energy that allows easy passage and hides your trail after you pass. Anyone in the area of the spell finds the undergrowth held aside while they pass. This effect provides a trail through any kind of undergrowth, reducing any movement penalties from terrain caused by dense vegetation (PHB, p. 164). Once the effect of the spell passes, the plants return to their normal shape. The DC to track anyone who travelled within the area of this spell increases by 5. This spell cannot move aside plant creatures.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Embrace The Wild</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel *10 &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>147</Page>
+      <SR>false</SR>
+      <Description>="Adopt the nature and some abilities of a particular wild animal whose HD are &lt;= "&amp; CasterLevel &amp;". You retain your form, but gain natural and EX senses of the creature you choose, including Blindsense, Blindsight, Darkvision, Low-light Vision, and Scent, as applicable. You can choose to replace your Listen and Spot check mods as well."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Entangling Staff</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>sw</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>147</Page>
+      <SR>true</SR>
+      <Description>You cause your qtrstaff to extrude vines that allow you to grapple your foes. Each time you successfully strike a foe with the staff (a normal melee att) you deal normal dmg and can attempt to start a grapple as a Free Act without provoking an AoO (see Starting a Grapple, PHB p. 156). This grapple does not require a separate touch att. You gain a +8 bonus on grapple checks made with the staff. You can attempt a grapple on creatures up to +1 size to you. If you succeed, you can do 2d6 of lethal or nonlethal dmg. See text for more information.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Exacting Shot</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h, o)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>148</Page>
+      <SR>true</SR>
+      <Description>Touch a ranged weapon. When rolling to confirm a crit made against a favored enemy with that weapon, you automatically succeed. The subject weapon also ignored any miss chance due to concealment when fired at a favored enemy, unless the target has Total Conceal. If the weapon or any projectile has any magic or property related to critical hits, the spell has no effect on it.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Expeditious Retreat, Swift</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>sw</CastingTime>
+      <Range>Personal</Range>
+      <Duration>1 rd</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>149</Page>
+      <SR>false</SR>
+      <Description>This spells functions as Expeditious Retreat (PHB, p. 228) except as noted.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Fly, Swift</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>sw</CastingTime>
+      <Range>Personal</Range>
+      <Duration>1 rd</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>149</Page>
+      <SR>false</SR>
+      <Description>This spell functions as Fly (PHB, p. 232) except as noted.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Focusing Chant</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>149</Page>
+      <SR>false</SR>
+      <Description>You can use the Chant to block out distractions. You can a +1 (circum) to Att rolls and Skill and Ability checks. You need not concentrate on Focusing Chant, but you must continue to mutter the syllables of the chant to maintain the spell. Therefor you cannot speak, use Bardic Music, or cast spells with V components. Dismissing this spell is an immediate action.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Foebane</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h,o)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>149</Page>
+      <SR>true</SR>
+      <Description>Imbues weapon touched withgreat killing power against a single favored enemy type. Against creatures of that type, the weapon acts as a +5 magic weapon and deals an extra 2d6 dmg. Furthermore, you gain a +4 (resist) on Saves against effects created by creatures of that type. The spell is automatically cancelled 1 rd after it leaves your hand for any reason. You cannot have more than one Foebane weapon active at one time. If this spell is cast on a magic weaon, the power of the spell supercedes any that the weapon normally has, rendering the normal abilities inoperative for the duration. This spell is not cumulative with any other spell that might modify the weapon in any way. This spell does not work on artifacts.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Forestfold</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel *10 &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>149</Page>
+      <SR>false</SR>
+      <Description>Changes coloring to match area; +20 (compet) on Hide and Move Silently checks.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Golem Strike</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>sw</CastingTime>
+      <Range>Personal</Range>
+      <Duration>1rd.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>149</Page>
+      <SR>false</SR>
+      <Description>You have a special connection to the strange forces that animate constructs. For 1 rd, you can deliver Sneak Att against constructs as if they were not immune. To att a construct in this manner; you must still meet theother requirements for making a Sneak Att. This applies only to Sneak Att dmg, not Critical hits nor does it confer any special ability to overcome the DR or other defenses of the construct.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Grave Strike</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Good</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>sw</CastingTime>
+      <Range>Personal</Range>
+      <Duration>1 rd</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>150</Page>
+      <SR>false</SR>
+      <Description>You have a special connection to the forces of light and positive energy. For 1 rd, you can deliver Sneak Att dmg against undead as if they were not immune. To Att an undead in this manner, you must meet all other requirements for making a sneak att. The spell applies only to Sneak dmg, not Critical Hits, nor does it confer any special ability to overcome DR or other defenses of the undead creature.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Guided Shot</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>sw</CastingTime>
+      <Range>Personal</Range>
+      <Duration>1 rd</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>150</Page>
+      <SR>false</SR>
+      <Description>Your ranged Att's do not take penalties due to distance. In addition, your RA's ignore the AC bonus granted to targets by anything less than total cover. This spell does not grant any way to exceed the weapons normal mazimum range, nor does it confer the ability to Att targets protected by Total Cover.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Harmonic Chorus</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>="[c], up to "&amp; CasterLevel &amp;" rd."</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>150</Page>
+      <SR>true</SR>
+      <Description>Lets you improve the spellcasting ability of another spell caster. The subject gains +2 (morale) to Caster Level, and +2 (morale) on Save DCs for all spells he casts.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Haste, Swift</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>sw</CastingTime>
+      <Range>Personal</Range>
+      <Duration>1 rd</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>151</Page>
+      <SR>false</SR>
+      <Description>This spell functions as Haste (PHB, p. 239) except as noted.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Hawkeye</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel *10 &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>151</Page>
+      <SR>false</SR>
+      <Description>+5 (compet) bonus to spot, all projectile weapons increase range by 50%.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Healing Lorecall</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>151</Page>
+      <SR>false</SR>
+      <Description>A caster with 5+ ranks in Heal can, when casting a Conjuration(Healing) spell, choose to remove any one of the following conditions affecting the target of the spell:: dazed, dazzled, or fatigued. A caster with 10+ ranks in Heal can choose from the following additional conditions: Exhausted, Nauseated, or Sickened. You can substitute your total ranks in Heal for your caster level when rolling for the amount healed by the spell, although the normal limit applies (see text for example).</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Healthful Rest</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Healing</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>10 min</CastingTime>
+      <Range>Close</Range>
+      <Duration>24 hrs</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>151</Page>
+      <SR>true</SR>
+      <Description>="Up to "&amp; CasterLevel &amp;" creatures (no 2 &gt;30' apart) regains twice the HP it otherwise would have regained during that day, depending on its activity level (PHB, p. 76)."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Herald's Call</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Sonic</Descriptor>
+            <Descriptor>Mind</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>sw</CastingTime>
+      <Range>Centered</Range>
+      <Duration>1 rd</Duration>
+      <Area>20' r. brst</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>151</Page>
+      <SR>true</SR>
+      <Description>You shout with great authority. Any creature with up to 5 HD is Slowed for 1 rd. (PHB, p. 280). Creatures beyond the radius hear the shout, but are not slowed.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Hindsight</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 hr</CastingTime>
+      <Range>Personal</Range>
+      <Duration>Inst.</Duration>
+      <Area>60' r.</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>1000</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>151</Page>
+      <SR>false</SR>
+      <Description>="Area is cenetered on you. You can see and hear into the past, getting a look at events that happened previously at your current location. You can choose 1 time unit and see up to "&amp; CasterLevel &amp;" worth of that unit."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Hymn of Praise</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Sonic</Descriptor>
+          </Descriptors>
+          <Alignments>
+            <Alignment>Good</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area>=100+( CasterLevel *10) &amp;"' r. em sphere"</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>152</Page>
+      <SR>true</SR>
+      <Description>Create sphere effect that grants +2 CasterLevel of each good-aligned divine caster within range. This does not grant access to new spells, but it does improve all spell effects that are dependent on caster level. In addition, within the spells area, each good divine caster gains +4 (sacred) on CHA checks to turn undead, and evil divine casters suffer -4 (sacred) penalty on CHA checks to rebuke undead.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Improvisation</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>152</Page>
+      <SR>false</SR>
+      <Description>="You gain access to a floating "pool" of luck. You gain "&amp; CasterLevel *2 &amp;" pts which you can spend as you like to improve Att rolls or Skill or Ability checks, although no single check can receive a bonus greater than +"&amp; Int( CasterLevel /2) &amp;". You must declare these points before the appropriate roll is made. Used points disappear from the pool, and any pts left when spell ends are wasted."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Infernal Threnody</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Sonic</Descriptor>
+          </Descriptors>
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area>=100+( CasterLevel *10) &amp;"' r. em sphere"</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>152</Page>
+      <SR>true</SR>
+      <Description>Create sphere effect that grants +2 CasterLevel of each evil-aligned divine caster within range. This does not grant access to new spells, but it does improve all spell effects that are dependent on caster level. In addition, within the spells area, each evil divine caster gains +4 (profane) on CHA checks to rebuke undead, and good divine casters suffer -4 (profane) penalty on CHA checks to turn undead.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Insidious Rhythm</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>152</Page>
+      <SR>true</SR>
+      <Description>="You play a catchy tune. Target must save or have the tune stuck in their head. While affected, target suffers -4 penalty on all INT-based skill checks and Concentrate checks. If target attempts to cast a spell, they must succeed at a Concentrate check (DC "&amp; SaveDC + SpellLevel &amp;") or fail the attempt."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Insightful Feint</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>sw</CastingTime>
+      <Range>Personal</Range>
+      <Duration>1 rd.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>153</Page>
+      <SR>false</SR>
+      <Description>You gain a +10 (insight) on the next single bluff check (if it is made before the start of your next turn) that you make to feint in combat (see Bluff, p. 68 of the PHB).</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Inspirational Boost</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Sonic</Descriptor>
+            <Descriptor>Mind</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>sw</CastingTime>
+      <Range>Personal</Range>
+      <Duration>see text</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>153</Page>
+      <SR>false</SR>
+      <Description>While this spell is in effect, the morale bonus granted by your Inspire Courage bardic music increases by +1. The effect lasts until your Inspire Courage effect ends. If you don't begin to use your Inspire ability before the beginning of your next turn, the spell's effect ends.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Instant Locksmith</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>sw</CastingTime>
+      <Range>Personal</Range>
+      <Duration>1 rd.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>153</Page>
+      <SR>false</SR>
+      <Description>You can make one Disable Device check or one Open Lock check in this rd as a Free Act. You gain a +2 (insight) on the check.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Instant Search</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>sw</CastingTime>
+      <Range>Personal</Range>
+      <Duration>1 rd.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>153</Page>
+      <SR>false</SR>
+      <Description>You can make one Search check in this rd as a Free Act. You gain a +2 (insight) on the check.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Invisibility, Swift</Name>
+      <Schools>
+        <School>
+          <School>Illusion</School>
+          <Subschool>Glamer</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>sw</CastingTime>
+      <Range>Personal</Range>
+      <Duration>1 rd</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>153</Page>
+      <SR>false</SR>
+      <Description>Spell functions as Invisibility (PHB, p. 245) except as noted.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Iron Silence</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " hr [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h,o)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>153</Page>
+      <SR>true</SR>
+      <Description>="Touch up to "&amp; Int( CasterLevel /3) &amp;" suits of armor. Spell negates Armor Check penalty to Hide and Move Silently checks if wearer is proficient in affected armor. Armor Check penalty still applies normally to other skills."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Joyful Noise</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Centered</Range>
+      <Duration>(text)</Duration>
+      <Area>10' r. em.</Area>
+      <Components>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>154</Page>
+      <SR>false</SR>
+      <Description>Negates Silence effects within area for as long as you gesture. Focus: Your instrument.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Listening Coin</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " hr [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>154</Page>
+      <SR>false</SR>
+      <Description>Allows remote eavesdropping via two coins, one receiver, one sensor.You can hear whatever transpires at the sensor as if you were there (much as Clairaudience). If the sensor is in a pocket, pouch, or sack, the DC incr by 5. Coins function no matter how far apart they are, as long as they are on the same plane.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Listening Lorecall</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel*10 &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>154</Page>
+      <SR>false</SR>
+      <Description>You gain a +4 (insight) on Listen checks. If you have 5+ ranks in Listen, you gain blindsense out to 30 ft. If you have 10+ ranks, you gain blindsight out to 30 ft instead. A Silence spell or effect negates blindsense or blindsight granted by this spell.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Master's Touch</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>sw</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>154</Page>
+      <SR>false</SR>
+      <Description>You gain prof. with one weapon or shield you hold in your hands when spell is cast. This spell does not grant prof. with a type of item, but only with that specific item.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Mindless Rage</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>155</Page>
+      <SR>true</SR>
+      <Description>The target creaure is filled with rage to attack you in personal combat. The target must be able to see you when you cast the spell. If the subject loses Line of Sight to you, the spell ends (subject cannot voluntarily lose sight of you). If the subject threatens you, it must make a Full Att against you using its melee weapons or natural melee attacks. If the subject does not threaten you, it must move toward you, ending its movement as close to you as possiblel If it moves close enough with a sinble move to threaten you, it may stop and make a melee attack against you as normal. While under the effect of this spell, the subject can make use of all normal melee combat skills, abilities, and feats -- either offensive or defensive. However, the subject cannot make ranged attacks, cast spells, or activate magic items that require a command word, a spell trigger, or spell completion to function. The subject can't make any attack against a creature other than you. If the subject has a Rage ability, it is automatically triggered by this spell. See text for limitations on Mindless Rage effect.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Nature's Favor</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>1 min.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>155</Page>
+      <SR>true</SR>
+      <Description>="Animal touched gains +"&amp; Min(5,INT( CasterLevel /3)) &amp;" (luck) on Att and Dmg rolls."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Nightstalker's Transformation</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>300</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>155</Page>
+      <SR>false</SR>
+      <Description>You become stealthy, gaining a +4 (enhance) to DEX, a +3 (luck) to AC, a +5 (Luck) on REF saves, a +5 (compet) on Spot, Listen, Hide, and Move Silently checks, and proficiency with all simple weapons plus others (see text). You gain Weapon Finesse feat and Evasion ability.. You gain 1d6 Sneak Att ability. You lose your spellcasting ability for duration, including ability to use spell activation or completion magic items, just as if the spells were no longer on your class list.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Protege</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>155</Page>
+      <SR>true</SR>
+      <Description>="Grants touched creature bardic abilities. Subject functions as Bard of "&amp; Int(CasterLevel / 2 ) &amp;" level for bardic music and knowledge, but does not gain spell casting ability. Subject uses their own Perform skill, or half of yours (whichever is better)."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Shadow Form</Name>
+      <Schools>
+        <School>
+          <School>Illusion</School>
+          <Subschool>Shadow</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>156</Page>
+      <SR>false</SR>
+      <Description>You gain a +4 (compet) on Escape, Hide, Move Silently checks and your shadowy form provides concealment which is not negated by See Invis. but is negated by True Seeing. Bright light (or a Daylight spell) surpresses the concealment effect. If you have 5+ ranks in Escape Artist, you can attempt to slip through a solid object or barrier up to 5 ft thick with a DC 20 check, though doing this ends the spell as soon as the attempt is completed. If you have 10+ ranks, the object can be up to 10 ft thick. If you ahve 15+ ranks, you can attempt to pass a barrier composed of magical force (or similar magical obstacles).</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Sniper's Eye</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>156</Page>
+      <SR>false</SR>
+      <Description>Enhance your senses. Gain Darkvision 60', your ranged sneak attacks reach to 60 ft, your can use your death attacks with ranged weapons up to 60 ft, +10 (compet.) to Spot. If you move more than 5ft from that spot, lose all benefits unless you return to that spot or duration expires.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Sniper's Shot</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>sw</CastingTime>
+      <Range>Personal</Range>
+      <Duration>1 rd.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>157</Page>
+      <SR>false</SR>
+      <Description>Your next single ranged Att (if made before the start of your next turn) can be a Sneak Att regardless of distance to the target. This spell does not grant you the ability to make a Sneak Att if you do not already have that ability.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Sonic Weapon</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Sonic</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>157</Page>
+      <SR>false</SR>
+      <Description>This spell sheathes a weapon in sonic energy. The weapon deal +1d6 sonic dmg with each successful Att. The energy does not harm the weilder. Bows, crossbows. and slings that are affected bestow the energy upon their ammunition.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Spectral Weapon</Name>
+      <Schools>
+        <School>
+          <School>Illusion</School>
+          <Subschool>Shadow</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>sw</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " (text)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>157</Page>
+      <SR>true</SR>
+      <Description>="Quasi-real weapon (you are prof. with) from Shadow Plane. You need only make a melee touch Att to hit someone, but target gets a Will save to take 1/5th dmg. and is only 20% likely to suffer any special effects of your Att."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Speechlink</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel *10 &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>157</Page>
+      <SR>false</SR>
+      <Description>You and a willing creature can communicate verbally no matter how much distance you put between yourselves (on the same plane). Either participant can end the spell at any time. This spell allows each to hear the other's vocalizations whatever their volume. If does not transfer any other sounds from either location. This spell wworks on any creatures, including animals, but does not convey any special language comprehension abilities.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Tactical Precision</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Mind</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>157</Page>
+      <SR>true</SR>
+      <Description>You grant your allies insight into one another's actions. If two affected allies flank the same creature, each gains a +2 (insight) on Att made against the flanked creature. This is in addition to the +2 for flanking. In addition, if an affected ally successfully deals dmg against any opponent that is flanked by another subject, she deals an extra +1d6 dmg. Creatures immune to Sneak Att are immune to this extra dmg.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Train Animal</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Charm</Subschool>
+          <Descriptors>
+            <Descriptor>Mind</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>10 min.</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " hr"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>157</Page>
+      <SR>true</SR>
+      <Description>="You temporarily boost the number of tricks an animal knows. The affected animal gains "&amp; Min(5, Int( CasterLevel /2)) &amp;" tricks. For more information, see Handle Animal on p. 74 of the PHB. This spell does not modify an animal's attitude toward you, nor does it guarantee that an animal will cooperate wihen instructed to perform the new tricks."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Vine Strike</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>sw</CastingTime>
+      <Range>Personal</Range>
+      <Duration>1 rd.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>158</Page>
+      <SR>false</SR>
+      <Description>You have a special connection to the forces of nature that allows you to deliver a Sneak Att on plant creatures as if they were not immune. To attack a plant creature in this manner, you must still meet all requirements for making a Sneak Att. This spell applied only to Sneak dmg, not Crits, nor does it confer an special ability to overcome the DR orother defenses of plant creatures.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Wail of Doom</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Sonic</Descriptor>
+            <Descriptor>Mind</Descriptor>
+            <Descriptor>Fear</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>30'</Range>
+      <Duration>Inst. (text)</Duration>
+      <Area>Cone</Area>
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>158</Page>
+      <SR>true</SR>
+      <Description>= "Creatures caught in area must save or suffer "&amp; Min(15, CasterLevel ) &amp;"d4 dmg, and become Panicked for "&amp; CasterLevel &amp;" rd (PHB, p 311). Successful save reduced dmg by half and reduces panic to shaken for 1 rd."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>War Cry</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Sonic</Descriptor>
+            <Descriptor>Mind</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>sw</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>158</Page>
+      <SR>false</SR>
+      <Description>You attack with a cry that grants you a +2 (morale) to Att and Dmg rolls, or double that bonus if the Att is made as part of a charge. If you deal dmg with a melee Att, your foe must make a Will save or become Panicked for 1 rd (See PHB, p. 311 for details, and SR applies to this effect). An opponent who make the save cannot be affected again by the same casting of War Cry.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Wracking Touch</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>158</Page>
+      <SR>true</SR>
+      <Description>="Your touch causes agony. You lay your hand upon the creature and deal 1d6+"&amp; Min(10, CasterLevel ) &amp;" dmg. In addition, if you have Sneak Att ability, you also deal Sneak dmg to the affected creature unless the creature is immune to extra dmg from Crits, in which case the Sneak dmg has no effect. Unlike a normal use of Sneak Att, your target need not be flanked or denied its DEX bonus to take Sneak dmg from this spell."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Wraithstrike</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>sw</CastingTime>
+      <Range>Personal</Range>
+      <Duration>1 rd.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>158</Page>
+      <SR>false</SR>
+      <Description>Your melee or natural melee weapons become ghostly, and your melee attacks are resolved as melee touch attacks rather than normal melee attacks.</Description>
+    </Spell>
+  </Spells>
+  <SpellOverrides />
+  <SpellListEntries>
+    <SpellList Name="Bard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Accelerated Movement" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Distort Speach" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Expeditious Retreat, Swift" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Focusing Chant" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Healthful Rest" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Herald's Call" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Joyful Noise" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Master's Touch" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Inspirational Boost" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Bladeweave" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Fly, Swift" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Insidious Rhythm" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Invisibility, Swift" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Iron Silence" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Mindless Rage" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Sonic Weapon" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Tactical Precision" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Allegro" Level="3" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Harmonic Chorus" Level="3" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Dirge of Discord" Level="3" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Dissonant Chord" Level="3" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Hymn of Praise" Level="3" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Infernal Threnody" Level="3" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Speechlink" Level="3" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Listening Coin" Level="4" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Spectral Weapon" Level="4" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="War Cry" Level="4" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Improvisation" Level="5" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Wail of Doom" Level="5" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Cacophonic Shield" Level="6" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Hindsight" Level="6" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Protege" Level="6" ReferenceAbbrev="CAdv" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Ranger" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Accelerated Movement" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Bloodhound" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Embrace The Wild" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Hawkeye" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Arrow Mind" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Branch to Branch" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Easy Trail" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Exacting Shot" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Guided Shot" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Healing Lorecall" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Instant Search" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Sniper's Shot" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Vine Strike" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Nature's Favor" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Balancing Lorecall" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Easy Climb" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Haste, Swift" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Listening Lorecall" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Train Animal" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Forestfold" Level="3" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Blade Storm" Level="3" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Arrow Storm" Level="4" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Foebane" Level="4" ReferenceAbbrev="CAdv" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Sorcerer" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Accelerated Movement" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Expeditious Retreat, Swift" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Master's Touch" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Arrow Mind" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Critical Strike" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Distract Assailant" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Golem Strike" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Guided Shot" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Insightful Feint" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Instant Locksmith" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Instant Search" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Sniper's Shot" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Bladeweave" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Fly, Swift" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Balancing Lorecall" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Daggerspell Stance" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Listening Lorecall" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Mindless Rage" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Sonic Weapon" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Wracking Touch" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Wraithstrike" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Spectral Weapon" Level="3" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Entangling Staff" Level="4" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Nightstalker's Transformation" Level="5" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Shadow Form" Level="5" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Cloak of the Sea" Level="6" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Cacophonic Shield" Level="7" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Hindsight" Level="9" ReferenceAbbrev="CAdv" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Wizard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Accelerated Movement" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Distort Speech" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Expeditious Retreat, Swift" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Master's Touch" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Arrow Mind" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Critical Strike" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Distract Assailant" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Golem Strike" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Guided Shot" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Insightful Feint" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Instant Locksmith" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Instant Search" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Sniper's Shot" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Bladeweave" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Fly, Swift" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Balancing Lorecall" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Daggerspell Stance" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Listening Lorecall" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Mindless Rage" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Sonic Weapon" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Wracking Touch" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Wraithstrike" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Dirge of Discord" Level="3" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Spectral Weapon" Level="3" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Entangling Staff" Level="4" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Nightstalker's Transformation" Level="5" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Shadow Form" Level="5" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Cloak of the Sea" Level="6" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Cacophonic Shield" Level="7" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Hindsight" Level="9" ReferenceAbbrev="CAdv" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Druid" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Healthful Rest" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Hawkeye" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Vine Strike" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Embrace The Wild" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Nature's Favor" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Balancing Lorecall" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Branch to Branch" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Daggerspell Stance" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Easy Trail" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Healing Lorecall" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Listening Lorecall" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Train Animal" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Wracking Touch" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Fly, Swift" Level="3" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Entangling Staff" Level="3" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Forestfold" Level="4" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Cloak of the Sea" Level="5" ReferenceAbbrev="CAdv" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Assassin" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Critical Strike" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Distract Assailant" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Insightful Feint" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Instant Locksmith" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Instant Search" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Sniper's Shot" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Invisibility, Swift" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Iron Silence" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Wraithstrike" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Spectral Weapon" Level="3" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Absorb Weapon" Level="3" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Sniper's Eye" Level="4" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Shadow Form" Level="4" ReferenceAbbrev="CAdv" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Cleric" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Grave Strike" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Iron Silence" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Divine Insight" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Healing Lorecall" Level="2" ReferenceAbbrev="CAdv" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Paladin_Base" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Grave Strike" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Divine Insight" Level="2" ReferenceAbbrev="CAdv" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Vigilante" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Accelerated Movement" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Alarm" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Animate Rope" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Cause Fear" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Comprehend Languages" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Detect Magic" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Detect Secret Doors" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Disguise Self" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Distort Speech" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Erase" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Expeditious Retreat" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Expeditious Retreat, Swift" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Feather Fall" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Ghost Sound" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Identify" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Joyful Noise" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Know Direction" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Mage Hand" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Magic Mouth" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Master's Touch" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Mending" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Message" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Nystul's Magic Aura" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Obscure Object" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Open/Close" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Prestidigitation" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Read Magic" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Remove Fear" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Resistance" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Silent Image" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Undetectable Alignment" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Ventriloquism" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Alter Self" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Bladeweave" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Blindness/Deafness" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Blur" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Cat's Grace" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Detect Thoughts" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Eagle's Splendor" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Fly, Swift" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Fox's Cunning" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Hypnotic Pattern" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Invisibility" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Invisibility, Swift" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Iron Silence" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Locate Object" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Mirror Image" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Minor Image" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Misdirection" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Pyrotechnics" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Scare" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Silence" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Sonic Weapon" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Tactical Precision" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Tongues" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Whispering Wind" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Allegro" Level="3" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Blink" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Clairaudience/Clairvoyance" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Dispel Magic" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Displacement" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Fear" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Gaseous Form" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Glibness" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Haste" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Illusory Script" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Invisibility Sphere" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Major Image" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Remove Curse" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Scrying" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Sculpt Sound" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Secret Page" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="See Invisibility" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Slow" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Speak with Animals" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Speechlink" Level="3" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Break Enchantment" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Detect Scrying" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Freedom of Movement" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Hallucinatory Terrain" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Invisibility, Greater" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Legend Lore" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Listening Coin" Level="4" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Locate Creature" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Rainbow Pattern" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Repel Vermin" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Shadow Conjuration" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Speak with Plants" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Spectral Weapon" Level="4" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Zone of Silence" Level="4" ReferenceAbbrev="PHB" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Hexblade" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Distract Assailant" Level="1" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Critical Strike" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Invisibility, Swift" Level="2" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Spectral Weapon" Level="3" ReferenceAbbrev="CAdv" />
+        <SpellEntry Name="Shadow Form" Level="4" ReferenceAbbrev="CAdv" />
+      </SpellEntries>
+    </SpellList>
+  </SpellListEntries>
+  <Domains />
+  <Classes>
+    <CasterClass>
+      <Name>Vigilante</Name>
+      <Abbrev>Vig</Abbrev>
+      <SpellList>Vigilante</SpellList>
+      <CasterType>Arcane</CasterType>
+      <HasCantrips>false</HasCantrips>
+      <MaxSpellLevel>4</MaxSpellLevel>
+      <MaxCasterLevel>10</MaxCasterLevel>
+      <CastingStat>Cha</CastingStat>
+      <BonusSpellStat>Cha</BonusSpellStat>
+      <SaveDCStat>Cha</SaveDCStat>
+      <KnowsAllSpells>false</KnowsAllSpells>
+      <KnowsAllCantrips>false</KnowsAllCantrips>
+      <SpellsKnown>true</SpellsKnown>
+      <CasterLevelMultiplier>1</CasterLevelMultiplier>
+      <SpellPyramid>
+        <Slots>0 0</Slots>
+        <Slots>0 1</Slots>
+        <Slots>0 2 0</Slots>
+        <Slots>0 3 1</Slots>
+        <Slots>0 3 2 0</Slots>
+        <Slots>0 3 3 1</Slots>
+        <Slots>0 3 3 2 0</Slots>
+        <Slots>0 3 3 3 1</Slots>
+        <Slots>0 3 3 3 2</Slots>
+        <Slots>0 3 3 3 3</Slots>
+      </SpellPyramid>
+      <KnownPyramid>
+        <Slots>0 2</Slots>
+        <Slots>0 3</Slots>
+        <Slots>0 3 2</Slots>
+        <Slots>0 4 3</Slots>
+        <Slots>0 4 3 2</Slots>
+        <Slots>0 4 4 3</Slots>
+        <Slots>0 4 4 3 2</Slots>
+        <Slots>0 4 4 4 3</Slots>
+        <Slots>0 4 4 4 3</Slots>
+        <Slots>0 4 4 4 4</Slots>
+      </KnownPyramid>
+      <ClassSpellPoints>
+        <UseSpellPoints>false</UseSpellPoints>
+        <GiveBonusSpellPointsForStat>true</GiveBonusSpellPointsForStat>
+        <SpellPointCosts />
+        <SpellPointValues />
+        <SpellPointTable ClassName="" />
+        <UseBonusSpellPointFormula>false</UseBonusSpellPointFormula>
+        <BonusSpellPointFormula />
+      </ClassSpellPoints>
+    </CasterClass>
+    <CasterClass>
+      <Name>Spellthief (Ab, Di, En, Il, Tr schools only)</Name>
+      <Abbrev />
+      <SpellList>Sorcerer</SpellList>
+      <CasterType>Arcane</CasterType>
+      <HasCantrips>false</HasCantrips>
+      <MaxSpellLevel>4</MaxSpellLevel>
+      <MaxCasterLevel>20</MaxCasterLevel>
+      <CastingStat>Cha</CastingStat>
+      <BonusSpellStat>Cha</BonusSpellStat>
+      <SaveDCStat>Cha</SaveDCStat>
+      <KnowsAllSpells>false</KnowsAllSpells>
+      <KnowsAllCantrips>false</KnowsAllCantrips>
+      <SpellsKnown>true</SpellsKnown>
+      <CasterLevelMultiplier>0.5</CasterLevelMultiplier>
+      <SpellPyramid>
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots>0 0</Slots>
+        <Slots>0 0</Slots>
+        <Slots>0 1</Slots>
+        <Slots>0 1</Slots>
+        <Slots>0 1 0</Slots>
+        <Slots>0 1 0</Slots>
+        <Slots>0 1 1</Slots>
+        <Slots>0 1 1</Slots>
+        <Slots>0 1 1 0</Slots>
+        <Slots>0 1 1 1</Slots>
+        <Slots>0 1 1 1</Slots>
+        <Slots>0 2 1 1 0</Slots>
+        <Slots>0 2 1 1 1</Slots>
+        <Slots>0 2 2 1 1</Slots>
+        <Slots>0 3 2 2 1</Slots>
+        <Slots>0 3 3 3 2</Slots>
+        <Slots>0 3 3 3 3</Slots>
+      </SpellPyramid>
+      <KnownPyramid>
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots>0 2</Slots>
+        <Slots>0 2</Slots>
+        <Slots>0 3</Slots>
+        <Slots>0 3</Slots>
+        <Slots>0 4 2</Slots>
+        <Slots>0 4 2</Slots>
+        <Slots>0 4 3</Slots>
+        <Slots>0 4 3 2</Slots>
+        <Slots>0 4 4 3</Slots>
+        <Slots>0 4 4 3</Slots>
+        <Slots>0 4 4 4 2</Slots>
+        <Slots>0 4 4 4 3</Slots>
+        <Slots>0 4 4 4 3</Slots>
+        <Slots>0 5 4 4 4</Slots>
+        <Slots>0 5 5 4 4</Slots>
+        <Slots>0 5 5 5 4</Slots>
+        <Slots>0 5 5 5 5</Slots>
+      </KnownPyramid>
+      <ClassSpellPoints>
+        <UseSpellPoints>false</UseSpellPoints>
+        <GiveBonusSpellPointsForStat>true</GiveBonusSpellPointsForStat>
+        <SpellPointCosts />
+        <SpellPointValues />
+        <SpellPointTable ClassName="" />
+        <UseBonusSpellPointFormula>false</UseBonusSpellPointFormula>
+        <BonusSpellPointFormula />
+      </ClassSpellPoints>
+    </CasterClass>
+  </Classes>
+</Reference>

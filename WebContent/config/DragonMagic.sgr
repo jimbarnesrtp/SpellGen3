@@ -1,0 +1,1594 @@
+<Reference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Sequence="10" Name="Dragon Magic" Group="" Abbrev="DragMag" Version="0.01">
+  <Description>The Dragon Magic book</Description>
+  <DevNotes />
+  <Spells>
+    <Spell OriginalReference="">
+      <Name>Adoration of the Frightful</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Charm</Subschool>
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>60 ft.</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>64</Page>
+      <SR>true</SR>
+      <Description>Any creature that becomes shaken, frightened, or panicked has its attitude shifted towards friendly towards you, unless the fear is removed, or you or an ally attack the creature.  Special: learning this spell grants a +1 compentence to diplomacy. </Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Arcane Spellsurge</Name>
+      <Schools>
+        <School>
+          <School>Universal</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>64</Page>
+      <SR>false</SR>
+      <Description>This spell changes the casting time of all of your Arcane Spells:&#xD;
+1 Standard -&gt; 1 Swift&#xD;
+1 Full Round -&gt; 1 Standard&#xD;
+2-10 Rounds -&gt; minus 1 round&#xD;
+You cannot choose to ignore this effect. Special - The Dragonblood subtype can cast this spell as a swift action.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Aspect of the Chromatic Dragon</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool>Polymorph</Subschool>
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 sw</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>64</Page>
+      <SR>false</SR>
+      <Description>You take the form of an Aspect of Tiamat (pg 110), gaining 100 temporary HP.  Only Evil aligned casters can cast this spell.  Sorceror only.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Aspect of the Platinum Dragon</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Good</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 sw</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>64</Page>
+      <SR>false</SR>
+      <Description>You take the form of an Aspect of Bahamut (pg 108), gaining 110 temporary HP.  Only Good aligned casters can cast this spell.  Sorceror only.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Burst of Glacial Wrath</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Cold</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>30 ft.</Range>
+      <Duration>Inst.</Duration>
+      <Area>30' cone</Area>
+      <Components />
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Fort " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>64</Page>
+      <SR>true</SR>
+      <Description>="You create a cone of icy energy that deals "&amp;MIN(CasterLevel, 25)&amp;"d6 cold damage to all in the area.  Any creature reduced to -1 or lower (but never below 1 point from death) is affected by a Flesh to Stone spell, but is instead turned to ice.  As an ice statue, you are immune to Cold and electricity, have 10 hardness, and vulnerability to fire. Any creature reduced to dying by fire damage immediately melts and dies. Only Miracle, Wish, or True Resurrection can restore the deceased to life. Special: learning this spell gives cold resistance 5 that stacks with any other source."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Call of the Twilight Defender</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Summoning</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>65</Page>
+      <SR>false</SR>
+      <Description>Summon one Twilight Guardian (pg 121) to fight for you, like a Summon Nature's ally, except the Guardian can touch you as a standard action and sacrifice itself, healing you for 1/2 it's remaining hitpoints. Special: Learning this spell grants a +1 competence bonus to Knowledge (Nature).</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Channel the Dragon</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>65</Page>
+      <SR>false</SR>
+      <Description>You gain a breath weapon (useable 1d4 rounds, 15 ft cone, standard action) and a defensive ability.  See text for more details.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Curse of the Elemental Lords</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 sw</CastingTime>
+      <Range>Medium</Range>
+      <Duration>24 hours</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>65</Page>
+      <SR>true</SR>
+      <Description>="When casting this spell, you select an energy type (Acid, Cold, Electricity, Fire).  As part of the casting, you may sacrifice a spell slot from 1st-9th level. Any spell you cast with that energy type will deal an addition 1d6 damage +1 per level of the spell slot. This spell affects "&amp;INT(CasterLevel/4)&amp;" creature(s). Special: A Dragonblooded being can apply this bonus to it's breathweapon, if it deals the appropriate damage."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Detect Dragonblood</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>60 ft</Range>
+      <Duration>= "[c] up to " &amp; CasterLevel * 10 &amp; " min"</Duration>
+      <Area>60' cone</Area>
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>65</Page>
+      <SR>false</SR>
+      <Description>Functions similar to Detect Evil.  See text for details.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Dragoneye Rune</Name>
+      <Schools>
+        <School>
+          <School>Universal</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Permanent</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>66</Page>
+      <SR>false</SR>
+      <Description>Functions similar to Arcane Mark with two exceptions. First, the object or creature is familiar for Scrying purposes.  Second, three times/day, as a swift action, you can you can direct the direction and distance of the object or creature (does not function if the creature or object is dead or on another plane). Special: If cast by a Dragonblooded creature, then the creature gains a +2 bonus to save against scrying spells or effects from another dragonblooded creature.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Dragonshape, Least</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool>Polymorph</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 sw</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>66</Page>
+      <SR>false</SR>
+      <Description>You take the form of a Tiny Pseudodragon (MM pg 210).</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Dragonshape, Lesser</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool>Polymorph</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 sw</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>66</Page>
+      <SR>false</SR>
+      <Description>You take the form of a Large Young Red Dragon (see text). You gain 60 temporary hit points for the duration of the spell.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Eyes of the Oracle</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd or until expended"</Duration>
+      <Area />
+      <Components>
+        <Component>Material</Component>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>66</Page>
+      <SR>false</SR>
+      <Description>You gain a +2 Insight bonus to Armor Class and Reflex Saves.  You can also ready a standard action, useable anytime, but once used, this spell ends.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Ferocity of Sanguine Rage</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd until expended"</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>67</Page>
+      <SR>false</SR>
+      <Description>="You gain a morale bonus on melee damage rolls (with weapons or natural attacks) of "&amp;INT(CasterLevel/2)&amp;". While this spell is active, you can activate True Strike on yourself as a Standard Action.  It lasts for 1 round and your next melee attack, at which point this spell ends."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Firestride Exhalation</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Teleportation</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Fire</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>30 ft</Range>
+      <Duration>Inst.</Duration>
+      <Area>30' cone</Area>
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Ref " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>67</Page>
+      <SR>true</SR>
+      <Description>You breathe forth a cone of fire, dealing 8d6 damage.  You have the option to teleport yourself and your familiar to a single square that is touched by the fire.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Form of the Desert Hunter</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool>Polymorph</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 sw</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>67</Page>
+      <SR>false</SR>
+      <Description>You take the form of a dragonne (MM pg 89).  You gain 30 temporary hit points for the duration of the spell.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Glorious Master of the Elements</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Acid</Descriptor>
+            <Descriptor>Cold</Descriptor>
+            <Descriptor>Electricity</Descriptor>
+            <Descriptor>Fire</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>60 ft</Range>
+      <Duration>5 rounds</Duration>
+      <Area />
+      <Components />
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>67</Page>
+      <SR>true</SR>
+      <Description>="No components - This spell allows you to make ranged touch attacks (choose the energy type with each attack) as a standard action, dealing "&amp;MIN(INT(CasterLevel/2), 10)&amp;"d6 damage. Additionally each successful attack on the same target gives a +2 bonus on the damage roll.  This lasts only for the duration of the spell, and only applies to the damage from this spell. Special: A dragonblood creature deals "&amp;MIN(INT(CasterLevel/2), 10)&amp;"d8 damage."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Wreath of Flames</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Fire</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>75</Page>
+      <SR>false</SR>
+      <Description>At the end of your turn, any enemy adjacent to you takes 1d6 fire damage, and your melee attacks deal +1d6 fire damage. Special: A red dragon with 5th level sorceror spells casts this as a swift action.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Undying Vigor of the Dragon Lords</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Healing</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd</CastingTime>
+      <Range>Personal</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>74</Page>
+      <SR>false</SR>
+      <Description>This spell heals you for 5d6 damage (an undead caster heals as well). You can sacrifice a spell slot when casting this spell, and you heal +1d6 more per level of the sacrificed slot. Special: Dragonblooded creatures get +1 healing for each die rolled.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Trance of the Verdant Domain</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>30 ft</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>74</Page>
+      <SR>true</SR>
+      <Description>One creature that fails its Will save is fascinated for 3 rounds it takes a -2 penalty to any mind affecting spells you cast. Special: A green dragon with 6th level spells casts this as a swift action.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Touch of the Blackened Soul</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties>
+            <Property>Exp</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1 sw</CastingTime>
+      <Range>Personal</Range>
+      <Duration>3 rds or until ended</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>73</Page>
+      <SR>false</SR>
+      <Description>Your spells gain the evil descriptor, those of 3rd level or lower deal +50% damage to good creatures. A sorceror can sacrifice a spell slot of up to 9th level, raising the maximum level of spells affected by the sacrificed spell slot -1. Special: An evil Dragonblooded caster can choose to end this spell early as a swift action and confer on itself a Protection from good spell.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Soul of Shadow</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>1 hr</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>73</Page>
+      <SR>false</SR>
+      <Description>When you cast or are the target of an Inflict spell, you can choose for the spell to deal extra damage equal to twice the spell's level. If you cast such a spell that deals at least 10 damage, exaustion is reduced to fatigued, or fatigued is removed. If affected by Soul of Anarchy as well, you gain DR 3/Good or Lawful. If affected by Soul of Order, you gain DR 3/Good or Chaotic. This spell is counters and dispels Soul of Light, and vice versa.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Soul of Order</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Lawful</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>1 hr</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>73</Page>
+      <SR>false</SR>
+      <Description>You gain a +2 morale bonus to Will saves vs. Enchantment effects. Your natural weapons are Lawful aligned for overcoming damage reduction, you are treated as Lawful for spells that have affects based on alignment. If affected by Soul of Light as well, you gain DR 3/Evil or Chaotic. If affected by Soul of Shadow, you gain DR 3/Good or Chaotic. This spell is counters and dispels Soul of Anarchy, and vice versa.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Soul of Light</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Good</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>1 hr</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>73</Page>
+      <SR>false</SR>
+      <Description>When you cast or are the target of Conjuration (Healing) type spells, you can choose to be healed 2x the spell's level in hit points. If you are healed for at least 10 hit points, exaustion is reduced to fatigued, or fatigued is removed. If affected by Soul of Anarchy as well, you gain DR 3/Evil or Lawful. If affected by Soul of Order, you gain DR 3/Evil or Chaotic. This spell is counters and dispels Soul of Shadow, and vice versa.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Soul of Anarchy</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Chaotic</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>1 hr</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>72</Page>
+      <SR>false</SR>
+      <Description>Gain a +5 competence bonus on Escape artist checks, and grapple checks to resist or escape a grapple. Your natural weapons are chaotic aligned for overcoming damage reduction, you are treated as chaotic for spells that have affects based on alignment. If affected by Soul of Light as well, you gain DR 3/Evil or Lawful. If affected by Soul of Shadow, you gain DR 3/Good or Lawful. This spell is counters and dispels Soul of Order, and vice versa.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Primal Speed</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>24 hours</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>72</Page>
+      <SR>false</SR>
+      <Description>="Gain a +5 resistance bonus on reflex saves and a +10 enhancement to you all movement. If this spell is cast on you when you have one of the other 3 Primal spells active, you gain Uncanny Dodge (like a Barbarian). If you have all 4 Primal spells active on yourself, you also gain Improved Uncanny Dodge, thus an attacker would have to be "&amp;CasterLevel+4&amp;" to flank you. Special: Dragonbloods can cast this as an immediate action."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Primal Senses</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>24 hours</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>72</Page>
+      <SR>false</SR>
+      <Description>="Gain a +5 competence bonus to Listen and Spot checks, as well as Low-Light vision. If this spell is cast on you when you have one of the other 3 Primal spells active, you gain Uncanny Dodge (like a Barbarian). If you have all 4 Primal spells active on yourself, you also gain Improved Uncanny Dodge, thus an attacker would have to be "&amp;CasterLevel+4&amp;" to flank you. Special: Dragonbloods also gain Blindsense to 10ft."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Primal Instinct</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>24 hours</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>72</Page>
+      <SR>false</SR>
+      <Description>="Gain a +5 competence bonus to Initiative and Survival checks. If this spell is cast on you when you have one of the other 3 Primal spells active, you gain Uncanny Dodge (like a Barbarian). If you have all 4 Primal spells active on yourself, you also gain Improved Uncanny Dodge, thus an attacker would have to be "&amp;CasterLevel+4&amp;" to flank you. Special: Dragonbloods also gain a +5 competence to any one knowledge skill, selected at the time of casting."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Primal Hunter</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>24 hours</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>71</Page>
+      <SR>false</SR>
+      <Description>="Gain a +5 competence bonus to Climb, Jump, and Swim checks. If this spell is cast on you when you have one of the other 3 Primal spells active, you gain Uncanny Dodge (like a Barbarian). If you have all 4 Primal spells active on yourself, you also gain Improved Uncanny Dodge, thus an attacker would have to be "&amp;CasterLevel+4&amp;" to flank you. Special: Dragonbloods cast this as a swift action."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Path of Frost</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Cold</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>30 ft.</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area>= MIN(CasterLevel, 5)&amp;" - 5ft square(s)"</Area>
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>71</Page>
+      <SR>false</SR>
+      <Description>This spell creates a path or area of slippery ice on the ground (must start adjacent to you).  Treat as hindering terrain unless a Balance check DC 10 is made.  Failure by 5 or more causes the creature to fall prone. A creature takes 1 damage for each square moved through. Casting the spell a second time on the same area increases the damage to 2/square, but no higher for more castings. Special: A white dragon with 3rd level spells casts this as a swift action.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Mind of the Labrynth</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties>
+            <Property>Exp</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " hr"</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>70</Page>
+      <SR>false</SR>
+      <Description>Those who cast mind affecting spells or spell-like abilities on you are affected by Confusion for 1 round, regardless of whether their spell affects you. A successful Will save negates this and renders them immune to the effect of this casting. Expend this spell as an immediate action to activate Dominate Person instead of the Confusion effect.  Dominate lasts for only 1 hour. Special: Learning this spell grants a +1 competence to Bluff.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Mark of the Enlightened Soul</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Good</Alignment>
+          </Alignments>
+          <Properties>
+            <Property>Exp</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1 sw</CastingTime>
+      <Range>Personal</Range>
+      <Duration>3 rds or until ended</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>70</Page>
+      <SR>false</SR>
+      <Description>Your spells gain the good descriptor, those of 3rd level or lower deal +50% damage to evil creatures. A sorceror can sacrifice a spell slot of up to 9th level, raising the maximum level of spells affected by the sacrificed spell slot -1. Special: A good Dragonblooded caster can choose to end this spell early as a swift action and confer on itself a Protection from Evil spell.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Magic of the Dragonheart</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " hr"</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>70</Page>
+      <SR>false</SR>
+      <Description>Gain a variety of benefits related to your Draconic feats.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Kiss of Draconic Defiance</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>Exp</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>40 ft.</Range>
+      <Duration>[c] + 1 rd</Duration>
+      <Area>40' eman.</Area>
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>69</Page>
+      <SR>true</SR>
+      <Description>Enemy spellcasters must succeed the save on casting a spell or lose the spell as if cast. A successful save makes them immune to the effect for 24 hours. This can be expended as an immediate action to automatically couter a spell of 5th level or lower that was cast in the area of effect.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Justice of the Wyrm King</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Force</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 sw</CastingTime>
+      <Range>Personal</Range>
+      <Duration>5 rds</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>68</Page>
+      <SR>false</SR>
+      <Description>You gain an aura of force that damages those who attack you with non reach melee weapons for 4d6 force damage. A Sorceror may choose when casting this spell to sacrifice a spell slot and deal an additional +2 damage per level of the sacrificed slot.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Hoard Gullet</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " hr"</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>68</Page>
+      <SR>false</SR>
+      <Description>="This spell creates a second stomach within you.  You can safely swallow and store any object at least 3 size categories smaller than you. You can store "&amp;MIN(CasterLevel, 10)*100&amp;" lbs or "&amp;MIN(CasterLevel, 10)*10&amp;" cubic feet. You cannot remove any one item, but as a full round action, you can empty the entire contents into your square. This happens anyways at the end of the duration. Another casting of this spell resets the duration."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Haze of Smoldering Stone</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Fire</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>60 ft</Range>
+      <Duration>Inst.</Duration>
+      <Area>60' cone</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Ref " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>68</Page>
+      <SR>true</SR>
+      <Description>This spell projects hundreds of tiny rocks outwards, dealing 4d6 bludgeoning damage, and 8d6 fire damage. If you cast this spell before the end of your next turn, it deals 5d6 bludgeoning and 10d6 fire damage. Special: Learning this spell grants fire resistance of 3, which stacks with any other source.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Crystal Body</Name>
+      <Schools>
+        <School>
+          <School>Metacreativity</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Auditory</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>76</Page>
+      <SR>false</SR>
+      <Description>Turn your body into Crystal, gaining the following benefits: DR 5/adamantine; Immunity to blindness, crits, ability score damage, deafness, disease, drowning, electricity, poison, stunning, sleep, paralysis, and spells that affect your physiology; half damage from acid, cold and sonic; your unarmed attacks deal damage as a short sword of your size, and you are considered armed.  &#xD;
+You gain the following vulnerabilities: Vulnerable to all special attacks that affect Crystaline creatures; you cannot drink (no potions); and your weight increases by a factor of 5</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Channel the Psychic Dragon</Name>
+      <Schools>
+        <School>
+          <School>Psychometabolism</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1 sw</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Auditory</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>75</Page>
+      <SR>false</SR>
+      <Description>You gain abilities drawn from Crystal Dragons (MM2 81), and gain +5 competence to Diplomacy and Cold Resist 5.&#xD;
+Augment: &#xD;
+1) For +4PP instead gain +5 to Balance and Escape Artist, Immunity to Magic Missile, and +5 to Saves against spells/powers with the Force descriptor.&#xD;
+2) For +6PP instead gain +5 to Bluff and Sense Motive and Sonic Resist 20&#xD;
+3) For +8PP instead gain +10 on Intimidate and Swim, Cold Resist 30, and water breathing</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Amethyst Burst</Name>
+      <Schools>
+        <School>
+          <School>Metacreativity</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors>
+            <Descriptor>Force</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area>20' burst</Area>
+      <Components>
+        <Component>Auditory</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Ref " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>75</Page>
+      <SR>false</SR>
+      <Description>Create an explosion of force for 2d6 damage to all in radius.&#xD;
+Augment: Every +2 PP, +1d6 damage and +1 Save DC.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Wingblast</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Air</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>Exp</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>74</Page>
+      <SR>true</SR>
+      <Description>Gain wings of mist that resemble the dragon of your choise.  They grant flight equal to your land speed (max 60) (Good). You can fly even in heavy armor with a heavy load. You can expend this spell as a swift action for one of two effects.&#xD;
+1) 60 ft line shaped severe wind (gust of wind), Saves and Spell Resistance apply&#xD;
+2) 20 ft radius cloud of fog centered on you, no saves or spell resistance, lasts for 1 minute.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Vision of the Omniscient Eye</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Light</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties>
+            <Property>Exp</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>74</Page>
+      <SR>false</SR>
+      <Description>Gain +10 Insight to Spot checks and immunity to being dazzled or blinded.  If also under the effect of a spell that allows you to see invisible creatures, you can expend this spell to highlight one invisible creature within 60 ft. with a faerie fire effect (1 minute duration). Special: Learning this spell gives a +1 competence to spot checks.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Rot of Ages</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>2 rds</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Fort " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>72</Page>
+      <SR>false</SR>
+      <Description>The target is surrounded by rotting debris, and is sickened unless it saves, and all creatures are treated as having concealment from this creature. If hit with a second casting of this spell, the target is nauseated for as long as both effects last, and then sickened for the remainder. Special: Black Dragons with 3rd level sorceror spells cast this as a swift action.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Passage of the Shifting Sands</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Air</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties>
+            <Property>Exp</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>70</Page>
+      <SR>false</SR>
+      <Description>You and your equipment become a flying cloud of sand (like gaseous form).  You occupy your normal space, gain Flight 40 (Perfect), but lose other movement types. Ending any movement in an occupied quare causes the creature to become blinded for 1 round (Fort Neg). Expend this as a swift action to activate Gust of Wind. Special: A Blue Dragon with access to 6th level spells can cast this as a swift action.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Lord of the Sky</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Electricity</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties>
+            <Property>Exp</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Ref " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>69</Page>
+      <SR>false</SR>
+      <Description>="You gain a fly speed of 40 Good (or 30 if in med or heavy armor). If your fly speed is already 40, then gain a +10 bonus and good maneuverability (unless yours is better). While flying, you can make fire lightning bolts as RTA's (standard action), dealing "&amp;MIN(CasterLevel, 20)&amp;" damage, which also reduces the target's flight speed by 1/2 (multiple hits have no further effect). You can also expend this spell to cast a lightning bolt ("&amp;MIN(CasterLevel, 10)&amp;"d6). Without your own flight, you drift to the ground. Special: Dragonblooded casters gain a speed of 60, or 40 in med or hvy armor."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Gemstone Breath</Name>
+      <Schools>
+        <School>
+          <School>Psychokinesis</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 sw</CastingTime>
+      <Range>30 ft or 60 ft</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Auditory</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Save DC " &amp; SaveDC &amp; " See Text"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>76</Page>
+      <SR>true</SR>
+      <Description>="Gain a breath weapon that deals 2d6 damage and blinds for 1 round all in the 30 ft cone (Ref for half and negates blindness). The breath weapon is a standard action, but cannot be used in consecutive rounds, and it can be used up to "&amp;INT(CasterLevel/2)&amp;" times."&amp; System.Environment.NewLine &amp; "Augment:"&amp; System.Environment.NewLine &amp; "1) For +2PP, breath weapon deals 4d6 sonic damage and renders affected creatures shaken, Save DC is +1. Ref Half and Will Negs the shaken."&amp; System.Environment.NewLine &amp; "2) For +4PP, breath weapon deals 6d6 force damage in a 60 ft line, Save DC is +2, Ref Half."&amp; System.Environment.NewLine &amp; "3) For +6PP, breath weapon deals 8d6 sonic damage and deafness for 1 minute, Save DC is +3, Ref Half, and Fort Negs deafness."&amp; System.Environment.NewLine &amp; "4) For +8PP, breath weapon deals 10d6 damage, Save DC is +4, Ref Half."</Description>
+    </Spell>
+  </Spells>
+  <SpellOverrides />
+  <SpellListEntries>
+    <SpellList Name="Assassin" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Ferocity of Sanguine Rage" Level="4" ReferenceAbbrev="DragMag" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Bard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Soul of Anarchy" Level="2" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Adoration of the Frightful" Level="3" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Vision of the Omniscient Eye" Level="3" ReferenceAbbrev="DragMag" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Blackguard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Soul of Shadow" Level="2" ReferenceAbbrev="DragMag" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Cleric" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Adoration of the Frightful" Level="3" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Soul of Light" Level="3" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Soul of Shadow" Level="3" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Vision of the Omniscient Eye" Level="3" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Mark of the Enlightened Soul" Level="4" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Touch of the Blackened Soul" Level="4" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Eyes of the Oracle" Level="6" ReferenceAbbrev="DragMag" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Druid" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Primal Hunter" Level="2" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Primal Instinct" Level="3" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Vision of the Omniscient Eye" Level="3" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Wingblast" Level="3" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Wreath of Flames" Level="3" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Passage of the Shifting Sands" Level="4" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Primal Senses" Level="4" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Call of the Twilight Defender" Level="6" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Primal Speed" Level="6" ReferenceAbbrev="DragMag" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Hexblade" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Adoration of the Frightful" Level="2" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Trance of the Verdant Domain" Level="3" ReferenceAbbrev="DragMag" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Paladin" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Soul of Order" Level="1" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Soul of Light" Level="2" ReferenceAbbrev="DragMag" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Ranger" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Primal Hunter" Level="1" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Primal Instinct" Level="2" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Primal Senses" Level="3" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Primal Speed" Level="4" ReferenceAbbrev="DragMag" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Shugenja" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Wingblast" Level="3" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Lord of the Sky" Level="5" ReferenceAbbrev="DragMag" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Sorcerer" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Rot of Ages" Level="1" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Detect Dragonblood" Level="1" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Hoard Gullet" Level="1" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Path of Frost" Level="1" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Magic of the Dragonheart" Level="2" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Primal Hunter" Level="2" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Soul of Anarchy" Level="2" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Soul of Order" Level="2" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Dragoneye Rune" Level="2" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Vision of the Omniscient Eye" Level="3" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Ferocity of Sanguine Rage" Level="3" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Adoration of the Frightful" Level="3" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Wingblast" Level="3" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Wreath of Flames" Level="3" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Dragonshape, Least" Level="3" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Primal Instinct" Level="3" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Firestride Exhalation" Level="4" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Trance of the Verdant Domain" Level="4" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Passage of the Shifting Sands" Level="4" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Curse of the Elemental Lords" Level="4" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Mark of the Enlightened Soul" Level="4" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Primal Senses" Level="4" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Touch of the Blackened Soul" Level="4" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Undying Vigor of the Dragon Lords" Level="5" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Lord of the Sky" Level="5" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Form of the Desert Hunter" Level="5" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Call of the Twilight Defender" Level="6" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Eyes of the Oracle" Level="6" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Haze of Smoldering Stone" Level="6" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Dragonshape, Lesser" Level="6" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Primal Speed" Level="6" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Justice of the Wyrm King" Level="7" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Kiss of Draconic Defiance" Level="7" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Glorious Master of the Elements" Level="7" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Aspect of the Platinum Dragon" Level="7" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Arcane Spellsurge" Level="7" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Aspect of the Chromatic Dragon" Level="8" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Mind of the Labrynth" Level="8" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Burst of Glacial Wrath" Level="9" ReferenceAbbrev="DragMag" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Wu Jen" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Dragoneye Rune" Level="2" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Wreath of Flames" Level="3" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Firestride Exhalation" Level="4" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Eyes of the Oracle" Level="6" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Haze of Smoldering Stone" Level="6" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Arcane Spellsurge" Level="7" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Channel the Dragon" Level="7" ReferenceAbbrev="DragMag" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Wizard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Rot of Ages" Level="1" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Detect Dragonblood" Level="1" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Hoard Gullet" Level="1" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Path of Frost" Level="1" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Soul of Anarchy" Level="2" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Soul of Order" Level="2" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Dragoneye Rune" Level="2" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Vision of the Omniscient Eye" Level="3" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Ferocity of Sanguine Rage" Level="3" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Adoration of the Frightful" Level="3" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Wingblast" Level="3" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Wreath of Flames" Level="3" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Dragonshape, Least" Level="3" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Firestride Exhalation" Level="4" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Trance of the Verdant Domain" Level="4" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Passage of the Shifting Sands" Level="4" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Curse of the Elemental Lords" Level="4" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Mark of the Enlightened Soul" Level="4" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Touch of the Blackened Soul" Level="4" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Lord of the Sky" Level="5" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Form of the Desert Hunter" Level="5" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Call of the Twilight Defender" Level="6" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Eyes of the Oracle" Level="6" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Haze of Smoldering Stone" Level="6" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Dragonshape, Lesser" Level="6" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Justice of the Wyrm King" Level="7" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Kiss of Draconic Defiance" Level="7" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Glorious Master of the Elements" Level="7" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Arcane Spellsurge" Level="7" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Mind of the Labrynth" Level="8" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Burst of Glacial Wrath" Level="9" ReferenceAbbrev="DragMag" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Psion/Wilder" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Channel the Psychic Dragon" Level="1" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Amethyst Burst" Level="2" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Gemstone Breath" Level="4" ReferenceAbbrev="DragMag" />
+        <SpellEntry Name="Crystal Body" Level="5" ReferenceAbbrev="DragMag" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Psychic Warrior" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Channel the Psychic Dragon" Level="1" ReferenceAbbrev="DragMag" />
+      </SpellEntries>
+    </SpellList>
+  </SpellListEntries>
+  <Domains />
+  <Classes />
+</Reference>

@@ -1,0 +1,1168 @@
+<Reference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Sequence="1" Name="Races of the Dragon" Group="" Abbrev="RcDrn" Version="1.01">
+  <Description>(c) 2006 by Wizards of the Coast, Inc. 
+Entered by BI.
+
+1.01 - minor changes (RTA, Att, foot, etc.) </Description>
+  <DevNotes>Doesn't include Dragonblood Cleric, Dragonblood Sorcerer and Spellscale Bard substitution levels, nor does Draconic Legacy Feat
+
+FYI:
+Spellcasting abilities for
+
+Dragonblood Cleric:
+1st Same as cleric
+5th 1 less 3rd-level spell (in exchange for Energy barrier) 
+9th 1 less 5th-level spell (in exchange for Energy sustenance)
+
+Dragonblood Sorcerer:
+1st Same as sorcerer
+4th spell-like ability (losing a spell known + losing a spell slot apropriate to that spell and a spell slot 1 level higher = got that spell as a spell-like ability 3/day. This spell can be changed each new level while must change the losing spell and spellslots)
+7th bonus spells known (Evil: 1st-charm person, 2nd-darkness, resist energy, 3rd-suggestion, Good : 1st-bless, 2nd-fog cloud, resist energy, 3rd -fly, Neutral: None)
+
+Spellscale Bard
+1st Same as bard
+3rd Same as bard
+6th 1 less 2nd-level spell (in exchange for Superior suggestion)
+
+DRACONIC LEGACY [DRACONIC]
+You have realized greater arcane power through your draconic heritage.
+Prerequisites: Any four draconic feats.
+Benefit: Based on your draconic heritage, add the spells noted on the accompanying table (RcDrn 103) to your list of spells known. Each spell is added at the spell level where a spellcaster normally gains it unless otherwise indicated.
+Special: With your DM?s permission, you can choose a draconic legacy associated with a kind of dragon not found in the Monster Manual. See the table on page 103 for details.</DevNotes>
+  <Spells>
+    <Spell OriginalReference="">
+      <Name>Create Trap</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Medium</Range>
+      <Duration>12 hours</Duration>
+      <Area>One trap, 5' sq trigger area</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>false</SR>
+      <Description>You create a CR1 trap: basic arrow trap, fusillade of darts, scything blade trap or spear trap. Material comp: A miniature bronze gear.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Essence of the Dragon</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area>Willing living creature touched</Area>
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>112</Page>
+      <SR>false</SR>
+      <Description>You confer the dragon type on the touched creature. That creature counts as a dragon for the purpose of spell effects, magic item wielder requirements, favored enemy bonuses, and other factors that depend on a creature's type: becomes immune to magic sleep and paralysis effects and ignores the frightful presence of dragons, receives darkvision out to 60' and low-light vision. It is also now vulnerable to harmful effects that specify dragons, such as dragon bane weapons. Material Component: A drop of blood from a dragon or dragon-descended creature.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Ghostly Reload</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>1 hour or until expended</Duration>
+      <Area>Hand, light or heavy crossbow</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>113</Page>
+      <SR>false</SR>
+      <Description>="Shimmering ghostly hands pull your crossbow's string back into the catch as you prepare to fire another bolt. Ghostly reload pulls the string of a hand crossbow or light crossbow into place " &amp; Min(CasterLevel,10) &amp; " times and the string of a heavy crossbow into place " &amp; Min(Int(CasterLevel/2),5) &amp; " times. This spell allows the crossbow's wielder to fire a light crossbow or heavy crossbow as a standard action and move in the same round. If the character benefits from a high BAB, the crossbow can be fired multiple times as a full Att, but only if ghostly reload can be applied to each Att in that round. Focus: A crossbow."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Ghostly Tail</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Force</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " hr"</Duration>
+      <Area>Evoked Tail</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>113</Page>
+      <SR>false</SR>
+      <Description>="You evoke a partially translucent, scaled tail that can Att foes that are vulnerable to AoO. If you have not already taken your allowed number of AoO in the round, your evoked dragon's tail Att the target with a MTA, dealing 2d6 points of damage on a successful hit. Special: A dragonblooded character, or a character with the dragon type, deals extra "&amp; Min(CasterLevel,20) &amp;" damage with a ghostly tail."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Gnome Blight</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area>Cloud spreads in 20' radius, 20' high</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>113</Page>
+      <SR>true</SR>
+      <Description>Gnome blight creates a thick cloud of agonizingly itchy pollen similar to that created by fog cloud, except that the pollen is sickening. Living creatures in the cloud become sickened. This condition lasts as long as a creature is in the cloud and for 1d4+1 rounds after it leaves. (Roll separately for each sickened individual.) Any creature that succeeds on its save but remains in the cloud must continue to save each round on your turn. Creatures with sensitive olfactory senses (such as gnomes or creatures with the scent ability) take a -4 penalty on their saving throws.
+Material Component: Flower pollen and ground mandrake root.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Hoard Life</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Healing</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 min.</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " hr"</Duration>
+      <Area>You</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>113</Page>
+      <SR>false</SR>
+      <Description>="When you cast this spell, you deal " &amp; CasterLevel*2 &amp; "nonlethal damage to yourself, and you become fatigued. (If you are immune to nonlethal damage, this spell automatically fails.) At any point during the spell's duration, you can use a standard action while holding the gem to heal yourself of an amount of damage equal to the nonlethal damage the spell dealt to you. This healing can't cause you to exceed your full normal HPs; any healing in excess of this amount is lost. Triggering this effect ends the spell's duration (so you can't portion out the healing over multiple uses). Triggering the healing does not provoke AoO. If the spell's duration elapses before you have triggered the healing, you gain no benefit from the spell. Casting this spell a second time automatically ends the duration of any previous casting of the spell that you have performed. Focus: A gem worth at least 50 gp. Special: A dragonblooded character, or a character with the dragon type, casts this spell at +1 caster level."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Instant Diversion</Name>
+      <Schools>
+        <School>
+          <School>Illusion</School>
+          <Subschool>Figment</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1sw.</CastingTime>
+      <Range>Personal</Range>
+      <Duration>1 rd.</Duration>
+      <Area>You</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>113</Page>
+      <SR>false</SR>
+      <Description>="You create " &amp; Min(5,1+Int(CasterLevel/4)) &amp; " doubles. You are then free to go elsewhere while your doubles move away in a manner of your choosing (move, withdraw, or run). The doubles move at your speed and can emit minor sounds such as footsteps or metal clanking. Any successful Att against an illusory double destroys it. A double's AC is 10 + your size modifier + your DEX modifier. Figments seem to react normally to area spells (such as looking as though they are burned or dead after being hit by a fireball)."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Local Tremor</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Earth</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>30'</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area>30' line</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>114</Page>
+      <SR>false</SR>
+      <Description>="Immediately upon completion of the casting of this spell and as often as once per round thereafter, you can cause the ground to shake along a 30' line. You can produce " &amp; Min(CasterLevel,5) &amp; " tremors. The tremors begin at your location and extend in the direction you indicate; any creature caught standing within the area must make a Reflex save or fall prone. A spellcaster caught standing on one of these squares must make a Concentration check (DC 20 + spell level) or lose any spell that was being attempted. Calling up a new tremor in any round after the spell has been cast requires a standard action."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Manifest Dragon Heritage</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>114</Page>
+      <SR>false</SR>
+      <Description>="A wyvern springs forth from your body. It appears where you designate and acts immediately, on your turn. It Att your opps to the best of its ability. You must be able to speak Draconic to communicate with the wyvern, or have some form of telepathic communication that does not require a shared language. If you can communicate with the wyvern, you can direct it not to Att, to Att particular enemies, or to perform other actions. The conjured creature gains " &amp; CasterLevel*2 &amp; " bonus HPs. If it is killed, the caster takes 2d6 points of damage."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Manifest Dragon Heritage, Gr.</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>114</Page>
+      <SR>false</SR>
+      <Description>="A dragon turtle springs forth from your body. It appears where you designate and acts immediately, on your turn. It Att your opps to the best of its ability. You must be able to speak Draconic to communicate with the dragon turtle, or have some form of telepathic communication that does not require a shared language. If you can communicate with the dragon turtle, you can direct it not to Att, to Att particular enemies, or to perform other actions. The conjured creature gains " &amp; CasterLevel*2 &amp; " bonus HPs. If it is killed, the caster takes 2d6 points of damage."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Mighty Wallop</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>114</Page>
+      <SR>false</SR>
+      <Description>Mighty wallop increases the damage of a bludgeoning melee weapon by one size category without increasing the dimensions or weight of the weapon. (For a Medium or larger weapon, refer to Table 2-2: Increasing Damage by Weapon Size (DMG 28). For a Small or smaller weapon refer to Table 2-3: Decreasing Weapon Damage by Size (DMG 28). Focus: A bludgeoning melee weapon.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Mighty Wallop, Greater</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " hr"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>115</Page>
+      <SR>false</SR>
+      <Description>="Mighty wallop increases the damage of a bludgeoning melee weapon by " &amp; Min(Int(CasterLevel/4),5) &amp; " size category or up to an effective size of Colossal. For a Medium or larger weapon, refer to Table 2-2: Increasing Damage by Weapon Size (DMG 28). For a Small or smaller weapon refer to Table 2-3: Decreasing Weapon Damage by Size (DMG 28). Focus: A bludgeoning melee weapon."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Peaceful Serenity of Io</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>10 min.</Duration>
+      <Area>1+1cr./4 lev, no 2&gt;30'</Area>
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>115</Page>
+      <SR>true</SR>
+      <Description>="You fill " &amp; 1+Int(CasterLevel/4) &amp; " creature (no 2 &gt; 30') with the peacefulness and balance of Io's great Song, granting them a +4 morale bonus on Concentration checks, and saves against compulsions and fear effects for 10 minutes. If the subject is under the influence of compulsion or fear effects when receiving the spell, those effects are suppressed for the duration of the spell."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Power Word Deafen</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>See text</Duration>
+      <Area>1 living cr. with 100 hp or less</Area>
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>115</Page>
+      <SR>true</SR>
+      <Description>You utter a single word of power that instantly causes one creature of your choice to become deafened, whether the creature can hear the word or not.The duration of the spell depends on the target's current HP total, as shown below.
+HitPoints    Duration
+25 or less   Permanent
+26-50         1d4+1 min.
+51-100       1d4+1 rd.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Power Word Disable</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area>1 living cr. with 50 hp or less</Area>
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>115</Page>
+      <SR>true</SR>
+      <Description>You utter a single word of power that instantly reduces the HPs of one creature of your choice to 0. Any creature that currently has 51 or more HPs is unaffected by power word disable.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Power Word Distract</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area>1 living cr. with 150 hp or less</Area>
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>115</Page>
+      <SR>true</SR>
+      <Description>You utter a single word of power that instantly causes one creature of your choice to become briefly distracted, whether the creature can hear the word or not. The creature is treated as flat-footed until its next turn. Any creature that currently has 151 or more HPs is unaffected by power word distract.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Power Word Fatigue</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>See text</Duration>
+      <Area>1 living cr. with 100 hp or less</Area>
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>115</Page>
+      <SR>true</SR>
+      <Description>You utter a single word of power that instantly causes one creature of your choice to become fatigued, whether the creature can hear the word or not. (A fatigued creature instead becomes exhausted for the spell's duration, then reverts to being fatigued.) The duration of the spell depends on the target's current HP total, as shown below.
+HitPoints    Duration
+25 or less   1d4+1 hr.
+26-50         1d4+1 min.
+51-100       1d4+1 rd.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Power Word Maladorit</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>See text</Duration>
+      <Area>1 living cr. with 75 hp or less</Area>
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>116</Page>
+      <SR>true</SR>
+      <Description>You utter a single word of power that instantly causes one creature of your choice to become clumsier, dealing 2 points of damage to its DEX, whether the creature can hear the word or not.The specific effect and duration of the spell depends on the target's current HP total, as shown below.
+HitPoints    Duration
+25 or less   DEX dam. is ability drain instead.
+26-50         DEX dam. lasts 1d4+1 min.
+51-75         DEX dam. lasts 1d4+1 rd.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Power Word Nauseate</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>See text</Duration>
+      <Area>1 living cr. with 150 hp or less</Area>
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>116</Page>
+      <SR>true</SR>
+      <Description>You utter a single word of power that instantly causes one creature of your choice to become nauseated, whether the creature can hear the word or not.The duration of the spell depends on the target's current HP total, as shown below.
+HitPoints    Duration
+50 or less   2d4+2 rd.
+51-100       1d4+1 rd.
+101-150     1 rd.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Power Word Pain</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>See text</Duration>
+      <Area>1 living cr. with 100 hp or less</Area>
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>116</Page>
+      <SR>true</SR>
+      <Description>You utter a single word of power that instantly deals 1d6 points of damage to one creature of your choice, and another 1d6 points in every round thereafter for as long as the spell lasts.The duration of the spell depends on the target's current HP total, as shown below.
+HitPoints    Duration
+50 or less   4d4 rd.
+51-75         2d4 rd.
+76-100       1d4 rd.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Power Word Petrify</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area>1 living cr. with 100 hp or less</Area>
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>116</Page>
+      <SR>true</SR>
+      <Description>You utter a single word of power that instantly causes one creature of your choice to become petrified, whether the creature can hear the word or not.  Any creature that currently has 101 or more HPs is unaffected by power word pain</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Power Word Sicken</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>See text</Duration>
+      <Area>1 living cr. with 100 hp or less</Area>
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>116</Page>
+      <SR>true</SR>
+      <Description>You utter a single word of power that instantly causes one creature of your choice to become sickened, whether the creature can hear the word or not. The duration of the spell depends on the target's current HP total, as shown below.
+HitPoints    Duration
+25 or less   1d4+1 hr.
+26-50         1d4+1 min.
+51-100       1d4+1 rd.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Power Word Weaken</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>See text</Duration>
+      <Area>1 living cr. with 75 hp or less</Area>
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>117</Page>
+      <SR>true</SR>
+      <Description>You utter a single word of power that instantly causes one creature of your choice to become weaker, dealing 2 points of damage to its STR, whether the creature can hear the word or not.The specific effect and duration of the spell depends on the target's current HP total, as shown below.
+HitPoints    Duration
+25 or less   STR dam. is ability drain instead
+26-50         STR dam. lasts 1d4+1 min.
+51-75         STR dam. lasts 1d4+1 rd.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Sense of the Dragon</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>117</Page>
+      <SR>true</SR>
+      <Description>The subject gains augmented nonvisual senses out to a distance of 30'. The subject does not need to make Spot or Listen checks to pinpoint the location of a creature within 30', provided that it has line of effect to that creature. Concealment still counts, recipient of this spell is still denied its DEX bonus to AC against Att from creatures it cannot see.
+Sense of the dragon can be made permanent with a permanency spell in regard to yourself for a cost of 1,500 XP.
+Material Component: A worn dragon scale.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Steal Size</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " min [d]"</Duration>
+      <Area>1 humanoid cr. larger than you</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>117</Page>
+      <SR>true</SR>
+      <Description>A target that fails a Fortitude save shrinks by one size category, as the reduce person spell, while you grow by one size category, as the enlarge person spell. If the spell ends for either of you, the spell ends for both of you. Material Component: A dash of powdered iron.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Sticky Floor</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " hr"</Duration>
+      <Area>10' sq.</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>117</Page>
+      <SR>false</SR>
+      <Description>Creatures that are within or that enter the area of a sticky floor spell are immediately stuck in place and entangled. A successful Reflex save means the creature can move from its space but is still considered entangled as long as it remains in the area. A creature stuck in place can break loose by using a standard action to make a DC 15 STR check or Escape Artist check. Each round at the beginning of your turn, any creature within the area must succeed on another Reflex save to avoid becoming stuck in place again. The effect of this spell even extends through footwear, so merely removing your boots doesn't free you from the effect. Creatures not in contact with the surface of the ground (such as flying, burrowing or incorporeal creatures) are unaffected by sticky floor. Material Component: A drop of hardened tree sap, which must be eaten by the caster.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Summon Aspect of Bahamut</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Summoning</Subschool>
+          <Descriptors />
+          <Alignments>
+            <Alignment>Good</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Close</Range>
+      <Duration>= "[c] up to " &amp; CasterLevel+1 &amp; "rd"</Duration>
+      <Area>1 aspect of Bahamut</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>FocusOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>118</Page>
+      <SR>false</SR>
+      <Description>="You request Bahamut to send you one of his aspects. The aspect appears where you designate and acts immediately, on your turn. It Att your opps to the best of its ability. If you can communicate with the aspect (Celestial, Common, Draconic), you can direct it not to Att, to Att particular enemies, or to perform other actions before the duration (Concentration (max " &amp; CasterLevel &amp; " rd) + 1rd) elapses. More information on the aspect of Bahamut on page 152 of RcDrn. Arcane Focus: A silver dragon scale."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Tail Slap</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Force</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area>Evoked tail</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>118</Page>
+      <SR>false</SR>
+      <Description>="You evoke a dragon's tail that you can use to strike at a target once per round as a standard action (including the round in which you evoke it) with a MTA that deals " &amp; Min(Int(CasterLevel/2), 10) &amp; "d6 points of damage. If a subject of up to one size category larger than you fails a STR check (DC " &amp; CasterLevel+12 &amp; ") against your first Att (must make in the round in which you evoke it), the driving force of the tail slap pushes your foe back 5' + 5'/5 hp dam. If a wall or other solid object prevents the subject from being pushed back, the subject instead slams into the object and takes an extra 2d6 points of damage from the impact (no save). The movement of your foe caused by a tail slap does not provoke AoO. Special: A dragonblooded character, or a character with the dragon type, has a chance to push back a foe with every Att it makes during the spell's duration."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Tail Sweep</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Force</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>10'</Range>
+      <Duration>Inst.</Duration>
+      <Area>10' rad. burst</Area>
+      <Components />
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>118</Page>
+      <SR>true</SR>
+      <Description>="You evoke a dragon's tail that savagely sweeps through the space around you in a 10' radius, dealing " &amp; CasterLevel &amp; "d6 points of damage to all creatures. (Ref " &amp; SaveDC &amp; " half) Creatures that fail the Reflex save are also knocked prone. Special: A dragonblooded character, or a character with the dragon type, casts this spell at +1 caster level."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Unfettered Grasp</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area>1 grappling or pinned cr.</Area>
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>118</Page>
+      <SR>true</SR>
+      <Description>Upon casting this spell, you force the target creature to immediately attempt a grapple check. If it succeeds on that check, the creature immediately ends and escapes from any grapple or pin that it is currently subject to (even if it isn't the creature's turn). Typically, this spell is used to free an ally from the grasp of a creature that is larger and/or stronger than the ally.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Wall of Scales</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area>= CasterLevel &amp; " * 5' sq dragonhide wall" </Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>118</Page>
+      <SR>false</SR>
+      <Description>="You create a barrier of living dragonhide that is anchored to the ground or floor, or between two vertical surfaces. A wall of scales is " &amp; Int(CasterLevel/2) &amp; "inch thick and composed of up to " &amp; CasterLevel &amp; " 5' square. You can double the wall's area by halving its thickness. The wall cannot be conjured so that it occupies the same space as a creature or another object. You can create a wall of scales in almost any shape you desire, provided it is anchored in some fashion. It need not be vertical, and you can shape it into a circular or domeshaped enclosure about yourself or another creature. The wall can be destroyed by normal means of dealing damage, as well as by disintegrate spells and so forth. It is immune to acid and fire. In addition, the wall of scales has damage reduction " &amp; Min(Int(CasterLevel/5),4)*5 &amp; "/magic. Each 5' sq of wall has 10 HPs per inch of thickness. A section of wall whose HPs are reduced to 0 is breached. A wall of scales cannot be broken with a STR check. It's possible to trap mobile opps within or under a wall of scales. Creatures can avoid entrapment with Ref " &amp; SaveDC &amp; ". Material Component: A pristine dragon scale."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Wings of Bounding</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Force</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1sw.</CastingTime>
+      <Range>Personal</Range>
+      <Duration>Inst.</Duration>
+      <Area>You</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>119</Page>
+      <SR>false</SR>
+      <Description>="You evoke immense, partially translucent wings that grant you a +20 circ. bonus on a Jump check you make in the same round when you cast the spell. In addition, if you are intentionally jumping down from a height and you succeed on the DC 15 Jump check to do so, you take falling damage as if you had dropped 30 fewer feet than you actually did. Special: A dragonblooded character, or a character with the dragon type, gains an additional +" &amp; Min(Int(CasterLevel/2),10) &amp; " bonus on the Jump check."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Wings of Cover</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Force</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1im.</CastingTime>
+      <Range>Personal</Range>
+      <Duration>Inst.</Duration>
+      <Area>You</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>119</Page>
+      <SR>false</SR>
+      <Description>="Your evoked wings grant cover against a specific Att (melee, ranged, spell, or psionic Att). You can cast this spell immediately, creating a hemispherical barrier (or a spherical barrier if you are not standing on solid ground) of force shaped like dragon wings. The wings of force last just long enough to disrupt your foe's line of effect to you, providing you total cover against a single Att with a weapon, spell, or psionic power. Your foe's first Att in this round cannot be made and is wasted against you, though he could decide to take any other action, including choosing to Att one of your allies instead, take a full Att action that grants him additional MA-s against you in this round, or Att with an area Att (such as a fireball spell). In this latest case you gain a +8 bonus to AC (if applicable) and a +4 bonus on Reflex saves. Special: A dragonblooded character, or a character with the dragon type, can provide cover for " &amp; Int(CasterLevel/3) &amp; "additional adjacent ally."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Wings of Flurry</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Force</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>30'</Range>
+      <Duration>Inst.</Duration>
+      <Area>30' rad. burst</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>119</Page>
+      <SR>true</SR>
+      <Description>="You evoke flickering dragon's wings that strike at every target in range, dealing " &amp; CasterLevel &amp; "d6 points of damage to all designated targets within 30' (Ref " &amp; SaveDC &amp; " half) Creatures that fail the Ref save are also dazed for 1 round. Special: A dragonblooded character, or a character with the dragon type, casts this spell at +1 caster level."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Wings of Swift Flying</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Force</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " hr"</Duration>
+      <Area>You</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>119</Page>
+      <SR>false</SR>
+      <Description>This spell evokes ghostly, translucent wings that add 30' to your fly speed granted by the underlying spell for that spell's duration. When the underlying flight effect's duration elapses, the wings of swift flying spell also immediately ends. Only characters who are already enjoying the effect of flight granted by a spell, power, or other temporary magical or psionic effect can make use of this spell. Characters who are flying through some other means (such as natural wings of their own) gain no benefit from casting this spell.  Special: A dragonblooded character, or a character with the dragon type, adds an additional 10' to her fly speed when this spell is cast.</Description>
+    </Spell>
+  </Spells>
+  <SpellOverrides />
+  <SpellListEntries>
+    <SpellList Name="Cleric" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Local Tremor" Level="2" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Peaceful Serenity of Io" Level="2" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Summon Aspect of Bahamut" Level="7" ReferenceAbbrev="RcDrn" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Druid" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Local Tremor" Level="2" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Peaceful Serenity of Io" Level="2" ReferenceAbbrev="RcDrn" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Sorcerer" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Create Trap" Level="1" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Sticky Floor" Level="1" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Power Word Fatigue" Level="1" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Power Word Pain" Level="1" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Instant Diversion" Level="1" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Ghostly Reload" Level="1" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Mighty Wallop" Level="1" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Ghostly Tail" Level="1" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Wings of Bounding" Level="1" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Wings of Swift Flying" Level="1" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Essence of the Dragon" Level="2" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Tail Slap" Level="2" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Wings of Cover" Level="2" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Gnome Blight" Level="2" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Power Word Sicken" Level="2" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Unfettered Grasp" Level="2" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Local Tremor" Level="2" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Steal Size" Level="2" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Power Word Deafen" Level="3" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Power Word Maladorit" Level="3" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Power Word Weaken" Level="3" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Mighty Wallop, Greater" Level="3" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Sense of the Dragon" Level="3" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Power Word Distract" Level="4" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Hoard Life" Level="4" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Tail Sweep" Level="4" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Wall of Scales" Level="4" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Wings of Flurry" Level="4" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Manifest Dragon Heritage" Level="5" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Power Word Disable" Level="5" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Power Word Nauseate" Level="6" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Summon Aspect of Bahamut" Level="7" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Power Word Petrify" Level="8" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Manifest Dragon Heritage, Gr." Level="8" ReferenceAbbrev="RcDrn" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Wizard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Create Trap" Level="1" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Sticky Floor" Level="1" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Power Word Fatigue" Level="1" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Power Word Pain" Level="1" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Instant Diversion" Level="1" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Ghostly Reload" Level="1" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Mighty Wallop" Level="1" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Gnome Blight" Level="2" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Power Word Sicken" Level="2" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Unfettered Grasp" Level="2" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Local Tremor" Level="2" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Steal Size" Level="2" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Power Word Deafen" Level="3" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Power Word Maladorit" Level="3" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Power Word Weaken" Level="3" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Mighty Wallop, Greater" Level="3" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Sense of the Dragon" Level="3" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Power Word Distract" Level="4" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Power Word Disable" Level="5" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Power Word Nauseate" Level="6" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Summon Aspect of Bahamut" Level="7" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Power Word Petrify" Level="8" ReferenceAbbrev="RcDrn" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Bard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Instant Diversion" Level="1" ReferenceAbbrev="RcDrn" />
+        <SpellEntry Name="Peaceful Serenity of Io" Level="2" ReferenceAbbrev="RcDrn" />
+      </SpellEntries>
+    </SpellList>
+  </SpellListEntries>
+  <Domains />
+  <Classes />
+</Reference>

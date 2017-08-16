@@ -1,0 +1,5161 @@
+<Reference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Sequence="24" Name="Complete Psionic" Group="Psionics" Abbrev="CPsi" Version="1">
+  <Description>The next in the 'Complete' series of books, with this book specifically targetting the Psionic classes.&#xD;
+The Lurk class functions as a basic class.&#xD;
+The Erudite class is configured to be able to learn spells from the Psion/Wilder list only.  It is up to the player to get the information for the Unique Powers per Day.&#xD;
+The Ardent and Divine Mind require the user to enter some requirements.  For both classes, you select your Mantles (domains) as you progress.  It is up to the player to keep track of which powers the character knows.&#xD;
+For the Divine Mind, the player must also apply a -4 to its manifester level.</Description>
+  <DevNotes>Mantle Notes: At this time, it is not possible for me to enter the Mantles with the 'Spells Known' option working properly, thus, I will be entering them as domains, and it will be up to the user to mark which powers are know to the character.&#xD;
+&#xD;
+1.) Power entries first. (Complete)&#xD;
+2.) Class Lists (Complete for Comp. Psion, now referencing ExPsi) (Complete)&#xD;
+3.) Base class entries (including the alternate psion, the Erudite) (Complete)&#xD;
+4.) Prestige Classes. (Complete)</DevNotes>
+  <Spells>
+    <Spell OriginalReference="">
+      <Name>Adrenaline Boost</Name>
+      <Schools>
+        <School>
+          <School>Psychometabolism</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1 sw</CastingTime>
+      <Range>Personal</Range>
+      <Duration>1 rd</Duration>
+      <Area />
+      <Components>
+        <Component>Olfactory</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>false</SR>
+      <Description>Receive a temp. +2 Insight Str &amp; Dex boost.&#xD;
+Augment: Every 3 PP, +1 Str &amp; Dex.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Affinity Field, Pain</Name>
+      <Schools>
+        <School>
+          <School>Psychometabolism</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>20 ft</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Material</Component>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>78</Page>
+      <SR>true</SR>
+      <Description>Negative affects that affect you also affect others</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Analyze Dweomer, Psionic</Name>
+      <Schools>
+        <School>
+          <School>Clairsentience</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>1 rd</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>78</Page>
+      <SR>false</SR>
+      <Description>Reveals magical aspects of subject.&#xD;
+Augment: MAGIC MANTLE ONLY - Every PP, +1 rd duration, thus 1 extra object/creature.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Animate Plants, Psionic</Name>
+      <Schools>
+        <School>
+          <School>Psychokinesis</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>See Text</Duration>
+      <Area />
+      <Components>
+        <Component>Auditory</Component>
+        <Component>Olfactory</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>78</Page>
+      <SR>false</SR>
+      <Description>One or more plants animate and fight for you.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Anticipatory Strike</Name>
+      <Schools>
+        <School>
+          <School>Psychoportation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 im</CastingTime>
+      <Range>Personal</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Auditory</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>78</Page>
+      <SR>false</SR>
+      <Description>Take your action out of initiative order</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Blackstone Hammer</Name>
+      <Schools>
+        <School>
+          <School>Psychometabolism</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>79</Page>
+      <SR>true</SR>
+      <Description>Target weapon petrifies those it strikes.  The save and resistance is for the creature struck by the weapon.  Power discharges on successful strike.&#xD;
+Augment: Every +4 PP, +1 Charge</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Breathless</Name>
+      <Schools>
+        <School>
+          <School>Psychometabolism</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel * 10 &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>79</Page>
+      <SR>false</SR>
+      <Description>You don't need to breathe.&#xD;
+Augment: For +2 PP, +1 touched creature</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Burrowing Bonds</Name>
+      <Schools>
+        <School>
+          <School>Metacreativity</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Auditory</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Ref " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>79</Page>
+      <SR>false</SR>
+      <Description>Crystalline bonds deal 3d6 damage plus 1d6 damage/round&#xD;
+Augment: &#xD;
+1. Every +2 PP, +1 Save DC and Break DC&#xD;
+2. Every +2 PP, +1 Targetable size category&#xD;
+3. Every +2 PP, +1d6 continuous damage</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Call Armor</Name>
+      <Schools>
+        <School>
+          <School>Psychoportation</School>
+          <Subschool>Teleportation</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1 rd</CastingTime>
+      <Range>0 ft.</Range>
+      <Duration>= CasterLevel &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>80</Page>
+      <SR>false</SR>
+      <Description>Transfer chosen type of armor to your person (appears equipped).&#xD;
+Augment: &#xD;
+1. Every +4 PP, +1 AC bonus&#xD;
+2. For +4 PP, item is Mithral, for +8 PP, it is adamantine</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Celestial Conduit</Name>
+      <Schools>
+        <School>
+          <School>Psychokinesis</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>120 ft. line</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Material</Component>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Ref " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>80</Page>
+      <SR>true</SR>
+      <Description>Launch a bolt of ectoplasm-mediated positive energy from your fingertips.&#xD;
+Augment: Every PP, +1d6 damage (1d6+2 vs undead) and +1 Save DC.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Chaos Fissure</Name>
+      <Schools>
+        <School>
+          <School>Telepathy</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area>20' eman.</Area>
+      <Components>
+        <Component>Auditory</Component>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>81</Page>
+      <SR>false</SR>
+      <Description>Wild surge and wild magic apply to powers and spells</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Claws of Darkness</Name>
+      <Schools>
+        <School>
+          <School>Psychometabolism</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>81</Page>
+      <SR>false</SR>
+      <Description>Gain claw attacks and slow grappled targets&#xD;
+Augment: &#xD;
+1. Extra PP give extra damage, see table.  Every 2 PP spent on extra damage gives +1 Save DC.&#xD;
+2. For +6 PP, manifest as swift action.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Concussive Detonation</Name>
+      <Schools>
+        <School>
+          <School>Psychokinesis</School>
+          <Subschool>Force</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area>20' burst</Area>
+      <Components>
+        <Component>Auditory</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Ref " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>81</Page>
+      <SR>true</SR>
+      <Description>Burst of force damages targets in area for 6d6 damage.&#xD;
+Augment: Every PP, +1d6 damage.  Every extra 2d6, +1 Save DC.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Cranial Deluge</Name>
+      <Schools>
+        <School>
+          <School>Psychometabolism</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1 rd</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Auditory</Component>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>81</Page>
+      <SR>true</SR>
+      <Description>18d6 damage can cause your opponent's head to explode.&#xD;
+Augment: Every +2 PP, +1 Save DC</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Crystalstorm</Name>
+      <Schools>
+        <School>
+          <School>Metacreativity</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Fort " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>81</Page>
+      <SR>false</SR>
+      <Description>Crystal ray spray deals 2d4 damage +1d4 Con dmg (negated by save)&#xD;
+Augment: &#xD;
+1. Every PP, +1d4 shard damage&#xD;
+2. Every +2 PP, +1 Con damage on failed save.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Damp Power</Name>
+      <Schools>
+        <School>
+          <School>Psychometabolism</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1 im</CastingTime>
+      <Range>Personal</Range>
+      <Duration>See Text</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>82</Page>
+      <SR>false</SR>
+      <Description>Variable numeric effects are minimized against you&#xD;
+Augment: For +4 PP, can damp power on area affect for all in target area.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Dark Despair</Name>
+      <Schools>
+        <School>
+          <School>Psychometabolism</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>10 ft.</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area>10' eman. [c]</Area>
+      <Components>
+        <Component>Auditory</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>82</Page>
+      <SR>true</SR>
+      <Description>You gain a dark aura that harms good creatures</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Deaden Blow</Name>
+      <Schools>
+        <School>
+          <School>Metacreativity</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1 sw</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>82</Page>
+      <SR>true</SR>
+      <Description>A weapon deals nonlethal damage instead of lethal&#xD;
+Augment: For +2 PP, can affect Natural Weapon</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Death Knell, Psionic</Name>
+      <Schools>
+        <School>
+          <School>Psychometabolism</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Death</Descriptor>
+          </Descriptors>
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>See Text</Duration>
+      <Area />
+      <Components>
+        <Component>Auditory</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>82</Page>
+      <SR>true</SR>
+      <Description>Kills dying creature; you gain 1d8 temp HP, +2 Str, &amp; +1 level.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Deflection Field</Name>
+      <Schools>
+        <School>
+          <School>Psychokinesis</School>
+          <Subschool>Force</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 sw</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= "Conc. +1 rd, max "&amp; CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Auditory</Component>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>82</Page>
+      <SR>false</SR>
+      <Description>Manipulate a field of energy to protect you from attacks</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Detain Ectoplasm</Name>
+      <Schools>
+        <School>
+          <School>Metacreativity</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>See Text</Duration>
+      <Area>30' burst</Area>
+      <Components>
+        <Component>Auditory</Component>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>82</Page>
+      <SR>false</SR>
+      <Description>Dismiss constructs and use liberated ectoplasm to bolster your metacreativity powers.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Dimension Hop</Name>
+      <Schools>
+        <School>
+          <School>Psychoportation</School>
+          <Subschool>Teleportation</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1 sw</CastingTime>
+      <Range>10 ft</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Auditory</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>83</Page>
+      <SR>false</SR>
+      <Description>Swiftly teleport a short distance&#xD;
+Augment: Every PP, +5 ft range</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Dimension Twister</Name>
+      <Schools>
+        <School>
+          <School>Psychoportation</School>
+          <Subschool>Teleportation</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>83</Page>
+      <SR>true</SR>
+      <Description>Teleports foe short distance and deals 5d6 damage&#xD;
+Augment: &#xD;
+1. Every +2 PP, +1 Size Category or double weight of object&#xD;
+2. Every +2 PP, target moved +5 ft.&#xD;
+3. Every +2 PP, +1d6 damage</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Dimensional Pocket</Name>
+      <Schools>
+        <School>
+          <School>Psychoportation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " hr [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>83</Page>
+      <SR>false</SR>
+      <Description>Transfer object to hidden dimension for safekeeping&#xD;
+Augment: &#xD;
+1. Every PP, +1 lb/level (still one object)&#xD;
+2. For +2 PP, dismiss as swift action</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Discern Lies, Psionic</Name>
+      <Schools>
+        <School>
+          <School>Clairsentience</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= "[c] up to " &amp; CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>84</Page>
+      <SR>false</SR>
+      <Description>Reveals deliberate falsehood</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Distracting Shout</Name>
+      <Schools>
+        <School>
+          <School>Psychometabolism</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>15 ft.</Range>
+      <Duration>Inst.</Duration>
+      <Area>15' cone</Area>
+      <Components>
+        <Component>Auditory</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>84</Page>
+      <SR>true</SR>
+      <Description>Distract opponents with your powerful shout&#xD;
+Augment: For +4 PP, area becomes 15' burst [c].</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Earth Walk</Name>
+      <Schools>
+        <School>
+          <School>Psychometabolism</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>84</Page>
+      <SR>false</SR>
+      <Description>Move easily in all directions while on earthen surfaces.&#xD;
+For +6 PP, manifest as swift action.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Earthquake, Psionic</Name>
+      <Schools>
+        <School>
+          <School>Psychokinesis</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Long</Range>
+      <Duration>1 rd</Duration>
+      <Area>80' rad.</Area>
+      <Components>
+        <Component>Auditory</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>84</Page>
+      <SR>false</SR>
+      <Description>Intense tremor shakes shakes 80' spread.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Ectoplasmic Swarm</Name>
+      <Schools>
+        <School>
+          <School>Metacreativity</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1 rd</CastingTime>
+      <Range>Close</Range>
+      <Duration>Conc + 2 rds</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>84</Page>
+      <SR>false</SR>
+      <Description>Summon a swarm of crystaline spiders&#xD;
+Augment: For +2 PP, swarm can arrive in an occupied square</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Eidetic Lock</Name>
+      <Schools>
+        <School>
+          <School>Telepathy</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " day(s)"</Duration>
+      <Area />
+      <Components>
+        <Component>Mental</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>84</Page>
+      <SR>false</SR>
+      <Description>Memorize an image or passage completely&#xD;
+Augment: For +4 PP, duration is perm.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Elemental Steward</Name>
+      <Schools>
+        <School>
+          <School>Psychoportation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>See Text</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1 rd</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>85</Page>
+      <SR>false</SR>
+      <Description>Summon a small psionic elemental to protect and serve you&#xD;
+Augment: Every +2 PP, you have 50% chance to summon 1 additional elemental steward (roll separately, all are same type)</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Empower Weapon</Name>
+      <Schools>
+        <School>
+          <School>Psychometabolism</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>10 min</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Permanent [d]</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>85</Page>
+      <SR>false</SR>
+      <Description>Store a power in your weapon</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Endure Elements, Psionic</Name>
+      <Schools>
+        <School>
+          <School>Psychometabolism</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>24 hours</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>85</Page>
+      <SR>true</SR>
+      <Description>Exist comfortably in hor or cold environments</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Energy Arc</Name>
+      <Schools>
+        <School>
+          <School>Psychokinesis</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>See Text</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>15 ft cone</Range>
+      <Duration>Inst.</Duration>
+      <Area>15' cone</Area>
+      <Components>
+        <Component>Auditory</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Ref " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>85</Page>
+      <SR>true</SR>
+      <Description>Energy of a type you choose shoots from your fingertips in a short cone.&#xD;
+Augment: Every +2 PP, +1d4 damage, and +1 Save DC</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Energy Barrage</Name>
+      <Schools>
+        <School>
+          <School>Psychokinesis</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>See Text</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area>3x 10' burst</Area>
+      <Components>
+        <Component>Auditory</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Ref " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>86</Page>
+      <SR>true</SR>
+      <Description>Decimates foes with a barrage of energy explosions (5d6 each, separate saves)&#xD;
+Augment: Every +4 PP, +1d6 to each explosion, and +1 Save DC</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Energy Claw</Name>
+      <Schools>
+        <School>
+          <School>Metacreativity</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors>
+            <Descriptor>See Text</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>86</Page>
+      <SR>true</SR>
+      <Description>Create claw of energy that grapples and damages foe.&#xD;
+Augment: Every PP, claw gains +1 to touch attack and grapple.  For every +2 PP so spent, +1d6 damage.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Energy Emanation</Name>
+      <Schools>
+        <School>
+          <School>Psychokinesis</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>See Text</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>5 ft.</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area>5' eman.</Area>
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>87</Page>
+      <SR>true</SR>
+      <Description>Deal 1d6 damage of chosen energy type to surrounding creatures.&#xD;
+Augment: Every +3 PP, +1d6 damage.  Every +2d6 damage, +1 Save DC</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Energy Flash</Name>
+      <Schools>
+        <School>
+          <School>Psychokinesis</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>See Text</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Fort " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>87</Page>
+      <SR>true</SR>
+      <Description>Touch deals 5d6 damage of chosen energy to foe.&#xD;
+Augment: Every PP, +1d6 damage.  Every +2d6 damage, +1 Save DC</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Energy Lance</Name>
+      <Schools>
+        <School>
+          <School>Psychokinesis</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>See Text</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Mental</Component>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Fort " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>87</Page>
+      <SR>true</SR>
+      <Description>Lance of energy deals 5d6 energy damage + 2nd effect&#xD;
+Augment: Every +2 PP, +1d6 damage.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Energy Manipulation</Name>
+      <Schools>
+        <School>
+          <School>Psychokinesis</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>1 rd</Duration>
+      <Area />
+      <Components>
+        <Component>Mental</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>87</Page>
+      <SR>true</SR>
+      <Description>You manipulate a source of energy.&#xD;
+Augment: For +6 PP, masifest as immediate action.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Energy Nullification Field</Name>
+      <Schools>
+        <School>
+          <School>Psychokinesis</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>See Text</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>10 ft.</Range>
+      <Duration>= CasterLevel * 10 &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Auditory</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>88</Page>
+      <SR>false</SR>
+      <Description>Suppresses psionic powers with chosen energy descriptor.&#xD;
+Augment: Every +4 PP, +5 ft radius</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Ethereal Abduction</Name>
+      <Schools>
+        <School>
+          <School>Psychoportation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>88</Page>
+      <SR>true</SR>
+      <Description>Force another creature onto the ethereal plane&#xD;
+Augment: Every PP, +1 target.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Ethereal Agent</Name>
+      <Schools>
+        <School>
+          <School>Clairsentience</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>10 min</CastingTime>
+      <Range>Unltd</Range>
+      <Duration>= "[c] + 5 rds up to " &amp; CasterLevel * 10 &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>88</Page>
+      <SR>false</SR>
+      <Description>Create a psionic sensor that watches the Material Plane from the Ethereal Plane</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Ethereal Volley</Name>
+      <Schools>
+        <School>
+          <School>Psychokinesis</School>
+          <Subschool>Force</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel * 10 &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>88</Page>
+      <SR>false</SR>
+      <Description>Imbue your missiles with force energy</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Evade Attack</Name>
+      <Schools>
+        <School>
+          <School>Psychoportation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1 im</CastingTime>
+      <Range>Personal</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>89</Page>
+      <SR>false</SR>
+      <Description>Use an immediate action to deflect attack of opportunity&#xD;
+Augment: See Text</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Exhalation of the Bronze Dragon</Name>
+      <Schools>
+        <School>
+          <School>Psychometabolism</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>30 ft.</Range>
+      <Duration>Inst.</Duration>
+      <Area>30' cone</Area>
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>89</Page>
+      <SR>true</SR>
+      <Description>Exhale a cone of gas that unsettles your enemies for 1d4 rounds&#xD;
+Augment: Every +2 PP, +1 Save DC</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Extend Range</Name>
+      <Schools>
+        <School>
+          <School>Psychokinesis</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1 sw</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>89</Page>
+      <SR>false</SR>
+      <Description>Increases range increment or a ranged or thrown weapon&#xD;
+Augment: Every +4 PP, gain another +100% to range incriment.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Extend Reach</Name>
+      <Schools>
+        <School>
+          <School>Psychokinesis</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1 sw</CastingTime>
+      <Range>Touch</Range>
+      <Duration>1 rd.</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>89</Page>
+      <SR>false</SR>
+      <Description>Shift area your weapon threatens by 5 ft.&#xD;
+Augment: Every PP, +1 round duration</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Eyes of the Basilisk</Name>
+      <Schools>
+        <School>
+          <School>Psychometabolism</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>30 ft.</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>89</Page>
+      <SR>true</SR>
+      <Description>Turn one creature to stone with a glance.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Fiendish Conduit</Name>
+      <Schools>
+        <School>
+          <School>Psychokinesis</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>120 ft. line</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Material</Component>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Ref " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>80</Page>
+      <SR>true</SR>
+      <Description>Launch a bolt of ectoplasm-mediated negative energy from your fingertips.&#xD;
+Augment: Every PP, +1d6 damage (healed or dealt)</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>From the Brink</Name>
+      <Schools>
+        <School>
+          <School>Psychometabolism</School>
+          <Subschool>Healing</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1 im</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Mental</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>90</Page>
+      <SR>false</SR>
+      <Description>You stabilize a dying target.&#xD;
+Augment: Every PP, target heals 1 HP (to a max of 1 HP above 0)</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Glyph of Warding, Psionic</Name>
+      <Schools>
+        <School>
+          <School>Metacreativity</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>10 min</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Permanent [d]</Duration>
+      <Area />
+      <Components>
+        <Component>Material</Component>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>90</Page>
+      <SR>true</SR>
+      <Description>Set a psionic trap to protect a chosen area or opening.&#xD;
+Augment: Every +2 PP, +1d10 damage.  Every +2d10, +1 Save DC.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Greater Glory</Name>
+      <Schools>
+        <School>
+          <School>Psychometabolism</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Good</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>20 ft.</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>90</Page>
+      <SR>true</SR>
+      <Description>Good creatures near you gain benefits.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Heavy Earth</Name>
+      <Schools>
+        <School>
+          <School>Psychometabolism</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>20 ft.</Range>
+      <Duration>Inst.</Duration>
+      <Area>20' burst(c)</Area>
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>90</Page>
+      <SR>true</SR>
+      <Description>Alter gravity locally.&#xD;
+Augment: For +4 PP, you are not slowed.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Hungry Touch</Name>
+      <Schools>
+        <School>
+          <School>Psychometabolism</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Mental</Component>
+        <Component>Olfactory</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Fort " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>90</Page>
+      <SR>true</SR>
+      <Description>Your touch deals 1d6 dmg which you gain as temp HP.  The save reduces dmg by half, and negates your healing.&#xD;
+Augment: Every +2 PP, +1d6 damage and +1 Save DC.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Incite Bravery</Name>
+      <Schools>
+        <School>
+          <School>Telepathy</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1 sw</CastingTime>
+      <Range>20 ft.</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Auditory</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>91</Page>
+      <SR>true</SR>
+      <Description>You and allies near you become immune to fear effects for duration.&#xD;
+Augment: For +4 PP, duration increases to 10 min/level</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Inconstant Location</Name>
+      <Schools>
+        <School>
+          <School>Psychoportation</School>
+          <Subschool>Teleportation</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>1 min</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>91</Page>
+      <SR>false</SR>
+      <Description>Make swift instantaneous moves in combat.&#xD;
+Augment: Every PP, +1 round duration</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Inspire Mount</Name>
+      <Schools>
+        <School>
+          <School>Psychometabolism</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>91</Page>
+      <SR>true</SR>
+      <Description>Increase the speed of your mount, and its ability to avoid attacks.&#xD;
+Augment: &#xD;
+1. For +6 PP, manifest as immediate action&#xD;
+2. For +6 PP, increase duration to 10 min/level</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Intellect Bomb</Name>
+      <Schools>
+        <School>
+          <School>Psychokinesis</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area>Target &amp; 20' burst</Area>
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>91</Page>
+      <SR>true</SR>
+      <Description>Causes your targets head to explode with an area effect.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Larval Flayers</Name>
+      <Schools>
+        <School>
+          <School>Psychoportation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1 rd</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Auditory</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>91</Page>
+      <SR>false</SR>
+      <Description>Summon 1d4+1 larval flayers to aid you.&#xD;
+Augment: &#xD;
+1. Every +2 PP, +1 flayer&#xD;
+2. Every +2 PP, one flayer appears attached to enemy</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Light Beam</Name>
+      <Schools>
+        <School>
+          <School>Psychokinesis</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>See Text</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>120 ft line</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Ref " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>92</Page>
+      <SR>true</SR>
+      <Description>Deal 5d6 damage in 120 ft line, plus secondary effects.&#xD;
+Augment: Every PP, +1d6 damage</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Light Burst</Name>
+      <Schools>
+        <School>
+          <School>Psychokinesis</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Long</Range>
+      <Duration>Inst.</Duration>
+      <Area>80' burst</Area>
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Ref " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>92</Page>
+      <SR>true</SR>
+      <Description>Blinds all within 10 ft, deals 6d6 dmg (15d6 to undead)&#xD;
+Augment: Every PP, +1d6 damage and +1 Save DC.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Living Arrow</Name>
+      <Schools>
+        <School>
+          <School>Metacreativity</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Auditory</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>92</Page>
+      <SR>false</SR>
+      <Description>Semisentient arrows can follow foes around corners&#xD;
+Augment: &#xD;
+1. Every +3 PP, +1 arrow/round&#xD;
+2. For +2 PP, see target as arrow sees it</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Mend Wounds</Name>
+      <Schools>
+        <School>
+          <School>Psychometabolism</School>
+          <Subschool>Healing</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Will " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>92</Page>
+      <SR>true</SR>
+      <Description>Cure living creatures of 55 dmg, or deal 55 dmg to undead.&#xD;
+Augment: &#xD;
+1. Every PP, +5 HP of healing/damage to undead&#xD;
+2. For +4 PP, heal all creatures within 20 ft</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Mental Turmoil</Name>
+      <Schools>
+        <School>
+          <School>Telepathy</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>1d4+1 rds</Duration>
+      <Area />
+      <Components>
+        <Component>Mental</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>92</Page>
+      <SR>true</SR>
+      <Description>Prevent target from using abilities that require mental calm&#xD;
+Augment: Every +2 PP, +1 Save DC and +1 target (all must be within 15 ft)</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Mighty Spring</Name>
+      <Schools>
+        <School>
+          <School>Psychokinesis</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1 sw</CastingTime>
+      <Range>Personal</Range>
+      <Duration>1 rd</Duration>
+      <Area />
+      <Components>
+        <Component>Auditory</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>93</Page>
+      <SR>false</SR>
+      <Description>Gain +10 enhancement to jump for 1 round&#xD;
+Augment: Every 2 PP, +5 to jump</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Mind Over Energy</Name>
+      <Schools>
+        <School>
+          <School>Psychometabolism</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 im</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>93</Page>
+      <SR>false</SR>
+      <Description>Gain immunity to chosen energy (with colour change)</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Mindfire</Name>
+      <Schools>
+        <School>
+          <School>Psychometabolism</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Mental</Component>
+        <Component>Olfactory</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>93</Page>
+      <SR>true</SR>
+      <Description>You inflict the disease mindfire on your foe.&#xD;
+Augment: Every +3 PP, deal +1 Int damage and +1 to both Save DCs</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Moment of Insight</Name>
+      <Schools>
+        <School>
+          <School>Clairsentience</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1 sw</CastingTime>
+      <Range>Personal</Range>
+      <Duration>1 rd</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>93</Page>
+      <SR>false</SR>
+      <Description>Briefly ignore the effects of concealment.&#xD;
+Augment: Every +2 PP, +1 round to duration</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Perfect Archery</Name>
+      <Schools>
+        <School>
+          <School>Clairsentience</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1 sw</CastingTime>
+      <Range>Personal</Range>
+      <Duration>1 rd</Duration>
+      <Area />
+      <Components>
+        <Component>Mental</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>93</Page>
+      <SR>false</SR>
+      <Description>Ranged fire does not provoke attacks of opportunity&#xD;
+Augment: Every +2 PP, +1 round to duration</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Perfect Riposte</Name>
+      <Schools>
+        <School>
+          <School>Clairsentience</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>93</Page>
+      <SR>false</SR>
+      <Description>Make one attack of opportunity against creature who just missed you.&#xD;
+Augment: For +6 PP, manifest as swift action</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Planar Apotheosis</Name>
+      <Schools>
+        <School>
+          <School>Psychometabolism</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>See Text</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>93</Page>
+      <SR>false</SR>
+      <Description>Temporarily become celestial or fiendish.&#xD;
+Augment: For +6 PP, duration to 10 min/level</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Planar Champion</Name>
+      <Schools>
+        <School>
+          <School>Psychoportation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>See Text</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1 rd</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>94</Page>
+      <SR>false</SR>
+      <Description>Call a good or evil creature to do your bidding&#xD;
+Augment: Every +6 PP, +1 summoned champion</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Planar Embrace</Name>
+      <Schools>
+        <School>
+          <School>Psychometabolism</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>SeeText</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>94</Page>
+      <SR>false</SR>
+      <Description>Temporarily become half-celestial or half-fiend.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Power Claws</Name>
+      <Schools>
+        <School>
+          <School>Psychokinesis</School>
+          <Subschool>Force</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1 sw</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>94</Page>
+      <SR>false</SR>
+      <Description>Your natural weapon deals force damage (discharged on successful strike).&#xD;
+Augment: Every +2 PP, +1 charge</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Power Thief</Name>
+      <Schools>
+        <School>
+          <School>Telepathy</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Mental</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>95</Page>
+      <SR>true</SR>
+      <Description>Steal and quickly use one power from your target.&#xD;
+Every PP, gain 1 additional round before use</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Power Weapon</Name>
+      <Schools>
+        <School>
+          <School>Psychokinesis</School>
+          <Subschool>Force</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1 sw</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>95</Page>
+      <SR>false</SR>
+      <Description>Your weapon deals force damage (discharged on successful strike).&#xD;
+Augment: Every +2 PP, +1 charge</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Primal Fear</Name>
+      <Schools>
+        <School>
+          <School>Telepathy</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1 sw</CastingTime>
+      <Range>Medium</Range>
+      <Duration>1 rd</Duration>
+      <Area />
+      <Components>
+        <Component>Mental</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>95</Page>
+      <SR>true</SR>
+      <Description>Target is shaken for 1 round&#xD;
+Augment: Every PP, +1 target</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Protection from Evil, Psionic</Name>
+      <Schools>
+        <School>
+          <School>Telepathy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Auditory</Component>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>95</Page>
+      <SR>false</SR>
+      <Description>+2 AC to saves, counter mind control, hedge out summoned creatures</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Protection from Good, Psionic</Name>
+      <Schools>
+        <School>
+          <School>Telepathy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Auditory</Component>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>95</Page>
+      <SR>false</SR>
+      <Description>+2 AC to saves, counter mind control, hedge out summoned creatures</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Protection from Psionics</Name>
+      <Schools>
+        <School>
+          <School>Clairsentience</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel * 10 &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Mental</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>95</Page>
+      <SR>true</SR>
+      <Description>Subject gains +3 Insight to saves vs. powers and psi-like abilities (not supernatural or extraordinary)&#xD;
+Augment: Every +3 PP, +1 save bonus</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Protection from Spells, Psionic</Name>
+      <Schools>
+        <School>
+          <School>Psychometabolism</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel * 10 &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Olfactory</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>95</Page>
+      <SR>true</SR>
+      <Description>Gain +3 on saves against spells and spell-like abilities</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Psychic Containment</Name>
+      <Schools>
+        <School>
+          <School>Telepathy</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Mental</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>96</Page>
+      <SR>true</SR>
+      <Description>Temporarily disallow the use of psionics for a single creature.&#xD;
+Augment: Every PP, +1 target</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Psychic Scimitar</Name>
+      <Schools>
+        <School>
+          <School>Psychometabolism</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>96</Page>
+      <SR>false</SR>
+      <Description>Create scimitar of the mind that attacks foes.&#xD;
+Augment: Every +2 PP, scimitar deals +1 damage</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Psychokinetic Weapon</Name>
+      <Schools>
+        <School>
+          <School>Psychokinesis</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>96</Page>
+      <SR>false</SR>
+      <Description>Animate a weapon to fight of its own volition&#xD;
+Augment: &#xD;
+1. Every +3 PP, +1 bonus damage&#xD;
+2. Every PP, increase fly speed by 5 ft</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Psychometry</Name>
+      <Schools>
+        <School>
+          <School>Clairsentience</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1 min</CastingTime>
+      <Range>10 ft</Range>
+      <Duration>= "[c] up to " &amp; CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>96</Page>
+      <SR>false</SR>
+      <Description>Read psychic impressions from a given location&#xD;
+Augment: Every PP, +10 ft to radius</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Psychoportive Shelter</Name>
+      <Schools>
+        <School>
+          <School>Psychoportation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>10 min</CastingTime>
+      <Range>10 ft</Range>
+      <Duration>= CasterLevel &amp; " hr [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>97</Page>
+      <SR>false</SR>
+      <Description>Create an extradimensional shelter&#xD;
+Augment: Every PP, +1 creature in shelter</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Psychotic Break</Name>
+      <Schools>
+        <School>
+          <School>Telepathy</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>97</Page>
+      <SR>true</SR>
+      <Description>Targets viciously attack closest creature&#xD;
+Augment: Every +2 PP, +1 Save DC</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Rage of the Remorhaz</Name>
+      <Schools>
+        <School>
+          <School>Psychometabolism</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>97</Page>
+      <SR>false</SR>
+      <Description>Your body becomes searing hot, damaging those who touch you.&#xD;
+Augment: Every +2 PP, +1d6 damage, and every extra 2d6+, 1 Save DC</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Realized Potential</Name>
+      <Schools>
+        <School>
+          <School>Clairsentience</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Mental</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>97</Page>
+      <SR>true</SR>
+      <Description>Gain +1 Competance to attacks and saves, and +2 Competance to skills with ranks in them.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>See Invisibility, Psionic</Name>
+      <Schools>
+        <School>
+          <School>Clairsentience</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel * 10 &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>98</Page>
+      <SR>false</SR>
+      <Description>Reveals invisibile creatures or objects&#xD;
+Augment: Every +2 PP, +1 creature affected by power</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Sensory Gloom</Name>
+      <Schools>
+        <School>
+          <School>Psychometabolism</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>98</Page>
+      <SR>true</SR>
+      <Description>Hamper a chosen sense on a single creature&#xD;
+Augment: &#xD;
+1. Every +2 PP, affect +1 sense (max 4)&#xD;
+2. Every +2 PP, +1 Save DC</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Serenity</Name>
+      <Schools>
+        <School>
+          <School>Telepathy</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= "[c] up to " &amp; CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Olfactory</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>98</Page>
+      <SR>true</SR>
+      <Description>Pacify a creature and stop it from fighting&#xD;
+Augment: Every +2 PP, +1 target (all within 30 ft)</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Shadow Eft</Name>
+      <Schools>
+        <School>
+          <School>Psychoportation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1 rd</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Auditory</Component>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>98</Page>
+      <SR>false</SR>
+      <Description>Summon a Shadow Eft to aid you.&#xD;
+Augment: &#xD;
+1. Every +4 PP, +1 summoned shadow eft&#xD;
+2. Every +2 PP, one eft appears already concealed in specified shadow</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Shadow Walk, Psionic</Name>
+      <Schools>
+        <School>
+          <School>Psychoportation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " hr"</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>98</Page>
+      <SR>true</SR>
+      <Description>Step into shadow to travel rapidly</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Slow Breathing</Name>
+      <Schools>
+        <School>
+          <School>Psychometabolism</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " hr"</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>99</Page>
+      <SR>false</SR>
+      <Description>Gain a +4 competence bonus on saving throws against altitude sickness&#xD;
+Augment: For +4 PP, gain immunity to altitude sickness</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Speak with Dead, Psionic</Name>
+      <Schools>
+        <School>
+          <School>Clairsentience</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>10 min</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Auditory</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>99</Page>
+      <SR>false</SR>
+      <Description>Speak or mindlink with a corpse to ask it questions&#xD;
+Augment: Every +4 PP, +1 questions asked</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Spirit of War</Name>
+      <Schools>
+        <School>
+          <School>Telepathy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>40 ft.</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area>40' eman. (c)</Area>
+      <Components>
+        <Component>Mental</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>99</Page>
+      <SR>false</SR>
+      <Description>Confer +4 on attack and damage rolls, +10 to one save, and confirm one critical threat.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Stomp, Greater</Name>
+      <Schools>
+        <School>
+          <School>Psychokinesis</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>120 ft line</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Ref " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>99</Page>
+      <SR>false</SR>
+      <Description>Psychokinetic shock wave deals 7d6 dmg and knocks targets down.&#xD;
+Augment: Every +2 PP, +1d6 damage, and every extra 2d6, +1 Save DC</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Stone Mind</Name>
+      <Schools>
+        <School>
+          <School>Psychometabolism</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>99</Page>
+      <SR>false</SR>
+      <Description>Gain +4 bonus on Search checks while standing on stone or earth, and a +2 bonus to notice unusual stonework.  Stacks with stone cunning.&#xD;
+Augment: For +6 PP, manifest as a swift action</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Stygian Bane</Name>
+      <Schools>
+        <School>
+          <School>Psychometabolism</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>99</Page>
+      <SR>true</SR>
+      <Description>Your weapon takes on the undead bane quality</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Stygian Bolt</Name>
+      <Schools>
+        <School>
+          <School>Psychometabolism</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>120 ft. line</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Material</Component>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Ref " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>100</Page>
+      <SR>true</SR>
+      <Description>Enemies in a 120 ft line gain 1d4 negative levels.&#xD;
+Augment: Every +4 PP, +1d4 neg. levels.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Stygian Conflagration</Name>
+      <Schools>
+        <School>
+          <School>Psychometabolism</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Fort " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>100</Page>
+      <SR>true</SR>
+      <Description>Pillar (14 ft rad, 40 ft tall) of black flame bestows 1d4 negative levels&#xD;
+Augment: Every +2 PP, +1 neg. level</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Stygian Discernment</Name>
+      <Schools>
+        <School>
+          <School>Clairsentience</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>60 ft</Range>
+      <Duration>= "[c] up to " &amp; CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Auditory</Component>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>100</Page>
+      <SR>false</SR>
+      <Description>Gain insight to act against detected undead and negative energy auras.  See text for details.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Stygian Disruption</Name>
+      <Schools>
+        <School>
+          <School>Psychometabolism</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>101</Page>
+      <SR>false</SR>
+      <Description>Give weapon the Disruption ability.  Undead struck by the weapon must make a Will save or be destroyed.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Stygian Dominion</Name>
+      <Schools>
+        <School>
+          <School>Psychometabolism</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1 rd</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " hr"</Duration>
+      <Area />
+      <Components>
+        <Component>Material</Component>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>101</Page>
+      <SR>true</SR>
+      <Description>Assume control over the body of a mindless undead creature (no save). Power ends on return.&#xD;
+Augment: For +2 PP, attempt to control Intelligent undead (Will neg).</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Stygian Erasure</Name>
+      <Schools>
+        <School>
+          <School>Psychometabolism</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>101</Page>
+      <SR>false</SR>
+      <Description>Removes one negative level (does not restore lost levels).&#xD;
+Augment: Every +2 PP, remove +1 neg level</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Stygian Ray</Name>
+      <Schools>
+        <School>
+          <School>Psychometabolism</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>1 rd</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>101</Page>
+      <SR>true</SR>
+      <Description>Bestow a negative level on a foe for 1 round.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Stygian Touch</Name>
+      <Schools>
+        <School>
+          <School>Psychometabolism</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>102</Page>
+      <SR>true</SR>
+      <Description>Your touch bestows negative levels and transfers life force to you.&#xD;
+Augment: Every +2 PP, 1 neg level lasts for 24 hours</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Stygian Veil</Name>
+      <Schools>
+        <School>
+          <School>Psychometabolism</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>102</Page>
+      <SR>false</SR>
+      <Description>You take on traits of the undead type.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Stygian Ward</Name>
+      <Schools>
+        <School>
+          <School>Psychometabolism</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>102</Page>
+      <SR>true</SR>
+      <Description>Grants immunity to death spells and negative energy effects.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Stygian Weapon</Name>
+      <Schools>
+        <School>
+          <School>Psychometabolism</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 sw</CastingTime>
+      <Range>Touch</Range>
+      <Duration>1 rd</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>102</Page>
+      <SR>true</SR>
+      <Description>Your weapon can deliver the effect of a STYGIAN RAY.  Target creature gets its power resistance against the effect.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Suggestion, Implanted</Name>
+      <Schools>
+        <School>
+          <School>Telepathy</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " days"</Duration>
+      <Area />
+      <Components>
+        <Component>Mental</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>102</Page>
+      <SR>true</SR>
+      <Description>Plant suggestion to be implanted later&#xD;
+Augment: Every +2 PP, +1 target (all must be within 15 ft)</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Suppress Schism</Name>
+      <Schools>
+        <School>
+          <School>Psychokinesis</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>See Text</Duration>
+      <Area />
+      <Components>
+        <Component>Auditory</Component>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Will " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>103</Page>
+      <SR>true</SR>
+      <Description>Block dual minds and schisms&#xD;
+Augment: Every +2 PP, +1 Save DC</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Synchronicity</Name>
+      <Schools>
+        <School>
+          <School>Clairsentience</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>1 rd</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>103</Page>
+      <SR>false</SR>
+      <Description>Ready an action and use it when you choose&#xD;
+Augment: For +2 PP, don't need to specify readied action</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Telekinetic Boomerang</Name>
+      <Schools>
+        <School>
+          <School>Psychokinesis</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1 sw</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>103</Page>
+      <SR>false</SR>
+      <Description>Object returns to your hand immediately.&#xD;
+Augment: Every +2 PP, +1 weapon imbued</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Telekinetic Buffer</Name>
+      <Schools>
+        <School>
+          <School>Psychokinesis</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Up to 15 ft.</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>103</Page>
+      <SR>true</SR>
+      <Description>Use telekinesis to force creatures away from you.&#xD;
+Augment: &#xD;
+1. Every +4 PP, +1 targetable size category&#xD;
+2. For +4 PP, gain ability to push opponents back (bull rush of 30)</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Temporal Reiteration</Name>
+      <Schools>
+        <School>
+          <School>Psychoportation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1 sw</CastingTime>
+      <Range>Personal</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>104</Page>
+      <SR>false</SR>
+      <Description>Manifester conserves one round of effects' duration&#xD;
+Augment: Every +4 PP, share power with one other ally</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Touch of Health</Name>
+      <Schools>
+        <School>
+          <School>Psychometabolism</School>
+          <Subschool>Healing</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Auditory</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Will " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>104</Page>
+      <SR>true</SR>
+      <Description>Touch cures 2 points of damage, or causes 2 points to undead (Will save).&#xD;
+Augment: Every PP, +2 HP cured or dealt to undead</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Urban Strider</Name>
+      <Schools>
+        <School>
+          <School>Psychometabolism</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>104</Page>
+      <SR>false</SR>
+      <Description>Move across uneven surfaces or through crowds with ease.&#xD;
+Augment: For +8 PP, walk normally on any surface (even verticle)</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Urge Extermination</Name>
+      <Schools>
+        <School>
+          <School>Telepathy</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Auditory</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>104</Page>
+      <SR>true</SR>
+      <Description>Kill one living creature with 90 or less HP.&#xD;
+Augment: Every PP, +10 HP targetable</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Zone of Alertness</Name>
+      <Schools>
+        <School>
+          <School>Telepathy</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>10 ft</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Mental</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>104</Page>
+      <SR>true</SR>
+      <Description>Gain advantages and Spot and Listen bonus equal to the number of allies in area.&#xD;
+Augment: &#xD;
+1. For +4 PP, duration increases to 10 min/level&#xD;
+2. For +6 PP, can make everyone immune to flanking, unless you all are&#xD;
+3. For +6 PP, manifest as swift action</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Zone of Truth, Psionic</Name>
+      <Schools>
+        <School>
+          <School>Telepathy</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>105</Page>
+      <SR>true</SR>
+      <Description>Subjects within range cannot lie.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Cerebral Phantasm</Name>
+      <Schools>
+        <School>
+          <School>Telepathy</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Fear</Descriptor>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>80</Page>
+      <SR>true</SR>
+      <Description>Terrifying internal horrors take shape and attack your opponent.&#xD;
+Augment: Every +2 PP, +1 Save DC</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Fate of One</Name>
+      <Schools>
+        <School>
+          <School>Clairsentience</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 im</CastingTime>
+      <Range>Personal</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Mental</Component>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>107</Page>
+      <SR>false</SR>
+      <Description>Reroll any roll you just failed&#xD;
+If taken as part of the Fate Mantle, for +3 PP, can be augmented to gain 3rd reroll.  Can be augmented after rerolling but must be before knowing result of roll.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>True Metabolism</Name>
+      <Schools>
+        <School>
+          <School>Psychometabolism</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>139</Page>
+      <SR>false</SR>
+      <Description>You regenerate 10HP/round&#xD;
+If taken as part of the Life Domain, For +5 PP, +1 additional target</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Control Light</Name>
+      <Schools>
+        <School>
+          <School>Psychokinesis</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Light</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>See text</Duration>
+      <Area>= (CasterLevel * 3) + 9 &amp; " 10' cubes(s)"</Area>
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>87</Page>
+      <SR>false</SR>
+      <Description>Adjust ambient light levels&#xD;
+If taken as part of Light and Darkness Mantle, For +4 PP, you can create the effect of Daylight or Darkness, as the spells</Description>
+    </Spell>
+  </Spells>
+  <SpellOverrides />
+  <SpellListEntries>
+    <SpellList Name="Lurk" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Adrenaline Boost" Level="1" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Deaden Blow" Level="1" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Dimensional Pocket" Level="1" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Evade Attack" Level="2" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Extend Range" Level="1" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Extend Reach" Level="2" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Mighty Spring" Level="1" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Moment of Insight" Level="2" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="See Invisibility, Psionic" Level="2" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Sensory Gloom" Level="1" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Speak with Dead, Psionic" Level="3" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Stygian Weapon" Level="2" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Zone of Alertness" Level="2" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Burst" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Catfall" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Chameleon" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Compression" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Conceal Thoughts" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Detect Psionics" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Distract" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Empty Mind" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Far Hand" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Float" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Grease, Psionic" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Know Direction and Location" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Precognition, Defensive" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Precognition, Offensive" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Prescience, Offensive" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Skate" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Synesthete" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Animal Affinity" Level="2" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Biofeedback" Level="2" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Body Equilibrium" Level="2" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Cloud Mind" Level="2" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Concealing Amorpha" Level="2" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Detect Hostile Intent" Level="2" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Elfsight" Level="2" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Energy Adaptation, Specified" Level="2" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Identify, Psionic" Level="2" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Knock, Psionic" Level="2" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Levitate, Psionic" Level="2" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Prowess" Level="2" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Psionic Lock" Level="2" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Thought Shield" Level="2" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Tongues, Psionic" Level="2" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Concealing Amorpha, Greater" Level="3" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Danger Sense" Level="3" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Darkvision, Psionic" Level="3" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Eradicate Invisibility" Level="3" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Escape Detection" Level="3" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Evade Burst" Level="3" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Keen Edge, Psionic" Level="3" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Mental Barrier" Level="3" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Touchsight" Level="3" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Ubiquitous Vision" Level="3" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Aura Sight" Level="4" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Death Urge" Level="4" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Detect Remote Viewing" Level="4" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Dimension Door, Psionic" Level="4" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Freedom of Movement, Psionic" Level="4" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Mindwipe" Level="4" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Steadfast Perception" Level="4" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Trace Teleport" Level="4" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Wall of Ectoplasm" Level="4" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Adapt Body" Level="5" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Catapsi" Level="5" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Power Resistance" Level="5" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Psychofeedback" Level="5" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="True Seeing, Psionic" Level="5" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Aura Alteration" Level="6" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Cloud Mind, Mass" Level="6" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Contingency, Psionic" Level="6" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Dispelling Buffer" Level="6" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Mind Blank, Personal" Level="6" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Retrieve" Level="6" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Suspend Life" Level="6" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Temporal Acceleration" Level="6" ReferenceAbbrev="ExPsi" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Psion/Wilder" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Affinity Field, Pain" Level="9" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Anticipatory Strike" Level="5" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Celestial Conduit" Level="5" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Cerebral Phantasm" Level="3" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Cranial Deluge" Level="5" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Crystalstorm" Level="2" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Damp Power" Level="2" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Deflection Field" Level="1" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Detain Ectoplasm" Level="5" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Dimension Twister" Level="3" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Distracting Shout" Level="2" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Earth Walk" Level="2" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Ectoplasmic Swarm" Level="4" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Eidetic Lock" Level="1" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Elemental Steward" Level="2" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Endure Elements, Psionic" Level="1" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Energy Arc" Level="1" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Energy Barrage" Level="6" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Energy Claw" Level="7" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Energy Emanation" Level="2" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Energy Flash" Level="4" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Energy Lance" Level="3" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Energy Nullification Field" Level="6" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Ethereal Abduction" Level="6" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Ethereal Agent" Level="5" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Exhalation of the Bronze Dragon" Level="3" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Eyes of the Basilisk" Level="7" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Glyph of Warding, Psionic" Level="3" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Heavy Earth" Level="3" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Inconstant Location" Level="6" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Larval Flayers" Level="2" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Mind Over Energy" Level="6" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Mindfire" Level="3" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Planar Apotheosis" Level="4" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Planar Champion" Level="7" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Planar Embrace" Level="8" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Primal Fear" Level="1" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Psychic Containment" Level="3" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Psychic Scimitar" Level="2" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Psychometry" Level="6" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Psychoportive Shelter" Level="2" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Psychotic Break" Level="5" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Realized Potential" Level="3" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Serenity" Level="2" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Shadow Eft" Level="4" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Slow Breathing" Level="1" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Stomp, Greater" Level="5" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Stone Mind" Level="1" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Stygian Bolt" Level="6" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Stygian Conflagration" Level="9" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Stygian Discernment" Level="1" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Stygian Dominion" Level="5" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Stygian Ray" Level="2" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Stygian Veil" Level="8" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Suggestion, Implanted" Level="4" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Suppress Schism" Level="5" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Synchronicity" Level="1" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Telekinetic Buffer" Level="5" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Urban Strider" Level="1" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Urge Extermination" Level="9" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Zone of Alertness" Level="2" ReferenceAbbrev="CPsi" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Psychic Warrior" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Adrenaline Boost" Level="1" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Blackstone Hammer" Level="6" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Call Armor" Level="1" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Damp Power" Level="2" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Deaden Blow" Level="1" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Deflection Field" Level="1" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Earth Walk" Level="2" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Empathic Transfer, Hostile" Level="3" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Empower Weapon" Level="5" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Endure Elements, Psionic" Level="1" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Energy Emanation" Level="2" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Ethereal Volley" Level="2" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Exhalation of the Bronze Dragon" Level="3" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Extend Range" Level="1" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Extend Reach" Level="2" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Incite Bravery" Level="2" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Inconstant Location" Level="6" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Inspire Mount" Level="1" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Living Arrow" Level="5" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Mighty Spring" Level="1" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Mind Over Energy" Level="6" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Moment of Insight" Level="2" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Perfect Archery" Level="2" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Perfect Riposte" Level="5" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Planar Apotheosis" Level="4" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Power Claws" Level="2" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Power Weapon" Level="2" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Primal Fear" Level="1" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Psychokinetic Weapon" Level="4" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Rage of the Remorhaz" Level="6" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Slow Breathing" Level="1" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Stomp, Greater" Level="5" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Stone Mind" Level="1" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Stygian Bane" Level="3" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Stygian Discernment" Level="1" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Stygian Disruption" Level="4" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Stygian Erasure" Level="2" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Stygian Touch" Level="6" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Stygian Weapon" Level="2" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Telekinetic Boomerang" Level="3" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Urban Strider" Level="1" ReferenceAbbrev="CPsi" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Kineticist" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Energy Nullification Field" Level="5" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Telekinetic Boomerang" Level="3" ReferenceAbbrev="CPsi" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Nomad" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Evade Attack" Level="2" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Temporal Reiteration" Level="5" ReferenceAbbrev="CPsi" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Shaper" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Burrowing Bonds" Level="4" ReferenceAbbrev="CPsi" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Telepath" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Empathic Transfer, Hostile" Level="3" ReferenceAbbrev="CPsi" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Mantles" Inherits="">
+      <SpellEntries />
+    </SpellList>
+  </SpellListEntries>
+  <Domains>
+    <Domain Name="Mantle, Chaos" Abbrev="Chaos">
+      <Power>Expend focus to deal 1d6 extra damage to non-chaotic creature with melee, ranged, or damaging spell (single target)</Power>
+      <DomainEntries>
+        <SpellEntry Name="Destiny Dissonance" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Matter Agitation" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Distracting Shout" Level="2" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Personality Parasite" Level="4" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Catapsi" Level="5" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Inconstant Location" Level="6" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Chaos Fissure" Level="8" ReferenceAbbrev="CPsi" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Mantle, Communication" Abbrev="Communication">
+      <Power>While focused, gain +2 comp to Diplomacy, and take only -5 to use diplomacy as full round action</Power>
+      <DomainEntries>
+        <SpellEntry Name="Attraction" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Charm, Psionic" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Missive" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Missive, Mass" Level="2" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Telempathic Projection" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Suggestion, Psionic" Level="2" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Tongues, Psionic" Level="2" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Correspond" Level="4" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Metaconcert" Level="5" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Metafaculty" Level="9" ReferenceAbbrev="ExPsi" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Mantle, Conflict" Abbrev="Conflict">
+      <Power>Gain Weapon Focus for a weapon of your choice</Power>
+      <DomainEntries>
+        <SpellEntry Name="Metaphysical Weapon" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Prescience, Offensive" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Psionic Lion's Charge" Level="2" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Dimension Slide" Level="3" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Immovability" Level="4" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Psychic Crush" Level="5" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Graft Weapon" Level="5" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Spirit of War" Level="8" ReferenceAbbrev="CPsi" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Mantle, Consumption" Abbrev="Consumption">
+      <Power>Expend focus as immediate action to gain 5 temp HP when someone is wounded within 10 ft. (1 minute duration)</Power>
+      <DomainEntries>
+        <SpellEntry Name="Hungry Touch" Level="1" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Feat Leech" Level="2" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Power Leech" Level="4" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Power Thief" Level="7" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Decerebrate" Level="7" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Apopsi" Level="9" ReferenceAbbrev="ExPsi" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Mantle, Corruption and Madness" Abbrev="Corrupt. &amp; Mad.">
+      <Power>While focused, immune to confusion</Power>
+      <DomainEntries>
+        <SpellEntry Name="Daze, Psionic" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Primal Fear" Level="1" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Brain Lock" Level="2" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Mental Turmoil" Level="3" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Mindwipe" Level="4" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Decerebrate" Level="7" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Insanity" Level="7" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Microcosm" Level="9" ReferenceAbbrev="ExPsi" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Mantle, Creation" Abbrev="Creation">
+      <Power>Gain Ectopic Form feat (must meet prereq's for your choice)</Power>
+      <DomainEntries>
+        <SpellEntry Name="Astral Construct" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Minor Creation, Psionic" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Fabricate, Psionic" Level="4" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Fabricate, Greater Psionic" Level="6" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Major Creation, Psionic" Level="5" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="True Creation" Level="9" ReferenceAbbrev="ExPsi" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Mantle, Death" Abbrev="Death">
+      <Power>Expend focus and cause a Death Knell</Power>
+      <DomainEntries>
+        <SpellEntry Name="Stygian Discernment" Level="1" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Stygian Ray" Level="2" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Stygian Dominion" Level="5" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Stygian Veil" Level="8" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Speak with Dead, Psionic" Level="3" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Recall Death" Level="8" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Death Urge" Level="4" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Crisis of Life" Level="7" ReferenceAbbrev="ExPsi" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Mantle, Deception" Abbrev="Deception">
+      <Power>Expend focus as immediate action, gain displacement for 1 round</Power>
+      <DomainEntries>
+        <SpellEntry Name="Charm, Psionic" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Cloud Mind" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Cloud Mind, Mass" Level="6" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Concealing Amorpha" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="False Sensory Input" Level="2" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Escape Detection" Level="2" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Bend Reality" Level="8" ReferenceAbbrev="ExPsi" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Mantle, Destruction" Abbrev="Destruction">
+      <Power>While focused, you have Improved Sunder.  If expending focus as sundering, reduce object's hardness by 4</Power>
+      <DomainEntries>
+        <SpellEntry Name="Dissipating Touch" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Dissolving Touch" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Dissolving Weapon" Level="2" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Dispel Psionics" Level="3" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Disintigrate, Psionic" Level="6" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Intellect Bomb" Level="9" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Ultrablast" Level="7" ReferenceAbbrev="ExPsi" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Mantle, Elements" Abbrev="Elements">
+      <Power>See Text, pg 68</Power>
+      <DomainEntries>
+        <SpellEntry Name="Control Flames" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Control Air" Level="2" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Elemental Steward" Level="2" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Earth Walk" Level="2" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Breathless" Level="3" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Adapt Body" Level="5" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Blackstone Hammer" Level="6" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Tornado Blast" Level="9" ReferenceAbbrev="ExPsi" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Mantle, Energy" Abbrev="Energy">
+      <Power>Expend focus and gain Resist 5 against 1 energy for 3+Wis mod rounds.  At Level 10, increases to resist 10.</Power>
+      <DomainEntries>
+        <SpellEntry Name="Energy Ray" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Energy Push" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Energy Bolt" Level="3" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Energy Burst" Level="3" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Energy Wall" Level="3" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Energy Manipulation" Level="5" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Energy Wave" Level="7" ReferenceAbbrev="ExPsi" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Mantle, Evil" Abbrev="Evil">
+      <Power>Expend focus to deal 1d6 extra damage to non-evil creature with melee, ranged, or damaging spell (single target)</Power>
+      <DomainEntries>
+        <SpellEntry Name="Protection from Good, Psionic" Level="1" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Death Knell, Psionic" Level="2" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Planar Apotheosis" Level="4" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Fiendish Conduit" Level="5" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Planar Embrace" Level="6" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Dark Despair" Level="8" ReferenceAbbrev="CPsi" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Mantle, Fate" Abbrev="Fate">
+      <Power>1/day, expend focus to add this class level to 1 d20 roll</Power>
+      <DomainEntries>
+        <SpellEntry Name="Precognition, Defensive" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Precognition, Offensive" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Precognition, Greater" Level="6" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Remote Viewing" Level="4" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Clairvoyant Sense" Level="2" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Metafaculty" Level="9" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Fate of One" Level="7" ReferenceAbbrev="CPsi" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Mantle, Force" Abbrev="Force">
+      <Power>While focused, gain +1 deflection to AC</Power>
+      <DomainEntries>
+        <SpellEntry Name="Deflection Field" Level="1" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Concussion Blast" Level="2" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Telekinetic Force" Level="3" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Force Screen" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Ethereal Volley" Level="3" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Telekinetic Maneuver" Level="4" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Concussive Detonation" Level="6" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Telekinetic Sphere, Psionic" Level="8" ReferenceAbbrev="ExPsi" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Mantle, Freedom" Abbrev="Freedom">
+      <Power>While focused, gain +10 to speed.  Expend focus to add manifester level to resist or escape grapple</Power>
+      <DomainEntries>
+        <SpellEntry Name="Dimension Hop" Level="1" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Hustle" Level="2" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Fly, Psionic" Level="4" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Freedom of Movement, Psionic" Level="5" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Teleport, Psionic" Level="5" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Evade Burst" Level="6" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Teleport, Psionic Greater" Level="8" ReferenceAbbrev="ExPsi" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Mantle, Good" Abbrev="Good">
+      <Power>Expend focus to deal 1d6 extra damage to non-good creature with melee, ranged, or damaging spell (single target)</Power>
+      <DomainEntries>
+        <SpellEntry Name="Protection from Evil, Psionic" Level="1" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Empathic Transfer" Level="2" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Planar Apotheosis" Level="4" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Celestial Conduit" Level="5" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Planar Embrace" Level="6" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Greater Glory" Level="8" ReferenceAbbrev="CPsi" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Mantle, Guardian" Abbrev="Guardian">
+      <Power>Expend focus as immediate action to take all damage to one ally.  Must be declared after result of attack roll, but before damage</Power>
+      <DomainEntries>
+        <SpellEntry Name="Deaden Blow" Level="1" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Thicken Skin" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Damp Power" Level="2" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Dispel Psionics" Level="3" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Wall of Ectoplasm" Level="4" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Protection from Psionics" Level="5" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Mind Over Energy" Level="6" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Iron Body, Psionic" Level="8" ReferenceAbbrev="ExPsi" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Mantle, Justice" Abbrev="Justice">
+      <Power>Expend focus as immediate action to gain attack of opportunity against foe who attacks one of your allies</Power>
+      <DomainEntries>
+        <SpellEntry Name="Call Weaponry" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Call Armor" Level="2" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Incite Bravery" Level="2" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Zone of Truth, Psionic" Level="2" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Aura Sight" Level="4" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Discern Lies, Psionic" Level="4" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="True Seeing, Psionic" Level="5" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Perfect Riposte" Level="6" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Reddopis" Level="7" ReferenceAbbrev="ExPsi" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Mantle, Knowledge" Abbrev="Knowledge">
+      <Power>While focused, make knowledge checks as if trained.  Expend focus to gain +5 to one knowledge check.</Power>
+      <DomainEntries>
+        <SpellEntry Name="Call to Mind" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Detect Psionics" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Detect Teleportation" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Know Direction and Location" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Detect Hostile Intent" Level="2" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Identify, Psionic" Level="2" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Object Reading" Level="2" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Touchsight" Level="3" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Detect Remote Viewing" Level="4" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Trace Teleport" Level="4" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Psychometry" Level="6" ReferenceAbbrev="CPsi" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Mantle, Law" Abbrev="Law">
+      <Power>Expend focus to deal 1d6 extra damage to non-lawful creature with melee, ranged, or damaging spell (single target)</Power>
+      <DomainEntries>
+        <SpellEntry Name="Grip of Iron" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Hammer" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Psionic Lock" Level="2" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Heavy Earth" Level="3" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Immovability" Level="4" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Steadfast Perception" Level="4" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Tower of Iron Will" Level="5" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Iron Body, Psionic" Level="8" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Timeless Body" Level="9" ReferenceAbbrev="ExPsi" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Mantle, Life" Abbrev="Life">
+      <Power>Expend focus as swift action as manifesting power from this mantle, and gain +1 manifester level (increase max PP spendable)</Power>
+      <DomainEntries>
+        <SpellEntry Name="Touch of Health" Level="1" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="From the Brink" Level="2" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Body Purification" Level="3" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Stygian Ward" Level="4" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Psionic Revivify" Level="5" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Mend Wounds" Level="6" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Restoration, Psionic" Level="6" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="True Metabolism" Level="8" ReferenceAbbrev="CPsi" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Mantle, Light and Darkness" Abbrev="Light and Darkness">
+      <Power />
+      <DomainEntries>
+        <SpellEntry Name="Control Light" Level="1" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Elfsight" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="My Light" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Claws of Darkness" Level="2" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Light Beam" Level="4" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Light Burst" Level="8" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Shadow Walk, Psionic" Level="5" ReferenceAbbrev="CPsi" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Mantle, Magic" Abbrev="Magic">
+      <Power>See Text</Power>
+      <DomainEntries>
+        <SpellEntry Name="Metaphysical Weapon" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Dispel Psionics" Level="3" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Power Resistance" Level="5" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Analyze Dweomer, Psionic" Level="6" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Null Psionics Field" Level="6" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Protection from Spells, Psionic" Level="8" ReferenceAbbrev="CPsi" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Mantle, Mental Power" Abbrev="Mental Power">
+      <Power>Treat Wisdom as two higher for bonus PP for class that get this mantle</Power>
+      <DomainEntries>
+        <SpellEntry Name="Mind Thrust" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Id Insinuation" Level="2" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Mental Disruption" Level="2" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Mind Trap" Level="3" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Intellect Fortress" Level="4" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Psychic Crush" Level="5" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Cranial Deluge" Level="6" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Hypercognition" Level="8" ReferenceAbbrev="ExPsi" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Mantle, Natural World" Abbrev="Natural World">
+      <Power>Gain Wild Empathy class feature (d20 + manifester level + cha mod)</Power>
+      <DomainEntries>
+        <SpellEntry Name="Chameleon" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Metaphysical Claw" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Stone Mind" Level="1" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Animal Affinity" Level="2" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Psionic Scent" Level="2" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Metamorphosis" Level="4" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Oak Body" Level="5" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Animate Plants, Psionic" Level="7" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Earthquake, Psionic" Level="9" ReferenceAbbrev="CPsi" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Mantle, Pain and Suffering" Abbrev="Pain &amp; Suffering">
+      <Power>Expend focus as immediate action to share 1/2 damage received from melee attack with attacker</Power>
+      <DomainEntries>
+        <SpellEntry Name="Disable" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Inflict Pain" Level="2" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Recall Agony" Level="2" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Empathic Transfer, Hostile" Level="3" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Psychotic Break" Level="5" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Fuse Flesh" Level="6" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Affinity Field, Pain" Level="9" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Share Pain, Forced" Level="3" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Empathic Feedback" Level="4" ReferenceAbbrev="ExPsi" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Mantle, Physical Power" Abbrev="Physical Power">
+      <Power>Expend focus as free action to gain +2 to Str, Dex, or Con for 1 round</Power>
+      <DomainEntries>
+        <SpellEntry Name="Adrenaline Boost" Level="1" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Vigor" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Animal Affinity" Level="2" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Graft Weapon" Level="3" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Psychofeedback" Level="5" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Oak Body" Level="7" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="True Metabolism" Level="8" ReferenceAbbrev="ExPsi" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Mantle, Planes" Abbrev="The Planes">
+      <Power>Expend focus to gain +4 on manifester checks to bypass outsider's PR (SR).  Can be used with Penetration feats, and they stack.</Power>
+      <DomainEntries>
+        <SpellEntry Name="Astral Traveler" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Astral Caravan" Level="3" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Dimensional Anchor, Psionic" Level="4" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Dismissal, Psionic" Level="4" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Plane Shift, Psionic" Level="5" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Planar Champion" Level="6" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Ethereal Jaunt, Psionic" Level="7" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Etherealness, Psionic" Level="9" ReferenceAbbrev="ExPsi" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Mantle, Repose" Abbrev="Repose">
+      <Power>When focused, gain +2 on concentration checks.  Expend focus to gain +5 on concentration check</Power>
+      <DomainEntries>
+        <SpellEntry Name="Empty Mind" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Serenity" Level="2" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Empathic Transfer" Level="2" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Solicit Psicrystal" Level="3" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Steadfast Perception" Level="4" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Suspend Life" Level="6" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Mind Blank, Personal" Level="7" ReferenceAbbrev="ExPsi" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Mantle, Time" Abbrev="Time">
+      <Power>See Text</Power>
+      <DomainEntries>
+        <SpellEntry Name="Deceleration" Level="1" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Sustenance" Level="2" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Time Hop" Level="3" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Anticipatory Strike" Level="5" ReferenceAbbrev="CPsi" />
+        <SpellEntry Name="Temporal Acceleration" Level="6" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Time Hop, Mass" Level="8" ReferenceAbbrev="ExPsi" />
+        <SpellEntry Name="Time Regression" Level="9" ReferenceAbbrev="ExPsi" />
+      </DomainEntries>
+    </Domain>
+  </Domains>
+  <Classes>
+    <CasterClass>
+      <Name>Lurk</Name>
+      <Abbrev>Lurk</Abbrev>
+      <SpellList>Lurk</SpellList>
+      <CasterType />
+      <HasCantrips>false</HasCantrips>
+      <MaxSpellLevel>6</MaxSpellLevel>
+      <MaxCasterLevel>20</MaxCasterLevel>
+      <CastingStat>Int</CastingStat>
+      <BonusSpellStat>Int</BonusSpellStat>
+      <SaveDCStat>Int</SaveDCStat>
+      <KnowsAllSpells>false</KnowsAllSpells>
+      <KnowsAllCantrips>false</KnowsAllCantrips>
+      <SpellsKnown>true</SpellsKnown>
+      <CasterLevelMultiplier>1</CasterLevelMultiplier>
+      <SpellPyramid>
+        <Slots>0 1</Slots>
+        <Slots>0 1</Slots>
+        <Slots>0 1</Slots>
+        <Slots>0 1 1</Slots>
+        <Slots>0 1 1</Slots>
+        <Slots>0 1 1</Slots>
+        <Slots>0 1 1 1</Slots>
+        <Slots>0 1 1 1</Slots>
+        <Slots>0 1 1 1</Slots>
+        <Slots>0 1 1 1 1</Slots>
+        <Slots>0 1 1 1 1</Slots>
+        <Slots>0 1 1 1 1</Slots>
+        <Slots>0 1 1 1 1 1</Slots>
+        <Slots>0 1 1 1 1 1</Slots>
+        <Slots>0 1 1 1 1 1</Slots>
+        <Slots>0 1 1 1 1 1 1</Slots>
+        <Slots>0 1 1 1 1 1 1</Slots>
+        <Slots>0 1 1 1 1 1 1</Slots>
+        <Slots>0 1 1 1 1 1 1</Slots>
+        <Slots>0 1 1 1 1 1 1</Slots>
+      </SpellPyramid>
+      <KnownPyramid>
+        <Slots>0 1</Slots>
+        <Slots>0 2</Slots>
+        <Slots>0 3</Slots>
+        <Slots>0 3 1</Slots>
+        <Slots>0 3 2</Slots>
+        <Slots>0 3 3</Slots>
+        <Slots>0 3 3 1</Slots>
+        <Slots>0 3 3 2</Slots>
+        <Slots>0 3 3 3</Slots>
+        <Slots>0 3 3 3 1</Slots>
+        <Slots>0 3 3 3 2</Slots>
+        <Slots>0 3 3 3 3</Slots>
+        <Slots>0 3 3 3 3 1</Slots>
+        <Slots>0 3 3 3 3 2</Slots>
+        <Slots>0 3 3 3 3 3</Slots>
+        <Slots>0 3 3 3 3 3 1</Slots>
+        <Slots>0 3 3 3 3 3 2</Slots>
+        <Slots>0 3 3 3 3 3 3</Slots>
+        <Slots>0 3 3 3 3 3 4</Slots>
+        <Slots>0 3 3 3 3 3 5</Slots>
+      </KnownPyramid>
+      <ClassSpellPoints>
+        <UseSpellPoints>true</UseSpellPoints>
+        <GiveBonusSpellPointsForStat>true</GiveBonusSpellPointsForStat>
+        <SpellPointCosts>
+          <Cost Level="0">0</Cost>
+          <Cost Level="1">1</Cost>
+          <Cost Level="2">3</Cost>
+          <Cost Level="3">5</Cost>
+          <Cost Level="4">7</Cost>
+          <Cost Level="5">9</Cost>
+          <Cost Level="6">11</Cost>
+          <Cost Level="7">13</Cost>
+          <Cost Level="8">15</Cost>
+          <Cost Level="9">17</Cost>
+          <Cost Level="10">19</Cost>
+          <Cost Level="11">21</Cost>
+          <Cost Level="12">23</Cost>
+          <Cost Level="13">25</Cost>
+          <Cost Level="14">27</Cost>
+          <Cost Level="15">29</Cost>
+          <Cost Level="16">31</Cost>
+          <Cost Level="17">33</Cost>
+          <Cost Level="18">35</Cost>
+          <Cost Level="19">37</Cost>
+          <Cost Level="20">39</Cost>
+          <Cost Level="21">41</Cost>
+          <Cost Level="22">43</Cost>
+          <Cost Level="23">45</Cost>
+          <Cost Level="24">47</Cost>
+          <Cost Level="25">49</Cost>
+        </SpellPointCosts>
+        <SpellPointValues>
+          <Value Level="0">0</Value>
+          <Value Level="1">1</Value>
+          <Value Level="2">3</Value>
+          <Value Level="3">5</Value>
+          <Value Level="4">7</Value>
+          <Value Level="5">9</Value>
+          <Value Level="6">11</Value>
+          <Value Level="7">13</Value>
+          <Value Level="8">15</Value>
+          <Value Level="9">17</Value>
+          <Value Level="10">19</Value>
+          <Value Level="11">21</Value>
+          <Value Level="12">23</Value>
+          <Value Level="13">25</Value>
+          <Value Level="14">27</Value>
+          <Value Level="15">29</Value>
+          <Value Level="16">31</Value>
+          <Value Level="17">33</Value>
+          <Value Level="18">35</Value>
+          <Value Level="19">37</Value>
+          <Value Level="20">39</Value>
+          <Value Level="21">41</Value>
+          <Value Level="22">43</Value>
+          <Value Level="23">45</Value>
+          <Value Level="24">47</Value>
+          <Value Level="25">49</Value>
+        </SpellPointValues>
+        <SpellPointTable ClassName="">
+          <Points Level="1">1</Points>
+          <Points Level="2">2</Points>
+          <Points Level="3">3</Points>
+          <Points Level="4">5</Points>
+          <Points Level="5">7</Points>
+          <Points Level="6">11</Points>
+          <Points Level="7">15</Points>
+          <Points Level="8">19</Points>
+          <Points Level="9">23</Points>
+          <Points Level="10">27</Points>
+          <Points Level="11">35</Points>
+          <Points Level="12">43</Points>
+          <Points Level="13">51</Points>
+          <Points Level="14">59</Points>
+          <Points Level="15">67</Points>
+          <Points Level="16">79</Points>
+          <Points Level="17">91</Points>
+          <Points Level="18">103</Points>
+          <Points Level="19">115</Points>
+          <Points Level="20">127</Points>
+        </SpellPointTable>
+        <UseBonusSpellPointFormula>true</UseBonusSpellPointFormula>
+        <BonusSpellPointFormula>=INT( BonusSpellMod * MIN(20,UnmodifiedCasterLevel) * .5 )</BonusSpellPointFormula>
+      </ClassSpellPoints>
+    </CasterClass>
+    <CasterClass>
+      <Name>Erudite</Name>
+      <Abbrev />
+      <SpellList>Psion/Wilder</SpellList>
+      <CasterType />
+      <HasCantrips>false</HasCantrips>
+      <MaxSpellLevel>9</MaxSpellLevel>
+      <MaxCasterLevel>20</MaxCasterLevel>
+      <CastingStat>Int</CastingStat>
+      <BonusSpellStat>Int</BonusSpellStat>
+      <SaveDCStat>Int</SaveDCStat>
+      <KnowsAllSpells>false</KnowsAllSpells>
+      <KnowsAllCantrips>false</KnowsAllCantrips>
+      <SpellsKnown>false</SpellsKnown>
+      <CasterLevelMultiplier>1</CasterLevelMultiplier>
+      <SpellPyramid>
+        <Slots>0 1</Slots>
+        <Slots>0 1</Slots>
+        <Slots>0 1 1</Slots>
+        <Slots>0 1 1</Slots>
+        <Slots>0 1 1 1</Slots>
+        <Slots>0 1 1 1</Slots>
+        <Slots>0 1 1 1 1</Slots>
+        <Slots>0 1 1 1 1</Slots>
+        <Slots>0 1 1 1 1 1</Slots>
+        <Slots>0 1 1 1 1 1</Slots>
+        <Slots>0 1 1 1 1 1 1</Slots>
+        <Slots>0 1 1 1 1 1 1</Slots>
+        <Slots>0 1 1 1 1 1 1 1</Slots>
+        <Slots>0 1 1 1 1 1 1 1</Slots>
+        <Slots>0 1 1 1 1 1 1 1 1</Slots>
+        <Slots>0 1 1 1 1 1 1 1 1</Slots>
+        <Slots>0 1 1 1 1 1 1 1 1 1</Slots>
+        <Slots>0 1 1 1 1 1 1 1 1 1</Slots>
+        <Slots>0 1 1 1 1 1 1 1 1 1</Slots>
+        <Slots>0 1 1 1 1 1 1 1 1 1</Slots>
+      </SpellPyramid>
+      <KnownPyramid>
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+      </KnownPyramid>
+      <ClassSpellPoints>
+        <UseSpellPoints>true</UseSpellPoints>
+        <GiveBonusSpellPointsForStat>true</GiveBonusSpellPointsForStat>
+        <SpellPointCosts>
+          <Cost Level="0">0</Cost>
+          <Cost Level="1">1</Cost>
+          <Cost Level="2">3</Cost>
+          <Cost Level="3">5</Cost>
+          <Cost Level="4">7</Cost>
+          <Cost Level="5">9</Cost>
+          <Cost Level="6">11</Cost>
+          <Cost Level="7">13</Cost>
+          <Cost Level="8">15</Cost>
+          <Cost Level="9">17</Cost>
+          <Cost Level="10">19</Cost>
+          <Cost Level="11">21</Cost>
+          <Cost Level="12">23</Cost>
+          <Cost Level="13">25</Cost>
+          <Cost Level="14">27</Cost>
+          <Cost Level="15">29</Cost>
+          <Cost Level="16">31</Cost>
+          <Cost Level="17">33</Cost>
+          <Cost Level="18">35</Cost>
+          <Cost Level="19">37</Cost>
+          <Cost Level="20">39</Cost>
+          <Cost Level="21">41</Cost>
+          <Cost Level="22">43</Cost>
+          <Cost Level="23">45</Cost>
+          <Cost Level="24">47</Cost>
+          <Cost Level="25">49</Cost>
+        </SpellPointCosts>
+        <SpellPointValues>
+          <Value Level="0">0</Value>
+          <Value Level="1">1</Value>
+          <Value Level="2">3</Value>
+          <Value Level="3">5</Value>
+          <Value Level="4">7</Value>
+          <Value Level="5">9</Value>
+          <Value Level="6">11</Value>
+          <Value Level="7">13</Value>
+          <Value Level="8">15</Value>
+          <Value Level="9">17</Value>
+          <Value Level="10">19</Value>
+          <Value Level="11">21</Value>
+          <Value Level="12">23</Value>
+          <Value Level="13">25</Value>
+          <Value Level="14">27</Value>
+          <Value Level="15">29</Value>
+          <Value Level="16">31</Value>
+          <Value Level="17">33</Value>
+          <Value Level="18">35</Value>
+          <Value Level="19">37</Value>
+          <Value Level="20">39</Value>
+          <Value Level="21">41</Value>
+          <Value Level="22">43</Value>
+          <Value Level="23">45</Value>
+          <Value Level="24">47</Value>
+          <Value Level="25">49</Value>
+        </SpellPointValues>
+        <SpellPointTable ClassName="">
+          <Points Level="1">2</Points>
+          <Points Level="2">6</Points>
+          <Points Level="3">11</Points>
+          <Points Level="4">17</Points>
+          <Points Level="5">25</Points>
+          <Points Level="6">35</Points>
+          <Points Level="7">46</Points>
+          <Points Level="8">58</Points>
+          <Points Level="9">72</Points>
+          <Points Level="10">88</Points>
+          <Points Level="11">106</Points>
+          <Points Level="12">126</Points>
+          <Points Level="13">147</Points>
+          <Points Level="14">170</Points>
+          <Points Level="15">195</Points>
+          <Points Level="16">221</Points>
+          <Points Level="17">250</Points>
+          <Points Level="18">280</Points>
+          <Points Level="19">311</Points>
+          <Points Level="20">343</Points>
+        </SpellPointTable>
+        <UseBonusSpellPointFormula>true</UseBonusSpellPointFormula>
+        <BonusSpellPointFormula>=INT( BonusSpellMod * MIN(20,UnmodifiedCasterLevel) * .5 )</BonusSpellPointFormula>
+      </ClassSpellPoints>
+    </CasterClass>
+    <CasterClass>
+      <Name>Ardent</Name>
+      <Abbrev>Ardent</Abbrev>
+      <SpellList>Mantles</SpellList>
+      <CasterType />
+      <HasCantrips>false</HasCantrips>
+      <MaxSpellLevel>9</MaxSpellLevel>
+      <MaxCasterLevel>20</MaxCasterLevel>
+      <CastingStat>Wis</CastingStat>
+      <BonusSpellStat>Wis</BonusSpellStat>
+      <SaveDCStat>Wis</SaveDCStat>
+      <KnowsAllSpells>true</KnowsAllSpells>
+      <KnowsAllCantrips>false</KnowsAllCantrips>
+      <SpellsKnown>false</SpellsKnown>
+      <CasterLevelMultiplier>1</CasterLevelMultiplier>
+      <SpellPyramid>
+        <Slots>0 1</Slots>
+        <Slots>0 1</Slots>
+        <Slots>0 1 1</Slots>
+        <Slots>0 1 1</Slots>
+        <Slots>0 1 1 1</Slots>
+        <Slots>0 1 1 1</Slots>
+        <Slots>0 1 1 1 1</Slots>
+        <Slots>0 1 1 1 1</Slots>
+        <Slots>0 1 1 1 1 1</Slots>
+        <Slots>0 1 1 1 1 1</Slots>
+        <Slots>0 1 1 1 1 1 1</Slots>
+        <Slots>0 1 1 1 1 1 1</Slots>
+        <Slots>0 1 1 1 1 1 1 1</Slots>
+        <Slots>0 1 1 1 1 1 1 1</Slots>
+        <Slots>0 1 1 1 1 1 1 1 1</Slots>
+        <Slots>0 1 1 1 1 1 1 1 1</Slots>
+        <Slots>0 1 1 1 1 1 1 1 1 1</Slots>
+        <Slots>0 1 1 1 1 1 1 1 1 1</Slots>
+        <Slots>0 1 1 1 1 1 1 1 1 1</Slots>
+        <Slots>0 1 1 1 1 1 1 1 1 1</Slots>
+      </SpellPyramid>
+      <KnownPyramid>
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+      </KnownPyramid>
+      <ClassSpellPoints>
+        <UseSpellPoints>true</UseSpellPoints>
+        <GiveBonusSpellPointsForStat>true</GiveBonusSpellPointsForStat>
+        <SpellPointCosts>
+          <Cost Level="0">0</Cost>
+          <Cost Level="1">1</Cost>
+          <Cost Level="2">3</Cost>
+          <Cost Level="3">5</Cost>
+          <Cost Level="4">7</Cost>
+          <Cost Level="5">9</Cost>
+          <Cost Level="6">11</Cost>
+          <Cost Level="7">13</Cost>
+          <Cost Level="8">15</Cost>
+          <Cost Level="9">17</Cost>
+          <Cost Level="10">19</Cost>
+          <Cost Level="11">21</Cost>
+          <Cost Level="12">23</Cost>
+          <Cost Level="13">25</Cost>
+          <Cost Level="14">27</Cost>
+          <Cost Level="15">29</Cost>
+          <Cost Level="16">31</Cost>
+          <Cost Level="17">33</Cost>
+          <Cost Level="18">35</Cost>
+          <Cost Level="19">37</Cost>
+          <Cost Level="20">39</Cost>
+          <Cost Level="21">41</Cost>
+          <Cost Level="22">43</Cost>
+          <Cost Level="23">45</Cost>
+          <Cost Level="24">47</Cost>
+          <Cost Level="25">49</Cost>
+        </SpellPointCosts>
+        <SpellPointValues>
+          <Value Level="0">0</Value>
+          <Value Level="1">1</Value>
+          <Value Level="2">3</Value>
+          <Value Level="3">5</Value>
+          <Value Level="4">7</Value>
+          <Value Level="5">9</Value>
+          <Value Level="6">11</Value>
+          <Value Level="7">13</Value>
+          <Value Level="8">15</Value>
+          <Value Level="9">17</Value>
+          <Value Level="10">19</Value>
+          <Value Level="11">21</Value>
+          <Value Level="12">23</Value>
+          <Value Level="13">25</Value>
+          <Value Level="14">27</Value>
+          <Value Level="15">29</Value>
+          <Value Level="16">31</Value>
+          <Value Level="17">33</Value>
+          <Value Level="18">35</Value>
+          <Value Level="19">37</Value>
+          <Value Level="20">39</Value>
+          <Value Level="21">41</Value>
+          <Value Level="22">43</Value>
+          <Value Level="23">45</Value>
+          <Value Level="24">47</Value>
+          <Value Level="25">49</Value>
+        </SpellPointValues>
+        <SpellPointTable ClassName="">
+          <Points Level="1">2</Points>
+          <Points Level="2">6</Points>
+          <Points Level="3">11</Points>
+          <Points Level="4">17</Points>
+          <Points Level="5">25</Points>
+          <Points Level="6">35</Points>
+          <Points Level="7">46</Points>
+          <Points Level="8">58</Points>
+          <Points Level="9">72</Points>
+          <Points Level="10">88</Points>
+          <Points Level="11">106</Points>
+          <Points Level="12">126</Points>
+          <Points Level="13">147</Points>
+          <Points Level="14">170</Points>
+          <Points Level="15">195</Points>
+          <Points Level="16">221</Points>
+          <Points Level="17">250</Points>
+          <Points Level="18">280</Points>
+          <Points Level="19">311</Points>
+          <Points Level="20">343</Points>
+        </SpellPointTable>
+        <UseBonusSpellPointFormula>true</UseBonusSpellPointFormula>
+        <BonusSpellPointFormula>=INT( BonusSpellMod * MIN(20,UnmodifiedCasterLevel) * .5 )</BonusSpellPointFormula>
+      </ClassSpellPoints>
+    </CasterClass>
+    <CasterClass>
+      <Name>Divine Mind</Name>
+      <Abbrev>Div.Mind</Abbrev>
+      <SpellList>Mantles</SpellList>
+      <CasterType />
+      <HasCantrips>false</HasCantrips>
+      <MaxSpellLevel>6</MaxSpellLevel>
+      <MaxCasterLevel>20</MaxCasterLevel>
+      <CastingStat>Wis</CastingStat>
+      <BonusSpellStat>Wis</BonusSpellStat>
+      <SaveDCStat>Wis</SaveDCStat>
+      <KnowsAllSpells>true</KnowsAllSpells>
+      <KnowsAllCantrips>false</KnowsAllCantrips>
+      <SpellsKnown>false</SpellsKnown>
+      <CasterLevelMultiplier>1</CasterLevelMultiplier>
+      <SpellPyramid>
+        <Slots>0</Slots>
+        <Slots>0</Slots>
+        <Slots>0</Slots>
+        <Slots>0</Slots>
+        <Slots>0 1</Slots>
+        <Slots>0 1</Slots>
+        <Slots>0 1</Slots>
+        <Slots>0 1 1</Slots>
+        <Slots>0 1 1</Slots>
+        <Slots>0 1 1</Slots>
+        <Slots>0 1 1 1</Slots>
+        <Slots>0 1 1 1</Slots>
+        <Slots>0 1 1 1</Slots>
+        <Slots>0 1 1 1 1</Slots>
+        <Slots>0 1 1 1 1</Slots>
+        <Slots>0 1 1 1 1</Slots>
+        <Slots>0 1 1 1 1 1</Slots>
+        <Slots>0 1 1 1 1 1</Slots>
+        <Slots>0 1 1 1 1 1</Slots>
+        <Slots>0 1 1 1 1 1 1</Slots>
+      </SpellPyramid>
+      <KnownPyramid>
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+      </KnownPyramid>
+      <ClassSpellPoints>
+        <UseSpellPoints>true</UseSpellPoints>
+        <GiveBonusSpellPointsForStat>true</GiveBonusSpellPointsForStat>
+        <SpellPointCosts>
+          <Cost Level="0">0</Cost>
+          <Cost Level="1">1</Cost>
+          <Cost Level="2">3</Cost>
+          <Cost Level="3">5</Cost>
+          <Cost Level="4">7</Cost>
+          <Cost Level="5">9</Cost>
+          <Cost Level="6">11</Cost>
+          <Cost Level="7">13</Cost>
+          <Cost Level="8">15</Cost>
+          <Cost Level="9">17</Cost>
+          <Cost Level="10">19</Cost>
+          <Cost Level="11">21</Cost>
+          <Cost Level="12">23</Cost>
+          <Cost Level="13">25</Cost>
+          <Cost Level="14">27</Cost>
+          <Cost Level="15">29</Cost>
+          <Cost Level="16">31</Cost>
+          <Cost Level="17">33</Cost>
+          <Cost Level="18">35</Cost>
+          <Cost Level="19">37</Cost>
+          <Cost Level="20">39</Cost>
+          <Cost Level="21">41</Cost>
+          <Cost Level="22">43</Cost>
+          <Cost Level="23">45</Cost>
+          <Cost Level="24">47</Cost>
+          <Cost Level="25">49</Cost>
+        </SpellPointCosts>
+        <SpellPointValues>
+          <Value Level="0">0</Value>
+          <Value Level="1">1</Value>
+          <Value Level="2">3</Value>
+          <Value Level="3">5</Value>
+          <Value Level="4">7</Value>
+          <Value Level="5">9</Value>
+          <Value Level="6">11</Value>
+          <Value Level="7">13</Value>
+          <Value Level="8">15</Value>
+          <Value Level="9">17</Value>
+          <Value Level="10">19</Value>
+          <Value Level="11">21</Value>
+          <Value Level="12">23</Value>
+          <Value Level="13">25</Value>
+          <Value Level="14">27</Value>
+          <Value Level="15">29</Value>
+          <Value Level="16">31</Value>
+          <Value Level="17">33</Value>
+          <Value Level="18">35</Value>
+          <Value Level="19">37</Value>
+          <Value Level="20">39</Value>
+          <Value Level="21">41</Value>
+          <Value Level="22">43</Value>
+          <Value Level="23">45</Value>
+          <Value Level="24">47</Value>
+          <Value Level="25">49</Value>
+        </SpellPointValues>
+        <SpellPointTable ClassName="">
+          <Points Level="1">0</Points>
+          <Points Level="2">1</Points>
+          <Points Level="3">2</Points>
+          <Points Level="4">3</Points>
+          <Points Level="5">4</Points>
+          <Points Level="6">6</Points>
+          <Points Level="7">8</Points>
+          <Points Level="8">10</Points>
+          <Points Level="9">12</Points>
+          <Points Level="10">14</Points>
+          <Points Level="11">18</Points>
+          <Points Level="12">22</Points>
+          <Points Level="13">26</Points>
+          <Points Level="14">30</Points>
+          <Points Level="15">35</Points>
+          <Points Level="16">40</Points>
+          <Points Level="17">45</Points>
+          <Points Level="18">50</Points>
+          <Points Level="19">55</Points>
+          <Points Level="20">62</Points>
+        </SpellPointTable>
+        <UseBonusSpellPointFormula>true</UseBonusSpellPointFormula>
+        <BonusSpellPointFormula>=INT( BonusSpellMod * MIN(20,UnmodifiedCasterLevel) * .5 )</BonusSpellPointFormula>
+      </ClassSpellPoints>
+    </CasterClass>
+    <CasterClass>
+      <Name>Zerth Cenobite</Name>
+      <Abbrev>Zerth</Abbrev>
+      <SpellList>Psychic Warrior</SpellList>
+      <CasterType />
+      <HasCantrips>false</HasCantrips>
+      <MaxSpellLevel>4</MaxSpellLevel>
+      <MaxCasterLevel>20</MaxCasterLevel>
+      <CastingStat>Wis</CastingStat>
+      <BonusSpellStat>Wis</BonusSpellStat>
+      <SaveDCStat>Wis</SaveDCStat>
+      <KnowsAllSpells>false</KnowsAllSpells>
+      <KnowsAllCantrips>false</KnowsAllCantrips>
+      <SpellsKnown>true</SpellsKnown>
+      <CasterLevelMultiplier>1</CasterLevelMultiplier>
+      <SpellPyramid>
+        <Slots>0 1</Slots>
+        <Slots>0 1</Slots>
+        <Slots>0 1</Slots>
+        <Slots>0 1 1</Slots>
+        <Slots>0 1 1</Slots>
+        <Slots>0 1 1</Slots>
+        <Slots>0 1 1 1</Slots>
+        <Slots>0 1 1 1</Slots>
+        <Slots>0 1 1 1</Slots>
+        <Slots>0 1 1 1 1</Slots>
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+      </SpellPyramid>
+      <KnownPyramid>
+        <Slots>0 1</Slots>
+        <Slots>0 2</Slots>
+        <Slots>0 2</Slots>
+        <Slots>0 2 1</Slots>
+        <Slots>0 2 1</Slots>
+        <Slots>0 2 1</Slots>
+        <Slots>0 2 1 1</Slots>
+        <Slots>0 2 1 1</Slots>
+        <Slots>0 2 1 1</Slots>
+        <Slots>0 2 1 1 1</Slots>
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+      </KnownPyramid>
+      <ClassSpellPoints>
+        <UseSpellPoints>true</UseSpellPoints>
+        <GiveBonusSpellPointsForStat>true</GiveBonusSpellPointsForStat>
+        <SpellPointCosts>
+          <Cost Level="0">0</Cost>
+          <Cost Level="1">1</Cost>
+          <Cost Level="2">3</Cost>
+          <Cost Level="3">5</Cost>
+          <Cost Level="4">7</Cost>
+          <Cost Level="5">9</Cost>
+          <Cost Level="6">11</Cost>
+          <Cost Level="7">13</Cost>
+          <Cost Level="8">15</Cost>
+          <Cost Level="9">17</Cost>
+          <Cost Level="10">19</Cost>
+          <Cost Level="11">21</Cost>
+          <Cost Level="12">23</Cost>
+          <Cost Level="13">25</Cost>
+          <Cost Level="14">27</Cost>
+          <Cost Level="15">29</Cost>
+          <Cost Level="16">31</Cost>
+          <Cost Level="17">33</Cost>
+          <Cost Level="18">35</Cost>
+          <Cost Level="19">37</Cost>
+          <Cost Level="20">39</Cost>
+          <Cost Level="21">41</Cost>
+          <Cost Level="22">43</Cost>
+          <Cost Level="23">45</Cost>
+          <Cost Level="24">47</Cost>
+          <Cost Level="25">49</Cost>
+        </SpellPointCosts>
+        <SpellPointValues>
+          <Value Level="0">0</Value>
+          <Value Level="1">1</Value>
+          <Value Level="2">3</Value>
+          <Value Level="3">5</Value>
+          <Value Level="4">7</Value>
+          <Value Level="5">9</Value>
+          <Value Level="6">11</Value>
+          <Value Level="7">13</Value>
+          <Value Level="8">15</Value>
+          <Value Level="9">17</Value>
+          <Value Level="10">19</Value>
+          <Value Level="11">21</Value>
+          <Value Level="12">23</Value>
+          <Value Level="13">25</Value>
+          <Value Level="14">27</Value>
+          <Value Level="15">29</Value>
+          <Value Level="16">31</Value>
+          <Value Level="17">33</Value>
+          <Value Level="18">35</Value>
+          <Value Level="19">37</Value>
+          <Value Level="20">39</Value>
+          <Value Level="21">41</Value>
+          <Value Level="22">43</Value>
+          <Value Level="23">45</Value>
+          <Value Level="24">47</Value>
+          <Value Level="25">49</Value>
+        </SpellPointValues>
+        <SpellPointTable ClassName="">
+          <Points Level="1">1</Points>
+          <Points Level="2">2</Points>
+          <Points Level="3">3</Points>
+          <Points Level="4">5</Points>
+          <Points Level="5">7</Points>
+          <Points Level="6">11</Points>
+          <Points Level="7">15</Points>
+          <Points Level="8">19</Points>
+          <Points Level="9">23</Points>
+          <Points Level="10">27</Points>
+        </SpellPointTable>
+        <UseBonusSpellPointFormula>true</UseBonusSpellPointFormula>
+        <BonusSpellPointFormula>=INT( BonusSpellMod * MIN(20,UnmodifiedCasterLevel) * .5 )</BonusSpellPointFormula>
+      </ClassSpellPoints>
+    </CasterClass>
+  </Classes>
+</Reference>

@@ -1,0 +1,147 @@
+<Reference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Sequence="2" Name="ECS - Players Guide to Eberron" Group="Eberron" Abbrev="PGtEb" Version="1.01">
+  <Description>(c) 2006 by Wizards of the Coast, Inc.
+ </Description>
+  <DevNotes>1.01 Clarified some text on spell descriptions. Added bonus for Marks to Sentinel's Watch.</DevNotes>
+  <Spells>
+    <Spell OriginalReference="">
+      <Name>Create Spirit Idol</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 hr.</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area>Corpse</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+        <Component>XP</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>false</SR>
+      <Description>Touch corpse to bind willing spirit to its physical remains, preventing passage to the afterlife. Once bound, spirit remains in a state of torpor. See text for details on awakening spirits. A Spirit Idol can be raised as normal, but extends the time limits.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Price of  Loyalty</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Charm</Subschool>
+          <Descriptors>
+            <Descriptor>Mind</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " hr"</Duration>
+      <Area />
+      <Components>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>10</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>149</Page>
+      <SR>true</SR>
+      <Description>As Charm Person (PHB pg209) but is cast through a single platinum piece. Effects are so subtle that regardless of success of save, target does not know spell was cast. However, Detect Magic or similar spell will still reveal effect</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Sentinel's Watch</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " hr"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>149</Page>
+      <SR>true</SR>
+      <Description>One humanoid subject recieves a +5 (compet.) bonus on Spot (to penetrate disguise or illusions), Sense Motive (to oppose Bluff), and Will (resist enchantment or illusion effects). If target bears Mark of Sentinel of Mark of Detection bonus increases to +6.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Unity Wine</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1im.</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " hr"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>73</Page>
+      <SR>true</SR>
+      <Description>Infuse up to 1 pint of wine in a single container with energy.  Up to 4 creatures drinking the wine gain a +1 morale bonus on skill checks for the duration.</Description>
+    </Spell>
+  </Spells>
+  <SpellOverrides />
+  <SpellListEntries>
+    <SpellList Name="Cleric" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Unity Wine" Level="1" ReferenceAbbrev="PGtEb" />
+        <SpellEntry Name="Create Spirit Idol" Level="4" ReferenceAbbrev="PGtEb" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Wizard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Price of  Loyalty" Level="2" ReferenceAbbrev="PGtEb" />
+        <SpellEntry Name="Sentinel's Watch" Level="2" ReferenceAbbrev="PGtEb" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Sorcerer" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Price of  Loyalty" Level="2" ReferenceAbbrev="PGtEb" />
+        <SpellEntry Name="Sentinel's Watch" Level="2" ReferenceAbbrev="PGtEb" />
+      </SpellEntries>
+    </SpellList>
+  </SpellListEntries>
+  <Domains />
+  <Classes />
+</Reference>

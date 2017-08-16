@@ -1,0 +1,2141 @@
+<Reference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Sequence="1" Name="Libris Mortis" Group="" Abbrev="LibM" Version="1.03">
+  <Description>(c) 2004 by Wizards of the Coast, Inc.
+
+If you have a character who develops a Master Cyst (see Feat in Libris Mortis, p. 28) then switch their caster class for the Cyst version. That grants you access to the Necrotic Cyst spells.
+
+1.03 - Fixed "Death Ward, Mass" and "Spectral Touch"
+1.02 - Fixed spelling error in "Kiss of the Vampire"
+1.01 - Fixed Blade of Pain and Fear
+ </Description>
+  <DevNotes>CystXXX spell lists inherit the non-cyst lists, and add all the cyst spells.</DevNotes>
+  <Spells>
+    <Spell OriginalReference="">
+      <Name>Avascular Mass</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Death</Descriptor>
+          </Descriptors>
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>See Text</Duration>
+      <Area>Ray</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>true</SR>
+      <Description>="Living creature struck by ray (RTA) loses half its HP (round down) and stunned for 1 rd if Fort "&amp; SaveDC &amp;" failed. Other creatures in 20' r. must make Ref "&amp; SaveDC &amp;" or become entangled (-2 att, -4 DEX, cannot move, Concentrate 30 to cast). STR 25 or Escape 30 to break free (full round act). Mass blocks sight, 5' grants cover, 20' grants total cover. Once there are less than two people caught, spell ends."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Avasculate</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Death</Descriptor>
+          </Descriptors>
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area>Ray</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>62</Page>
+      <SR>true</SR>
+      <Description>Living creature struck by ray (RTA) is reduced to half HP (round down) and must save or be stunned for 1 rd.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Awaken Undead</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Perm. [d]</Duration>
+      <Area>= 25+(Int( CasterLevel /2) * 5) &amp;"' r."</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+        <Component>XP</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>200</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>62</Page>
+      <SR>true</SR>
+      <Description>Grants intelligence to mindless undead. Gain INT 4+1d6 (lim. by original type). Undead gain armor/weapon profs of Warriors. Also gain Ex abillities they had in life. Targets gain +2 (profane) to Will saves vs Control Undead as well as +2 Turn Resist.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Bite of the King</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>62</Page>
+      <SR>true</SR>
+      <Description>Target living creature hit by melee touch is swallowed whole, taking 2d8+12 bludg. dmg plus 12 acid dmg per rd. Subject can cut free using light slash/pierce weapons to deal 35 dmg to the 'stomach' (AC 21).</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Blade of Pain and Fear</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>0 ft.</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>63</Page>
+      <SR>true</SR>
+      <Description>="3' column of teath allow melee touch att dealing 1d6+"&amp; Min(10, Int( CasterLevel /2)) &amp;" dmg. STR mod does not apply. Any creature damaged must make a save or become frightened."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Bloodstar</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>30</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>63</Page>
+      <SR>true</SR>
+      <Description>Bloodstar can move anywhere within range (std act to move it). Provides 20' r. illum., has Hard 10, 20 HP. Any creature you designate within 10' that takes dmg from any source must make save or take 1 CON dmg. New save is allowed each rd.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Chill of the Grave</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area>Ray</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>63</Page>
+      <SR>true</SR>
+      <Description>="RTA delivers "&amp; IIF( CasterLevel &gt;3, IIF( CasterLevel &gt;6, IIF( CasterLevel &gt;9,"4","3"),"2"),"1") &amp;"d10 cold dmg."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Clutch of Orcus</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>[c]</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>63</Page>
+      <SR>true</SR>
+      <Description>Target humanoid is paralyzed and suffers 1d3 dmg/rd. Victim gets new save each rd.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Consumptive Field</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Death</Descriptor>
+          </Descriptors>
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area>30' r. em.</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>63</Page>
+      <SR>true</SR>
+      <Description>Area centered on you. All creatures in area with fewer than 0 HP that fail save die and you gain 1d8 temp HP per death and +2 STR until spell expires. You also gain +1 Caster Lvl per death (max of 1/2 original Caster Lvl).</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Consumptive Field, Greater</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Death</Descriptor>
+          </Descriptors>
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area>30' r. em.</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>63</Page>
+      <SR>true</SR>
+      <Description>Area centered on you. All creatures in area with fewer than 9 HP that fail save die and you gain 1d8 temp HP per death and +2 STR until spell expires. You also gain +1 Caster Lvl per death (max of 1/2 original Caster Lvl).</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Death Ward, Mass</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>63</Page>
+      <SR>true</SR>
+      <Description>="Up to "&amp; CasterLevel &amp;" Living creatures (no 2 &gt;30' apart) touched is warded vs. all death spells / magical death effects."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Ectoplasmic Armor</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " hr [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>64</Page>
+      <SR>false</SR>
+      <Description>=" Gain +"&amp; 5+Min(4, Int( CasterLevel /4)) &amp;" AC bonus vs. Incorporeal att only."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Ectoplasmic Feedback</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>64</Page>
+      <SR>false</SR>
+      <Description>="Incorporeal creatures att you suffer 1d8+"&amp; Min(10, CasterLevel ) &amp;" dmg (SR applies)."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Energy Ebb</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area>Ray</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>64</Page>
+      <SR>true</SR>
+      <Description>="RTA living creature, which suffers 1 neg. levels each rd for duration. Heal 23 check stops drain, as does Heal, Restoration, or Gr. Restoration. Undead creatures struck gain 4d4x5 temp hp for 1 hr instead."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Eyes of the King</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Summoning</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 min</CastingTime>
+      <Range>Unlimited</Range>
+      <Duration>="[c]+5 rd, up to "&amp; CasterLevel &amp;" min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>64</Page>
+      <SR>false</SR>
+      <Description>Summon 4 fiendish dire bats (MM, p XX). These bats send you visual info, moving 40'/rd (10'/rd if checking surroundings).</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Fangs of the Vampire King</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>64</Page>
+      <SR>false</SR>
+      <Description>You gain a bite attack at +10+STR mod for 1d6 dmg and 1 CON dmg. If you make a full att, you can make a bite att as a secondary attack (-5).</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Field of Ghouls</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Death</Descriptor>
+          </Descriptors>
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area>30' r. em.</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>true</SR>
+      <Description>="All creatures in area with fewer than 0 HP that fail save die and immediately rise as Ghouls (MM, p XX) under your control. Ghouls remain until destroyed. You can control up to "&amp; CasterLevel *2 &amp;"HD of undead, if you exceed this limit, the older undead become uncontrolled."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Ghost Touch Armor</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>65</Page>
+      <SR>true</SR>
+      <Description>Target's armor gains the Ghost Touch property.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Ghost Touch Weapon</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel*10 &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>65</Page>
+      <SR>true</SR>
+      <Description>Target weapon (or bunch of 50 projectiles) become capable of dealing dmg to incorporeal creatures (regardless of enhance bonus). 50% miss does not apply. Acts as having Ghost Touch property.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Ghost Trap</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " min [d]"</Duration>
+      <Area>= CasterLevel * 5 &amp;"' r."</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>65</Page>
+      <SR>false</SR>
+      <Description>You are surrounded by field that negates incorporealness. All incorporeal creatures in field become corporeal. Creatures cannot become ethereal while in field, and ethereal creatures cannot shift to material plane in field.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Ghostform</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>65</Page>
+      <SR>false</SR>
+      <Description>You assume a visible, incorporeal form like that of a manifest ghost. See text for details.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Ghoul Gauntlet</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Death</Descriptor>
+          </Descriptors>
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>66</Page>
+      <SR>true</SR>
+      <Description>="Your touch transforms victim into Ghoul under your command. Target suffers 3d6 dmg/rd, when it reaches 0 HP, it is transformed into a Ghoul (MM p. XX). Cure Disease, Dispel Magic, Heal, [Lim.] Wish, Miracle, Mord's Disjunct., Remove Curse, or Greater Restoration negate the transformation. Undead control limit of "&amp; CasterLevel * 2 &amp;" HD applies."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Ghoul Gesture</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>66</Page>
+      <SR>true</SR>
+      <Description>RTA will paralize target. If save, then target Sickened (Neutralize Poison removes sickeness and immunity to poison negates it).</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Ghoul Glyph</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 min</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Disch.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>66</Page>
+      <SR>true</SR>
+      <Description>Inscribe glyph that paralyzes any living creature of Large or smaller size. Read Magic allows Spellcraft 13 to identify glyph. See text for other details.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Ghoul Light</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel*10 &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>66</Page>
+      <SR>false</SR>
+      <Description>Sheds light as torch (20' r), but all undead within 30' r. gain +1 Turn Resist (multiple Ghoul Lights do not stack). Darkness of 2nd level or lower can counter.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Haunt Shift</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>66</Page>
+      <SR>true</SR>
+      <Description>="Translates corporeal and incorporeal undead into Haunting Presences (see Liber Mortis, p 6). Converts "&amp; Min(20, CasterLevel ) &amp;" HD of undead, those with fewest HD translate first, limit of 8 HD creatures."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Incorporeal Enhancement</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd</CastingTime>
+      <Range>Close</Range>
+      <Duration>24 hours</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>67</Page>
+      <SR>false</SR>
+      <Description>="Up to "&amp; CasterLevel &amp;" undead gain +"&amp; Int(CasterLevel /5) &amp;" (deflect) to AC, +"&amp; Int( CasterLevel /5) &amp;"d8 temp HP, +"&amp; Int( CasterLevel /5) &amp;" (enhance) to Att and +"&amp; Int( CasterLevel /5)*2 &amp;" bonus to Turn Resist."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Incorporeal Nova</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Death</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area>50' r. brst</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>67</Page>
+      <SR>true</SR>
+      <Description>="Destroy "&amp; Min(20, CasterLevel ) &amp;"d4 HD of incorporeal or gaseous form creatures. Creatures with fewest HD are destroyed first, limit of 8HD creatures affected."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Kiss of the Vampire</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>50</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>67</Page>
+      <SR>false</SR>
+      <Description>Gain abilities similar to vampire. See text for details.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Necrotic Awareness</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>60 ft</Range>
+      <Duration>="[c], up to "&amp; CasterLevel &amp;" min [d]"</Duration>
+      <Area>Cone</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>67</Page>
+      <SR>false</SR>
+      <Description>Sense creatures that bear a Necrotic Cyst (see spell). See text for detect details. Focus: Caster must possess Mother Cyst (Libris Mortis, p. 28).</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Necrotic Bloat</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>69</Page>
+      <SR>false</SR>
+      <Description>="Cause Necrotic Cyst (see spell) already present in victim to swell. Subject takes "&amp; Min(10, CasterLevel ) &amp;"d6 dmg (half Vile). Focus: Caster must possess Mother Cyst (Libris Mortis, p 28)."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Necrotic Burst</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>67</Page>
+      <SR>false</SR>
+      <Description>="Target a creature already hosting a Necrotic Cyst (see spell). Cyst enlarges explosively. If victim saves, it takes "&amp; Min(15, CasterLevel ) &amp;"d6 dmg (half Vile). If save fails, victim dies. Rd after death, a free-willed Skulking Cyst (Libris Mortis, p 120) emerges. Focus: Caster must possess Mother Cyst (Libris Mortis, p 28)."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Necrotic Cyst</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>68</Page>
+      <SR>true</SR>
+      <Description>Target living creature develops a Necrotic Cyst. Any save vs. Necromancy is at -2, and dmg from undead's natural weapons do +1d6. Prot. from Evil will prevent cyst from developing, but cannot protect from cyst once developed. See text for removal. Focus: Caster must possess Mother Cyst (Libris Mortis, p. 28)</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Necrotic Domination</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>fr</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp;" days"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>68</Page>
+      <SR>true</SR>
+      <Description>Control (issueing command equiv. to redirect. spell, normally move act.) any one humanoid with a Necrotic Cyst (see spell) telepathically. If you concen. you get full sensory input. Acts against its nature allow additional save (with +2 bonus). Focus: Caster must possess Mother Cyst (Libris Mortis, p 28).</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Necrotic Empowerment</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>68</Page>
+      <SR>false</SR>
+      <Description>Gain +8 (enhance) to DEX, INT, WIS; +8 Natural Armor; +5 (competence) to Fort saves; 100 temp HP. You cannot cast any other spell requiring a Mother Cyst for duration. Focus: Caster must possess Mother Cyst (Libris Mortis, p. 28).</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Necrotic Eruption</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area>20' r. sprd</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>69</Page>
+      <SR>false</SR>
+      <Description>="Target a creature already hosting a Necrotic Cyst (see spell). Cyst enlarges explosively. If victim saves, it takes "&amp; Min(15, CasterLevel ) &amp;"d6 dmg (half Vile). If save fails, victim dies and all creatures within 20' take same dice dmg (Ref for half) and half is vile plus gain Necrotic Cyst. Rd after death, a free-willed Skulking Cyst (Libris Mortis, p 120) emerges. Focus: Caster must possess Mother Cyst (Libris Mortis, p 28)."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Necrotic Scrying</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Unlimited</Range>
+      <Duration>= CasterLevel &amp; " min [d]"</Duration>
+      <Area>10' r.</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>69</Page>
+      <SR>false</SR>
+      <Description>Target creature with Necrotic Cyst (see spell). They act as a scry sensor. You may see or hear as if you were there. You see in area around sensor. You can cast some spells through this effect, see text for details. Focus: Caster must possess Mother Cyst (Libris Mortis, p. 28).</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Necrotic Termination</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+        <Component>XP</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>1000</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>69</Page>
+      <SR>false</SR>
+      <Description>="Target a creature already hosting a Necrotic Cyst (see spell). Cyst enlarges If victim saves, it takes "&amp; Min(25, CasterLevel ) &amp;"d6 dmg (half Vile). If save fails, victim's soul is consumed (no Resurrection allowed). Rd after death, a free-willed Skulking Cyst (Libris Mortis, p 120) emerges. Focus: Caster must possess Mother Cyst (Libris Mortis, p 28)."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Necrotic Tumor</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>See text</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>69</Page>
+      <SR>false</SR>
+      <Description>="Target creature with a Necrotic Cyst (see spell). If creature saves, then you can suggest course of activity (sentence or two), which can last up to "&amp; CasterLevel &amp;" days. Failure means that subject becomes permanent thrall. Focus: Caster must possess Mother Cyst (Libris Mortis, p. 28)."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Night's Caress</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>69</Page>
+      <SR>true</SR>
+      <Description>="Melee Touch does "&amp; Min(15, CasterLevel ) &amp;"d6 dmg and 1d6+2 CON dmg (save negates CON dmg). Versus undead, creature must save or Flee for 1d4+"&amp; CasterLevel &amp;" rd."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Plague of Undead</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>100</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>70</Page>
+      <SR>false</SR>
+      <Description>Turn bones and bodies of dead creatures within range into undead that follow your spoken command. You can create up to "&amp; CasterLevel *4 &amp;" HD of undead, other limits as Animate Dead spell (PHB, p 198).</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Protection from Negative Energy</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel*10 &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>70</Page>
+      <SR>true</SR>
+      <Description>Touched living creature is warded against dmg from neg. energy. Subtract 10 from any such dmg dealt by a neg. energy effect. Effects that do not directly deal dmg affect the target normally.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Protection from Positive Energy</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel*10 &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>70</Page>
+      <SR>true</SR>
+      <Description>Touched undead creature is warded against dmg from pos. energy. Subtract 10 from any such dmg dealt by a pos. energy effect. Effects that do not directly deal dmg affect the target normally.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Restoration, Mass</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Healing</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>70</Page>
+      <SR>true</SR>
+      <Description>="Restores level and ability score drains suffered in the last "&amp; CasterLevel &amp;" days to up to "&amp; CasterLevel &amp;" creatures (no 2 &gt;30' apart)."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Revive Undead</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 min</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>500</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>70</Page>
+      <SR>true</SR>
+      <Description>="Restore animation to undead creature destroyed by HP loss. Undead cannot be inactive for more than "&amp; CasterLevel &amp;" days. Animating spirit must be free and willing to return. Subject regains 1 HP/HD. Subject loses 1 lvl or HD, which cannot be repaired in any way. See text for addt'l details."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Sheltered Vitality</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>71</Page>
+      <SR>true</SR>
+      <Description>Subject gains immunity to Fatigue, Exhaustion, and ability dmg or drain (regardless of source).</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Spark of Life</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>true</SR>
+      <Description>Touched undead creature glows faintly, and is not vulnerable as a living being. Subject now affected by crits/sneak att, nonlethal dmg, ability drain, energy drain, fatigue, exhaustion, dmg to its phys. abilities. (although it still lacks a CON score). Also loses immunity to effects that require a Fort save, poison, sleep, paralysis, stunning, disease, and death effects. However, it gains a bonus for Fort save equal to its CHA mod. It must eat, breath, and sleep.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Spawn Screen</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " hr"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>71</Page>
+      <SR>true</SR>
+      <Description>Living creature touched does not rise as undead spawn should they perish to an undead. Does not prevent death, just the spawning.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Spectral Touch</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>71</Page>
+      <SR>true</SR>
+      <Description>Touch att can be used 1/rd. target suffers 1 negative lvl which grants you 5 temp HP. Both the negative lvl and the temp HP last for 1 hr. Undead creatures instead gain 5 temp HP and you lose a like amount (no save) which also last for 1 hr.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Summon Undead I</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Summoning</Subschool>
+          <Descriptors>
+            <Descriptor>See Text</Descriptor>
+          </Descriptors>
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>fr</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp;" rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>FocusOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>71</Page>
+      <SR>false</SR>
+      <Description>Calls undead creature to fight for you. See 1st level Summon Undead table (Libris Mortis, p. 72). Summoned undead do not count towards total HD of undead you can control with undead command abilities.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Summon Undead II</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Summoning</Subschool>
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>FocusOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>71</Page>
+      <SR>false</SR>
+      <Description>This spell functions like Summon Undead  I, but you can choose one 2nd -level or two of the same 1st-level creatures </Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Summon Undead III</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Summoning</Subschool>
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>FocusOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>71</Page>
+      <SR>false</SR>
+      <Description>This spell functions like Summon Undead  I, but you can choose one 3rd-level or two of the same kind of 2nd -level or four of the same 1st-level creatures </Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Summon Undead IV</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Summoning</Subschool>
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>FocusOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>72</Page>
+      <SR>false</SR>
+      <Description>This spell functions like Summon Undead  I, but you can choose one creature of 4th-level or two of the same kind of 3rd -level or four of the same from any lower level list's creatures </Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Summon Undead V</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Summoning</Subschool>
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>FocusOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>72</Page>
+      <SR>false</SR>
+      <Description>This spell functions like Summon Undead  I, but you can choose one creature of 5th-level or two of the same kind of 4th-level or four of the same kind of creature from any lower level list </Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Undead Bane Weapon</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " hr"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>72</Page>
+      <SR>true</SR>
+      <Description>="Grant weapon touched (or 50 pieces of ammo) the Undead Bane special ability (if it does not already have it). "&amp; IIF( CasterLevel &gt; 9, "Weapon gains +1 (enhance) if not already magical. ","") &amp;"Weapon is considered Good vs. DR and sheds light like a candle."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Veil of Undeath</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel*10 &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>1000</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>72</Page>
+      <SR>false</SR>
+      <Description>You gain traits common to undead: Immune to mind-affect spells and abilities, poinson, sleep, paralysis, stun, disease, death, crits, nonlethal dmg, death from massive dmg, ability drain, energy drain, fatigue, exhaustion, dmg to phys. ability scores, and any effect requiring a Fort save unless it is harmless or affects objects. You need not breath, eat or sleep. Your CON becomes "-", so you lose any bonus HP. You are cured by inflict and harmed by cure, but do not gain Undead trait.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Wither Limb</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Perm.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>72</Page>
+      <SR>true</SR>
+      <Description>Choose either arm or leg of humanoid. If leg, subject falls prone, and land speed is reduced to 5'. If arm, subject cannot use obects or cast spells with somatic component. Dispel Magic of higher level will restore limb.</Description>
+    </Spell>
+  </Spells>
+  <SpellOverrides />
+  <SpellListEntries>
+    <SpellList Name="Assassin" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Blade of Pain and Fear" Level="2" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Fangs of the Vampire King" Level="3" ReferenceAbbrev="LibM" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Blackguard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Blade of Pain and Fear" Level="1" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Summon Undead I" Level="1" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Summon Undead II" Level="2" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Fangs of the Vampire King" Level="3" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Summon Undead III" Level="3" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Summon Undead IV" Level="4" ReferenceAbbrev="LibM" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Cleric" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Summon Undead I" Level="1" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Blade of Pain and Fear" Level="2" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Ghost Touch Armor" Level="2" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Summon Undead II" Level="2" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Spawn Screen" Level="2" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Clutch of Orcus" Level="3" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Summon Undead III" Level="3" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Protection from Negative Energy" Level="3" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Protection from Positive Energy" Level="3" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Sheltered Vitality" Level="3" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Consumptive Field" Level="4" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Ghost Touch Weapon" Level="4" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Undead Bane Weapon" Level="4" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Summon Undead IV" Level="4" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Haunt Shift" Level="5" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Incorporeal Nova" Level="5" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Summon Undead V" Level="5" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Ghost Trap" Level="6" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Consumptive Field, Greater" Level="7" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Energy Ebb" Level="7" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Spark of Life" Level="7" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Death Ward, Mass" Level="8" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Veil of Undeath" Level="8" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Restoration, Mass" Level="8" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Plague of Undead" Level="9" ReferenceAbbrev="LibM" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="CystCleric" Inherits="Cleric">
+      <SpellEntries>
+        <SpellEntry Name="Necrotic Awareness" Level="1" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Necrotic Cyst" Level="2" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Necrotic Scrying" Level="2" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Necrotic Bloat" Level="3" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Necrotic Domination" Level="4" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Necrotic Burst" Level="5" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Necrotic Eruption" Level="6" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Necrotic Tumor" Level="7" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Necrotic Empowerment" Level="8" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Necrotic Termination" Level="9" ReferenceAbbrev="LibM" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Druid" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Sheltered Vitality" Level="4" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Spark of Life" Level="8" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Death Ward, Mass" Level="9" ReferenceAbbrev="LibM" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Sorcerer" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Ectoplasmic Armor" Level="1" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Summon Undead I" Level="1" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Blade of Pain and Fear" Level="2" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Ghost Touch Armor" Level="2" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Ghoul Glyph" Level="2" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Summon Undead II" Level="2" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Spawn Screen" Level="2" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Ectoplasmic Feedback" Level="3" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Incorporeal Enhancement" Level="3" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Summon Undead III" Level="3" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Bloodstar" Level="4" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Summon Undead IV" Level="4" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Haunt Shift" Level="5" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Kiss of the Vampire" Level="5" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Night's Caress" Level="5" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Summon Undead V" Level="5" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Ghoul Gauntlet" Level="6" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Incorporeal Nova" Level="6" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Revive Undead" Level="6" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Spectral Touch" Level="6" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Avasculate" Level="7" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Awaken Undead" Level="7" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Energy Ebb" Level="7" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Ghost Trap" Level="7" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Avascular Mass" Level="8" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Ghostform" Level="8" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Veil of Undeath" Level="8" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Plague of Undead" Level="9" ReferenceAbbrev="LibM" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="CystSorcerer" Inherits="Sorcerer">
+      <SpellEntries>
+        <SpellEntry Name="Necrotic Awareness" Level="1" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Necrotic Cyst" Level="2" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Necrotic Scrying" Level="2" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Necrotic Bloat" Level="3" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Necrotic Domination" Level="4" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Necrotic Burst" Level="5" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Necrotic Eruption" Level="6" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Necrotic Tumor" Level="7" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Necrotic Empowerment" Level="8" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Necrotic Termination" Level="9" ReferenceAbbrev="LibM" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Wizard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Ectoplasmic Armor" Level="1" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Summon Undead I" Level="1" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Blade of Pain and Fear" Level="2" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Ghost Touch Armor" Level="2" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Ghoul Glyph" Level="2" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Summon Undead II" Level="2" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Spawn Screen" Level="2" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Ectoplasmic Feedback" Level="3" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Incorporeal Enhancement" Level="3" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Summon Undead III" Level="3" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Bloodstar" Level="4" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Summon Undead IV" Level="4" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Haunt Shift" Level="5" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Kiss of the Vampire" Level="5" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Night's Caress" Level="5" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Summon Undead V" Level="5" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Ghoul Gauntlet" Level="6" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Incorporeal Nova" Level="6" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Revive Undead" Level="6" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Spectral Touch" Level="6" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Avasculate" Level="7" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Awaken Undead" Level="7" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Energy Ebb" Level="7" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Ghost Trap" Level="7" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Avascular Mass" Level="8" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Ghostform" Level="8" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Veil of Undeath" Level="8" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Plague of Undead" Level="9" ReferenceAbbrev="LibM" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="CystWizard" Inherits="Wizard">
+      <SpellEntries>
+        <SpellEntry Name="Necrotic Awareness" Level="1" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Necrotic Cyst" Level="2" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Necrotic Scrying" Level="2" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Necrotic Bloat" Level="3" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Necrotic Domination" Level="4" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Necrotic Burst" Level="5" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Necrotic Eruption" Level="6" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Necrotic Tumor" Level="7" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Necrotic Empowerment" Level="8" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Necrotic Termination" Level="9" ReferenceAbbrev="LibM" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Paladin" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Undead Bane Weapon" Level="3" ReferenceAbbrev="LibM" />
+      </SpellEntries>
+    </SpellList>
+  </SpellListEntries>
+  <Domains>
+    <Domain Name="Deathbound" Abbrev="Dbnd">
+      <Power>="Your limit for controlling undead animated with spells incr to "&amp; CasterLevel *3</Power>
+      <DomainEntries>
+        <SpellEntry Name="Chill of the Grave" Level="1" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Blade of Pain and Fear" Level="2" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Awaken Undead" Level="6" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Avasculate" Level="7" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Avascular Mass" Level="8" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Fangs of the Vampire King" Level="3" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Wail of the Banshee" Level="9" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Wither Limb" Level="4" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Revive Undead" Level="5" ReferenceAbbrev="LibM" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Hunger" Abbrev="Hunger">
+      <Power>You gain a bite attack, which you are auto-prof with and considered armed while using. This is a secondary natural attack.</Power>
+      <DomainEntries>
+        <SpellEntry Name="Bite of the King" Level="8" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Eyes of the King" Level="6" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Field of Ghouls" Level="7" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Enervation" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Energy Drain" Level="9" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Ghoul Gauntlet" Level="5" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Ghoul Gesture" Level="3" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Ghoul Glyph" Level="2" ReferenceAbbrev="LibM" />
+        <SpellEntry Name="Ghoul Light" Level="1" ReferenceAbbrev="LibM" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Undeath" Abbrev="Undeath">
+      <Power>You gain Extra Turning as a bonus feat.</Power>
+      <DomainEntries>
+        <SpellEntry Name="Detect Undead" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Desecrate" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Animate Dead" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Death Ward" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Circle of Death" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Create Undead" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Control Undead" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Create Greater Undead" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Energy Drain" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+  </Domains>
+  <Classes>
+    <CasterClass>
+      <Name>Cleric (Cyst)</Name>
+      <Abbrev>Cle</Abbrev>
+      <SpellList>CystCleric</SpellList>
+      <CasterType>Divine</CasterType>
+      <HasCantrips>true</HasCantrips>
+      <MaxSpellLevel>9</MaxSpellLevel>
+      <MaxCasterLevel>20</MaxCasterLevel>
+      <CastingStat>Wis</CastingStat>
+      <BonusSpellStat>Wis</BonusSpellStat>
+      <SaveDCStat>Wis</SaveDCStat>
+      <KnowsAllSpells>true</KnowsAllSpells>
+      <KnowsAllCantrips>true</KnowsAllCantrips>
+      <SpellsKnown>false</SpellsKnown>
+      <CasterLevelMultiplier>1</CasterLevelMultiplier>
+      <SpellPyramid>
+        <Slots>3 1</Slots>
+        <Slots>4 2</Slots>
+        <Slots>4 2 1</Slots>
+        <Slots>5 3 2</Slots>
+        <Slots>5 3 2 1</Slots>
+        <Slots>5 3 3 2</Slots>
+        <Slots>6 4 3 2 1</Slots>
+        <Slots>6 4 3 3 2</Slots>
+        <Slots>6 4 4 3 2 1</Slots>
+        <Slots>6 4 4 3 3 2</Slots>
+        <Slots>6 5 4 4 3 2 1</Slots>
+        <Slots>6 5 4 4 3 3 2</Slots>
+        <Slots>6 5 5 4 4 3 2 1</Slots>
+        <Slots>6 5 5 4 4 3 3 2</Slots>
+        <Slots>6 5 5 5 4 4 3 2 1</Slots>
+        <Slots>6 5 5 5 4 4 3 3 2</Slots>
+        <Slots>6 5 5 5 5 4 4 3 2 1</Slots>
+        <Slots>6 5 5 5 5 4 4 3 3 2</Slots>
+        <Slots>6 5 5 5 5 5 4 4 3 3</Slots>
+        <Slots>6 5 5 5 5 5 4 4 4 4</Slots>
+      </SpellPyramid>
+      <KnownPyramid>
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+      </KnownPyramid>
+      <ClassSpellPoints>
+        <UseSpellPoints>false</UseSpellPoints>
+        <GiveBonusSpellPointsForStat>true</GiveBonusSpellPointsForStat>
+        <SpellPointCosts />
+        <SpellPointValues />
+        <SpellPointTable ClassName="" />
+        <UseBonusSpellPointFormula>false</UseBonusSpellPointFormula>
+        <BonusSpellPointFormula />
+      </ClassSpellPoints>
+    </CasterClass>
+    <CasterClass>
+      <Name>Sorcerer (Cyst)</Name>
+      <Abbrev>Sor</Abbrev>
+      <SpellList>CystSorcerer</SpellList>
+      <CasterType>Arcane</CasterType>
+      <HasCantrips>true</HasCantrips>
+      <MaxSpellLevel>9</MaxSpellLevel>
+      <MaxCasterLevel>20</MaxCasterLevel>
+      <CastingStat>Cha</CastingStat>
+      <BonusSpellStat>Cha</BonusSpellStat>
+      <SaveDCStat>Cha</SaveDCStat>
+      <KnowsAllSpells>false</KnowsAllSpells>
+      <KnowsAllCantrips>false</KnowsAllCantrips>
+      <SpellsKnown>true</SpellsKnown>
+      <CasterLevelMultiplier>1</CasterLevelMultiplier>
+      <SpellPyramid>
+        <Slots>5 3</Slots>
+        <Slots>6 4</Slots>
+        <Slots>6 5</Slots>
+        <Slots>6 6 3</Slots>
+        <Slots>6 6 4</Slots>
+        <Slots>6 6 5 3</Slots>
+        <Slots>6 6 6 4</Slots>
+        <Slots>6 6 6 5 3</Slots>
+        <Slots>6 6 6 6 4</Slots>
+        <Slots>6 6 6 6 5 3</Slots>
+        <Slots>6 6 6 6 6 4</Slots>
+        <Slots>6 6 6 6 6 5 3</Slots>
+        <Slots>6 6 6 6 6 6 4</Slots>
+        <Slots>6 6 6 6 6 6 5 3</Slots>
+        <Slots>6 6 6 6 6 6 6 4</Slots>
+        <Slots>6 6 6 6 6 6 6 5 3</Slots>
+        <Slots>6 6 6 6 6 6 6 6 4</Slots>
+        <Slots>6 6 6 6 6 6 6 6 5 3</Slots>
+        <Slots>6 6 6 6 6 6 6 6 6 4</Slots>
+        <Slots>6 6 6 6 6 6 6 6 6 6</Slots>
+      </SpellPyramid>
+      <KnownPyramid>
+        <Slots>4 2</Slots>
+        <Slots>5 2</Slots>
+        <Slots>5 3</Slots>
+        <Slots>6 3 1</Slots>
+        <Slots>6 4 2</Slots>
+        <Slots>7 4 2 1</Slots>
+        <Slots>7 5 3 2</Slots>
+        <Slots>8 5 3 2 1</Slots>
+        <Slots>8 5 4 3 2</Slots>
+        <Slots>9 5 4 3 2 1</Slots>
+        <Slots>9 5 5 4 3 2</Slots>
+        <Slots>9 5 5 4 3 2 1</Slots>
+        <Slots>9 5 5 4 4 3 2</Slots>
+        <Slots>9 5 5 4 4 3 2 1</Slots>
+        <Slots>9 5 5 4 4 4 3 2</Slots>
+        <Slots>9 5 5 4 4 4 3 2 1</Slots>
+        <Slots>9 5 5 4 4 4 3 3 2</Slots>
+        <Slots>9 5 5 4 4 4 3 3 2 1</Slots>
+        <Slots>9 5 5 4 4 4 3 3 3 2</Slots>
+        <Slots>9 5 5 4 4 4 3 3 3 3</Slots>
+      </KnownPyramid>
+      <ClassSpellPoints>
+        <UseSpellPoints>false</UseSpellPoints>
+        <GiveBonusSpellPointsForStat>true</GiveBonusSpellPointsForStat>
+        <SpellPointCosts />
+        <SpellPointValues />
+        <SpellPointTable ClassName="" />
+        <UseBonusSpellPointFormula>false</UseBonusSpellPointFormula>
+        <BonusSpellPointFormula />
+      </ClassSpellPoints>
+    </CasterClass>
+    <CasterClass>
+      <Name>Wizard (Cyst)</Name>
+      <Abbrev>Wiz</Abbrev>
+      <SpellList>CystWizard</SpellList>
+      <CasterType>Arcane</CasterType>
+      <HasCantrips>true</HasCantrips>
+      <MaxSpellLevel>4</MaxSpellLevel>
+      <MaxCasterLevel>20</MaxCasterLevel>
+      <CastingStat>Int</CastingStat>
+      <BonusSpellStat>Int</BonusSpellStat>
+      <SaveDCStat>Int</SaveDCStat>
+      <KnowsAllSpells>false</KnowsAllSpells>
+      <KnowsAllCantrips>false</KnowsAllCantrips>
+      <SpellsKnown>false</SpellsKnown>
+      <CasterLevelMultiplier>1</CasterLevelMultiplier>
+      <SpellPyramid>
+        <Slots>3 1</Slots>
+        <Slots>4 2</Slots>
+        <Slots>4 2 1</Slots>
+        <Slots>4 3 2</Slots>
+        <Slots>4 3 2 1</Slots>
+        <Slots>4 3 3 2</Slots>
+        <Slots>4 4 3 2 1</Slots>
+        <Slots>4 4 3 3 2</Slots>
+        <Slots>4 4 4 3 2 1</Slots>
+        <Slots>4 4 4 3 3 2</Slots>
+        <Slots>4 4 4 4 3 2 1</Slots>
+        <Slots>4 4 4 4 3 3 2</Slots>
+        <Slots>4 4 4 4 4 3 2 1</Slots>
+        <Slots>4 4 4 4 4 3 3 2</Slots>
+        <Slots>4 4 4 4 4 4 3 2 1</Slots>
+        <Slots>4 4 4 4 4 4 3 3 2</Slots>
+        <Slots>4 4 4 4 4 4 4 3 2 1</Slots>
+        <Slots>4 4 4 4 4 4 4 3 3 2</Slots>
+        <Slots>4 4 4 4 4 4 4 4 3 3</Slots>
+        <Slots>4 4 4 4 4 4 4 4 4 4</Slots>
+      </SpellPyramid>
+      <KnownPyramid>
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+      </KnownPyramid>
+      <ClassSpellPoints>
+        <UseSpellPoints>false</UseSpellPoints>
+        <GiveBonusSpellPointsForStat>true</GiveBonusSpellPointsForStat>
+        <SpellPointCosts />
+        <SpellPointValues />
+        <SpellPointTable ClassName="" />
+        <UseBonusSpellPointFormula>false</UseBonusSpellPointFormula>
+        <BonusSpellPointFormula />
+      </ClassSpellPoints>
+    </CasterClass>
+  </Classes>
+</Reference>

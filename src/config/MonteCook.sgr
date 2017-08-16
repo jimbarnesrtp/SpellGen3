@@ -1,0 +1,374 @@
+<Reference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Sequence="2" Name="www.MonteCook.com" Group="" Abbrev="monte" Version="1">
+  <Description> </Description>
+  <DevNotes />
+  <Spells>
+    <Spell OriginalReference="">
+      <Name>Personal Knowledge</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Sonic</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1me</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>false</SR>
+      <Description>Learn name, age, race, class, ally, or most hated enemy of target creature touched.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>True Language</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Sonic</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1me</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>false</SR>
+      <Description>="All who can hear you, understand you.  "&amp;IIF( CasterLevel &gt;9,"You can also understand them.","")</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Oathchord</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Charm</Subschool>
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+            <Descriptor>Sonic</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>false</SR>
+      <Description>="Magically seal an agreement between up to "&amp; CasterLevel &amp;" willing creatures."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Sense Auras</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Sonic</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>60 feet</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>false</SR>
+      <Description>You know the strength and location of each magical aura or invisible object/creature.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Sense Lies</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Sonic</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>60 feet</Range>
+      <Duration>= CasterLevel &amp;" rd (c)"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>false</SR>
+      <Description>You sense whether a subject deliberately or knowingly speaks a lie.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Find Creature</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Sonic</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>fr</CastingTime>
+      <Range>Unlimited</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>true</SR>
+      <Description>Reveals name of the location of target creature; works across planar boundries.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Song of Vitrification</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Sonic</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>fr</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>true</SR>
+      <Description>Turn a flesh creature to glass.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Blight Enemy</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>true</SR>
+      <Description>="Draw upon nature to inflict "&amp;MIN(5, CasterLevel )&amp;"d6 damage to a favored enemy."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Wild Stealth</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>true</SR>
+      <Description>You gain a +10 (enh) bonus to Move Silently and Hide when out of doors.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Unite Allies</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>50 feet</Range>
+      <Duration>= CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>true</SR>
+      <Description>Your allies have a +1 favored enemy bonus against a favored enemy you choose.</Description>
+    </Spell>
+  </Spells>
+  <SpellOverrides />
+  <SpellListEntries>
+    <SpellList Name="Ranger (MCook)" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Alarm" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Branch to Branch" Level="1" ReferenceAbbrev="MoFR" />
+        <SpellEntry Name="Camouflage" Level="1" ReferenceAbbrev="MoFR" />
+        <SpellEntry Name="Delay Poison" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Detect Animals or Plants" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Detect Snares and Pits" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Exacting Shot" Level="1" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Forager's Blessing" Level="1" ReferenceAbbrev="dgn" />
+        <SpellEntry Name="Handfire" Level="1" ReferenceAbbrev="MoFR" />
+        <SpellEntry Name="Hunter's Mercy" Level="1" ReferenceAbbrev="MoFR" />
+        <SpellEntry Name="Low-Light Vision" Level="1" ReferenceAbbrev="MoFR" />
+        <SpellEntry Name="Magic Fang" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Naturewatch" Level="1" ReferenceAbbrev="MoFR" />
+        <SpellEntry Name="Pass without Trace" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Ram's Might" Level="1" ReferenceAbbrev="MoFR" />
+        <SpellEntry Name="Read Magic" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Resist Energy" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Smell of Fear" Level="1" ReferenceAbbrev="MoFR" />
+        <SpellEntry Name="Speak with Animals" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Speed Swim" Level="1" ReferenceAbbrev="MoFR" />
+        <SpellEntry Name="Stalking Brand" Level="1" ReferenceAbbrev="MoFR" />
+        <SpellEntry Name="Summon Nature's Ally I" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Surefoot" Level="1" ReferenceAbbrev="MoFR" />
+        <SpellEntry Name="Towering Oak" Level="1" ReferenceAbbrev="MoFR" />
+        <SpellEntry Name="Animal Messenger" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Blight Enemy" Level="2" ReferenceAbbrev="monte" />
+        <SpellEntry Name="Briar Web" Level="2" ReferenceAbbrev="DotF" />
+        <SpellEntry Name="Claws of the Beast" Level="2" ReferenceAbbrev="MoFR" />
+        <SpellEntry Name="Cure Light Wounds" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Detect Chaos" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Detect Evil" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Detect Good" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Detect Law" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Easy Trail" Level="2" ReferenceAbbrev="MoFR" />
+        <SpellEntry Name="Hold Animal" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="One with the Land" Level="2" ReferenceAbbrev="MoFR" />
+        <SpellEntry Name="Protection From Energy" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Scent" Level="2" ReferenceAbbrev="MoFR" />
+        <SpellEntry Name="Sleep" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Snare" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Speak with Plants" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Summon Nature's Ally II" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Blade Thirst" Level="3" ReferenceAbbrev="MoFR" />
+        <SpellEntry Name="Decoy Image" Level="3" ReferenceAbbrev="MoFR" />
+        <SpellEntry Name="Diminish Plants" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Easy Climb" Level="3" ReferenceAbbrev="MoFR" />
+        <SpellEntry Name="Living Prints" Level="3" ReferenceAbbrev="MoFR" />
+        <SpellEntry Name="Magic Fang, Greater" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Neutralize Poison" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Plant Growth" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Remove Disease" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Safe Clearing" Level="3" ReferenceAbbrev="MoFR" />
+        <SpellEntry Name="Summon Nature's Ally III" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Tree Shape" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Water Walk" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Wild Stealth" Level="3" ReferenceAbbrev="monte" />
+        <SpellEntry Name="Cure Serious Wounds" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Foebane" Level="4" ReferenceAbbrev="wotc" />
+        <SpellEntry Name="Freedom of Movement" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Land Womb" Level="4" ReferenceAbbrev="MoFR" />
+        <SpellEntry Name="Mass Camouflage" Level="4" ReferenceAbbrev="MoFR" />
+        <SpellEntry Name="Nondetection" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Polymorph" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Snakebite" Level="4" ReferenceAbbrev="MoFR" />
+        <SpellEntry Name="Summon Nature's Ally IV" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Tree Stride" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Unite Allies" Level="4" ReferenceAbbrev="monte" />
+        <SpellEntry Name="Wall of Thorns" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Wind Wall" Level="4" ReferenceAbbrev="PHB" />
+      </SpellEntries>
+    </SpellList>
+  </SpellListEntries>
+  <Domains />
+  <Classes />
+</Reference>

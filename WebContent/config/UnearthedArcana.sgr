@@ -1,0 +1,568 @@
+<Reference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Sequence="1" Name="Unearthed Arcana" Group="" Abbrev="UA" Version="1">
+  <Description> </Description>
+  <DevNotes />
+  <Spells>
+    <Spell OriginalReference="">
+      <Name>Comet Swarm</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Cold</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Long</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="(text) " &amp; SaveDC</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>true</SR>
+      <Description>Four 6d6 frostballs, can target for 2d6 bludgeoning dmg.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Cone of Fire</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Fire</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>60 ft. Cone</Range>
+      <Duration>Inst.</Duration>
+      <Area>Cone</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>212</Page>
+      <SR>true</SR>
+      <Description>="Cone deals "&amp;MIN(15, CasterLevel )&amp;"d6 fire damage."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Delayed Blast Frostball</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Cold</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Long</Range>
+      <Duration>Up to 5 rd</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>217</Page>
+      <SR>true</SR>
+      <Description>=MIN(20, CasterLevel )&amp;"d6 cold damage; you can delay blast for 5 rounds."</Description>
+    </Spell>
+  </Spells>
+  <SpellOverrides />
+  <SpellListEntries>
+    <SpellList Name="UrbanRanger" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Alarm" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Calm Animals" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Comprehend Languages" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Delay Poison" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Detect Chaos" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Detect Evil" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Detect Good" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Detect Law" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Detect Poison" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Detect Secret Doors" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Detect Snares and Pits" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Endure Elements" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Hide from Animals" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Jump" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Longstrider" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Magic Fang" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Message" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Pass without Trace" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Read Magic" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Resist Energy" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Summon Nature's Ally I" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Entangle" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Barkskin" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Cat's Grace" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Cure Light Wounds" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Detect Thoughts" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Eagle's Splendor" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Knock" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Locate Object" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Owl's Wisdom" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Protection From Energy" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Spike Growth" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Summon Nature's Ally II" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Wind Wall" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Cure Moderate Wounds" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Darkvision" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Discern Lies" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Invisibility" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Magic Fang, Greater" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Neutralize Poison" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Remove Disease" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Repel Vermin" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Speak with Dead" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Summon Nature's Ally III" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Tongues" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Animal Growth" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Cure Serious Wounds" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Dimensional Anchor" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Freedom of Movement" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Mordenkainen's Faithful Hound" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Nondetection" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Summon Nature's Ally IV" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="True Seeing" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Locate Creature" Level="4" ReferenceAbbrev="PHB" />
+      </SpellEntries>
+    </SpellList>
+  </SpellListEntries>
+  <Domains>
+    <Domain Name="Domain Wizard:Abjuration" Abbrev="Abjuration">
+      <Power />
+      <DomainEntries>
+        <SpellEntry Name="Resistance" Level="0" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Shield" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Resist Energy" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Dispel Magic" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Remove Curse" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Mordenkainen's Private Sanctum" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Dispel Magic, Greater" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Banishment" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Mind Blank" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Prismatic Sphere" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Domain Wizard:Antimagic" Abbrev="Antimagic">
+      <Power />
+      <DomainEntries>
+        <SpellEntry Name="Detect Magic" Level="0" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Protection From Chaos" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Protection From Evil" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Protection From Good" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Protection From Law" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Obscure Object" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Dispel Magic" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Globe of Invulnerability, Lesser" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Break Enchantment" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Antimagic Field" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Spell Turning" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Protection From Spells" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Mordenkainen's Disjunction" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Domain Wizard:Battle" Abbrev="Battle">
+      <Power />
+      <DomainEntries>
+        <SpellEntry Name="Daze" Level="0" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="True Strike" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Protection From Arrows" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Magic Weapon, Greater" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Fire Shield" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Bigby's Interposing Hand" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Tenser's Transformation" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Power Word, Blind" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Moment of Prescience" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Time Stop" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Domain Wizard:Cold" Abbrev="Cold">
+      <Power />
+      <DomainEntries>
+        <SpellEntry Name="Ray of Frost" Level="0" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Chill Touch" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Chill Metal" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Sleet Storm" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Wall of Ice" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Cone of Cold" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Otiluke's Freezing Sphere" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Delayed Blast Frostball" Level="7" ReferenceAbbrev="UA" />
+        <SpellEntry Name="Polar Ray" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Comet Swarm" Level="9" ReferenceAbbrev="UA" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Domain Wizard:Conjuration" Abbrev="Conjuration">
+      <Power />
+      <DomainEntries>
+        <SpellEntry Name="Acid Splash" Level="0" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Mage Armor" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Web" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Stinking Cloud" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Summon Monster IV" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Wall of Stone" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Acid Fog" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Summon Monster VII" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Maze" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Gate" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Domain Wizard:Divination" Abbrev="Divination">
+      <Power />
+      <DomainEntries>
+        <SpellEntry Name="Detect Magic" Level="0" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Detect Secret Doors" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="See Invisibility" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Arcane Sight" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Arcane Eye" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Prying Eyes" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="True Seeing" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Arcane Sight, Greater" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Discern Location" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Foresight" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Domain Wizard:Enchantment" Abbrev="Ench">
+      <Power />
+      <DomainEntries>
+        <SpellEntry Name="Daze" Level="0" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Charm Person" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Tasha's Hideous Laughter" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Suggestion" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Confusion" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Hold Monster" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Heroism, Greater" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Insanity" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Charm Monster, Mass" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Dominate Monster" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Domain Wizard:Evocation" Abbrev="Evoc">
+      <Power />
+      <DomainEntries>
+        <SpellEntry Name="Light" Level="0" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Magic Missile" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Flaming Sphere" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Lightning Bolt" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Shout" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Wall of Force" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Bigby's Forceful Hand" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Mordenkainen's Sword" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Otiluke's Telekinetic Sphere" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Bigby's Crushing Hand" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Domain Wizard:Fire" Abbrev="Fire">
+      <Power />
+      <DomainEntries>
+        <SpellEntry Name="Flare" Level="0" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Burning Hands" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Scorching Ray" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Fireball" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Wall of Fire" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Cone of Fire" Level="5" ReferenceAbbrev="UA" />
+        <SpellEntry Name="Summon Monster VI" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Delayed Blast Fireball" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Incendiary Cloud" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Meteor Swarm" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Domain Wizard:Illusion" Abbrev="Illusion">
+      <Power />
+      <DomainEntries>
+        <SpellEntry Name="Ghost Sound" Level="0" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Disguise Self" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Invisibility" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Major Image" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Phantasmal Killer" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Shadow Evocation" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Mislead" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Invisibility, Mass" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Scintillating Pattern" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Shades" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Domain Wizard:Necromancy" Abbrev="Necro">
+      <Power />
+      <DomainEntries>
+        <SpellEntry Name="Disrupt Undead" Level="0" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Ray of Enfeeblement" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="False Life" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Vampiric Touch" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Fear" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Waves of Fatigue" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Circle of Death" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Control Undead" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Horrid Wilting" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Energy Drain" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Domain Wizard:Storm" Abbrev="Storm">
+      <Power />
+      <DomainEntries>
+        <SpellEntry Name="Ray of Frost" Level="0" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Obscuring Mist" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Gust of Wind" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Lightning Bolt" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Ice Storm" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Control Winds" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Chain Lightning" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Control Weather" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Whirlwind" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Storm of Vengeance" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Domain Wizard:Transmutation" Abbrev="Trans">
+      <Power />
+      <DomainEntries>
+        <SpellEntry Name="Mage Hand" Level="0" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Expeditious Retreat" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Levitate" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Haste" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Polymorph" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Baleful Polymorph" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Disintegrate" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Reverse Gravity" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Iron Body" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Shapechange" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+  </Domains>
+  <Classes>
+    <CasterClass>
+      <Name>Domain Wizard</Name>
+      <Abbrev>DomWiz</Abbrev>
+      <SpellList>Wizard</SpellList>
+      <CasterType>Arcane</CasterType>
+      <HasCantrips>true</HasCantrips>
+      <MaxSpellLevel>9</MaxSpellLevel>
+      <MaxCasterLevel>20</MaxCasterLevel>
+      <CastingStat>Int</CastingStat>
+      <BonusSpellStat>Int</BonusSpellStat>
+      <SaveDCStat>Int</SaveDCStat>
+      <KnowsAllSpells>false</KnowsAllSpells>
+      <KnowsAllCantrips>true</KnowsAllCantrips>
+      <SpellsKnown>false</SpellsKnown>
+      <CasterLevelMultiplier>1</CasterLevelMultiplier>
+      <SpellPyramid>
+        <Slots>3 1</Slots>
+        <Slots>4 2</Slots>
+        <Slots>4 2 1</Slots>
+        <Slots>4 3 2</Slots>
+        <Slots>4 3 2 1</Slots>
+        <Slots>4 3 3 2</Slots>
+        <Slots>4 4 3 2 1</Slots>
+        <Slots>4 4 3 3 2</Slots>
+        <Slots>4 4 4 3 2 1</Slots>
+        <Slots>4 4 4 3 3 2</Slots>
+        <Slots>4 4 4 4 3 2 1</Slots>
+        <Slots>4 4 4 4 3 3 2</Slots>
+        <Slots>4 4 4 4 4 3 2 1</Slots>
+        <Slots>4 4 4 4 4 3 3 2</Slots>
+        <Slots>4 4 4 4 4 4 3 2 1</Slots>
+        <Slots>4 4 4 4 4 4 3 3 2</Slots>
+        <Slots>4 4 4 4 4 4 4 3 2 1</Slots>
+        <Slots>4 4 4 4 4 4 4 3 3 2</Slots>
+        <Slots>4 4 4 4 4 4 4 4 3 3</Slots>
+        <Slots>4 4 4 4 4 4 4 4 4 4</Slots>
+      </SpellPyramid>
+      <KnownPyramid>
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+      </KnownPyramid>
+      <ClassSpellPoints>
+        <UseSpellPoints>false</UseSpellPoints>
+        <GiveBonusSpellPointsForStat>true</GiveBonusSpellPointsForStat>
+        <SpellPointCosts />
+        <SpellPointValues />
+        <SpellPointTable ClassName="" />
+        <UseBonusSpellPointFormula>false</UseBonusSpellPointFormula>
+        <BonusSpellPointFormula />
+      </ClassSpellPoints>
+    </CasterClass>
+    <CasterClass>
+      <Name>Spontaneous Cleric</Name>
+      <Abbrev>SponCler</Abbrev>
+      <SpellList>Cleric</SpellList>
+      <CasterType>Divine</CasterType>
+      <HasCantrips>true</HasCantrips>
+      <MaxSpellLevel>9</MaxSpellLevel>
+      <MaxCasterLevel>20</MaxCasterLevel>
+      <CastingStat>Wis</CastingStat>
+      <BonusSpellStat>Wis</BonusSpellStat>
+      <SaveDCStat>Wis</SaveDCStat>
+      <KnowsAllSpells>false</KnowsAllSpells>
+      <KnowsAllCantrips>false</KnowsAllCantrips>
+      <SpellsKnown>true</SpellsKnown>
+      <CasterLevelMultiplier>1</CasterLevelMultiplier>
+      <SpellPyramid>
+        <Slots>4 2</Slots>
+        <Slots>5 3</Slots>
+        <Slots>5 3 2</Slots>
+        <Slots>6 4 3</Slots>
+        <Slots>6 4 3 2</Slots>
+        <Slots>6 4 4 3</Slots>
+        <Slots>7 5 4 3 2</Slots>
+        <Slots>7 5 4 4 3</Slots>
+        <Slots>7 5 5 5 3 2</Slots>
+        <Slots>7 5 5 5 4 3</Slots>
+        <Slots>7 6 5 5 4 3 2</Slots>
+        <Slots>7 6 5 5 4 4 3</Slots>
+        <Slots>7 6 5 5 5 4 3 2</Slots>
+        <Slots>7 6 5 5 5 4 4 3</Slots>
+        <Slots>7 6 5 6 5 5 4 3 2</Slots>
+        <Slots>7 6 5 6 5 5 4 4 3</Slots>
+        <Slots>7 6 5 6 6 5 4 4 3 2</Slots>
+        <Slots>7 6 5 6 6 5 5 4 4 3</Slots>
+        <Slots>7 6 5 6 6 6 5 5 4 4</Slots>
+        <Slots>7 6 5 6 6 6 5 5 5 5</Slots>
+      </SpellPyramid>
+      <KnownPyramid>
+        <Slots>4 2</Slots>
+        <Slots>5 2</Slots>
+        <Slots>5 3</Slots>
+        <Slots>6 3 1</Slots>
+        <Slots>6 4 2</Slots>
+        <Slots>7 4 2 1</Slots>
+        <Slots>7 5 3 2</Slots>
+        <Slots>8 5 3 2 1</Slots>
+        <Slots>8 5 4 3 2</Slots>
+        <Slots>9 5 4 3 2 1</Slots>
+        <Slots>9 5 5 4 3 2</Slots>
+        <Slots>9 5 5 4 3 2 1</Slots>
+        <Slots>9 5 5 4 4 3 2</Slots>
+        <Slots>9 5 5 4 4 3 2 1</Slots>
+        <Slots>9 5 5 4 4 4 3 2</Slots>
+        <Slots>9 5 5 4 4 4 3 2 1</Slots>
+        <Slots>9 5 5 4 4 4 3 3 2</Slots>
+        <Slots>9 5 5 4 4 4 3 3 2 1</Slots>
+        <Slots>9 5 5 4 4 4 3 3 3 2</Slots>
+        <Slots>9 5 5 4 4 4 3 3 3 3</Slots>
+      </KnownPyramid>
+      <ClassSpellPoints>
+        <UseSpellPoints>false</UseSpellPoints>
+        <GiveBonusSpellPointsForStat>true</GiveBonusSpellPointsForStat>
+        <SpellPointCosts />
+        <SpellPointValues />
+        <SpellPointTable ClassName="" />
+        <UseBonusSpellPointFormula>false</UseBonusSpellPointFormula>
+        <BonusSpellPointFormula />
+      </ClassSpellPoints>
+    </CasterClass>
+    <CasterClass>
+      <Name>Urban Ranger</Name>
+      <Abbrev />
+      <SpellList>UrbanRanger</SpellList>
+      <CasterType>Divine</CasterType>
+      <HasCantrips>false</HasCantrips>
+      <MaxSpellLevel>4</MaxSpellLevel>
+      <MaxCasterLevel>20</MaxCasterLevel>
+      <CastingStat>Wis</CastingStat>
+      <BonusSpellStat>Wis</BonusSpellStat>
+      <SaveDCStat>Wis</SaveDCStat>
+      <KnowsAllSpells>true</KnowsAllSpells>
+      <KnowsAllCantrips>true</KnowsAllCantrips>
+      <SpellsKnown>false</SpellsKnown>
+      <CasterLevelMultiplier>0.5</CasterLevelMultiplier>
+      <SpellPyramid>
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots>0 0</Slots>
+        <Slots>0 0</Slots>
+        <Slots>0 1</Slots>
+        <Slots>0 1</Slots>
+        <Slots>0 1 0</Slots>
+        <Slots>0 1 0</Slots>
+        <Slots>0 1 1</Slots>
+        <Slots>0 1 1 0</Slots>
+        <Slots>0 1 1 1</Slots>
+        <Slots>0 1 1 1</Slots>
+        <Slots>0 2 1 1 0</Slots>
+        <Slots>0 2 1 1 1</Slots>
+        <Slots>0 2 2 1 1</Slots>
+        <Slots>0 2 2 2 1</Slots>
+        <Slots>0 3 2 2 1</Slots>
+        <Slots>0 3 3 3 2</Slots>
+        <Slots>0 3 3 3 3</Slots>
+      </SpellPyramid>
+      <KnownPyramid>
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+        <Slots />
+      </KnownPyramid>
+      <ClassSpellPoints>
+        <UseSpellPoints>false</UseSpellPoints>
+        <GiveBonusSpellPointsForStat>true</GiveBonusSpellPointsForStat>
+        <SpellPointCosts />
+        <SpellPointValues />
+        <SpellPointTable ClassName="" />
+        <UseBonusSpellPointFormula>false</UseBonusSpellPointFormula>
+        <BonusSpellPointFormula />
+      </ClassSpellPoints>
+    </CasterClass>
+  </Classes>
+</Reference>

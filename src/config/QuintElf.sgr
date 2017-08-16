@@ -1,0 +1,79 @@
+<Reference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Sequence="1" Name="Quintessential Elf" Group="" Abbrev="QElf" Version="1">
+  <Description> </Description>
+  <DevNotes />
+  <Spells />
+  <SpellOverrides />
+  <SpellListEntries />
+  <Domains>
+    <Domain Name="MP:Dream" Abbrev="">
+      <Power>Use your sleep/reverie as a scrying tool with a bonus to Scry checks equal to your Wisdom modifier.</Power>
+      <DomainEntries>
+        <SpellEntry Name="Sleep" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Hypnotic Pattern" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Modify Memory" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Dream" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Nightmare" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Mind Fog" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Legend Lore" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Astral Projection" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Temporal Stasis" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="MP:Forest" Abbrev="">
+      <Power>Speak and understand Sylvan, and gain a +2 bonus to Wilderness Lore checks while in the forest.</Power>
+      <DomainEntries>
+        <SpellEntry Name="Goodberry" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Tree Shape" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Speak with Plants" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Commune with Nature" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Tree Stride" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Awaken" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Transport via Plants" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Liveoak" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Shambler" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="MP:Love" Abbrev="">
+      <Power>Gain a +2 bonus to all Charisma-based checks and rolls.</Power>
+      <DomainEntries>
+        <SpellEntry Name="Charm Person" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Enthrall" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Status" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Break Enchantment" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Dream" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Limited Wish" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Holy Aura" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Sympathy" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="MP:Music" Abbrev="">
+      <Power>Inspire Courage (as bardic music ability, 1/day).  If you're a Bard, max rank in Perform skill is +6 (instead of +3).</Power>
+      <DomainEntries>
+        <SpellEntry Name="Ventriloquism" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Sound Burst" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Sculpt Sound" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Shout" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Mind Fog" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Break Enchantment" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Holy Word" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Otto's Irresistible Dance" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Wail of the Banshee" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="MP:Sea" Abbrev="">
+      <Power>A successful Swim check allows you to move at your walk speed as a move-equiv. action.</Power>
+      <DomainEntries>
+        <SpellEntry Name="Obscuring Mist" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Water Breathing" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Protection From Energy" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Control Water" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Control Winds" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Chain Lightning" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Control Weather" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Summon Nature's Ally VIII" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Elemental Swarm" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+  </Domains>
+  <Classes />
+</Reference>

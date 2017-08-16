@@ -1,0 +1,1535 @@
+<Reference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Sequence="1" Name="Stormwrack" Group="" Abbrev="Storm" Version="1.03">
+  <Description>(c) 2005 by Wizards of the Coast, Inc
+
+1.03 - Fixed 'Tr' school on Steed of the Seas </Description>
+  <DevNotes>
+1.02 - Fixed teleport spells to use "Conjuration(Teleport)"
+1.01 - Fixed spell list recursion
+1.0 - Initial version</DevNotes>
+  <Spells>
+    <Spell OriginalReference="">
+      <Name>Aboleth Curse</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Permanent</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>true</SR>
+      <Description>Subject's skin undergoes a horrible transformation.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Air Breathing</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Air</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= 2*CasterLevel &amp; " hr"</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>113</Page>
+      <SR>true</SR>
+      <Description>Subject breaths air as easily as water.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Airy Water</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Air</Descriptor>
+            <Descriptor>Water</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Centered</Range>
+      <Duration>= CasterLevel *10 &amp; " min [d]"</Duration>
+      <Area>20 ft. radius emanation centered on you</Area>
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>113</Page>
+      <SR>false</SR>
+      <Description>Turn normal water into a breathable substance; negate underwater movement and melee attack penalties.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Blackwater Taint</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Water</Descriptor>
+          </Descriptors>
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area>20 ft. radius</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>113</Page>
+      <SR>true</SR>
+      <Description>Desecrate water, deals 1d6/2 levels (max 10d6) negative energy damage, bestows a negative level</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Blackwater Tentacle</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Water</Descriptor>
+          </Descriptors>
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>114</Page>
+      <SR>false</SR>
+      <Description>Create Blackwater Tentacle that attacks your foe.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Control Currents</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Water</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>= 20*CasterLevel &amp; " ft"</Range>
+      <Duration>= CasterLevel*10 &amp; " min"</Duration>
+      <Area>20 ft/level radius emanation centered on you</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>114</Page>
+      <SR>false</SR>
+      <Description>Changes current direction and speed</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Dark Tide</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Water</Descriptor>
+          </Descriptors>
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Long</Range>
+      <Duration>= CasterLevel &amp; " hr [d]"</Duration>
+      <Area>1/2 mile radius spread</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>114</Page>
+      <SR>true</SR>
+      <Description>Infuse water over a large area with negative energy, causing weakness and 1d6 damage/hour.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Depthsurge</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Water</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Long</Range>
+      <Duration>Inst.</Duration>
+      <Area>20 ft radius</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>115</Page>
+      <SR>true</SR>
+      <Description>Water slam deals 2d6 + caster level to all within 20 ft radius, pushes targets back, sinks ships.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Detect Ship</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Special</Range>
+      <Duration>24 hours [d]</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>50</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>115</Page>
+      <SR>false</SR>
+      <Description>Detect &amp; Identify ships</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Disguise Ship</Name>
+      <Schools>
+        <School>
+          <School>Illusion</School>
+          <Subschool>Glamer</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " hr [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " disbelief if interacted with"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>115</Page>
+      <SR>true</SR>
+      <Description>Disguises a ship</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Doom of the Seas</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Summoning</Subschool>
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+        <Component>XP</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>500</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>115</Page>
+      <SR>false</SR>
+      <Description>Summons a fiendish kraken under your command.  Stats block on page 116.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Favorable Wind</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Air</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>60 ft</Range>
+      <Duration>= CasterLevel *10 &amp; " min [d]"</Duration>
+      <Area>Cone shaped emanation</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>116</Page>
+      <SR>false</SR>
+      <Description>Produces a strong wind that lasts 10 minutes/level.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Fins to Feet</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " hr"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>117</Page>
+      <SR>true</SR>
+      <Description>Transforms tails, tentacles, or finned extremities into humanoid legs and feet.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Flowsight</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool>Scrying</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 min.</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area>60 ft radius</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg; see text"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>117</Page>
+      <SR>true</SR>
+      <Description>You can scry creatures in contact with a body of water</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Jaws of the Moray</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>117</Page>
+      <SR>true</SR>
+      <Description>Subject gains a bite attack</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Jig of the Waves</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Conc. + 1d4 rounds</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>117</Page>
+      <SR>true</SR>
+      <Description>Force creatures to dance a jig which causes penalties and forces random movement.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Kuo-Toa Skin</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " hr"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>118</Page>
+      <SR>true</SR>
+      <Description>Subject gains +8 on Escape Artist checks and cannot be snared by webs.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Maelstrom</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors>
+            <Descriptor>Water</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Long</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>118</Page>
+      <SR>false</SR>
+      <Description>Conjures a deadly whirlpool to suck in and batter foes.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Megalodon Empowerment</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>See Text</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>750</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>118</Page>
+      <SR>false</SR>
+      <Description>Gain scent, water breathing, swim speed for a period of time.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Mordenkainen's Capable Caravel</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>10 min.</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel/2 &amp; " Day [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>500</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>119</Page>
+      <SR>false</SR>
+      <Description>Creates a magical ship with extra dimensional staterooms.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Mudslide</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors>
+            <Descriptor>Water</Descriptor>
+            <Descriptor>Earth</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area>40 ft radius spread</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " half; see text"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>119</Page>
+      <SR>false</SR>
+      <Description>Landslide buries, mires creatures within a 40 foot radius.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Planar Navigation</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Teleport</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 min.</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>FocusOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>250</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>119</Page>
+      <SR>true</SR>
+      <Description>Send a whole ship to another plane.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Pressure Sphere</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Water</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area>20 ft radius</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>120</Page>
+      <SR>false</SR>
+      <Description>Water deals 4d6 damage to submerged targets</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Quickswim</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " hr [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>120</Page>
+      <SR>false</SR>
+      <Description>If you have one, your swim speed increases by 10 feet.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Rapture of the Deep</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Charm</Subschool>
+          <Descriptors>
+            <Descriptor>Mind</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Permanent</Duration>
+      <Area>1 Living Creature</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>120</Page>
+      <SR>true</SR>
+      <Description>Target becomes comatose.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Red Tide</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Water</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area>Burst, shaped like a disk 10 ft wide/level, and 5 ft high</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " part; see text"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>120</Page>
+      <SR>true</SR>
+      <Description>Creates a surge of tainted water that sickens, weakens, and nauseates.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Roar of the Waves</Name>
+      <Schools>
+        <School>
+          <School>Illusion</School>
+          <Subschool>Pattern</Subschool>
+          <Descriptors>
+            <Descriptor>Sonic</Descriptor>
+            <Descriptor>Fear</Descriptor>
+            <Descriptor>Mind</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>121</Page>
+      <SR>true</SR>
+      <Description>Make 1 target / 2 levels deafened and shakened.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Scales of the Sealord</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " hr [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>121</Page>
+      <SR>false</SR>
+      <Description>Add 10 ft to your swim speed, or gain swim speed of 15; add natural armor bonus of +1/3 levels, max of +5.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Sink</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Water</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>121</Page>
+      <SR>true</SR>
+      <Description>Subject loses buoyancy</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Siren's Call</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>121</Page>
+      <SR>true</SR>
+      <Description>Compel 1 creature / 2 levels to submerge itself.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Steed of the Seas</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= 2*CasterLevel &amp; " hr"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>122</Page>
+      <SR>true</SR>
+      <Description>Makes your special mount amphibious.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Stormrunner's Ward</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " hr [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>122</Page>
+      <SR>false</SR>
+      <Description>Add 4 + 1/4 levels to ship's checks to weather storms</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Stormwalk</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Teleport</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>122</Page>
+      <SR>false</SR>
+      <Description>Teleport yourself and one creature/2 levels using a storm</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Swim</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Water</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel *10 &amp; " min [d]"</Duration>
+      <Area>One Creature</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>122</Page>
+      <SR>true</SR>
+      <Description>Subject gains swim speed and a +8 bonus on Swim checks</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Tern's Persistance</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>24 hours</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>123</Page>
+      <SR>true</SR>
+      <Description>Subject can travel overland 50% longer without fatigue.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Thalassemia</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " half; see text"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>123</Page>
+      <SR>true</SR>
+      <Description>Turns blood to seawater, dealing 1d6 damage/level (max 15d6)</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Tojanida Sight</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel *10 &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>123</Page>
+      <SR>false</SR>
+      <Description>Gain all-around vision</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Transformation of the Deeps</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " hr [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>123</Page>
+      <SR>true</SR>
+      <Description>Grant waterbreathing, darkvision, and pressure immunity to one creature / 3 levels</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Turbidity</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>0 ft</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area>20 ft radius spread centered on you</Area>
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>123</Page>
+      <SR>false</SR>
+      <Description>Water surrounding you becomes cloudy, granting concealment</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Urchin's Spines</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>124</Page>
+      <SR>true</SR>
+      <Description>Target grows spines that damage opponent</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Wake Trailing</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Water</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>24 hours</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>124</Page>
+      <SR>false</SR>
+      <Description>You can track a ship across the sea</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Water to Acid</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Water</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area>= CasterLevel &amp; " cu. ft. of water"</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>124</Page>
+      <SR>false</SR>
+      <Description>Transforms 1 cu. ft./level of water into acid</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Waterspout</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Long</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area>Cylinder 10 ft wide and 80 ft tall</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>124</Page>
+      <SR>false</SR>
+      <Description>Water rises up into a whirling vortex that deals 3d8 damage and sucks creatures in.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Wave Blessing</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Water</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1im.</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel*10 &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>125</Page>
+      <SR>true</SR>
+      <Description>Keeps one creature/level from sinking</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Webfoot</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel*10 &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>125</Page>
+      <SR>true</SR>
+      <Description>Target gains +4 on swim checks, and is less hindered by bog terrain.</Description>
+    </Spell>
+  </Spells>
+  <SpellOverrides />
+  <SpellListEntries>
+    <SpellList Name="Bard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Quickswim" Level="1" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Jig of the Waves" Level="2" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Detect Ship" Level="3" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Roar of the Waves" Level="3" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Siren's Call" Level="3" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Flowsight" Level="4" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Rapture of the Deep" Level="6" ReferenceAbbrev="Storm" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Cleric" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Air Breathing" Level="3" ReferenceAbbrev="Storm" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Druid" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Kuo-Toa Skin" Level="1" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Quickswim" Level="1" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Webfoot" Level="1" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Fins to Feet" Level="2" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Jaws of the Moray" Level="2" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Pressure Sphere" Level="2" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Swim" Level="2" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Tern's Persistance" Level="2" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Tojanida Sight" Level="2" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Urchin's Spines" Level="2" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Air Breathing" Level="3" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Favorable Wind" Level="3" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Scales of the Sealord" Level="3" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Control Currents" Level="4" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Thalassemia" Level="4" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Wake Trailing" Level="4" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Blackwater Tentacle" Level="5" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Flowsight" Level="5" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Transformation of the Deeps" Level="5" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Mudslide" Level="6" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Stormwalk" Level="6" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Waterspout" Level="7" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Depthsurge" Level="8" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Megalodon Empowerment" Level="8" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Red Tide" Level="8" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Doom of the Seas" Level="9" ReferenceAbbrev="Storm" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Paladin" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Steed of the Seas" Level="2" ReferenceAbbrev="Storm" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Ranger" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Kuo-Toa Skin" Level="1" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Quickswim" Level="1" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Tern's Persistance" Level="1" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Urchin's Spines" Level="1" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Webfoot" Level="1" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Tojanida Sight" Level="2" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Scales of the Sealord" Level="3" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Wake Trailing" Level="3" ReferenceAbbrev="Storm" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Sorcerer" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Quickswim" Level="1" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Wave Blessing" Level="1" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Stormrunner's Ward" Level="2" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Turbidity" Level="2" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Pressure Sphere" Level="2" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Fins to Feet" Level="2" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Jaws of the Moray" Level="2" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Kuo-Toa Skin" Level="2" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Sink" Level="2" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Swim" Level="2" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Tern's Persistance" Level="2" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Urchin's Spines" Level="2" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Detect Ship" Level="3" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Favorable Wind" Level="3" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Air Breathing" Level="3" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Water to Acid" Level="3" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Siren's Call" Level="4" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Disguise Ship" Level="4" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Aboleth Curse" Level="4" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Blackwater Tentacle" Level="5" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Flowsight" Level="5" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Thalassemia" Level="5" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Airy Water" Level="5" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Transformation of the Deeps" Level="5" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Mudslide" Level="6" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Blackwater Taint" Level="6" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Waterspout" Level="7" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Mordenkainen's Capable Caravel" Level="8" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Stormwalk" Level="8" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Depthsurge" Level="8" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Planar Navigation" Level="9" ReferenceAbbrev="Storm" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Wizard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Quickswim" Level="1" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Wave Blessing" Level="1" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Stormrunner's Ward" Level="2" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Turbidity" Level="2" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Pressure Sphere" Level="2" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Fins to Feet" Level="2" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Jaws of the Moray" Level="2" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Kuo-Toa Skin" Level="2" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Sink" Level="2" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Swim" Level="2" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Tern's Persistance" Level="2" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Urchin's Spines" Level="2" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Detect Ship" Level="3" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Favorable Wind" Level="3" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Air Breathing" Level="3" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Water to Acid" Level="3" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Siren's Call" Level="4" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Disguise Ship" Level="4" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Aboleth Curse" Level="4" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Blackwater Tentacle" Level="5" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Flowsight" Level="5" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Thalassemia" Level="5" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Airy Water" Level="5" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Transformation of the Deeps" Level="5" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Mudslide" Level="6" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Blackwater Taint" Level="6" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Waterspout" Level="7" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Mordenkainen's Capable Caravel" Level="8" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Stormwalk" Level="8" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Depthsurge" Level="8" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Planar Navigation" Level="9" ReferenceAbbrev="Storm" />
+      </SpellEntries>
+    </SpellList>
+  </SpellListEntries>
+  <Domains>
+    <Domain Name="Blackwater" Abbrev="BW">
+      <Power>You are immune to pressure damage from descending to any depth</Power>
+      <DomainEntries>
+        <SpellEntry Name="Cause Fear" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Pressure Sphere" Level="2" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Evard's Black Tentacles" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Transformation of the Deeps" Level="4" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Blackwater Tentacle" Level="5" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Blackwater Taint" Level="6" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Dark Tide" Level="7" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Maelstrom" Level="8" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Doom of the Seas" Level="9" ReferenceAbbrev="Storm" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Ocean" Abbrev="Ocean">
+      <Power>Breathe water as per Water Breathing for = CasterLevel*10 &amp; " rnds"</Power>
+      <DomainEntries>
+        <SpellEntry Name="Endure Elements" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Sound Burst" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Water Breathing" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Freedom of Movement" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Wall of Ice" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Otiluke's Freezing Sphere" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Waterspout" Level="7" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Maelstrom" Level="8" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Elemental Swarm" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Seafolk" Abbrev="SF">
+      <Power>You gain Expert Swimmer or Rapid Swimmer as a bonus feat</Power>
+      <DomainEntries>
+        <SpellEntry Name="Quickswim" Level="1" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Fins to Feet" Level="2" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Scales of the Sealord" Level="3" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Siren's Call" Level="4" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Commune with Nature" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Airy Water" Level="6" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Megalodon Empowerment" Level="7" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Depthsurge" Level="8" ReferenceAbbrev="Storm" />
+        <SpellEntry Name="Foresight" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+  </Domains>
+  <Classes />
+</Reference>

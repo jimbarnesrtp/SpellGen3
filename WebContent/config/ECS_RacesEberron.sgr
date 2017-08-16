@@ -1,0 +1,1245 @@
+<Reference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Sequence="2" Name="ECS - Races of Eberron" Group="Eberron" Abbrev="RcEbb" Version="1.01">
+  <Description>(c) 2005 by Wizards of the Coast, Inc
+
+Entered by Tristan Tewksbury
+
+1.01 - Fixed error in Insidious Suggestion. </Description>
+  <DevNotes>Mindset spells: Normally these cannot be learned by a Bard or Sorcerer without the Arcane Perparation feat (or similar effect). However, I am including the spells, and they should be excluded via the Mindset Descriptor unless your character prepares spells.
+
+The "Inflict X Damage, Mass" spell descriptions were incomplete. I assumed that they used the "Inflict X Damage" single-target versions as a base. This may prove to have been in error, but it seemed the logical way to go. Likewise for the "Repair X Damage, Mass" spells and their non-mass counterparts.
+</DevNotes>
+  <Spells>
+    <Spell OriginalReference="">
+      <Name>Aspect of the Werebeast</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Mind</Descriptor>
+            <Descriptor>Mindset</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area>You</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>false</SR>
+      <Description>Caster must be a shifter. You tranform into a hybrid of your natural form and one of a set of animals. Bonus depends on animal chosen, see text for details. Mindset: While prepared, spell grants +1 to duration of shifting.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Contruct Essence</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>183</Page>
+      <SR>true</SR>
+      <Description>Target a living construct, who takes on qualities of a true construct. Construct gains Heavy Fortification armor quality (negates Crit and Sneak dmg 100%) and immune to Ability dmg or drain, death effects, and necromancy effects and immunity to nonlethal dmg and Stunning. Construct also gains Darkvision out to 60 ft. This spell counters and dispels Humanoid Essence (or Lesser). If this spell is cast on the subject of a HE both spells are dispelled, while in the case of LHE, the LHE spell is ended. Spell has no effect on Greater Humanoid Essence.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Contruct Essence, Greater</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>183</Page>
+      <SR>true</SR>
+      <Description>As Construct Essence (RcEbb, p. 183) but with the following extra effects. Target loses living construct subtype for the duration of the spell. It becomes immune to Mind-affecting effects and any effect that requires a FORT save. Target construct is no longer affected by spells that target living creatures, so Healing spells provide no benefit. Construct has no CON score, although HP are not modified. This spell counters and dispels Greater Humanoid Essence, while any lesser HE spell is automatically ended.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Contruct Essence, Lesser</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>184</Page>
+      <SR>true</SR>
+      <Description>Target a living construct, who takes on qualities of a true construct. Construct gains Moderate Fortification armor quality (negates Crit and Sneak dmg 75%) as well as Low-light vision and immunity to nonlethal dmg and Stunning. This spell counters and dispels Lesser Humanoid Essence. If this spell is cast on the subject of a LHE spell, both spells are dispelled. Spell has no effect on Humanoid Essence or Greater Humanoid Essence.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Discern Shapechanger</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area>You</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>184</Page>
+      <SR>false</SR>
+      <Description>By taking a Std Act to concentrate, you can see the true form of creatures within 60 ft. If you look at a shapechanger in its true form, you can immediately tell it is a shifter, but you cannot determine its animal form.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Dominate Living Construct</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " days"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>184</Page>
+      <SR>true</SR>
+      <Description>As Dominate Person (PHB, p. XXX), except that it affects a living construct.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Doppelganger Transformation</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Mind</Descriptor>
+            <Descriptor>Mindset</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area>You</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>false</SR>
+      <Description>You gain +4 (enhance) to STR, DEX, CON, and CHA. You gain a +4 (NatArm) to AC (but this does not stack with other Natural Armor). You gain Darkvision out to 60 ft and are immune to Sleep and Charm effects for duration. Changeling casters cast this spell at +1 Caster Level. Mindset: while prepared, you gain a +2 bonus on Bluff and Disguise checks, and a +2 bonus on Saves against Sleep and Charm effects.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Enhanced Shifting</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1sw.</CastingTime>
+      <Range>Personal</Range>
+      <Duration>See Text</Duration>
+      <Area>You</Area>
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>184</Page>
+      <SR>false</SR>
+      <Description>="Caster must be shifter. If cast while shifting, you gain the following until the shift ends. Bonus granted to ability score improves from +2 to +4. You gain a +"&amp; Min(5, Int( CasterLevel /4)) &amp;" dmg bonus to any natural weapons you gain from your shift. You gain +10 to any movement forms gained from your shift. Lastly, the duration of your shift increased by +"&amp; Min(5, Int( CasterLevel /4)) &amp;" rds."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Extend Shifting</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1sw.</CastingTime>
+      <Range>Personal</Range>
+      <Duration>Inst.</Duration>
+      <Area>You</Area>
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>185</Page>
+      <SR>false</SR>
+      <Description>Caster must be a shifter. If you cast this spell while shifting, you extend duration of shift by 4 rds. When your shifting ends, you become Fatigued for 10 min. If you are already Fatigued or if another effect causes you to become Fatigued during this time, you become Exhausted.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Force Shapechange</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>185</Page>
+      <SR>true</SR>
+      <Description>="Specify up to "&amp; CasterLevel &amp;" targets. Any shapechanger targetted suffers 1d10 dmg and reverts to true form for the duration of this spell. Save negates reversion and halves dmg. For purposes of this spell, a shapeshifter is any creature with the Shapechanger type or an Su ability that allows it to assume an alternate form. See text for more information."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Furnace Within</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Fire</Descriptor>
+            <Descriptor>Mindset</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Centered</Range>
+      <Duration>Inst.</Duration>
+      <Area>10' r. brst</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>185</Page>
+      <SR>true</SR>
+      <Description>="Caster must be a dwarf. You release a burst that deals "&amp; Min(5, Int( CasterLevel /2)) &amp;"d8 fire dmg. The blast sets fire to combustables and dmgs objects in the area. If an interposing barrier shatters or breaks due to dmg from this spell, the blast may continue beyond the barrier if the area permits. Mindset: while prepared, all unarmed or natural weapon Att (or melee Att with metal weapons) deal +1 fire dmg."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Golem Immunity</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>186</Page>
+      <SR>true</SR>
+      <Description>The construct touched gains the Magic Immunity special quality of a particular golem, chosen at casting time. Construct is covered in a thin layer of appropriate material, and gains immunity to any spell or spell-like ability that allows SR. In addition, certain spells and effects function differently. See text for details.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Humanoid Essence</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>186</Page>
+      <SR>true</SR>
+      <Description>As Lesser Humanoid Essence (RcEbb, p. 187) but target construct gains the following additional effects. The construct becomes subject to Crit and Sneak dmg, nonlethal dmg, stunning, ability dmg or drain, and death or necromancy effects. A Warforged target loses Fortification ability. This spell counters and dispels Construct Essence, causing both spells to be dispelled. If target is affected by LCE, that spell immediately ends. It has no effect on Greater Construct Essence.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Humanoid Essence, Greater</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>186</Page>
+      <SR>true</SR>
+      <Description>As Humanoid Essence (RcEbb, p. 186) but target construct gains the following additional effects. The construct's type changes to Humanoid and it loses the Living Construct type for the duration. The target is now affected by Fatigue, Exhaustion, Energy Drain, Mind-affecting abilities, Poison, Paralysis, and Disease.. It can also be affected by spells that affect humanoids. This spell counters and dispels Greater Construct Essence, causing both spells to be dispelled. If target is affected by any lesser CE spell, that spell immediately ends.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Humanoid Essence, Lesser</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>187</Page>
+      <SR>true</SR>
+      <Description>Target construct takes on qualities of living creature, gaining full benefit from Healing subschool. This spell counters and dispels Lesser Construct Essence, causing both spells to be dispelled. It has no effect on Construct Essence (or Greater for that matter).</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Illusion Purge</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Centered</Range>
+      <Duration>= CasterLevel &amp; " min [d]"</Duration>
+      <Area>= CasterLevel *5 &amp;"' r. em."</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>187</Page>
+      <SR>false</SR>
+      <Description>Sphere around you negates all illusions of 7th level or lower. Anything concealed or altered by illusion appears in the natural state while in the area.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Inflict Light Damage, Mass</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>187</Page>
+      <SR>true</SR>
+      <Description>="Target up to "&amp; CasterLevel &amp;" constructs (no 2 &gt;30ft apart) who suffer 1d8+"&amp; Min(25, CasterLevel ) &amp;" dmg."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Inflict Moderate Damage, Mass</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>187</Page>
+      <SR>true</SR>
+      <Description>="Target up to "&amp; CasterLevel &amp;" constructs (no 2 &gt;30ft apart) who suffer 2d8+"&amp; Min(30, CasterLevel ) &amp;" dmg."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Insidious Insight</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Mind</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " days"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>187</Page>
+      <SR>true</SR>
+      <Description>Target a living creature. You gain insight that grants +10 (insight) on Bluff, Diplomacy, Intimidate, and Sense Motive checks made against target. Gnome spellcasters cast this spell at +1 Caster Level.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Insidious Suggestion</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind</Descriptor>
+            <Descriptor>Mindset</Descriptor>
+            <Descriptor>Language</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>See text</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>187</Page>
+      <SR>true</SR>
+      <Description>="When you cast this spell, it functions like a Suggestion (PHB, p, 285) except that if The target creature makes its save, the same suggestion is repeated on your turn in each subsequent round (max "&amp; CasterLevel &amp;"). The target creature must make another save each rd or be affected, acting out the specific course of action for up to "&amp; CasterLevel &amp;" hrs or until completed (as per Suggestion). Gnomes cast this spell at +1 Caster Level. Mindset: while prepared, caster gains +2 (compet) on Bluff, Diplomacy, and Intimidate checks."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Involuntary Shapeshifting</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>=Int( CasterLevel /2) &amp;" rds (d)"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>188</Page>
+      <SR>true</SR>
+      <Description>="For the duration of this spell, target creature is forced each rd to use a Su or Ex ability it has to change its shape until the uses of that ability are consumed or the spell ends. The change takes the normal time but target can perform other Acts if it has any remaining. Each changes, causes "&amp; Min(15, CasterLevel ) &amp;" dmg. Targets with multiple forms may chose which form each rd. If target does not shift (or the ability cannot currently function) then there is no effect."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Irian's Light</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area>Ray</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>188</Page>
+      <SR>true</SR>
+      <Description>="Channel up to "&amp; Min(4, 1+Max(0, Int(( CasterLevel -3)/4))) &amp;" rays as RTAs that heal living or deathless targets for 2d8 dmg or deal 2d8 dmg to undead. Rays may be fired at different targets, but all rays must be aimed at targets within 30 ft oe each other and fired simultaneously. Aerenal elf casters cast this spell at +1 Caster Level."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Misrepresent Alignment</Name>
+      <Schools>
+        <School>
+          <School>Illusion</School>
+          <Subschool>Glamer</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " hr [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>FocusOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>25</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (o)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>true</SR>
+      <Description>This spell conceals the true align of any object or creature from all forms of Divination, rendering a misleading result determined by the caster.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Natural Weapon Augmentation</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 min</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel *10 &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>100</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>188</Page>
+      <SR>true</SR>
+      <Description>As Lesser Natural Weapon Augmentation (RcEbb, p. 189 but you can choose any ability whose market price is equiv. to a +3 bonus (or less) or 70,000 gp, such as Speed. Warforged casters cast this spell at +1 CasterLevel.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Natural Weapon Augmentation, Greater</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 min</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel *10 &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>200</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>188</Page>
+      <SR>true</SR>
+      <Description>As Lesser Natural Weapon Augmentation (RcEbb, p. 189 but you can choose any ability whose market price is equiv. to a +5 bonus (or less) or 200,000 gp, such as Vorpal. Warforged casters cast this spell at +1 CasterLevel.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Natural Weapon Augmentation, Lesser</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 min</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel *10 &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>20</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>189</Page>
+      <SR>true</SR>
+      <Description>As Personal Natural Weapon Augmentation (RcEbb, p. 189 but can be caast on one natural weapon of any creature. Warforged casters cast this spell at +1 CasterLevel.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Natural Weapon Augmentation, Personal</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 min</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>189</Page>
+      <SR>false</SR>
+      <Description>One of your natural weapons gains weapon special ability whose market value is equivalent to +1 bonus or 10,000 gp. (See Table 7-14, p 223 DMG). The natural weapon does not have to have an existing enhancement bonus nor does it gain one shen you imbue it with this infusion. Warforged casters cast this spell at +1 CasterLevel.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Reachwalker's Wariness</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Centered</Range>
+      <Duration>= CasterLevel*10 &amp; " min"</Duration>
+      <Area>30' r. em.</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>189</Page>
+      <SR>false</SR>
+      <Description>You are instantly aware of the exact position of any aberration within the spherical area of this spell as if you had Blindsense (for Aberrations only). See MM, p. 306 for details on Blindsense. Shifters cast this spell at +1 Caster Level.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Repair Light Damage, Mass</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>true</SR>
+      <Description>="Up to "&amp; CasterLevel &amp;" constructs (no 2 &gt;30ft apart) are repaired for 1d8+"&amp; Min(25, CasterLevel ) &amp;" pts of dmg."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Repair Moderate Damage, Mass</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>true</SR>
+      <Description>="Up to "&amp; CasterLevel &amp;" constructs (no 2 &gt;30ft apart) are repaired for 2d8+"&amp; Min(30, CasterLevel ) &amp;" pts of dmg."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Ride of the Valenar</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel*10 &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>189</Page>
+      <SR>false</SR>
+      <Description>You gain a +5 (compet) to Ride checks. If your mount is also an animal companion, the bonus is +10. Elf casters from Valenar cast spell at +1 Caster Level.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Scorpion Tail</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>190</Page>
+      <SR>false</SR>
+      <Description>="Caster must be Drow. Target willing creature sprouts a scorpion tail. As a Free Act each rc, the target may Att any adjacent foe with the stinger, using its full melee bonus and dealing 2d6 (+STR Mod) dmg. Tail is treated as a Magic weapon for purposes of DR. Any creature wounded by tail must make FORT "&amp; SaveDC &amp;" or be Stunned for 1 rd."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Shifter Prowess</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1sw.</CastingTime>
+      <Range>Personal</Range>
+      <Duration>See text</Duration>
+      <Area>You</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>190</Page>
+      <SR>false</SR>
+      <Description>Caster must be Shifter. You increase racial bonus on Balance, Climb, and Jump checks by +8. This spell functions only if cast while shifting, and lasts until your shift ends.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Touch of Jorasco</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Healing</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>See text</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>190</Page>
+      <SR>true</SR>
+      <Description>="Caster must be halfling. You store "&amp; Min(10, CasterLevel *2) &amp;" points of healing energy within your form that can heal dmg on your or creature touched (wich takes Std Act but does not provoke AoO). Additional castings of Touch of Jorasco replenish reserve up to max points. As with all healing spells, ToJ deals dmg to undead creatures with a successful MTA that doesn't provoke AoO."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>True Seeing, Mass</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>1000</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>190</Page>
+      <SR>true</SR>
+      <Description>="As True Seeing spell (PHB, p. 296) except that if affects up to "&amp; CasterLevel &amp;" creatures."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Unfettered Heroism</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1im.</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area>You</Area>
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>false</SR>
+      <Description>Each rd spell lasts, you gain a free temp. action point. If you don't spend this point by beginning of your next turn, you lose it (though you may gain another one). In addition, while under the affect of this spell you can use more than one AP per rd (but limit of 1 per roll). You must have at least 1 AP to cast this spell. Once the spell ends, you become fatigued. Human casters cast spell at +1 Caster Level.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Unseen Crafter</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " days"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>191</Page>
+      <SR>false</SR>
+      <Description>="This spell functions as Unseen Servant (PHB, p. 297) except that the crafter can be assigned  any one task using Craft skill. Appropriate tools and materials must be provided; It makes Craft checks using your skill +"&amp; CastingMod &amp;". The crafter can take 10 or work quickly (Craft skill, PHB p. 70), but this must be part of the command given when spell is cast. Once Crafter has completed its task, the spell ends as if dismissed. When commanded to repair a Warforged, the crafter gets +10 on its check."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Wild Instincts</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Mindset</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1sw.</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area>You</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>191</Page>
+      <SR>false</SR>
+      <Description>You retain DEX mod to AC even if flat-footed or Att by unseen opponent, and you gain +10 (insight) on Listen and Spot checks. Mindset: while prepared, grants +1 (insight) on Listen and Spot checks (+2 for shifters). This bonus is replaced by bonus of spell when cast.</Description>
+    </Spell>
+  </Spells>
+  <SpellOverrides />
+  <SpellListEntries>
+    <SpellList Name="Artificer" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Natural Weapon Augmentation, Personal" Level="1" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Contruct Essence, Lesser" Level="2" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Natural Weapon Augmentation, Lesser" Level="2" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Unseen Crafter" Level="2" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Humanoid Essence, Lesser" Level="3" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Humanoid Essence" Level="4" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Natural Weapon Augmentation" Level="4" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Contruct Essence" Level="5" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Inflict Light Damage, Mass" Level="5" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Repair Light Damage, Mass" Level="5" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Dominate Living Construct" Level="5" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Humanoid Essence, Greater" Level="6" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Inflict Moderate Damage, Mass" Level="6" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Natural Weapon Augmentation, Greater" Level="6" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Repair Moderate Damage, Mass" Level="6" ReferenceAbbrev="RcEbb" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Sorcerer" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Extend Shifting" Level="1" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Shifter Prowess" Level="1" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Contruct Essence, Lesser" Level="2" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Insidious Insight" Level="2" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Misrepresent Alignment" Level="2" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Unseen Crafter" Level="2" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Furnace Within" Level="2" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Discern Shapechanger" Level="3" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Scorpion Tail" Level="3" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Involuntary Shapeshifting" Level="5" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Unfettered Heroism" Level="5" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Insidious Suggestion" Level="5" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Contruct Essence" Level="5" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Golem Immunity" Level="8" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Illusion Purge" Level="8" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Contruct Essence, Greater" Level="9" ReferenceAbbrev="RcEbb" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Wizard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Extend Shifting" Level="1" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Shifter Prowess" Level="1" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Contruct Essence, Lesser" Level="2" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Furnace Within" Level="2" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Insidious Insight" Level="2" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Misrepresent Alignment" Level="2" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Unseen Crafter" Level="2" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Discern Shapechanger" Level="3" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Scorpion Tail" Level="3" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Insidious Suggestion" Level="5" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Involuntary Shapeshifting" Level="5" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Unfettered Heroism" Level="5" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Contruct Essence" Level="5" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Golem Immunity" Level="8" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Illusion Purge" Level="8" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Contruct Essence, Greater" Level="9" ReferenceAbbrev="RcEbb" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Druid" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Extend Shifting" Level="1" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Ride of the Valenar" Level="1" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Shifter Prowess" Level="1" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Reachwalker's Wariness" Level="2" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Wild Instincts" Level="2" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Enhanced Shifting" Level="3" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Aspect of the Werebeast" Level="4" ReferenceAbbrev="RcEbb" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Ranger" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Extend Shifting" Level="1" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Ride of the Valenar" Level="1" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Shifter Prowess" Level="1" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Reachwalker's Wariness" Level="2" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Wild Instincts" Level="3" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Aspect of the Werebeast" Level="4" ReferenceAbbrev="RcEbb" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Cleric" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Touch of Jorasco" Level="1" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Unseen Crafter" Level="2" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Furnace Within" Level="3" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Humanoid Essence, Lesser" Level="3" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Irian's Light" Level="3" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Misrepresent Alignment" Level="3" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Humanoid Essence" Level="5" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Humanoid Essence, Greater" Level="7" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Golem Immunity" Level="8" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Illusion Purge" Level="8" ReferenceAbbrev="RcEbb" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Bard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Insidious Insight" Level="2" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Misrepresent Alignment" Level="2" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Unseen Crafter" Level="2" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Insidious Suggestion" Level="4" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Unfettered Heroism" Level="5" ReferenceAbbrev="RcEbb" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Magewright" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Unseen Crafter" Level="2" ReferenceAbbrev="RcEbb" />
+      </SpellEntries>
+    </SpellList>
+  </SpellListEntries>
+  <Domains>
+    <Domain Name="Transformation" Abbrev="Xfrm">
+      <Power>You cast Tranmutation spells at +1 Caster Level</Power>
+      <DomainEntries>
+        <SpellEntry Name="Doppelganger Transformation" Level="7" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Involuntary Shapeshifting" Level="4" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Alter Self" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Enlarge Person" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Gaseous Form" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Polymorph" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Baleful Polymorph" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Polymorph Any Object" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Shapechange" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Truth" Abbrev="Truth">
+      <Power>You gain a bonus to Sense Motive equal to Caster Level, and +1 Caster Level to Divination spells.</Power>
+      <DomainEntries>
+        <SpellEntry Name="Force Shapechange" Level="6" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Illusion Purge" Level="7" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="True Seeing, Mass" Level="9" ReferenceAbbrev="RcEbb" />
+        <SpellEntry Name="Detect Thoughts" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Zone of Truth" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="See Invisibility" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Discern Lies" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="True Seeing" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Discern Location" Level="8" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+  </Domains>
+  <Classes />
+</Reference>

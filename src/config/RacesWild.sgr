@@ -1,0 +1,400 @@
+<Reference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Sequence="1" Name="Races of the Wild" Group="" Abbrev="RcWld" Version="1">
+  <Description>(c) 2005 by Wizards of the Coast, Inc. 
+Entered by TT. </Description>
+  <DevNotes>Includes new Raptorian Sorcerer class. If your character includes a Raptorian Sorcerer replacement level, then replace the characters Sorcerer levels with Raptorian Sorcerer levels. This class gives you access to a spell list that includes the Raptorian Sorcerer spells as well as the standard Sorcerer spells.
+
+Fixed error in Dust to Dust description
+</DevNotes>
+  <Spells>
+    <Spell OriginalReference="">
+      <Name>Aerial Alacrity</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1sw.</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel *10 &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>false</SR>
+      <Description>You become more maneuverable while airborne. Your fly speed incr. by 30 ft, and your maneuverability improves by one catagory (max Perfect). See DMG, p. 20. While airborne, you gain a +1 (Dodge) to AC and on REF saves.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Dust to Dust</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area>Ray</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>174</Page>
+      <SR>true</SR>
+      <Description>="Ray springs from your finger, allowing RTA to hit your intended target. A corpse or Undead creature struck by the ray takes "&amp; Min(10, Int( CasterLevel /2 )) &amp;"d8 dmg. Any Large or smaller creature reduced to 0 or fewer HP are disintegrated. Ray has no effect on objects that are not corpses, so any equipment remains."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Enduring Flight</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Personal</Range>
+      <Duration>See Text</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>175</Page>
+      <SR>false</SR>
+      <Description>You can fly at normal speed while wearing medium armor or carrying up to a medium load. If you r ability to fly has a limited duration, that duration is doubled. This spell lasts as long as you remain airborne, it ends the moment you land.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Mastery of the Sky</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Air</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>175</Page>
+      <SR>false</SR>
+      <Description>While airborne, you gain +2 (competence) on attack and dmg rolls. Your maneuverability becomes Perfect. Your movement is unaffected by winds less than hurricane strength (p. 95, DMG). Ranged weapon attacks against you automatically miss, and even seige weapons take a -4 penalty on Att rolls. Melee Att made against you by Huge or smaller creatures have a 50% miss chance. Medium or smaller creatures cannot enter your space. This spell has no effect if cast underwater or in an airless environment.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Raptor's Sight</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " hr [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>175</Page>
+      <SR>false</SR>
+      <Description>You gain a +5 (competence) on Spot checks. If you have 5+ ranks in Spot, you take only half the normal range increment penalty for ranged Att (-1 per range increment rather than -2).</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Returning Weapon</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1sw.</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>175</Page>
+      <SR>false</SR>
+      <Description>The weapon targeted by this spell gains the ability to return (as the special abiltiy, p 225 of DMG).</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Summon Devoted Roc</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Summoning</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " hr [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>175</Page>
+      <SR>false</SR>
+      <Description>Spell summons a powerful Roc. It appears where you designate (assuming space is large enough for Gargant. creature) and acts immediately on your turn. You may command the Roc telepathically as a Free Act., allowing you to direct its actions os you desire. The Roc has normal statistics (p 215 MM) with the addition of a +5 (enhance) to Att, dmg, and saves. Its natural weapons are treated as magic weapons for the purpose of overcoming DR.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Summon Dire Hawk</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Summoning</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>175</Page>
+      <SR>false</SR>
+      <Description>Summon a Dire Hawk (p 189 of RcWld). It appears where you designate and acts immediately on your turn. You may command the Hawk telepathically as a Free Act., allowing you to direct its actions os you desire.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Woodland Veil</Name>
+      <Schools>
+        <School>
+          <School>Illusion</School>
+          <Subschool>Glamer</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel *10 &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>176</Page>
+      <SR>true</SR>
+      <Description>Target one or more creatures (no 2 &gt;30ft apart) who gain +5 (competence) to Hide and Move SIlently checks while outdoors in a natural setting. Spell has no effect in an urban settgin or indoors (including dungeons). Those affected by this spell can see and hear each other and themselves as if unaffected by the spell. Any affected creature moving more than 30 ft from another target loses the bonuses this spell provides.</Description>
+    </Spell>
+  </Spells>
+  <SpellOverrides />
+  <SpellListEntries>
+    <SpellList Name="Assassin" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Returning Weapon" Level="2" ReferenceAbbrev="RcWld" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Cleric" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Dust to Dust" Level="4" ReferenceAbbrev="RcWld" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Druid" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Raptor's Sight" Level="1" ReferenceAbbrev="RcWld" />
+        <SpellEntry Name="Summon Dire Hawk" Level="2" ReferenceAbbrev="RcWld" />
+        <SpellEntry Name="Woodland Veil" Level="2" ReferenceAbbrev="RcWld" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Ranger" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Raptor's Sight" Level="1" ReferenceAbbrev="RcWld" />
+        <SpellEntry Name="Woodland Veil" Level="2" ReferenceAbbrev="RcWld" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Sorcerer" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Returning Weapon" Level="2" ReferenceAbbrev="RcWld" />
+        <SpellEntry Name="Aerial Alacrity" Level="4" ReferenceAbbrev="RcWld" />
+        <SpellEntry Name="Enduring Flight" Level="4" ReferenceAbbrev="RcWld" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Wizard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Returning Weapon" Level="2" ReferenceAbbrev="RcWld" />
+        <SpellEntry Name="Aerial Alacrity" Level="4" ReferenceAbbrev="RcWld" />
+        <SpellEntry Name="Enduring Flight" Level="4" ReferenceAbbrev="RcWld" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="RaptSorc" Inherits="Sorcerer">
+      <SpellEntries>
+        <SpellEntry Name="Wind Wall" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Air Walk" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Control Winds" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Wind Walk" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Whirlwind" Level="8" ReferenceAbbrev="PHB" />
+      </SpellEntries>
+    </SpellList>
+  </SpellListEntries>
+  <Domains>
+    <Domain Name="Sky" Abbrev="Sky">
+      <Power>Your fly (or glide) speed incr. by 5 ft. Add Spot to your Clr class list.</Power>
+      <DomainEntries>
+        <SpellEntry Name="Raptor's Sight" Level="1" ReferenceAbbrev="RcWld" />
+        <SpellEntry Name="Summon Dire Hawk" Level="2" ReferenceAbbrev="RcWld" />
+        <SpellEntry Name="Enduring Flight" Level="3" ReferenceAbbrev="RcWld" />
+        <SpellEntry Name="Aerial Alacrity" Level="4" ReferenceAbbrev="RcWld" />
+        <SpellEntry Name="Mastery of the Sky" Level="8" ReferenceAbbrev="RcWld" />
+        <SpellEntry Name="Summon Devoted Roc" Level="9" ReferenceAbbrev="RcWld" />
+        <SpellEntry Name="Control Winds" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Reverse Gravity" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Wind Walk" Level="6" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+  </Domains>
+  <Classes>
+    <CasterClass>
+      <Name>Raptorian Sorcerer</Name>
+      <Abbrev>RaptSorc</Abbrev>
+      <SpellList>RaptSorc</SpellList>
+      <CasterType>Arcane</CasterType>
+      <HasCantrips>true</HasCantrips>
+      <MaxSpellLevel>9</MaxSpellLevel>
+      <MaxCasterLevel>20</MaxCasterLevel>
+      <CastingStat>Cha</CastingStat>
+      <BonusSpellStat>Cha</BonusSpellStat>
+      <SaveDCStat>Cha</SaveDCStat>
+      <KnowsAllSpells>false</KnowsAllSpells>
+      <KnowsAllCantrips>false</KnowsAllCantrips>
+      <SpellsKnown>true</SpellsKnown>
+      <CasterLevelMultiplier>1</CasterLevelMultiplier>
+      <SpellPyramid>
+        <Slots>5 3</Slots>
+        <Slots>6 4</Slots>
+        <Slots>6 5</Slots>
+        <Slots>6 6 3</Slots>
+        <Slots>6 6 4</Slots>
+        <Slots>6 6 5 3</Slots>
+        <Slots>6 6 6 4</Slots>
+        <Slots>6 6 6 5 3</Slots>
+        <Slots>6 6 6 6 4</Slots>
+        <Slots>6 6 6 6 5 3</Slots>
+        <Slots>6 6 6 6 6 4</Slots>
+        <Slots>6 6 6 6 6 5 3</Slots>
+        <Slots>6 6 6 6 6 6 4</Slots>
+        <Slots>6 6 6 6 6 6 5 3</Slots>
+        <Slots>6 6 6 6 6 6 6 4</Slots>
+        <Slots>6 6 6 6 6 6 6 5 3</Slots>
+        <Slots>6 6 6 6 6 6 6 6 4</Slots>
+        <Slots>6 6 6 6 6 6 6 6 5 3</Slots>
+        <Slots>6 6 6 6 6 6 6 6 6 4</Slots>
+        <Slots>6 6 6 6 6 6 6 6 6 6</Slots>
+      </SpellPyramid>
+      <KnownPyramid>
+        <Slots>4 2</Slots>
+        <Slots>5 2</Slots>
+        <Slots>5 3</Slots>
+        <Slots>6 3 1</Slots>
+        <Slots>6 4 2</Slots>
+        <Slots>7 4 2 1</Slots>
+        <Slots>7 5 3 2</Slots>
+        <Slots>8 5 3 2 1</Slots>
+        <Slots>8 5 4 3 2</Slots>
+        <Slots>9 5 4 3 2 1</Slots>
+        <Slots>9 5 5 4 3 2</Slots>
+        <Slots>9 5 5 4 3 2 1</Slots>
+        <Slots>9 5 5 4 4 3 2</Slots>
+        <Slots>9 5 5 4 4 3 2 1</Slots>
+        <Slots>9 5 5 4 4 4 3 2</Slots>
+        <Slots>9 5 5 4 4 4 3 2 1</Slots>
+        <Slots>9 5 5 4 4 4 3 3 2</Slots>
+        <Slots>9 5 5 4 4 4 3 3 2 1</Slots>
+        <Slots>9 5 5 4 4 4 3 3 3 2</Slots>
+        <Slots>9 5 5 4 4 4 3 3 3 3</Slots>
+      </KnownPyramid>
+      <ClassSpellPoints>
+        <UseSpellPoints>false</UseSpellPoints>
+        <GiveBonusSpellPointsForStat>true</GiveBonusSpellPointsForStat>
+        <SpellPointCosts />
+        <SpellPointValues />
+        <SpellPointTable ClassName="" />
+        <UseBonusSpellPointFormula>false</UseBonusSpellPointFormula>
+        <BonusSpellPointFormula />
+      </ClassSpellPoints>
+    </CasterClass>
+  </Classes>
+</Reference>

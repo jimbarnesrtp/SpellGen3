@@ -1,0 +1,793 @@
+<Reference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Sequence="2" Name="Heroes of Battle" Group="" Abbrev="HoB" Version="1.12">
+  <Description>(c) 2005 Wizards of the Coast
+ver. 1.11 fixed Spiritual * spells &#xD;
+&#xD;
+1.12 - Fixed Trip Vine</Description>
+  <DevNotes>Contains all spells. (MRF)
+Corrected Paladin spell list to be Paladin Base list
+Added Wizard Spell list
+Edited all spells, adding content and formulas
+
+1.11 (TT) Fixed Spiritual Cavalry and Spiritual Charger spells to use CastingMod rather than CastingStat.</DevNotes>
+  <Spells>
+    <Spell OriginalReference="">
+      <Name>Acid Rain</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors>
+            <Descriptor>Acid</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Long</Range>
+      <Duration>1 rnd</Duration>
+      <Area>20 ft. radius cylinder, 40 ft. high</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>false</SR>
+      <Description>="Deals 7d6 acid damage, area becomes muddy for "&amp; CasterLevel &amp;" rnds, requiring DC 10 balance check to move at normal spd.  Failure by 5 or more results in creature falling prone."
+
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Aerial Alarm</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel *2&amp; " hr [d]"</Duration>
+      <Area>100 ft. radius cylinder, 500 ft. high</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>FocusOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>124</Page>
+      <SR>false</SR>
+      <Description>Wards area, sounding mental or audible alarm each time a flying creature of Medium or larger size enters or touches the warded area (if not Astral or Etherial).</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Animate Legion</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area>One or more corpses, no two of which can be more than 30 ft. apart</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>100</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>124</Page>
+      <SR>false</SR>
+      <Description>="Creates skeletons or zombies from the dead, Up to "&amp;CasterLevel*2&amp;" HD total"</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Animate Siege Weapon</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area>One siege weapon of up to Gargantuan size</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>125</Page>
+      <SR>false</SR>
+      <Description>="Imbues Siege weapon with life, will attack your foes using a +"&amp;CasterLevel&amp;" attack bonus. Can designate new target as a free action"</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Battlefield Fortification</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Earth</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area>See text</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>125</Page>
+      <SR>false</SR>
+      <Description>="Create trench or berm up to "&amp;5*Int(CasterLevel/2)&amp;" ft long and 10 ft wide, will not work on stone"</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Battlefield Illumination</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Light</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Long</Range>
+      <Duration>= CasterLevel *10 &amp; " min [d]"</Duration>
+      <Area>80 ft. radius cylinder, 40 ft. high</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>125</Page>
+      <SR>false</SR>
+      <Description>Improve lighting in the area by one category, does not stack with other magical lighting effects.  Counters Early Twighlight, but no other darkness effects.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Battlemagic Perception</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel *10 &amp; " min [d]"</Duration>
+      <Area>You</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>125</Page>
+      <SR>false</SR>
+      <Description>Gain +5 Competence bonus on Spellcraft checks to identify a spell as cast, if at least 5 ranks Spellcraft can sense any spell or spell-like ability used w/in 100 ft, so long as you have line of effect. DC is 15+ spell's lvl to determine exact spell.  Allows Counter spelling as free action which ends this spells effects.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Blaze of Light</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Light</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>60 ft.</Range>
+      <Duration>Inst.</Duration>
+      <Area>Cone</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>125</Page>
+      <SR>true</SR>
+      <Description>All creatures within the cone that fail the save are dazzled for 1 minute.  Dispels darkness spells of equal or lower lvl.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Boiling Oil</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors>
+            <Descriptor>Fire</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>=min((1+Int(CasterLevel/3)),6) &amp; " rd [d]"</Duration>
+      <Area>10 ft. radius cylinder, 40 ft. high</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>125</Page>
+      <SR>false</SR>
+      <Description>Deals 4d6 damage (fire) on the first round, creatures that fail their initial save take an additional 2d6 dam in each subsequent round.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Consecrate Battlefield</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Good</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>10 min.</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; "day"</Duration>
+      <Area>100 ft. radius emanation</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>525</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>126</Page>
+      <SR>false</SR>
+      <Description>Fills area with positive energy. Turn attemps gain +3 (sacred) to CHA check. Every undead creature suffers -1 to att, dmg, and saves. Undead cannot be created or summoned in area. If area contains altar to your deity, modifiers are doubled, if altar is not to your deity, you curse the area instead (see text). Counter and dispels Desecrate and Desecrate Battlefield.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Crisis of Confidence</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " min [d]"</Duration>
+      <Area>One creature</Area>
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>126</Page>
+      <SR>true</SR>
+      <Description>Target's Commander rating is reduced to 0, looses commander aura, and no longer applies Charisma bonus to rally checks, Target gets bonus on Will save equal to its commander rating vs this spell.
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Desecrate Battlefield</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments>
+            <Alignment>Evil</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>10 min.</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " day"</Duration>
+      <Area>100 ft. radius emanation</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>525</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>126</Page>
+      <SR>false</SR>
+      <Description>Fills area with negative energy. Turn attemps gain -3 (profane) to CHA check. Every undead creature suffers+1 (profane) to att, dmg, and saves. Undead summoned in area gain +1 HP/HD. If area contains altar to your deity, modifiers are doubled, if altar is not to your deity, you curse the area instead (see text). Counters and dispels Consecrate and Consecrate Battlefield.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Drums of War</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>=" Concentration +" CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>FocusOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>126</Page>
+      <SR>true</SR>
+      <Description>Enemies take -2 penalty on attacks and saves 
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Early Twilight</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Darkness</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Long</Range>
+      <Duration>= CasterLevel *10 &amp; " min [d]"</Duration>
+      <Area>80 ft. radius cylinder, 40 ft. high</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>126</Page>
+      <SR>false</SR>
+      <Description>Reduce lighting in the area by one category, does not stack with other magical darkness effects.  Counters Battlefield Illumination, but no other light effects.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Hurtling Stone</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>60 ft.</Range>
+      <Duration>Inst.</Duration>
+      <Area>60 ft. line</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>127</Page>
+      <SR>false</SR>
+      <Description>Stone deals 6d6 damage, knocks medium or smaller foes prone.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Leomund's Billet</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel *2 &amp; " hr"</Duration>
+      <Area>20 ft. by 80 ft. structure</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>127</Page>
+      <SR>false</SR>
+      <Description>Creates sturdy barracks that can house up to 40 people.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Molten Strike</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Fire</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Long</Range>
+      <Duration>Inst.</Duration>
+      <Area>5 ft. radius burst</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>127</Page>
+      <SR>true</SR>
+      <Description>5-ft radius burst deals 2d6 fire damage, ignites any creature that fails the save inflicting an additional 1d6 damage per round until they succeed on a DC 15 reflex save to douse the fire.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Resounding Voice</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Sonic</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " min [d]"</Duration>
+      <Area>Creature Touched</Area>
+      <Components>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>127</Page>
+      <SR>true</SR>
+      <Description>="Subject can be heard clearly within "&amp;CasterLevel*100&amp;" ft, spell counters and is countered by silence"</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Shrieking Blast</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Sonic</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area>40 ft. radius burst</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>127</Page>
+      <SR>true</SR>
+      <Description>Creatures within radius are permanently deafened and take 8d6 damage, save reduces damage by half and deafness to 1 round.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Spiritual Cavalry</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Force</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>127</Page>
+      <SR>true</SR>
+      <Description>="Create up to "&amp; Min(5, Int( CasterLevel /4)) &amp;" Horsemen of force which immediately att an enemy within range (no more than 1 per enemy).  Att bonus is your BAB +"&amp; CastingMod &amp;".  If Able to charge, horseman recieves +2 Att bonus.  Deals 2d8+"&amp; Min(5, Int( CasterLevel /3)) &amp;" force dmg with 20x3 critical.  In addition any Large or Smaller creature struck must make a Fort " &amp; SaveDC &amp; " save or be knocked prone and trampled for +1d8 dmg."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Spiritual Charger</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Force</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area>Magic horseman of force</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>128</Page>
+      <SR>true</SR>
+      <Description>="Create a lance-armed horseman of force that immediately att enemy within range.  Att bonus is your BAB +"&amp; CastingMod &amp;" (Wis Bonus).  If Able to charge horseman recieves +2 Att bonus.  Deals 2d8+"&amp; Min(5, Int( CasterLevel /3)) &amp;" force dmg with 20x3 critical."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Status, Greater</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 min.</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " hr"</Duration>
+      <Area>= CasterLevel*10 &amp; " living creatures"</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>128</Page>
+      <SR>true</SR>
+      <Description>Monitors position of many allies (as Status, PHB pg284)</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Trip Vine</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " hr"</Duration>
+      <Area>= CasterLevel &amp; " - 10 ft. squares"</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>128</Page>
+      <SR>false</SR>
+      <Description>Creatures entering the area must save or fall prone, charging creatures take a -2 penalty to this save.</Description>
+    </Spell>
+  </Spells>
+  <SpellOverrides />
+  <SpellListEntries>
+    <SpellList Name="Bard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Resounding Voice" Level="2" ReferenceAbbrev="HoB" />
+        <SpellEntry Name="Crisis of Confidence" Level="3" ReferenceAbbrev="HoB" />
+        <SpellEntry Name="Drums of War" Level="4" ReferenceAbbrev="HoB" />
+        <SpellEntry Name="Leomund's Billet" Level="5" ReferenceAbbrev="HoB" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Cleric" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Resounding Voice" Level="2" ReferenceAbbrev="HoB" />
+        <SpellEntry Name="Battlemagic Perception" Level="3" ReferenceAbbrev="HoB" />
+        <SpellEntry Name="Spiritual Charger" Level="3" ReferenceAbbrev="HoB" />
+        <SpellEntry Name="Animate Legion" Level="4" ReferenceAbbrev="HoB" />
+        <SpellEntry Name="Battlefield Illumination" Level="4" ReferenceAbbrev="HoB" />
+        <SpellEntry Name="Early Twilight" Level="4" ReferenceAbbrev="HoB" />
+        <SpellEntry Name="Spiritual Cavalry" Level="5" ReferenceAbbrev="HoB" />
+        <SpellEntry Name="Status, Greater" Level="5" ReferenceAbbrev="HoB" />
+        <SpellEntry Name="Consecrate Battlefield" Level="6" ReferenceAbbrev="HoB" />
+        <SpellEntry Name="Desecrate Battlefield" Level="6" ReferenceAbbrev="HoB" />
+        <SpellEntry Name="Animate Siege Weapon" Level="7" ReferenceAbbrev="HoB" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Druid" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Blaze of Light" Level="2" ReferenceAbbrev="HoB" />
+        <SpellEntry Name="Trip Vine" Level="2" ReferenceAbbrev="HoB" />
+        <SpellEntry Name="Battlefield Illumination" Level="4" ReferenceAbbrev="HoB" />
+        <SpellEntry Name="Hurtling Stone" Level="4" ReferenceAbbrev="HoB" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Hexblade" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Crisis of Confidence" Level="2" ReferenceAbbrev="HoB" />
+        <SpellEntry Name="Early Twilight" Level="4" ReferenceAbbrev="HoB" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Healer" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Status, Greater" Level="6" ReferenceAbbrev="HoB" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Paladin base" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Blaze of Light" Level="1" ReferenceAbbrev="HoB" />
+        <SpellEntry Name="Battlefield Illumination" Level="4" ReferenceAbbrev="HoB" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Ranger" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Aerial Alarm" Level="2" ReferenceAbbrev="HoB" />
+        <SpellEntry Name="Trip Vine" Level="2" ReferenceAbbrev="HoB" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Sorcerer" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Aerial Alarm" Level="2" ReferenceAbbrev="HoB" />
+        <SpellEntry Name="Molten Strike" Level="2" ReferenceAbbrev="HoB" />
+        <SpellEntry Name="Battlemagic Perception" Level="3" ReferenceAbbrev="HoB" />
+        <SpellEntry Name="Boiling Oil" Level="4" ReferenceAbbrev="HoB" />
+        <SpellEntry Name="Early Twilight" Level="4" ReferenceAbbrev="HoB" />
+        <SpellEntry Name="Battlefield Fortification" Level="4" ReferenceAbbrev="HoB" />
+        <SpellEntry Name="Acid Rain" Level="5" ReferenceAbbrev="HoB" />
+        <SpellEntry Name="Leomund's Billet" Level="5" ReferenceAbbrev="HoB" />
+        <SpellEntry Name="Shrieking Blast" Level="5" ReferenceAbbrev="HoB" />
+        <SpellEntry Name="Animate Legion" Level="5" ReferenceAbbrev="HoB" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Wizard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Aerial Alarm" Level="2" ReferenceAbbrev="HoB" />
+        <SpellEntry Name="Molten Strike" Level="2" ReferenceAbbrev="HoB" />
+        <SpellEntry Name="Battlemagic Perception" Level="3" ReferenceAbbrev="HoB" />
+        <SpellEntry Name="Boiling Oil" Level="4" ReferenceAbbrev="HoB" />
+        <SpellEntry Name="Early Twilight" Level="4" ReferenceAbbrev="HoB" />
+        <SpellEntry Name="Battlefield Fortification" Level="4" ReferenceAbbrev="HoB" />
+        <SpellEntry Name="Acid Rain" Level="5" ReferenceAbbrev="HoB" />
+        <SpellEntry Name="Animate Legion" Level="5" ReferenceAbbrev="HoB" />
+        <SpellEntry Name="Leomund's Billet" Level="5" ReferenceAbbrev="HoB" />
+        <SpellEntry Name="Shrieking Blast" Level="5" ReferenceAbbrev="HoB" />
+      </SpellEntries>
+    </SpellList>
+  </SpellListEntries>
+  <Domains />
+  <Classes />
+</Reference>

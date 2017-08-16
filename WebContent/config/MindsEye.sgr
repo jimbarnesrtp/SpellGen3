@@ -1,0 +1,188 @@
+<Reference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Sequence="3" Name="Mind's Eye" Group="Psionics" Abbrev="MindsEye" Version="1">
+  <Description>These are the WotC powers that are listed on line.  The web address for them is http://www.wizards.com/default.asp?x=dnd/psm/20040827e &#xD;
+</Description>
+  <DevNotes />
+  <Spells>
+    <Spell OriginalReference="">
+      <Name>Call Item</Name>
+      <Schools>
+        <School>
+          <School>Psychoportation</School>
+          <Subschool>Teleportation</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>0 ft</Range>
+      <Duration>= CasterLevel * 10 &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>false</SR>
+      <Description>Summon a piece of nonmagical equipment worth 10 gp or less (ordinary material, can't get armor, weapons, or masterwork items).  You just specify the kind (silk rope, basket, torch, or some other item). Letting go for 2 or more consecutive rounds ends the summons.&#xD;
+Augment: &#xD;
+For +2 PP, item worth increases to 100 gp or less. &#xD;
+For +4 PP, item worth increases to 1,000 gp or less. </Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Change Fate</Name>
+      <Schools>
+        <School>
+          <School>Clairsentience</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 im</CastingTime>
+      <Range>Personal</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Mental</Component>
+        <Component>Visual</Component>
+        <Component>XP</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>500</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>false</SR>
+      <Description>Allows you to get a roll of "20" on one saving throw, ability check, or skill check (if trained, or have ranks). This affects the next roll after manifesting the power.  This guarentees success on a save.  An ability check success is not guarenteed.  For a skill check, apply 20, plus the ability modifier, ranks and other modifiers do not apply.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Combat Transformation</Name>
+      <Schools>
+        <School>
+          <School>Psychometabolism</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>false</SR>
+      <Description>You gain a +4 enhancement to Str, Dex, &amp; Con, a +4 natural armor bonus, a +5 comp. bonus on Fort saves, prof. with all simple and martial weapons. BAB equals character level, giving multiple attacks.  You cannot manifest powers or use items, except as a warrior uses items.&#xD;
+Augment: For +4 PP, +1 natural armor and the +2 Fort Saves.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Ectoplasmic Repair</Name>
+      <Schools>
+        <School>
+          <School>Metacreativity</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>10 ft</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Auditory</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>true</SR>
+      <Description>Mends small breaks or tears (not warps) in objects 1 lb. or less. Fixes one break in metallic objects, multiple breaks in ceramic, leather, or wooden objects.  The power can repair some psionic items, but the item's psionic abilities are not restored.  You can repair 1d4 points of damage to a construct with this power.&#xD;
+Augment: &#xD;
+Every +1 PP, +1 lb. affectable.&#xD;
+Every +2 PP, +1d4 points of repair to a construct.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Reach</Name>
+      <Schools>
+        <School>
+          <School>Psychometabolism</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties>
+            <Property>(A)</Property>
+          </Properties>
+        </School>
+      </Schools>
+      <CastingTime>1 sw</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Visual</Component>
+        <Component>Mental</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>false</SR>
+      <Description>="Increases threatened area by 5 ft."&amp; Environment.NewLine &amp;"Augment: For +4 PP, duration increases to "&amp;CasterLevel &amp; " min."</Description>
+    </Spell>
+  </Spells>
+  <SpellOverrides />
+  <SpellListEntries>
+    <SpellList Name="Psion/Wilder" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Call Item" Level="1" ReferenceAbbrev="MindsEye" />
+        <SpellEntry Name="Change Fate" Level="5" ReferenceAbbrev="MindsEye" />
+        <SpellEntry Name="Ectoplasmic Repair" Level="1" ReferenceAbbrev="MindsEye" />
+        <SpellEntry Name="Reach" Level="2" ReferenceAbbrev="MindsEye" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Psychic Warrior" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Reach" Level="2" ReferenceAbbrev="MindsEye" />
+        <SpellEntry Name="Ectoplasmic Repair" Level="1" ReferenceAbbrev="MindsEye" />
+        <SpellEntry Name="Combat Transformation" Level="6" ReferenceAbbrev="MindsEye" />
+        <SpellEntry Name="Change Fate" Level="5" ReferenceAbbrev="MindsEye" />
+        <SpellEntry Name="Call Item" Level="1" ReferenceAbbrev="MindsEye" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Egoist" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Combat Transformation" Level="6" ReferenceAbbrev="MindsEye" />
+      </SpellEntries>
+    </SpellList>
+  </SpellListEntries>
+  <Domains />
+  <Classes />
+</Reference>

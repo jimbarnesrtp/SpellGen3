@@ -1,0 +1,225 @@
+<Reference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Sequence="1" Name="Weapons of Legacy" Group="" Abbrev="WoL" Version="1.01">
+  <Description>1.01 - Fixed spell list recursion
+1.0 - Initial version
+ </Description>
+  <DevNotes />
+  <Spells>
+    <Spell OriginalReference="">
+      <Name>Revitalize Legacy, Greater</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " hr [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>false</SR>
+      <Description>Gain extra use of chosen greater legacy ability.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Revitalize Legacy, Least</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " hr [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>17</Page>
+      <SR>false</SR>
+      <Description>Gain extra use of chosen least legacy ability.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Revitalize Legacy, Lesser</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " hr [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>17</Page>
+      <SR>false</SR>
+      <Description>Gain extra use of chosen lesser legacy ability.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Sever Legacy</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Close</Range>
+      <Duration>Permanent</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>18</Page>
+      <SR>true</SR>
+      <Description>Target permanently loses all legacy abilities.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Suppress Legacy</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>18</Page>
+      <SR>true</SR>
+      <Description>Target temporarily loses all legacy abilities of one item.</Description>
+    </Spell>
+  </Spells>
+  <SpellOverrides />
+  <SpellListEntries>
+    <SpellList Name="Bard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Revitalize Legacy, Least" Level="3" ReferenceAbbrev="WoL" />
+        <SpellEntry Name="Revitalize Legacy, Lesser" Level="5" ReferenceAbbrev="WoL" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Cleric" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Revitalize Legacy, Least" Level="3" ReferenceAbbrev="WoL" />
+        <SpellEntry Name="Revitalize Legacy, Lesser" Level="5" ReferenceAbbrev="WoL" />
+        <SpellEntry Name="Revitalize Legacy, Greater" Level="9" ReferenceAbbrev="WoL" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Druid" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Revitalize Legacy, Least" Level="3" ReferenceAbbrev="WoL" />
+        <SpellEntry Name="Revitalize Legacy, Lesser" Level="5" ReferenceAbbrev="WoL" />
+        <SpellEntry Name="Revitalize Legacy, Greater" Level="9" ReferenceAbbrev="WoL" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Hexblade" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Suppress Legacy" Level="4" ReferenceAbbrev="WoL" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Paladin" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Revitalize Legacy, Least" Level="3" ReferenceAbbrev="WoL" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Ranger" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Revitalize Legacy, Least" Level="3" ReferenceAbbrev="WoL" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Shugenja" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Revitalize Legacy, Least" Level="3" ReferenceAbbrev="WoL" />
+        <SpellEntry Name="Revitalize Legacy, Lesser" Level="5" ReferenceAbbrev="WoL" />
+        <SpellEntry Name="Revitalize Legacy, Greater" Level="9" ReferenceAbbrev="WoL" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Sorcerer" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Revitalize Legacy, Least" Level="3" ReferenceAbbrev="WoL" />
+        <SpellEntry Name="Revitalize Legacy, Lesser" Level="5" ReferenceAbbrev="WoL" />
+        <SpellEntry Name="Suppress Legacy" Level="5" ReferenceAbbrev="WoL" />
+        <SpellEntry Name="Sever Legacy" Level="8" ReferenceAbbrev="WoL" />
+        <SpellEntry Name="Revitalize Legacy, Greater" Level="9" ReferenceAbbrev="WoL" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Wu Jen" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Revitalize Legacy, Least" Level="3" ReferenceAbbrev="WoL" />
+        <SpellEntry Name="Revitalize Legacy, Lesser" Level="5" ReferenceAbbrev="WoL" />
+        <SpellEntry Name="Suppress Legacy" Level="5" ReferenceAbbrev="WoL" />
+        <SpellEntry Name="Sever Legacy" Level="8" ReferenceAbbrev="WoL" />
+        <SpellEntry Name="Revitalize Legacy, Greater" Level="9" ReferenceAbbrev="WoL" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Wizard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Revitalize Legacy, Least" Level="3" ReferenceAbbrev="WoL" />
+        <SpellEntry Name="Revitalize Legacy, Lesser" Level="5" ReferenceAbbrev="WoL" />
+        <SpellEntry Name="Suppress Legacy" Level="5" ReferenceAbbrev="WoL" />
+        <SpellEntry Name="Sever Legacy" Level="8" ReferenceAbbrev="WoL" />
+        <SpellEntry Name="Revitalize Legacy, Greater" Level="9" ReferenceAbbrev="WoL" />
+      </SpellEntries>
+    </SpellList>
+  </SpellListEntries>
+  <Domains />
+  <Classes />
+</Reference>

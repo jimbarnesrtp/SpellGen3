@@ -1,0 +1,728 @@
+<Reference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Sequence="1" Name="Quintessential Cleric" Group="" Abbrev="QClr" Version="1">
+  <Description> </Description>
+  <DevNotes />
+  <Spells>
+    <Spell OriginalReference="">
+      <Name>Agony</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>true</SR>
+      <Description>Touch attack; creature suffers 1d8 subdual each round; -1 to attack, skill checks.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Rotbreath</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>2d4 rds</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>95</Page>
+      <SR>true</SR>
+      <Description>Cone of poisonous air; deals 3d8 damage from contact.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Thin Blood</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>1 hour</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>96</Page>
+      <SR>true</SR>
+      <Description>Target suffers 1 temp point of Str, Dex, Con dmg; all attacks deal +1 circumstance dmg.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Lung Burst</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg (txt)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>93</Page>
+      <SR>true</SR>
+      <Description>Melee touch attack; target's lungs fill with water, causing 1d8 subdual each round.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Material Disruption</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1r</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg (txt)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>93</Page>
+      <SR>false</SR>
+      <Description>=20+5*INT( CasterLevel /2)&amp;" ft. Burst washes over armor and weapons, deals "&amp;MIN(15, CasterLevel )&amp;"d4 damage to them."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Cavernous Travel</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Teleport</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>=20 *  CasterLevel &amp;" min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>90</Page>
+      <SR>false</SR>
+      <Description>Circle appears, and teleports anyone to an underground  temple dedicated to the caster's deity.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Crippling Fog</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " part (txt)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>91</Page>
+      <SR>true</SR>
+      <Description>Those within 50' wide, 10' high fog suffer 1 temp dmg to highest ability score per round.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Cultivation</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>91</Page>
+      <SR>false</SR>
+      <Description>Converts wilderness into cultivated fields sewn with crops.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Erosion</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>1d6 days</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>92</Page>
+      <SR>false</SR>
+      <Description>Winds shred leafy vegetation and top layers of soil; nothing grows for a year.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Healing Flame</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Healing</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>=5* CasterLevel &amp;" ft."</Range>
+      <Duration>= CasterLevel &amp;" rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>92</Page>
+      <SR>true</SR>
+      <Description>="Open flame held by caster lights "&amp;5* CasterLevel &amp;" ft., heals all within 1d4+"&amp; CastingMod &amp;" per full round."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Misfortune</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" weeks"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>93</Page>
+      <SR>true</SR>
+      <Description>Target suffers a -6 (Luck) penalty to all attacks, damage rolls, skill checks, and saves.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Oedema</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>94</Page>
+      <SR>true</SR>
+      <Description>="Targets (up to "&amp;3* CasterLevel &amp;" hd) suffer 2d8 dmg on 1st round, 1d8 dmg each addl round."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Totem Animal</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>96</Page>
+      <SR>false</SR>
+      <Description>="Caster gains +3 Str, +4 dodge to AC, +4d8 temp HP; exhausted for "&amp; CasterLevel &amp;" min after spell."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Avatar</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Summoning</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>90</Page>
+      <SR>false</SR>
+      <Description>Call forth an avatar of the caster's deity that smites unbelievers.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Deluge</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>5r</CastingTime>
+      <Range>Long</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " half (txt)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>91</Page>
+      <SR>true</SR>
+      <Description>Floods an area 50' wide, 20' high; causes 2d6 dmg 1st round, +1d6 each add. rd.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Drowning Poison</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>92</Page>
+      <SR>true</SR>
+      <Description>Anyone carrying poison w/i 100' circle,  save or die as poison fills veins to overflowing.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Exalted Domination</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp;" days"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>92</Page>
+      <SR>true</SR>
+      <Description>="Control up to "&amp; CasterLevel &amp;" hd of humanoids telepathically."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Mindcrypt</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp;" year (dischrg)"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>93</Page>
+      <SR>false</SR>
+      <Description>Those attempting a mind-affecting spell on the caster take 2d6 perm. INT dmg.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Obedient Growth</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>94</Page>
+      <SR>false</SR>
+      <Description>="All plant growth in "&amp; CasterLevel &amp;" acre ("&amp;14520* CasterLevel &amp;" sq. ft.) area grow to caster's desires."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Relocation</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Teleport</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>1 mile</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>94</Page>
+      <SR>true</SR>
+      <Description>All religious creatures within 100' radius burst are teleported to temple of deity they venerate.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Revelation</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>60 feet</Range>
+      <Duration>= CasterLevel &amp;" hours"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>94</Page>
+      <SR>false</SR>
+      <Description>Caster automatically detects any traps, poisons, secret doors, creatures in 60' quarter circle.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Spectral Gallows</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>95</Page>
+      <SR>true</SR>
+      <Description>="Tentacles pin, choke life from creatures in "&amp;50+5* CasterLevel &amp;" ft. radius."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Thief Soul</Name>
+      <Schools>
+        <School>
+          <School>Necromancy</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 min</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" hours"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>96</Page>
+      <SR>false</SR>
+      <Description>Caster gains the skills of deceased rogue, but not the ability scores.</Description>
+    </Spell>
+  </Spells>
+  <SpellOverrides />
+  <SpellListEntries>
+    <SpellList Name="Cleric" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Agony" Level="3" ReferenceAbbrev="QClr" />
+        <SpellEntry Name="Rotbreath" Level="3" ReferenceAbbrev="QClr" />
+        <SpellEntry Name="Thin Blood" Level="3" ReferenceAbbrev="QClr" />
+        <SpellEntry Name="Lung Burst" Level="5" ReferenceAbbrev="QClr" />
+        <SpellEntry Name="Material Disruption" Level="6" ReferenceAbbrev="QClr" />
+        <SpellEntry Name="Cavernous Travel" Level="7" ReferenceAbbrev="QClr" />
+        <SpellEntry Name="Crippling Fog" Level="7" ReferenceAbbrev="QClr" />
+        <SpellEntry Name="Cultivation" Level="7" ReferenceAbbrev="QClr" />
+        <SpellEntry Name="Erosion" Level="7" ReferenceAbbrev="QClr" />
+        <SpellEntry Name="Healing Flame" Level="7" ReferenceAbbrev="QClr" />
+        <SpellEntry Name="Misfortune" Level="7" ReferenceAbbrev="QClr" />
+        <SpellEntry Name="Oedema" Level="7" ReferenceAbbrev="QClr" />
+        <SpellEntry Name="Totem Animal" Level="7" ReferenceAbbrev="QClr" />
+        <SpellEntry Name="Avatar" Level="9" ReferenceAbbrev="QClr" />
+        <SpellEntry Name="Deluge" Level="9" ReferenceAbbrev="QClr" />
+        <SpellEntry Name="Drowning Poison" Level="9" ReferenceAbbrev="QClr" />
+        <SpellEntry Name="Exalted Domination" Level="9" ReferenceAbbrev="QClr" />
+        <SpellEntry Name="Mindcrypt" Level="9" ReferenceAbbrev="QClr" />
+        <SpellEntry Name="Obedient Growth" Level="9" ReferenceAbbrev="QClr" />
+        <SpellEntry Name="Relocation" Level="9" ReferenceAbbrev="QClr" />
+        <SpellEntry Name="Revelation" Level="9" ReferenceAbbrev="QClr" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Druid" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Material Disruption" Level="5" ReferenceAbbrev="QClr" />
+        <SpellEntry Name="Cultivation" Level="6" ReferenceAbbrev="QClr" />
+        <SpellEntry Name="Lung Burst" Level="6" ReferenceAbbrev="QClr" />
+        <SpellEntry Name="Totem Animal" Level="6" ReferenceAbbrev="QClr" />
+        <SpellEntry Name="Obedient Growth" Level="7" ReferenceAbbrev="QClr" />
+        <SpellEntry Name="Cavernous Travel" Level="8" ReferenceAbbrev="QClr" />
+        <SpellEntry Name="Drowning Poison" Level="8" ReferenceAbbrev="QClr" />
+        <SpellEntry Name="Healing Flame" Level="8" ReferenceAbbrev="QClr" />
+        <SpellEntry Name="Oedema" Level="8" ReferenceAbbrev="QClr" />
+        <SpellEntry Name="Deluge" Level="9" ReferenceAbbrev="QClr" />
+        <SpellEntry Name="Revelation" Level="9" ReferenceAbbrev="QClr" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Sorcerer" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Thin Blood" Level="3" ReferenceAbbrev="QClr" />
+        <SpellEntry Name="Agony" Level="5" ReferenceAbbrev="QClr" />
+        <SpellEntry Name="Crippling Fog" Level="8" ReferenceAbbrev="QClr" />
+        <SpellEntry Name="Mindcrypt" Level="9" ReferenceAbbrev="QClr" />
+        <SpellEntry Name="Spectral Gallows" Level="9" ReferenceAbbrev="QClr" />
+        <SpellEntry Name="Thief Soul" Level="9" ReferenceAbbrev="QClr" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Wizard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Thin Blood" Level="3" ReferenceAbbrev="QClr" />
+        <SpellEntry Name="Agony" Level="5" ReferenceAbbrev="QClr" />
+        <SpellEntry Name="Crippling Fog" Level="8" ReferenceAbbrev="QClr" />
+        <SpellEntry Name="Mindcrypt" Level="9" ReferenceAbbrev="QClr" />
+        <SpellEntry Name="Spectral Gallows" Level="9" ReferenceAbbrev="QClr" />
+        <SpellEntry Name="Thief Soul" Level="9" ReferenceAbbrev="QClr" />
+      </SpellEntries>
+    </SpellList>
+  </SpellListEntries>
+  <Domains />
+  <Classes />
+</Reference>

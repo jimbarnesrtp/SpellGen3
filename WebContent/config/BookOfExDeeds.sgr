@@ -1,0 +1,3466 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Reference xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  Sequence="2" Name="Book of Exalted Deeds" Group="" Abbrev="BoED" Version="1.1">
+  <Description>(c) 2003 by Wizards of the Coast, Inc. 
+Entered by BI.
+
+1.1 - All spell list and domain uploaded, Sanctified spells added (after spell name there is an abbr. (S)) to each standard nonspontaneous casting class' spell list (Cleric, Druid, Paladin, Ranger, Wizard).
+
+
+</Description>
+  <DevNotes>1.03 - Removed duplicate version of Sword of Conscience
+1.02 - Paladin spell list
+1.01 - Name change
+</DevNotes>
+  <Spells>
+    <Spell OriginalReference="">
+      <Name>Affliction</Name>
+      <School>Necromancy</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>89</Page>
+      <SR>true</SR>
+      <Description>Evil creature touched suffers from one Affliction (BoED 35)
+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Amber Sarcophagus</Name>
+      <School>Evocation</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments />
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel&amp; " day"</Duration>
+      <Area>1 cr.</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>90</Page>
+      <SR>true</SR>
+      <Description>="Succeeding on a RTA with an amber sphere, the target is trapped within a translucent, immobile amber shell. Target is in stasis &amp; protected against all att. The amber sarcophagus has hardness 5 and " &amp; Min(CasterLevel*10,200) &amp; " hp. If it is reduced to 0 hp, it shatters to worthless amberdust, at which point target is released from stasis, flat-footed. Material Comp: an amber sphere worth at least 500 gp"</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Armageddon (S)</Name>
+      <School>Conjuration</School>
+      <Subschool>Summoning</Subschool>
+      <Descriptors />
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>90</Page>
+      <SR>false</SR>
+      <Description>Calls several celestials from one of the good-aligned outer planes: 1st rd 2d4 avorals, 3rd rd a ghaele eladrin, 5th rd an astral deva. Caster must be Good and there must be evil foes to fight!
+Sacrifiece: 1 character level.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Aspect of the Deity</Name>
+      <School>Transmutation</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>91</Page>
+      <SR>false</SR>
+      <Description>="You take all qualities of a celestial creature: shining, metallic appearance; Smite evil 1/day (+"&amp;CHAbonus&amp;" to Att, +"&amp;CharacterLevel&amp;" to dmg); darkvision 60';  Resist 20 acid, cold and electricity, DR 10/magic; SR 25. Your cr. type is unchanged."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Aspect of the Deity, Gr.</Name>
+      <School>Transmutation</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>91</Page>
+      <SR>false</SR>
+      <Description>You take on the qualities of a half-celestial except spell like abilities: gain feathered wings (fly at 2 * normal sp /goog man./); +1 nat armor (stack w. existing nat. armor); low-light vision; imm. to acid, cold and electr.; +4 racial b. on saves ag. poison; +4 STR, CON, WIS, CHA, +2 DEX, INT (enh). Became an outsider for the duration of the spell.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Aspect of the Deity, Less</Name>
+      <School>Transmutation</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>91</Page>
+      <SR>false</SR>
+      <Description>Gain +4 CHA (enh), Resist 10 acid, cold and electr.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Axiomatic Creature</Name>
+      <School>Transmutation</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments />
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Permanent</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+        <Component>XP</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>1000</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>91</Page>
+      <SR>true</SR>
+      <Description>(Caster: Archon). One corporeal L or N cr native to the Material Plane transforms into an axiomatic cr. (animals become magical beasts, Int 2 or less become 3). SA - Smite Chaos (Su): 1/d 1 att +1hp/HD (max +20) vs chaotic cr.; SQ - Linked Minds (Ex): Target can communicate with other axiomatic cr w/in 300'; darkv 60'; SR HD*2 (max 25); Resistance cold, elec, fire, sonic based on HD:
+1-3   4-7   8-11   12+
+  5    10     15     20
+Material Comp: a diamond wand (10 000gp)</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Ayailla's Radiant Burst (S)</Name>
+      <School>Evocation</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>60 ft.</Range>
+      <Duration>Inst.</Duration>
+      <Area>Cone-sh b.</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>91</Page>
+      <SR>true</SR>
+      <Description>="Heavenly light spray blinds evil cr. (Fort " &amp; SaveDC &amp; " neg) and dealing " &amp; Min(Int(CasterLevel/2),5) &amp; " divine dmg (Ref " &amp; SaveDC &amp; " half.) Sacrifice: 1d2 STR dmg"</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Bastion of Good</Name>
+      <School>Abjuration</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>20 feet</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area>20' rad. sp. em.</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>92</Page>
+      <SR>false</SR>
+      <Description>Minor globe of invlunerability and double-strength magic circle ag. evil 20' radius: +4 AC (defl); +4 saves (res); prot. from possession, mental control, bodily contact by summ. cr. SpecComp: Abstinence: fast for 24 hr</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Blessed Sight</Name>
+      <School>Divination</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments />
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>92</Page>
+      <SR>true</SR>
+      <Description>The caster's eyes glow white &amp; he/she can see the Alignment Aura of Evil cr., spells, or obj. in a 120' cone-shaped emanation. Although similar to Detect Evil, this spell does not require concentration &amp; sees the location &amp; strengths of all auras within the emanation on the first rd.This spell is blocked by 3' of wood or dirt, 1' of stone, 1" of metal, &amp; any amount of lead. An 'Overwhelming' aura may Stun a Goodaligned caster for 1 rd.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Blinding Beauty</Name>
+      <School>Transmutation</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>92</Page>
+      <SR>false</SR>
+      <Description>="Gain the physical beauty of a nymph. All humanoids within 60' must save Fort " &amp; SaveDC &amp; " or be blinded permanently. This effect can be supressed or resumed as a free action. SpecComp: Abstinence: sex, 1 week."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Blinding Glory</Name>
+      <School>Conjuration</School>
+      <Subschool>Creation</Subschool>
+      <Descriptors />
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1 hr.</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " hr"</Duration>
+      <Area>= CasterLevel*100 &amp; "ft (sp) cent"</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>92</Page>
+      <SR>false</SR>
+      <Description>Brilliant radiance like daylight, but no magical darkness counters or dispels it. All evil-aligned cr. are blinded. Brought into magical darkness (or vice versa) temp neg.=&gt; normal light cond. exist in overlaping areas. Arcane Material Comp: a polished rod of pure silver</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Blood of the Martyr</Name>
+      <School>Necromancy</School>
+      <Subschool>Healing</Subschool>
+      <Descriptors />
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>92</Page>
+      <SR>true</SR>
+      <Description>The caster transfers his/her own hit-points (minimum 20) to a willing or unconscious creature. The subject is healed as per a Cure Wounds spell, so any excess hp are lost. The caster looses the hp as if he/her had taken damage.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Bolt of Glory</Name>
+      <School>Evocation</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>92</Page>
+      <SR>false</SR>
+      <Description>RTA with a bolt of energy from the Positive Energy Plane ag. 1 cr. Dmg depends on subj's nature and home plane:
+Material Plane                 5d8
+Elemental, neutral outs    5d6
+Pos. En. Pl., good outs   none
+Evil outs, undead cr.      10d8
+Neg. En. Pl.                   15d8</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Brilliant Emanation (S)</Name>
+      <School>Evocation</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>1d4 rd</Duration>
+      <Area>= 100+CasterLevel*10 &amp;"' rad em."</Area>
+      <Components />
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>92</Page>
+      <SR>true</SR>
+      <Description>This spell causes a divine glow to radiate from any reflective object worn or carried by the caster (eg. armor). Evil cr. must save on Fort or be blinded, else distracted: -1 to att. Cr. must see visible light!
+Sacrifice: 1d3 Str dmg.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Call Faithfull Servants</Name>
+      <School>Conjuration</School>
+      <Subschool>Calling</Subschool>
+      <Descriptors />
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1 min.</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>1</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>93</Page>
+      <SR>false</SR>
+      <Description>="(Caster: Celestial) Caster calls 1d4 LG lantern archons from Celestia, 1d4 CG coure eladrin (BoED 168) from Arborea, or 1d4 NG musteval guardinals from Elysium. They serve caster up to 1 year. Caster can control no more than " &amp; 2*CasterLevel &amp;" HD worth cr. SpecComp: Abstinence: Caster must abstain from casting Conj spells for 3 days prior casting this spell"</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Call Mount</Name>
+      <School>Conjuration</School>
+      <Subschool>Calling</Subschool>
+      <Descriptors />
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>10' </Range>
+      <Duration>= CasterLevel &amp; " hr [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>93</Page>
+      <SR>false</SR>
+      <Description>The caster summons his/her special mount for the spell's duration. This is the same as the Call Mount class ability, but can be used in addition to that ability.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Celestial Aspect (S)</Name>
+      <School>Transmutation</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>93</Page>
+      <SR>true</SR>
+      <Description>Target can assume one of several celestial traits. As a free action target may switch betw. traits 1/rd. Armblade: target's arm reshapes into a +1 flaming longsw. or +1 holy longsw. (or shortsw.); Eyes of the Firre: 1/rd as stand. act. deal 2d6 fire dmg within 60'; Horns of the Cervidal: By charging target may make a single gore att. 1d8+1,5 STRmod dmg (any summoned or called cr. dismissed instantly); Wings of the Astral Deva: gain wings Fly 100' (good)
+Sacrifice: 1d3 Str dmg.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Celestial Blood</Name>
+      <School>Abjuration</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1 round</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>94</Page>
+      <SR>true</SR>
+      <Description>Subject gains resistance 10 (acid, cold, elec), DR10/evil, +4 save/poison. Mat.comp: vial of holy water</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Celestial Brilliance</Name>
+      <School>Evocation</School>
+      <Subschool />
+      <Descriptors>
+        <Descriptor>Light</Descriptor>
+      </Descriptors>
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " day [d]"</Duration>
+      <Area>Object t.</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>94</Page>
+      <SR>false</SR>
+      <Description>Touched object sheds bright light to 60' and dim light to another 60'. Undead cr. takes 1d6 dmg/rd, evil outs &amp; undead spec. harmed by sunlight takes 2d6 dmg/rd within bright light. It counters or dispels any 4th or lower level darkness spell.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Chaav's Laugh</Name>
+      <School>Enchantment</School>
+      <Subschool>Compulsion</Subschool>
+      <Descriptors>
+        <Descriptor>Mind-affecting</Descriptor>
+      </Descriptors>
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>40 feet</Range>
+      <Duration>= CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>94</Page>
+      <SR>true</SR>
+      <Description>="Good cr. gain +2 Morale to att, saves vs fear and 1d8+"&amp;MIN(20, CasterLevel )&amp;" temp hp. Evil cr. must save or take -2 Morale to att, saves vs fear. Cr. must be able to hear!"</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Channel Celestial (S)</Name>
+      <School>Transmutation</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel *10 &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>94</Page>
+      <SR>false</SR>
+      <Description>Max 12 HD willing celestial occupies your body (BoED 23) SpecComp: Abstinence: intoxications &amp; stimulants, 24 hr, must not be subject of any spells, must not be suffering from any ability dmg, ability drain, or energy drain at the time of casting.
+Sacrifiece: 1d3 Str and Dex dmg</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Channel Celestial, Gr. (S)</Name>
+      <School>Transmutation</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel *10 &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>94</Page>
+      <SR>false</SR>
+      <Description>Max 24 HD willing celestial occupies your body (BoED 23) SpecComp: Abstinence: intoxications &amp; stimulants, 1 week, must not be the subject of any spell, must not be suffering from any ability dmg, ability drain, or energy drain at the time of casting.
+Sacrifiece: 1d6 Str and Dex dmg</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Constricting Chains (S)</Name>
+      <School>Evocation</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>94</Page>
+      <SR>false</SR>
+      <Description>="A chain of scintillating light entangles (-2 Att, -4 eff Dex) and anchored 1 cr. to the nearest solid obj. (eg. floor). An entangled cr. must succeed on Conc (DC 15+spell level) or lose his/her spell. The chain automatically constrict the bound cr. for 3d6 non-lethal dmg/rd unless caster commands chains not to deal dmg. Chains have AC20 &amp; " &amp; Min(CasterLevel*5,100) &amp; " hp &amp; DR 10/magic, imm to energy-based att., non-lethal dmg, all spells exept dispel magic and similar eff, not subj of critical. Half of the dmg delt to the chains is transferred to the target. A successful DC 32 STR check or a DC 40 Escape Artist check ends the spell. Focus: a small silver chain (10 gp), SpecComp: Sacrifice: 1d2 Str drain."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Convert Wand</Name>
+      <School>Transmutation</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments />
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>95</Page>
+      <SR>false</SR>
+      <Description>Temporarily transforms a wand into a healing wand of the same level.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Crown of Brilliance</Name>
+      <School>Evocation</School>
+      <Subschool />
+      <Descriptors>
+        <Descriptor>Light</Descriptor>
+      </Descriptors>
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>20'</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>95</Page>
+      <SR>true</SR>
+      <Description>(Caster: Archon) A blazing crown of golden light surrounds your head. Creatures w/in range must save or be blinded for 1d4 rd. Cr. successfully save or recovered from blindness are still dazzled as long as they remain melee with you. Cr. with light sensitivity &amp; cr harmed by sunlight must make a Will save or must leave the 20' rad. em. area. Undead w/in the area take 1d6 dmg/rd. Material Comp: an opal (100gp).</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Crown of Flame</Name>
+      <School>Evocation</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>10'</Range>
+      <Duration>= CasterLevel &amp;" min"</Duration>
+      <Area>10' rad em.[c]</Area>
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>95</Page>
+      <SR>true</SR>
+      <Description>(Caster: Archon) All evil outsiders, -undead, and -fey w/in 10' of you take 2d6 dmg/rd.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Crown of Glory</Name>
+      <School>Evocation</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>= CasterLevel*10 &amp;"ft"</Range>
+      <Duration>= CasterLevel &amp;" min"</Duration>
+      <Area>= CasterLevel*10 &amp;"ft rad em.[c]"</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>95</Page>
+      <SR>true</SR>
+      <Description>Gain an aura of celestial authority; Cr. 8HD or lower must save or be enthralled and are subjects of a suggestion spell (telepat). Material Comp: an opal (200 gp)</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Cry of Ysgard (S)</Name>
+      <School>Conjuration</School>
+      <Subschool>Calling</Subschool>
+      <Descriptors />
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>95</Page>
+      <SR>false</SR>
+      <Description>You call 2d4 bariaur defenders of Ysgard (BoED 165) They serve you up to a year. They can refuse to complete a quest or otherwise take on complex burdens without your supervision. Cannot controll more than 4 cr. at a time.
+Sacrifice: 1d3 Str drain.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Curtain of Light (S)</Name>
+      <School>Evocation</School>
+      <Subschool />
+      <Descriptors>
+        <Descriptor>Light</Descriptor>
+      </Descriptors>
+      <Alignments />
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>96</Page>
+      <SR>false</SR>
+      <Description>="An immobile, vertical curtain of brilliant light energy springs existence, which area is up to " &amp;CasterLevel&amp; "ft square. One side of the curtain send flashes of light dealing to evil cr. 2d4 dmg within 10' and 1d4 dmg within 20' (at casting, and at the beginning of the caster's turn each rd). Curtain deals 2d6+" &amp;Min(CasterLevel,20)&amp; " dmg to any evil cr passing through it. Undead cr contact w/ the curtain suffer double dmg. Permanent curtain that is destroyed becomes inactive for 10min. It counters any 5th or lower level magical darkness. Any 5th or higher level magical darkness counters it. The curtian can be destroyed w/ antimagic field, dispel magic (gr) &amp; Mordenkainen's disjunction. Sacrifice: 1d4 Str dmg."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Dancing Web</Name>
+      <School>Evocation</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area>20' burst</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>96</Page>
+      <SR>true</SR>
+      <Description>="This spell creates a burst of magical energy that deals " &amp;Min(CasterLevel,10) &amp; "d6 non-lethal dmg to cr (not obj). Evil cr. fail their save becoming entangled (-2 att, -4 eff. DEX, half speed, cannot run or charge, caster needs Conc (DC15)) Arcane Matereial Comp: a bit of spider web"</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Diamond Spray (S)</Name>
+      <School>Evocation</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>60'</Range>
+      <Duration>Inst.</Duration>
+      <Area>Cone-sh burst</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>96</Page>
+      <SR>true</SR>
+      <Description>="A blast of diamond like shards causes " &amp;Min(CasterLevel,10) &amp;"d6 dmg and dazzles for 2d6 rd evil cr in a cone-shaped burst area. Reflex halves dmg, but not dazzling eff. Material Comp: diamond dust (100gp)"</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Distilled Joy</Name>
+      <School>Transmutation</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments />
+      <CastingTime>1 day</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Permanent</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>96</Page>
+      <SR>true</SR>
+      <Description>Caster draw forth the material essence of joy from cr experiencing gr. bliss. This manifestation called ambrosia. It can be used in magic item creation (-2xp/vial), optional spell comp (+2 eff. caster level to 1 Good spell, MP: 200gp) or drinking it cures 1 hp. Focus: a vial or similar container in which to contain ambrosia.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Divine Inspiration (S)</Name>
+      <School>Divination</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments />
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>1d4 rd</Duration>
+      <Area />
+      <Components />
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>96</Page>
+      <SR>true</SR>
+      <Description>Target gains +3 sacred bonus on att vs evil cr.
+Sacrifice: 1d2 STR dmg.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Divine Sacrifice</Name>
+      <School>Necromancy</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments />
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd [disch]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>97</Page>
+      <SR>true</SR>
+      <Description>At casting time, the caster takes up to 10 hp of damage. For each 2 hp, the caster does +1d6 damage on the next successful att (within the spell's duration).</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Dolorous Motes</Name>
+      <School>Enchantment</School>
+      <Subschool>Compulsion</Subschool>
+      <Descriptors>
+        <Descriptor>Mind-affecting</Descriptor>
+      </Descriptors>
+      <Alignments />
+      <CastingTime>1a</CastingTime>
+      <Range>Long</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area>= CasterLevel &amp; "*10'-cube"</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>97</Page>
+      <SR>true</SR>
+      <Description>="Caster can create " &amp;CasterLevel&amp; "*10'-cube (need not be adjacent) cloud of motes. Cr. each rd while inside or passing through a cloud must save or be dazed for 1 rd (take no act, no pen. to AC). Clouds are stationary. Sacrifice: 1d3 WIS dmg"</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Dragon Cloud (S)</Name>
+      <School>Conjuration</School>
+      <Subschool>Calling</Subschool>
+      <Descriptors>
+        <Descriptor>Air</Descriptor>
+      </Descriptors>
+      <Alignments />
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Spec</Range>
+      <Duration>= 1+CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>97</Page>
+      <SR>false</SR>
+      <Description>The spell makes a cloud to a dragon-shaped air elemental (must cast in outdoors). It arrives 1 min after casting. SpecComp: Sacrifice: 1d3 CON dmg.
+Dragon Cloud: Huge elemental (air, extraplanar, good); HD 21d8+84 hp 178; Init +10; Spd Fly 150' (av.); AC26, touch 14, flat-footed 20; BAB +15; Grap +30; Atk +20 melee (2d6+10/19-20, bite); Full Atk +20 melee (2d6+7/19-20, bite), +15 melee (2d4+32, claws), Space/Reach 15'/15'; SA breath wp (100' line burst of lightning every 1d4 rd, 10d6 electr, Ref DC24 half); SQ darkv 60', DR 10/magic, elemental traits; AL N; SV Fort +11, Ref +18, Will +7, STR 25, DEX 23, CON 18, INT 6, WIS 11, CHA 11. Skills &amp; Feats: Listen +19, Spot +19; Dodge, Flyby Att, Imp Crit. (bite), Imp Init, Mobility, Spring Att.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Ease Pain</Name>
+      <School>Conjuration</School>
+      <Subschool>Healing</Subschool>
+      <Descriptors />
+      <Alignments />
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>97</Page>
+      <SR>true</SR>
+      <Description>Imm. removes any lingering eff. of pain. It does not heal any dmg not directly related to pain. If the target cr. under some eff. that causes continuing dmg, the pain eased only for a moment, thus cannot bypass the need for Conc to cast a spell.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Eladrin Form</Name>
+      <School>Transmutation</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>97</Page>
+      <SR>false</SR>
+      <Description>Caster became an incorporeal 5' diameter globe of eldritch colors, gain Spd 150' (perf); can pass through walls &amp; solid obj; can use any spell-like or psionic ab he/she has, but cannot cast or make phisical att; Can be harmed only by incorporeal cr, +1 or better magic wp, psionics, spells, spell-like ab., or supernatural ab.; Ignore 50% dmg from corporeal source (except pos. en., neg. en., force eff or ghost touch wp).</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Elation</Name>
+      <School>Enchantment</School>
+      <Subschool />
+      <Descriptors>
+        <Descriptor>Mind-affecting</Descriptor>
+      </Descriptors>
+      <Alignments />
+      <CastingTime>1a</CastingTime>
+      <Range>80'</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>98</Page>
+      <SR>true</SR>
+      <Description>Allies within range gain +2 Morale STR and DEX, and +5' of movement</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Emerald Burst</Name>
+      <School>Evocation</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area>20' rad burst</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>98</Page>
+      <SR>true</SR>
+      <Description>W/in the burst N cr are dazed for 1 rd, E cr. are stunned for 1d4 rd, G cr. unaffected. Material Comp: emerald (1000gp)</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Empyreal Ecstasy</Name>
+      <School>Abjuration</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments />
+      <CastingTime>1 rd.</CastingTime>
+      <Range>30'</Range>
+      <Duration>= CasterLevel &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>98</Page>
+      <SR>true</SR>
+      <Description>Imm. removes any lingering eff. of pain. It does neighter prevens dmg nor blocks other eff not directly related to pain.
+Additionally: renders its target imm to mind-aff. spells &amp; eff. but doesn't negate mind-influencing eff. already in place; target takes only half dmg from all melee &amp; ranged att; but takes -4 on all skill ch &amp; must Conc DC15 to be able cast.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>End to Strife</Name>
+      <School>Enchantment</School>
+      <Subschool>Compulsion</Subschool>
+      <Descriptors>
+        <Descriptor>Mind-affecting</Descriptor>
+      </Descriptors>
+      <Alignments />
+      <CastingTime>1a</CastingTime>
+      <Range>80'</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area>80' rad. em.</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>98</Page>
+      <SR>true</SR>
+      <Description>Targets within the emanation take 20d6 dmg (lethal or non-lethal) every time they make an attack (target knows about the effect before it makes its att)</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Energetic Healing</Name>
+      <School>Conjuration</School>
+      <Subschool>Healing</Subschool>
+      <Descriptors />
+      <Alignments />
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel *10&amp;" min [disch]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>98</Page>
+      <SR>true</SR>
+      <Description>="Subject is immune to specified magical energy (acid, cold, elec, fire, or sonic) and takes 10% of dmg as healing, discharges after healing "&amp;MIN(30, CasterLevel *2)&amp;" hp"</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Energize Potion</Name>
+      <School>Transmutation</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments />
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area>10' rad burst</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>98</Page>
+      <SR>true</SR>
+      <Description>A magic potion can be made into a 10' rad burst of one specified energy (acid, cold, elec, fire, or sonic) at the point of impact. The potion deals 1d6 hp dmg per spell level (max 3d6). Material Comp: A magical potion</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Estanna's Stew</Name>
+      <School>Conjuration</School>
+      <Subschool>Healing</Subschool>
+      <Descriptors />
+      <Alignments />
+      <CastingTime>1 rd.</CastingTime>
+      <Range>0'</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>50</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>99</Page>
+      <SR>true</SR>
+      <Description>="The held stew pot is filled with "&amp;Min(Int(CasterLevel/2),5) &amp;" serving of healing stew, which disappears after 1 hour. Each creature who consumes a serving (as a Standard Action) is healed 1d6+1 hp. An Undead within 10' that is splashed with the stew takes 1d6+1 Positive damage per serving still in the pot (Will " &amp; SaveDC &amp; " half, SR applies). Focus: An engraved stewpot (50a)"</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Exalted Fury (S)</Name>
+      <School>Evocation</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>40'</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>99</Page>
+      <SR>true</SR>
+      <Description>All evil creatures in a 40' rad burst around the caster take caster's current hp+50 in dmg.
+Sacrifice: Caster dies. He/she can be raised or resurrect normally.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Exalted Raiment (S)</Name>
+      <School>Abjuration</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments />
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>99</Page>
+      <SR>true</SR>
+      <Description>="Imbue a robe, priestly garment or outfit with divine energy, which bestowes the following effects to a Good cr.: +" &amp; min(int(CasterLevel/5),4) &amp; " AC (sacred), DR 20/evil, SR " &amp; 5+min(CasterLevel,20) &amp; "; Reduces ab. dmg due to spell casting by 1 (min. 1). Sacrifice: 1d4 STR dmg."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Eyes of the Avoral</Name>
+      <School>Transmutation</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments />
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>=10 *  CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>99</Page>
+      <SR>true</SR>
+      <Description>Subject gains +8 racial bonus to Spot</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Faerinaal's Hymn</Name>
+      <School>Enchantment</School>
+      <Subschool>Compulsion</Subschool>
+      <Descriptors>
+        <Descriptor>Mind-affecting</Descriptor>
+      </Descriptors>
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Conc</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>true</SR>
+      <Description>= &amp; CasterLevel &amp;" evil cr cannot make AoO. Target must be able to hear the hymn."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Glorious Raiment</Name>
+      <School>Abjuration</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>99</Page>
+      <SR>true</SR>
+      <Description>="Imbue a robe, priestly garment or outfit with divine energy, which bestowes the following effects to a Good cr.: +" &amp; min(int(CasterLevel/5),4) &amp; " AC (sacred), DR 5/evil. SpecComp: Sacrifice: 1d4 STR dmg."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Glory of the Marty</Name>
+      <School>Abjuration</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " hr [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>50</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>99</Page>
+      <SR>true</SR>
+      <Description>= CasterLevel &amp; " target gains a +1 AC (defl) &amp; a +1 SV (resist) Half of all hit-point damage that each target takes is actually taken by the caster. If caster dies while spell is in eff, all target is healed 1d8 hp. If target moves out of range that subj's connection severed. Spell ends, when duration expires, caster die, or all alive target move out of range. Focus: platinum ring (50gp)"</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Greater Status</Name>
+      <School>Divination</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments />
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" hours"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>100</Page>
+      <SR>true</SR>
+      <Description>= "Caster knows "&amp; INT( CasterLevel/3) &amp;" touched cr's status at any range. Cr. can be the subject of low level (0-2), harmless, touch spells through the link."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Hammer of Rightousness(S)</Name>
+      <School>Evocation</School>
+      <Subschool />
+      <Descriptors>
+        <Descriptor>Force</Descriptor>
+      </Descriptors>
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>100</Page>
+      <SR>true</SR>
+      <Description>="A great hammer of pos en. strikes foe unerringly w/in range dealing " &amp; CasterLevel &amp; "d6 (or d8 to evil) dmg (which could be lethal or non-lethal). Hammer is considered a Force eff and no misschence vs incorporeal cr. Sacrifice: 1d3 STR dmg."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Healing Touch</Name>
+      <School>Necromancy</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>100</Page>
+      <SR>true</SR>
+      <Description>="Caster transforms his/her life essence to another cr. healing it up to " &amp; min(int(CasterLevel/2),10) &amp;"d6 hp. Caster takes same amount of dmg. The spell cannot restore more hp to target than caster's current hp+10, which kills him/her."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Heart's Ease</Name>
+      <School>Enchantment</School>
+      <Subschool>Compulsion</Subschool>
+      <Descriptors>
+        <Descriptor>Mind-affecting</Descriptor>
+      </Descriptors>
+      <Alignments />
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Perm.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>100</Page>
+      <SR>true</SR>
+      <Description>= CasterLevel &amp;" creatures are cured of fear, despair, mind-affecting cond (except charms &amp; compulsions); cures confusion &amp; insanity, restores 2d4 WIS dmg"</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Heavenly Lightning</Name>
+      <School>Evocation</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>100</Page>
+      <SR>true</SR>
+      <Description>="Up to " &amp; Int(CasterLevel/2) &amp; " cr take 3d6 hp celestial electricity dmg. Electricity imm. or prot. from electricity does not apply."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Heavenly Lightning Storm</Name>
+      <School>Evocation</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area>="10' wide to "25+int(CasterLevel/2)"'"</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>100</Page>
+      <SR>true</SR>
+      <Description>="Up to " &amp; CasterLevel &amp; " cr take 5d6 hp celestial electricity dmg. Electricity imm. or prot. from electricity does not apply."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Heaven's Trumpet</Name>
+      <School>Evocation</School>
+      <Subschool />
+      <Descriptors>
+        <Descriptor>Sonic</Descriptor>
+      </Descriptors>
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>120'</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components />
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>101</Page>
+      <SR>true</SR>
+      <Description>(Caster: Archon) All foes w/in 120' must save or be paralyzed for 1d4 rd. Focus: a MW trumpet</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Inquisition (S)</Name>
+      <School>Enchantment</School>
+      <Subschool>Compulsion</Subschool>
+      <Descriptors>
+        <Descriptor>Mind-affecting</Descriptor>
+      </Descriptors>
+      <Alignments />
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>See text</Duration>
+      <Area />
+      <Components />
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>101</Page>
+      <SR>true</SR>
+      <Description>="Target (min Int 6) cannot lie or missleading caster. Must answer to " &amp; Int(CasterLevel/3) &amp; " questions. Sacrifice: 1d4 CON dmg"</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Inspired Aim</Name>
+      <School>Enchantment</School>
+      <Subschool>Compulsion</Subschool>
+      <Descriptors>
+        <Descriptor>Mind-affecting</Descriptor>
+        <Descriptor>Language</Descriptor>
+      </Descriptors>
+      <Alignments />
+      <CastingTime>1a</CastingTime>
+      <Range>40'</Range>
+      <Duration>Concen.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>101</Page>
+      <SR>true</SR>
+      <Description>Allies within range gain +2 insight on all ranged attacks</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Lantern Light</Name>
+      <School>Evocation</School>
+      <Subschool />
+      <Descriptors>
+        <Descriptor>Light</Descriptor>
+      </Descriptors>
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area>ray</Area>
+      <Components>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>101</Page>
+      <SR>true</SR>
+      <Description>="One 1d6 damage ray may be fired each round with RTA, up to "&amp;CasterLevel&amp;" ray. SpecComp: Abstinance:sex, 24 hrs."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Last Judgement</Name>
+      <School>Necromancy</School>
+      <Subschool />
+      <Descriptors>
+        <Descriptor>Darkness</Descriptor>
+      </Descriptors>
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>102</Page>
+      <SR>true</SR>
+      <Description>="(Caster: Celestial) " &amp; int(CasterLevel/2) &amp;" evil humanoid, monstrous humanoid or giant w/in range must save or be struck dead and bodily transported to the appropriate Lower Plane. Cr. succeed nevetherless take 3d6 temp WIS dmg. A true resurrection (body must be recoverd first!) or miracle spell can restore life to a cr. slain by this spell normally."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Lastai's Caress</Name>
+      <School>Enchantment</School>
+      <Subschool>Compulsion</Subschool>
+      <Descriptors>
+        <Descriptor>Mind-affecting</Descriptor>
+      </Descriptors>
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>102</Page>
+      <SR>true</SR>
+      <Description>One known evil cr. with a successful MTA can be filled with pleasant feelings. Target must wrestle with this feelings. Each rd roll a d4 to see what cond. appl. to the subj. that round (1-cowering, 2-frightened, 3-nauseated, 4-shaken) or leave the cr. shaken for the duration of the spell. Materinal Comp: a peach seed.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Leonal's Roar</Name>
+      <School>Evocation</School>
+      <Subschool />
+      <Descriptors>
+        <Descriptor>Sonic</Descriptor>
+      </Descriptors>
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>40'</Range>
+      <Duration>Inst.</Duration>
+      <Area>40' rad spread [c]</Area>
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>102</Page>
+      <SR>true</SR>
+      <Description>="As holy word (PHB 242) plus 2d6 sonic dmg to nongood cr. in 40' rad spread [c]. A successful Fort save negates the sonic dmg. Target cr's HD &gt; " &amp;CasterLevel&amp; " None; HD = " &amp;CasterLevel&amp; " Deafened; HD &lt;= " &amp;CasterLevel-1&amp; " also Blinded; HD &lt;= " &amp;CasterLevel-5&amp; " also Paralyzed; HD &lt;= " &amp;CasterLevel-10&amp; " also killed"</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Luminous Armor (S)</Name>
+      <School>Abjuration</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments />
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " hr [d]"</Duration>
+      <Area />
+      <Components />
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>102</Page>
+      <SR>true</SR>
+      <Description>One good cr touched gains +5 AC (armor) and armor's brightness causes opp. to take -4 pen to melee att. vs target (stacks with light sensitivity) Light also counters 2nd or lower level magical darkness.
+Sacrifice: 1d2 STR dmg.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Luminous Armor, Gr (S)</Name>
+      <School>Abjuration</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments />
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " hr [d]"</Duration>
+      <Area />
+      <Components />
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>102</Page>
+      <SR>true</SR>
+      <Description>One good cr touched gains +8 AC (armor) and armor's brightness causes opp. to take -4 pen to melee att. vs target (stacks with light sensitivity) Light also counters 2nd or lower level magical darkness.
+Sacrifice: 1d3 STR dmg.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Mind Bond</Name>
+      <School>Divination</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments />
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>102</Page>
+      <SR>false</SR>
+      <Description>="The caster and his/her Special Mount gain an advantage in combat: When the caster &amp; the Special Mount flank an opponent, each gains a +4 bonus to Att (instead of a +2); the Special Mount gains +1 Comp bonus on attack rolls for every 3 Paladin Levels caster poss. (max +5) as long as it remains within spell's range."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Moment of Clarity</Name>
+      <School>Abjuration</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments />
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>103</Page>
+      <SR>false</SR>
+      <Description>Touched subjects gains a new save against a current mind-affecting spell or effect. The effect must allow a save or this spell is wasted.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Path of the Exalted (S)</Name>
+      <School>Divination</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments />
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>1 decision; see text</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>103</Page>
+      <SR>false</SR>
+      <Description>Spell allows the caster to consult his/her deity (or an agent of his/her deity) to help make a difficult decision. It doesn't reveal unknown factors, but merely helps the caster analyze known elements. If the caster is not in favor with his/her deity, this spell may not work until the caster atones. SpecComp: Abstinence: Divination spell casting, 24hr.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Perfect Summons</Name>
+      <School>Transmutation</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " hr"</Duration>
+      <Area>40' rad spread</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>103</Page>
+      <SR>false</SR>
+      <Description>Create an area in which only Good cr. can be magically summoned. If a summoner was attempting to summon a N or an E cr., the G cr. that appears besides is not bound to obey the commands of the summoner or att his enemies. Instead it deals with the summ. as it sees fit (eg. att evil caster). The summoning spell cannot be dismissed, but can be dispelled.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Phieran's Resolve (S)</Name>
+      <School>Abjuration</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>20'</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area>= CasterLevel &amp; " good cr in 20' rad b"</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>103</Page>
+      <SR>true</SR>
+      <Description>Spell grants targets +4 sacred bonus on saves vs spells of Evil descriptor.
+Sacrifice: 1d3 STR dmg.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Phoenix Fire (S)</Name>
+      <School>Necromancy</School>
+      <Subschool />
+      <Descriptors>
+        <Descriptor>Fire</Descriptor>
+      </Descriptors>
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>15'</Range>
+      <Duration>Inst.</Duration>
+      <Area>15' r spread</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>103</Page>
+      <SR>true</SR>
+      <Description>="You immolate yourself, consuming your flesh in a cloud of flame 20' high, 30' in diameter. You die (no save, no SR). Every evil creature w/in cloud take "&amp;Min(CasterLevel*2,40)&amp;"d6 dmg, N cr. takes half dmg (Ref save one-quarter), G cr. do not dmg. Half of the dmg is fire, half is divine power (no resist apply). After 10 min. you rise from your ashes as restored from life with resurrection spell. Focus: A tail feather from a phoenix (40gp) Sacrifice: Your death and the lost level when you return to life."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Quickshift</Name>
+      <School>Transmutation</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>false</SR>
+      <Description>(Caster: Celestial) Caster's teleport or greater teleport spell-like ability is quickened.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Radiant Fog</Name>
+      <School>Conjuration</School>
+      <Subschool>Creation</Subschool>
+      <Descriptors />
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>104</Page>
+      <SR>true</SR>
+      <Description>As solid fog (PHB 281), but it shimmers with brilliant celestial radiance. Cr. w/in cloud must save or be dazzled (-1 att) as long as they remain in cloud + 1 min, cr. with light sensitivity also are blinded. SR applies to reduced MV, melee att &amp; dmg pen, and dazzling or blinding eff, but not concealment. SpecComp: Abstinence: darkness or necro spell casting, 24 hr.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Radiant Shield</Name>
+      <School>Evocation</School>
+      <Subschool />
+      <Descriptors>
+        <Descriptor>Electricity</Descriptor>
+      </Descriptors>
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>104</Page>
+      <SR>false</SR>
+      <Description>="Any cr. striking with natural or handheld wp deals normal dmg, but also takes 1d6+" &amp;CasterLevel&amp; " electricity dmg (SR applies). You take only half dmg electricity based att or none with a succ Ref SV. The radiance as bright as a light spell. SpecComp: Abstinence: darkness or necro spell casting, 24 hr"</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Rain of Black Tulips</Name>
+      <School>Evocation</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>Long</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area>80' r/h Cylinder</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>104</Page>
+      <SR>true</SR>
+      <Description>Tulips fall from sky exploding with divine energy upon striking Evil cr., which take 5d6 dmg. (no save). Evil cr must save Fort or be nauseated (unable att, cast spells, conc on spells, or take anything than a single move action per turn). Material comp: a black tulip.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Rain of Embers (S)</Name>
+      <School>Evocation</School>
+      <Subschool />
+      <Descriptors>
+        <Descriptor>Fire</Descriptor>
+      </Descriptors>
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area>40' r/120' h Cylinder</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " half (txt)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>104</Page>
+      <SR>true</SR>
+      <Description>40' rad, 120' high cylinder, 10d6 damage/rd to Evil cr., half fire, half divine. A shield or a shield spell oriented upward provides cover bonus on Ref SV (+2 small, +4 large /or shield spell/, +7 tower)
+Sacrifice: 1d2 STR drain.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Rain of Roses</Name>
+      <School>Evocation</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>Long</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area>80' r/h Cylinder</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>105</Page>
+      <SR>true</SR>
+      <Description>Red roses fall from sky. Evil cr. take 1d4 temp. WIS dmg / rd (no save). A cr. reduced to 0 WIS falls unconscious. Evil cr must save Fort or be sickened (-2 att, dmg, saves, ability &amp; skill checks). Material comp: a red rose.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Ray of Hope</Name>
+      <School>Enchantment</School>
+      <Subschool>Compulsion</Subschool>
+      <Descriptors>
+        <Descriptor>Mind-affecting</Descriptor>
+      </Descriptors>
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>105</Page>
+      <SR>true</SR>
+      <Description>One living cr gains +2 morale bonus on SV, att, ability &amp; skill checks. Counters and dispels sorrow (BoVD 104)</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Refreshment</Name>
+      <School>Conjuration</School>
+      <Subschool>Healing</Subschool>
+      <Descriptors />
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>20'</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>105</Page>
+      <SR>true</SR>
+      <Description>In a 20' rad burst centerd on caster remove all non-lethal dmg targets have taken.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Remove Addiction</Name>
+      <School>Conjuration</School>
+      <Subschool>Healing</Subschool>
+      <Descriptors />
+      <Alignments />
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>105</Page>
+      <SR>true</SR>
+      <Description>Cures all addiction that target cr. suffers from.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Remove Fatigue</Name>
+      <School>Transmutation</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments />
+      <CastingTime>10 min.</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>105</Page>
+      <SR>true</SR>
+      <Description>Cr. gain the benefits of 8 hr restful sleep. If target was fatigued, penalties are removed. If target was exhausted, becomes fatigued but only needs 1 hr rest to eliminate fatigue. If target well rested, does not need rest or sleep during the next 24 hr. Arcane spellcasters must still rest their minds for 8 hr in order to prepare or ready spells</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Remove Nausea</Name>
+      <School>Conjuration</School>
+      <Subschool>Healing</Subschool>
+      <Descriptors />
+      <Alignments />
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>105</Page>
+      <SR>true</SR>
+      <Description>Restores to health who is nauseated or sickened. It cures only effects, not disease, poison or other effects.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Restores Soul's Treasure(S)</Name>
+      <School>Transmutation</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments />
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components />
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>105</Page>
+      <SR>false</SR>
+      <Description>If the target has lost a valuable item as a result of the spell soul's treasure lost (BoVD 104), this spell restores that item. Must be cast w/in 4 hr of the destruction of the item.
+Sacrifice: 1d4 CON drain.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Righteous Glare</Name>
+      <School>Necromancy</School>
+      <Subschool />
+      <Descriptors>
+        <Descriptor>Death</Descriptor>
+      </Descriptors>
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>105</Page>
+      <SR>false</SR>
+      <Description>="You gain gaze att: Evil cr. with 5HD or less w/in 60' must save (Will " &amp; SaveDC &amp; ") or die. On a succesfull save target affected by fear spell for 2d10 rd. Neatral cr. and evil cr. more than 5 HD must succ. on a Will save or suffer fear effect."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Righteous Smite</Name>
+      <School>Evocation</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " part (txt)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>106</Page>
+      <SR>true</SR>
+      <Description>="20' radius spread, "&amp;MIN(20, CasterLevel )&amp;"d6/d8 to evil creatures/outsiders, blinds for 1d4 rd, half damage. Neutral cr. takes only half dmg (1/4 with succ. Will) and no blinding eff."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Sacred Guardian</Name>
+      <School>Divination</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments />
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " day"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>106</Page>
+      <SR>true</SR>
+      <Description>(Caster: Celestial) You know status of subject and can teleport or scry w/out error.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Sacred Haven</Name>
+      <School>Abjuration</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments />
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>106</Page>
+      <SR>true</SR>
+      <Description>One touched creatures gains an aura of light: +2 Sacred bonus to AC; does not lose DEX mod to AC when Flat-Footed; The caster knows the subject's position (distance &amp; direction) and condition (unharmed, wounded, disabled, staggered, unconscious, dying, dead, etc.) &amp; can use his/her Lay on Hands ability on the subject at any range.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Sanctify the Wicked (S)</Name>
+      <School>Necromancy</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>1 year(see text)</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Focus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>106</Page>
+      <SR>true</SR>
+      <Description>Traps evil creature in a diamond for one year, than releases it as a sanctified creature. Focus: A flawless diamond (10 000gp)
+Sacrifice: 1 character level.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Second Wind</Name>
+      <School>Transmutation</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments />
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " hr"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>106</Page>
+      <SR>true</SR>
+      <Description>Subject gains Feat: Endurance with regards to long-term strenuous activity.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Secure Corpse</Name>
+      <School>Necromancy</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments />
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " day [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>106</Page>
+      <SR>false</SR>
+      <Description>W/in caster's holy symbol one cr's corpse stored in stasis as divine energy. Spell ends when dismissed, duration expired or holy symbol is destroyed. Contained corpse materializes in a square adjacent to the holy symbol's present or last location.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Shield of the Archons</Name>
+      <School>Abjuration</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>107</Page>
+      <SR>false</SR>
+      <Description>(Caster: Archon) A mystic shield protects you vs harmful spells, spell-like ab. and supernatural ab. 1/rd. The spell dissipates, but there is a 5% / spell level (or 5% / 2HD) chance to shatter the shield as well. Against an area spell shield grants +4 bonus on your save.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Sicken Evil (S)</Name>
+      <School>Necromancy</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>107</Page>
+      <SR>true</SR>
+      <Description>You emanate a 20' rad. aura, that sickens evil cr.: -2 att, wp dmg, saves, skill &amp; ab checks.
+SpecComp: Sacrifice: 1d4 STR dmg.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Silvered Claws</Name>
+      <School>Transmutation</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments />
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area>1 living cr.</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>107</Page>
+      <SR>true</SR>
+      <Description>Target treats all of its natural att as Silvered wp (DMG 284; -1 dmg, min 1). The spell does not change an unarmed strike's dmg to lethal dmg. Can be made Permanent.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Silvered Weapon</Name>
+      <School>Transmutation</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments />
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area>a single touched weapon</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (o,h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>107</Page>
+      <SR>true</SR>
+      <Description>A single touched weapon or projectile is transformed into a Silvered wp (DMG 284; -1 dmg, min 1). If the weapon is already made from a special material (such as Cold Iron or Adamantine), it loses the benefit from the original material for the spell's duration. Can be made Permanent.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Smite Heretic</Name>
+      <School>Conjuration</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments />
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel*10 &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>107</Page>
+      <SR>false</SR>
+      <Description>If the caster uses his/her Smite Evil class ability against an Evil creature that can cast Divine spells, the caster gains a +2 Sacred bonus to attack &amp; does +2 hp per Paladin level (instead of +1 hp per lvl).</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Spear of Valarian</Name>
+      <School>Transmutation</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments />
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area>1 nonmagical wp</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg (o,h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>107</Page>
+      <SR>true</SR>
+      <Description>The spell transforms 1 nonmagical wp into a shimmering silver spear. It functions as a +1 silvered magical beast bane spear (+2 att, +2d6 dmg vs magical beasts) If wp is sundered, the original wp breakes. If caster release the spear, it reforms to its original state &amp; spell ends.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Spread of Contenment</Name>
+      <School>Enchantment</School>
+      <Subschool>Compulsion</Subschool>
+      <Descriptors>
+        <Descriptor>Mind-affecting</Descriptor>
+      </Descriptors>
+      <Alignments />
+      <CastingTime>1 hr.</CastingTime>
+      <Range>Long</Range>
+      <Duration>= CasterLevel &amp; " hr [d]"</Duration>
+      <Area>= CasterLevel*10 &amp;"' rad spr"</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>107</Page>
+      <SR>true</SR>
+      <Description>="Spell calms creatures w/in a " &amp;CasterLevel*10&amp;"' rad spread. It counters the eff of the Spread of Savegry (BoVD 105). This spell dos not calm summoned cr. Material Comp: Lammasu's feather."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Starmantle</Name>
+      <School>Abjuration</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments />
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel *10 &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>108</Page>
+      <SR>true</SR>
+      <Description>Spell manifests a cloak which sheds light as a torch. It transforms any nonmagical wp or missile that strikes wearer into harmless light destroying wp forever. When wearer is strucked by a magical wp he/she is entitled to make a Ref save (DC15) for half dmg. Magical wp is unharmed. Material Comp: A pinch of dust from a pixie's wing (20gp)</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Stars of Arvandor</Name>
+      <School>Evocation</School>
+      <Subschool />
+      <Descriptors>
+        <Descriptor>Force</Descriptor>
+      </Descriptors>
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel *10 &amp; " min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>108</Page>
+      <SR>true</SR>
+      <Description>="You create " &amp; Min(CasterLevel,10) &amp; " tiny, twinkling star which orbit your head. You can launch 1 (as fee action) or 3 (as standard action) star(s) at 1 or more target(s) w/in range. On a succeed RTA a star causes 1d8 force dmg, half of which is nonlethal vs nonevil target."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Storm of Shards (S)</Name>
+      <School>Evocation</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>0'</Range>
+      <Duration>Inst.</Duration>
+      <Area>80' rad spread</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>108</Page>
+      <SR>true</SR>
+      <Description>="In a 80' rad spread area light shards deals "&amp;Min(CasterLevel,20)&amp;"d6 divine dmg (Ref DC" &amp; SaveDC &amp; " half) &amp; permanently blinds Evil cr. A successful Fort " &amp; SaveDC &amp; " save negates blindness. Sacrifice: 1d3 STR drain."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Sublime Revelry</Name>
+      <School>Abjuration</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments />
+      <CastingTime>1 round</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp;" min [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>109</Page>
+      <SR>false</SR>
+      <Description>="Spell works like Ease Pain exept follows:" &amp; CasterLevel &amp;" subjects (no 2 &gt; 30') are immune to mind-affecting effects and spell as well as suppresses ones ongoing eff. Further targets take only half damage from melee and ranged"</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Sunmantle (S)</Name>
+      <School>Abjuration</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments />
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>109</Page>
+      <SR>true</SR>
+      <Description>1 touched cr. gain a cloak of light which illuminates like a daylight spell. Starmantle grants the target DR 5/- and if target is strucked in melee, attaker takes 5 hp dmg.
+Sacrifice: 1d4 STR dmg.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Sustain</Name>
+      <School>Transmutation</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments />
+      <CastingTime>1 round</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel *6&amp;" hr."</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>109</Page>
+      <SR>true</SR>
+      <Description>=INT( CasterLevel /2)&amp;" subjects do not need food or water. Material Comp: A flask of warm wine and a loaf of bread"</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Sword of Conscience</Name>
+      <School>Enchantment</School>
+      <Subschool>Compulsion</Subschool>
+      <Descriptors>
+        <Descriptor>Mind</Descriptor>
+      </Descriptors>
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>109</Page>
+      <SR>true</SR>
+      <Description>Evil creature takes Ability Damage to its Wisdom &amp; Charisma determined by it's HD and/or Level (as listed below): 	 
+Creature	                        1d6        1d8        2d6        2d8
+Cleric of Evil God                 1          2-4        5-10        11+
+Evil Outsider 	          0-1         2-4        5-10        11+ 
+Evil Elemental, undead      0-2         3-8        9-20        21+ 
+Evil Creature                     0-10      11-25     26-50       51+</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Telepathy Block</Name>
+      <School>Abjuration</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments />
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area>80' rad em</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>109</Page>
+      <SR>false</SR>
+      <Description>Spell blocks all telepathic communication w/in aff. area (80' rad em. centered on a cr, obj, or point in space)</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Telepathy Tap (S)</Name>
+      <School>Divination</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments />
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area>= CasterLevel *10 &amp; "' rad em"</Area>
+      <Components />
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>110</Page>
+      <SR>false</SR>
+      <Description>You can overhear the telepathic conversation of other creatures w/in spell's area. (you must know language to understand) You can overhear 1+Int bonus cr. at a time. (Mind Blank protects ag. you)
+Sacrifice: 1d3 STR dmg.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Tomb of Light</Name>
+      <School>Transmutation</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1 rd.</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Conc</Duration>
+      <Area>Evil extraplanar cr. touched</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>110</Page>
+      <SR>true</SR>
+      <Description>Touched Evil outsider must make Fort save or become immobilized &amp; helpless. It can execute purely mental actions (like spell-like ab.) Each rd you maintain the spell, cr must attempt another Fort save or takes 1d6 permanent CON drain (in exchange you take 1d6 nonlethal dmg) Spell ends, when target saves, or you fall unconscious. Material comp:  A pure crystal or clear gemstone (50gp)</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Touch of Adamantine</Name>
+      <School>Transmutation</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments />
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg (oh)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>110</Page>
+      <SR>true</SR>
+      <Description>Target weapon gains properties of adamantine, loses other material properties. A monks unarmed strike is considered wp, and thus it can be enchanted by this spell. Cannot be made permanent.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Twilight Luck (S)</Name>
+      <School>Abjuration</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>110</Page>
+      <SR>true</SR>
+      <Description>One nonevil target gains a +1 luck bonus on all saves. SpecComp: Abstinence: alcohol, 3 days</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Unearthly Beauty</Name>
+      <School>Transmutation</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort or Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>110</Page>
+      <SR>false</SR>
+      <Description>="Gain the physical beauty of a nymph. All humanoids within 60' must save Fort " &amp; SaveDC &amp; " or be blinded permanently. This effect can be supressed or resumed as a free action. In additionally any time during the spell you can choose another effect as a free action: any cr. w/in 30' of you that looking directly at you must save  Will " &amp; SaveDC &amp; " or die. SpecComp: Abstinence: sex, 1 month"</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Valiant Steed (S)</Name>
+      <School>Conjuration</School>
+      <Subschool>Calling</Subschool>
+      <Descriptors />
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1 hr.</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst. &amp; upto 1 year</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>110</Page>
+      <SR>false</SR>
+      <Description>Calls 1 pegasus or unicorn, which serves the caster up to 1 year.
+Sacrifice: 1d3 STR drain.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Vanishing Weapon</Name>
+      <School>Abjuration</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments />
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>111</Page>
+      <SR>false</SR>
+      <Description>A touched weapon gain dispeling ability: any summoned or quasi-real creature brouht into being by a Conjuration (Summoning) or Illusion (shadow) that contact with the wp (or projectile wp's ammunition) can be dispelled with a successful dispel check.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Vengeance Halo</Name>
+      <School>Abjuration</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>111</Page>
+      <SR>false</SR>
+      <Description>="1 good aligned cr's slayer takes "&amp;MIN(20, CasterLevel )&amp;"d6 damage. SpecComp: Abstinence: alcohol, 1 week"</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Vision of Heaven</Name>
+      <School>Enchantment</School>
+      <Subschool />
+      <Descriptors>
+        <Descriptor>Mind-affecting</Descriptor>
+      </Descriptors>
+      <Alignments />
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>1 rd.</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>111</Page>
+      <SR>true</SR>
+      <Description>Evil cr. dazed for 1 rd. For the next 24 hrs the creature takes -1 pen on Will saves related to redemption (BoED 28).</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Wages of Sin</Name>
+      <School>Enchantment</School>
+      <Subschool />
+      <Descriptors>
+        <Descriptor>Mind-affecting</Descriptor>
+      </Descriptors>
+      <Alignments />
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>111</Page>
+      <SR>true</SR>
+      <Description>= CasterLevel &amp; " evil creature must save or att nearest evil creature with its most effective attack. Affected cr. don't completely ignore other threats, but att evil cr in preference to any other foes. SpecComp: Abstinence: intoxications &amp; stimulants, 1 week"</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Warcry</Name>
+      <School>Enchantment</School>
+      <Subschool>Compulsion</Subschool>
+      <Descriptors>
+        <Descriptor>Mind-affecting</Descriptor>
+      </Descriptors>
+      <Alignments />
+      <CastingTime>1a</CastingTime>
+      <Range>30'</Range>
+      <Duration>Inst.</Duration>
+      <Area>Cone-shaped burst</Area>
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>111</Page>
+      <SR>true</SR>
+      <Description>Causes cr w/in 30' cone to cower in fear for 1d4 rd. Any cr. that fails its Fort save loses DEX bonus to AC &amp; can take no act. Foes gain +2 att vs cowering cr.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Warding Gems</Name>
+      <School>Conjuration</School>
+      <Subschool>Healing</Subschool>
+      <Descriptors />
+      <Alignments />
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " hr"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>111</Page>
+      <SR>false</SR>
+      <Description>="Fills with healing energy " &amp; Int(CasterLevel/3) &amp; " gem(s), which orbit around target's head (max 5 at a time). As a free action target can access the healing energy in 1 gem, healing himself/herself 10 hp. Used gem turn to dust, unused gem can be reused for a later spell. (a gem has AC 24, hardn 10, 10 hp) Material Comp: one 500gp gem for each warding gem created."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Winged Mount</Name>
+      <School>Transmutation</School>
+      <Subschool />
+      <Descriptors />
+      <Alignments />
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel*10 &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>112</Page>
+      <SR>false</SR>
+      <Description>The caster's Special Mount gains feathery white wings, which grant it Fly 60' (Good)</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Yoke of Mercy</Name>
+      <School>Enchantment</School>
+      <Subschool>Compulsion</Subschool>
+      <Descriptors>
+        <Descriptor>Mind-affecting</Descriptor>
+      </Descriptors>
+      <Alignments>
+        <Alignment>Good</Alignment>
+      </Alignments>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>112</Page>
+      <SR>false</SR>
+      <Description>="Compels a creature up to " &amp;CasterLevel+4&amp; "HD to fight in a merciful manner: deals nontehal dmg, avoid using damaging spells or spell-like ab. &amp;does not deliver coup de grace to a helpless foe. SpecComp: Abstinence: dealing dmg to another living cr., 8 hr"</Description>
+    </Spell>
+  </Spells>
+  <SpellOverrides />
+  <SpellListEntries>
+    <SpellList Name="Cleric" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Divine Inspiration (S)" Level="1" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Eyes of the Avoral" Level="1" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Lantern Light" Level="1" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Ray of Hope" Level="1" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Twilight Luck (S)" Level="1" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Vision of Heaven" Level="1" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Ayailla's Radiant Burst (S)" Level="2" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Ease Pain" Level="2" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Elation" Level="2" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Estanna's Stew" Level="2" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Lastai's Caress" Level="2" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Luminous Armor (S)" Level="2" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Remove Addiction" Level="2" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Affliction" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Blessed Sight" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Brilliant Emanation (S)" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Celestial Aspect (S)" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Energize Potion" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Hammer of Rightousness(S)" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Heart's Ease" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Inspired Aim" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Path of the Exalted (S)" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Phieran's Resolve (S)" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Refreshment" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Remove Nausea" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Telepathy Tap (S)" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Blood of the Martyr" Level="4" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Celestial Brilliance" Level="4" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Diamond Spray (S)" Level="4" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Greater Status" Level="4" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Luminous Armor, Gr (S)" Level="4" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Remove Fatigue" Level="4" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Stars of Arvandor" Level="4" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Sunmantle (S)" Level="4" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Sustain" Level="4" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Sword of Conscience" Level="4" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Chaav's Laugh" Level="5" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Convert Wand" Level="5" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Crown of Flame" Level="5" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Curtain of Light (S)" Level="5" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Dancing Web" Level="5" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Energetic Healing" Level="5" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Inquisition (S)" Level="5" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Sacred Guardian" Level="5" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Sicken Evil (S)" Level="5" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Telepathy Block" Level="5" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Warding Gems" Level="5" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Call Faithfull Servants" Level="6" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Celestial Blood" Level="6" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Crown of Brilliance" Level="6" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Exalted Raiment (S)" Level="6" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Quickshift" Level="6" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Secure Corpse" Level="6" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Storm of Shards (S)" Level="6" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Touch of Adamantine" Level="6" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Valiant Steed (S)" Level="6" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Vengeance Halo" Level="6" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Bastion of Good" Level="7" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Channel Celestial (S)" Level="7" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Constricting Chains (S)" Level="7" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Cry of Ysgard (S)" Level="7" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Heaven's Trumpet" Level="7" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Phoenix Fire (S)" Level="7" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Rain of Embers (S)" Level="7" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Righteous Glare" Level="7" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Righteous Smite" Level="7" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Shield of the Archons" Level="7" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Tomb of Light" Level="7" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Axiomatic Creature" Level="8" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Dragon Cloud (S)" Level="8" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Last Judgement" Level="8" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Restores Soul's Treasure(S)" Level="8" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Spread of Contenment" Level="8" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Armageddon (S)" Level="9" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Channel Celestial, Gr. (S)" Level="9" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="End to Strife" Level="9" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Exalted Fury (S)" Level="9" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Sanctify the Wicked (S)" Level="9" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Sublime Revelry" Level="9" ReferenceAbbrev="BoED" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Paladin" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Divine Inspiration (S)" Level="1" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Divine sacrifice" Level="1" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Lantern Light" Level="1" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Second Wind" Level="1" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Silvered Weapon" Level="1" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Twilight Luck (S)" Level="1" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Ayailla's Radiant Burst (S)" Level="2" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Call Mount" Level="2" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Estanna's Stew" Level="2" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Luminous Armor (S)" Level="2" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Moment of Clarity" Level="2" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Blessed Sight" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Brilliant Emanation (S)" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Celestial Aspect (S)" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Hammer of Rightousness(S)" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Mind Bond" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Path of the Exalted (S)" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Phieran's Resolve (S)" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Smite Heretic" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Telepathy Tap (S)" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Aspect of the Deity, Less" Level="4" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Blood of the Martyr" Level="4" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Diamond Spray (S)" Level="4" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Glory of the Marty" Level="4" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Luminous Armor, Gr (S)" Level="4" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Sacred Haven" Level="4" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Sunmantle (S)" Level="4" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Sword of Conscience" Level="4" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Winged Mount" Level="4" ReferenceAbbrev="BoED" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Bard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Ray of Hope" Level="1" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Elation" Level="2" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Faerinaal's Hymn" Level="2" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Refreshment" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Warcry" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Blinding Beauty" Level="4" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Dolorous Motes" Level="4" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Inspired Aim" Level="4" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Telepathy Block" Level="5" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Empyreal Ecstasy" Level="6" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Heaven's Trumpet" Level="6" ReferenceAbbrev="BoED" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Druid" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Divine Inspiration (S)" Level="1" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Eyes of the Avoral" Level="1" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Silvered Claws" Level="1" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Twilight Luck (S)" Level="1" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Ayailla's Radiant Burst (S)" Level="2" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Estanna's Stew" Level="2" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Luminous Armor (S)" Level="2" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Remove Addiction" Level="2" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Affliction" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Brilliant Emanation (S)" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Celestial Aspect (S)" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Energize Potion" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Hammer of Rightousness(S)" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Path of the Exalted (S)" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Phieran's Resolve (S)" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Telepathy Tap (S)" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Blinding Beauty" Level="4" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Diamond Spray (S)" Level="4" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Luminous Armor, Gr (S)" Level="4" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Stars of Arvandor" Level="4" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Sunmantle (S)" Level="4" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Curtain of Light (S)" Level="5" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Dancing Web" Level="5" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Energetic Healing" Level="5" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Inquisition (S)" Level="5" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Sicken Evil (S)" Level="5" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Spear of Valarian" Level="5" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Exalted Raiment (S)" Level="6" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Storm of Shards (S)" Level="6" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Touch of Adamantine" Level="6" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Valiant Steed (S)" Level="6" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Channel Celestial (S)" Level="7" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Constricting Chains (S)" Level="7" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Cry of Ysgard (S)" Level="7" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Phoenix Fire (S)" Level="7" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Rain of Embers (S)" Level="7" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Rain of Roses" Level="7" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Dragon Cloud (S)" Level="8" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Leonal's Roar" Level="8" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Restores Soul's Treasure(S)" Level="8" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Unearthly Beauty" Level="8" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Armageddon (S)" Level="9" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Channel Celestial, Gr. (S)" Level="9" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Exalted Fury (S)" Level="9" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Rain of Black Tulips" Level="9" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Sanctify the Wicked (S)" Level="9" ReferenceAbbrev="BoED" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Ranger" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Eyes of the Avoral" Level="1" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Silvered Claws" Level="1" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Twilight Luck (S)" Level="1" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Divine Inspiration (S)" Level="1" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Luminous Armor (S)" Level="2" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Silvered Weapon" Level="2" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Ayailla's Radiant Burst (S)" Level="2" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Brilliant Emanation (S)" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Celestial Aspect (S)" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Hammer of Rightousness(S)" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Inspired Aim" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Phieran's Resolve (S)" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Path of the Exalted (S)" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Telepathy Tap (S)" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Blinding Beauty" Level="4" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Diamond Spray (S)" Level="4" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Luminous Armor, Gr (S)" Level="4" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Spear of Valarian" Level="4" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Stars of Arvandor" Level="4" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Sunmantle (S)" Level="4" ReferenceAbbrev="BoED" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Sorcerer" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Eyes of the Avoral" Level="1" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Lantern Light" Level="1" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Energize Potion" Level="2" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Yoke of Mercy" Level="2" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Distilled Joy" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Dolorous Motes" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Elation" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Healing Touch" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Stars of Arvandor" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Warcry" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Affliction" Level="4" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Celestial Brilliance" Level="4" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Dancing Web" Level="4" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Perfect Summons" Level="4" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Radiant Fog" Level="4" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Radiant Shield" Level="4" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Call Faithfull Servants" Level="5" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Emerald Burst" Level="5" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Telepathy Block" Level="5" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Touch of Adamantine" Level="5" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Vanishing Weapon" Level="5" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Quickshift" Level="6" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Starmantle" Level="6" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Wages of Sin" Level="6" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Amber Sarcophagus" Level="7" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Eladrin Form" Level="7" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Righteous Glare" Level="7" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Tomb of Light" Level="7" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Axiomatic Creature" Level="8" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Last Judgement" Level="8" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Blinding Glory" Level="9" ReferenceAbbrev="BoED" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Wizard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Divine Inspiration (S)" Level="1" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Eyes of the Avoral" Level="1" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Lantern Light" Level="1" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Twilight Luck (S)" Level="1" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Ayailla's Radiant Burst (S)" Level="2" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Energize Potion" Level="2" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Luminous Armor (S)" Level="2" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Yoke of Mercy" Level="2" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Brilliant Emanation (S)" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Celestial Aspect (S)" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Distilled Joy" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Dolorous Motes" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Elation" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Hammer of Rightousness(S)" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Healing Touch" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Path of the Exalted (S)" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Phieran's Resolve (S)" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Stars of Arvandor" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Telepathy Tap (S)" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Warcry" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Affliction" Level="4" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Celestial Brilliance" Level="4" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Dancing Web" Level="4" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Diamond Spray (S)" Level="4" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Luminous Armor, Gr (S)" Level="4" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Perfect Summons" Level="4" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Radiant Fog" Level="4" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Radiant Shield" Level="4" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Sunmantle (S)" Level="4" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Call Faithfull Servants" Level="5" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Curtain of Light (S)" Level="5" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Emerald Burst" Level="5" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Inquisition (S)" Level="5" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Sicken Evil (S)" Level="5" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Telepathy Block" Level="5" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Touch of Adamantine" Level="5" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Vanishing Weapon" Level="5" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Exalted Raiment (S)" Level="6" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Quickshift" Level="6" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Starmantle" Level="6" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Storm of Shards (S)" Level="6" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Valiant Steed (S)" Level="6" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Wages of Sin" Level="6" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Amber Sarcophagus" Level="7" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Channel Celestial (S)" Level="7" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Constricting Chains (S)" Level="7" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Cry of Ysgard (S)" Level="7" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Eladrin Form" Level="7" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Phoenix Fire (S)" Level="7" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Rain of Embers (S)" Level="7" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Righteous Glare" Level="7" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Tomb of Light" Level="7" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Axiomatic Creature" Level="8" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Dragon Cloud (S)" Level="8" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Last Judgement" Level="8" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Restores Soul's Treasure(S)" Level="8" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Armageddon (S)" Level="9" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Blinding Glory" Level="9" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Channel Celestial, Gr. (S)" Level="9" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Exalted Fury (S)" Level="9" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Sanctify the Wicked (S)" Level="9" ReferenceAbbrev="BoED" />
+      </SpellEntries>
+    </SpellList>
+  </SpellListEntries>
+  <Domains>
+    <Domain Name="Herald" Abbrev="">
+      <Power>Intimidate is a class skill.  +4 (Sacred) to Intimidate and Diplomacy</Power>
+      <DomainEntries>
+        <SpellEntry Name="Comprehend Languages" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Enthrall" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Tongues" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Sending" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Command, Greater" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Dream" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Aspect of the Deity" Level="7" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Crown of Glory" Level="8" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Aspect of the Deity, Gr." Level="9" ReferenceAbbrev="BoED" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Celestial" Abbrev="Cel">
+      <Power>Smite evil 1/d, +4 att, +ClericLevel dmg</Power>
+      <DomainEntries>
+        <SpellEntry Name="Vision of Heaven" Level="1" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Consecrate" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Blessed Sight" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Planar Ally, Lesser" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Heavenly Lightning" Level="5" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Call Faithfull Servants" Level="6" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Heavenly Lightning Storm" Level="7" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Holy Aura" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Gate" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Community" Abbrev="Comy">
+      <Power>Calm emotions (Spell-like ab) 1/d, +2 Diplomacy (comp)</Power>
+      <DomainEntries>
+        <SpellEntry Name="Bless" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Status" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Prayer" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Greater Status" Level="4" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Rary's Telepathic Bond" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Heroes' Feast" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Refuge" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Sympathy" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Heal, Mass" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Endurance" Abbrev="">
+      <Power>Gain +HD/2 CON (enh) for 1 min. as a free act. 1/d</Power>
+      <DomainEntries>
+        <SpellEntry Name="Endure Elements" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Bear's Endurance" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Refreshment" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Sustain" Level="4" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Stoneskin" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Bear's Endurance, Mass" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Globe of Invulnerability" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Spell Turning" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Iron Body" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Fey" Abbrev="">
+      <Power>Gain +4 save vs spell-like abilities of feys.</Power>
+      <DomainEntries>
+        <SpellEntry Name="Faerie Fire" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Charm Person" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Inspired Aim" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Blinding Beauty" Level="4" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Tree Stride" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Heroes' Feast" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Liveoak" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Unearthly Beauty" Level="8" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Summon Nature's Ally IX" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Glory" Abbrev="">
+      <Power>TU +2 turning check and +1d6 turning dmg</Power>
+      <DomainEntries>
+        <SpellEntry Name="Disrupt Undead" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Glorious Raiment" Level="2" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Searing Light" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Celestial Brilliance" Level="4" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Crown of Flame" Level="5" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Bolt of Glory" Level="6" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Sunbeam" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Crown of Glory" Level="8" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Blinding Glory" Level="9" ReferenceAbbrev="BoED" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Joy" Abbrev="">
+      <Power>Gain +4 Dipolmacy (sacred)</Power>
+      <DomainEntries>
+        <SpellEntry Name="Vision of Heaven" Level="1" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Elation" Level="2" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Distilled Joy" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Good Hope" Level="4" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Chaav's Laugh" Level="5" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Heroism, Greater" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Starmantle" Level="7" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Sympathy" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Otto's Irresistible Dance" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Pleasure" Abbrev="">
+      <Power>Immune to effect that damages or drains CHA</Power>
+      <DomainEntries>
+        <SpellEntry Name="Remove Fear" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Lastai's Caress" Level="2" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Heart's Ease" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Remove Fatigue" Level="4" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Eagle's Splendor, Mass" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Celestial Blood" Level="6" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Empyreal Ecstasy" Level="7" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Spread of Contenment" Level="8" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Sublime Revelry" Level="9" ReferenceAbbrev="BoED" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Wrath" Abbrev="">
+      <Power>Free AoO vs opp. that dmg you with melee att. 1/d</Power>
+      <DomainEntries>
+        <SpellEntry Name="Doom" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Energize Potion" Level="2" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Affliction" Level="3" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Radiant Shield" Level="4" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Righteous Might" Level="5" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Vengeance Halo" Level="6" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Righteous Smite" Level="7" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Last Judgement" Level="8" ReferenceAbbrev="BoED" />
+        <SpellEntry Name="Storm of Vengeance" Level="9" ReferenceAbbrev="PHB" />
+      </DomainEntries>
+    </Domain>
+  </Domains>
+  <Classes />
+</Reference>

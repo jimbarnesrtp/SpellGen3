@@ -1,0 +1,430 @@
+<Reference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Sequence="8" Name="ECS - Faiths of Eberron" Group="Eberron" Abbrev="EbFth" Version="0.1">
+  <Description>(c) 2006 by Wizards of the Coast</Description>
+  <DevNotes />
+  <Spells>
+    <Spell OriginalReference="">
+      <Name>Construct Essence, Lesser</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>150</Page>
+      <SR>true</SR>
+      <Description>Target a living construct, which takes on more properties of a true construct. The living construct gains the Moderate Fortification armor special quality, negating Crits and Sneak dmg 75% of the time. As well, the living construct gains low-light vision and immunity to nonlethal dmg and Stunning. If cast on the subject of a Lesser Humanoid Essence spell (RaceEbb, 187), both spells are dispelled and have no effect. It has no effect if cast on the subject of Humanoid Essence or Greater Humanoid Essence.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Construct Essence, Mass Lesser</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>150</Page>
+      <SR>true</SR>
+      <Description>="Target up to "&amp; CasterLevel &amp;" living constructs (no 2 &gt;30' apart), which take on more properties of a true construct. The living construct(s) gain the Moderate Fortification armor special quality, negating Crits and Sneak dmg 75% of the time. As well, the subject(s) gains low-light vision and immunity to nonlethal dmg and Stunning. If cast on constructs subject to a Lesser Humanoid Essence spell (RaceEbb, 187), both spells are dispelled and have no effect. It has no effect if cast on the subject(s) of Humanoid Essence or Greater Humanoid Essence."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Detect Manifest Zone</Name>
+      <Schools>
+        <School>
+          <School>Divination</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Centered</Range>
+      <Duration>= "[c] up to " &amp; CasterLevel * 10 &amp; " min (d)"</Duration>
+      <Area>120' em. spd</Area>
+      <Components>
+        <Component>DivineFocus</Component>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>150</Page>
+      <SR>false</SR>
+      <Description>You can sense the presence of manifest zones. The amount of information revealed depends on how long you study a particular area or subject. The spell area penetrates barriers, but a thin sheet of lead, 1 in. of common metal, 1 ft of stone, or 3 ft of wood or dirt block it.&#xD;
+&#xD;
+1st rd) Presence or Absense of manifest zone (if zone is obvious to naked eye, you get no further information on the 1st rd). If zone is in range but not LOS you discern direction but not exact location.&#xD;
+2nd rd) Age of manifest zone (see text). If the zone is going to fade within the next 24hrs you learn that as well.&#xD;
+3rd rd) The plane connected to the zone. If the zone is small and fits entirely within the area you learn its exact borders and dimensions, otherwise you gain no sense of the precise location.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Embrace of Endless Day</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 min</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>DivineFocus</Component>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>= "Will " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>150</Page>
+      <SR>true</SR>
+      <Description>You imbue the target with positive energy which he can then release (in controlled amounts or all at once). You bestow "&amp; Min(30, ( CasterLevel *3)) &amp;" pts of positive energy. The target can expend this energy to heal with a touch, or harm creatures vulnerable to positive energy, removing or dealing 1 pt of dmg. Target also gains a +1 (sacred) on Saves against Necromantic and Death effects until all the bestowed energy has been expended (or the spell ends).</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Glimpse of Eternity</Name>
+      <Schools>
+        <School>
+          <School>Enchantment</School>
+          <Subschool>Compulsion</Subschool>
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= Int( CasterLevel /3) &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " part"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>151</Page>
+      <SR>true</SR>
+      <Description>="Target takes "&amp; Min(15, CasterLevel ) &amp;"d6 nonlethal damage and is Confused for duration. Successful save reduces dmg by half and negates confusion. Elves and similar long-lived creatures are still affected normally."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Intensify Manifest Zone</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>8 hrs</CastingTime>
+      <Range>Close</Range>
+      <Duration>Permanent</Duration>
+      <Area>=CasterLevel *40 &amp;"ft r. em."</Area>
+      <Components>
+        <Component>Focus</Component>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>XP</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>500</FocusCost>
+      <XPCost>500</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>151</Page>
+      <SR>true</SR>
+      <Description>Yo uenhance the effects of a manifest zone of a specified plane. The effect increases by one "step", but since each zone is different that can have various effects (see text for examples). You cannot further enhance a manifest zone (or ring with a zone) with additional Intensify Manifest Zone spells. This effect cannot be dispelled, but can be removed with a Limited Wish, Miracle, Planar-bubble (PlanarHB 102) or Wish spell. Focus: Gem, piece of precious metal, or concentrated essence of the plane assoc. with zone.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Summon Warforged Champion</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Summoning</Subschool>
+          <Descriptors />
+          <Alignments>
+            <Alignment>Lawful</Alignment>
+          </Alignments>
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>DivineFocus</Component>
+        <Component>Somatic</Component>
+        <Component>Verbal</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>151</Page>
+      <SR>false</SR>
+      <Description>Spell is similar to Summon Monster IX, except that is only summons a single (advanced) Warforged Titan (see text for stats). In addition, as long as the warforged titan summoned by this spell is within 15 ft. of you, is active, and is under your control it unconsciouly protects you from attacks granting you +3 (shield) to AC.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Weapon of the Deity</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp;" rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg (h,o)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>151</Page>
+      <SR>true</SR>
+      <Description>="Held weapon (favored of your deity) gains +"&amp; IIF( CasterLevel&lt;9,1,IIF(CasterLevel&lt;12,2,IIF(CasterLevel&lt;15,3,IIF(CasterLevel&lt;18,4,5)))) &amp;" (enhance) to Att and dmg, plus a special ability (see text for details by deity). You can also use the weapon as if proficient. A double weapon gains the bonus on only one end as chosen by you."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Anchor Plane</Name>
+      <Schools>
+        <School>
+          <School>Metacreativity</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>8 hrs</CastingTime>
+      <Range>See text</Range>
+      <Duration>Inst.</Duration>
+      <Area>5' r.</Area>
+      <Components>
+        <Component>Material</Component>
+        <Component>Visual</Component>
+        <Component>XP</Component>
+      </Components>
+      <MaterialComponentCost>1000</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>750</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>152</Page>
+      <SR>false</SR>
+      <Description>Create a manifest zone of a specified plane, anchored to a specific point prepared for that purpose (such as a quori monolith). The anchorpoint must include a Siberys dragonshard or a piece of material or essence from the anchored plane of at least 1,000gp value.&#xD;
+This power works only on the Material Plance, and you must remain within 30ft of the anchor site during the entire manifestation time.  Once created, the fledgeling zone expands its radius at the rate of 5ft per day to a max radius of 150ft. Additional manifestations do not stack (although multiple adjacent or overlapping areas can be created). The new manifest zone has one planar trait of your choice from the plane to which it is connected. The manifest zones can be enhanced using Intensify Manifest Zone or Psionic Intensify Manifest Zone.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Intensify Manifest Zone, Psionic</Name>
+      <Schools>
+        <School>
+          <School>Metacreativity</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>8 hrs</CastingTime>
+      <Range>Close</Range>
+      <Duration>Permanent</Duration>
+      <Area>=CasterLevel *40 &amp;"ft r. em."</Area>
+      <Components>
+        <Component>XP</Component>
+        <Component>Auditory</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>500</FocusCost>
+      <XPCost>500</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>152</Page>
+      <SR>true</SR>
+      <Description>Yo uenhance the effects of a manifest zone of a specified plane. The effect increases by one "step", but since each zone is different that can have various effects (see text for examples). You cannot further enhance a manifest zone (or ring with a zone) with additional Intensify Manifest Zone spells. This effect cannot be dispelled, but can be removed with a Limited Wish, Miracle, Planar-bubble (PlanarHB 102) or Wish spell.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Thoughtsoothe</Name>
+      <Schools>
+        <School>
+          <School>Telepathy</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Mind-affecting</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 rd</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel * 10 &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Mental</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>153</Page>
+      <SR>true</SR>
+      <Description>You forge a minor telepathic link with other beings within range, broadcasting soothing thoughts to counteract negative emotions. You can include or exclude from this broadcast any creature you can see, as well as any creature that you know or know of. Creatures affected by this power gain +4 (morale) against Fear effects.&#xD;
+At any time during the duration you can choose to trigger its secondary effect. This immediately ends the powers duration, but also instantly removes any Fear effects current affecting the power's targets. It also removes Confused or Fascinated conditions from any of the power's targets.</Description>
+    </Spell>
+  </Spells>
+  <SpellOverrides />
+  <SpellListEntries>
+    <SpellList Name="Artificer" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Construct Essence, Lesser" Level="2" ReferenceAbbrev="EbbFth" />
+        <SpellEntry Name="Construct Essence, Mass Lesser" Level="6" ReferenceAbbrev="EbbFth" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Adept" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Detect Manifest Zone" Level="1" ReferenceAbbrev="EbbFth" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Cleric" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Detect Manifest Zone" Level="1" ReferenceAbbrev="EbbFth" />
+        <SpellEntry Name="Embrace of Endless Day" Level="4" ReferenceAbbrev="EbbFth" />
+        <SpellEntry Name="Intensify Manifest Zone" Level="7" ReferenceAbbrev="EbFth" />
+        <SpellEntry Name="Weapon of the Deity" Level="3" ReferenceAbbrev="EbFth" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Paladin_Base" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Embrace of Endless Day" Level="3" ReferenceAbbrev="EbbFth" />
+        <SpellEntry Name="Detect Manifest Zone" Level="1" ReferenceAbbrev="EbbFth" />
+        <SpellEntry Name="Weapon of the Deity" Level="3" ReferenceAbbrev="EbFth" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Sorcerer" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Construct Essence, Lesser" Level="2" ReferenceAbbrev="EbbFth" />
+        <SpellEntry Name="Construct Essence, Mass Lesser" Level="6" ReferenceAbbrev="EbbFth" />
+        <SpellEntry Name="Detect Manifest Zone" Level="1" ReferenceAbbrev="EbbFth" />
+        <SpellEntry Name="Glimpse of Eternity" Level="5" ReferenceAbbrev="EbFth" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Wizard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Construct Essence, Lesser" Level="2" ReferenceAbbrev="EbbFth" />
+        <SpellEntry Name="Construct Essence, Mass Lesser" Level="6" ReferenceAbbrev="EbbFth" />
+        <SpellEntry Name="Detect Manifest Zone" Level="1" ReferenceAbbrev="EbbFth" />
+        <SpellEntry Name="Glimpse of Eternity" Level="5" ReferenceAbbrev="EbFth" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Bard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Glimpse of Eternity" Level="5" ReferenceAbbrev="EbFth" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Druid" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Intensify Manifest Zone" Level="7" ReferenceAbbrev="EbFth" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Blackguard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Weapon of the Deity" Level="3" ReferenceAbbrev="EbFth" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Psion/Wilder" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Anchor Plane" Level="8" ReferenceAbbrev="EbFth" />
+        <SpellEntry Name="Intensify Manifest Zone, Psionic" Level="7" ReferenceAbbrev="EbFth" />
+        <SpellEntry Name="Thoughtsoothe" Level="3" ReferenceAbbrev="EbFth" />
+      </SpellEntries>
+    </SpellList>
+  </SpellListEntries>
+  <Domains>
+    <Domain Name="Revered Ancestor" Abbrev="RevAnc">
+      <Power>The spell area penetrates barriers, but a thin sheet of lead, 1 in. of common metal, 1 ft of stone, or 3 ft of wood or dirt block it.</Power>
+      <DomainEntries>
+        <SpellEntry Name="Glimpse of Eternity" Level="5" ReferenceAbbrev="MoE" />
+        <SpellEntry Name="Magic Weapon" Level="1" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Aid" Level="2" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Heroism" Level="3" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Heroism, Greater" Level="6" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Spirit Steed" Level="4" ReferenceAbbrev="Eber" />
+        <SpellEntry Name="Vision" Level="7" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Earthquake" Level="8" ReferenceAbbrev="PHB" />
+        <SpellEntry Name="Hero's Blade" Level="9" ReferenceAbbrev="Eber" />
+      </DomainEntries>
+    </Domain>
+    <Domain Name="Warforged" Abbrev="Warfrgd">
+      <Power>="Su: Rebuke, command, or bolster construct creatures as an evil cleric rebukes undead. Use thses abilities "&amp; ChaStatMod +3 &amp;" times per day."</Power>
+      <DomainEntries>
+        <SpellEntry Name="Construct Essence, Lesser" Level="2" ReferenceAbbrev="EbbFth" />
+        <SpellEntry Name="Construct Essence, Mass Lesser" Level="7" ReferenceAbbrev="EbbFth" />
+        <SpellEntry Name="Summon Warforged Champion" Level="9" ReferenceAbbrev="EbFth" />
+        <SpellEntry Name="Total Repair" Level="8" ReferenceAbbrev="Eber" />
+        <SpellEntry Name="Repair Critical Damage" Level="4" ReferenceAbbrev="Eber" />
+        <SpellEntry Name="Repair Light Damage" Level="1" ReferenceAbbrev="Eber" />
+        <SpellEntry Name="Stone Construct" Level="3" ReferenceAbbrev="Eber" />
+        <SpellEntry Name="Construct Energy Ward, Greater" Level="5" ReferenceAbbrev="Eber" />
+        <SpellEntry Name="Iron Construct" Level="6" ReferenceAbbrev="Eber" />
+      </DomainEntries>
+    </Domain>
+  </Domains>
+  <Classes />
+</Reference>

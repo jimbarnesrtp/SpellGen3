@@ -1,0 +1,483 @@
+<Reference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Sequence="1" Name="FRCS - Serpent Kingdoms" Group="Forgotton Realms" Abbrev="SerKng" Version="1.01">
+  <Description>1.01 - Name change</Description>
+  <DevNotes />
+  <Spells>
+    <Spell OriginalReference="">
+      <Name>Ability Rip</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 hr.</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " hr"</Duration>
+      <Area>Two Living Creatures</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>0</Page>
+      <SR>true</SR>
+      <Description>You rip a supernatural ability of your choice away from one creature and transfer it to another.  The two creatures must be within 30 ft. of each other.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Erupt</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Fire</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 min.</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Inst.</Duration>
+      <Area>= "Burst with a radius of " &amp; 100*CasterLevel &amp; " ft."</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Will " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>155</Page>
+      <SR>true</SR>
+      <Description>= "You draw molten lava up through the ground.  Every creature within the area that fails a Fort save takes " &amp; 10*CasterLevel &amp; " points of fire damage and catches on fire.  Anyone wearing metal armor who fails the save also is affected as though by a heat metal spell.  Structures and unattended objects automatically take full damage (no save."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Fang Trap</Name>
+      <Schools>
+        <School>
+          <School>Abjuration</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>Permanent until discharged (d)</Duration>
+      <Area>= "Object touched or area up to " &amp; 5*CasterLevel &amp; " sq. ft."</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>155</Page>
+      <SR>true</SR>
+      <Description>= "A fang trap acts similarly to a glyph of warding (see text).  When discharged, tje subject is held immobile for 1 round.  A successful Fort save frees the subject.  A failed Fort save causes " &amp; CasterLevel &amp; "d4 points of piercing and bludgeoning damage from the bite of a pair of unseen jaws."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Handfang</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>156</Page>
+      <SR>false</SR>
+      <Description>= "You create a fanged biting mouth in the palm of you hand.  A touch attack deals 1d8 points of damage.  A critical hit allows you to start a grapple as a free action without provoking an AoO.  If the grapple is successful, you continue to bite for an additional 1d6 points of damage for " &amp; CasterLevel &amp; " rds or until the hold is broken."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Laogzed's Breath</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area>Cone</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>156</Page>
+      <SR>false</SR>
+      <Description>= "Creates a cone of nauseating vapors that lasts for 10 rounds.  Any creature that makes its Fort save but remains in the cloud must continue to save each round."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Lava Missile</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors>
+            <Descriptor>Fire</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Medium</Range>
+      <Duration>Inst.</Duration>
+      <Area>Up to 5 creatures, no 2 of which can be more than 15 ft. apart.</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>DivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>156</Page>
+      <SR>false</SR>
+      <Description>= Round(CasterLevel/2, 0) &amp; " missiles of lava darts from your fingertips and strikes a target, dealing 1d4 points of fire damage.  It strikes unerringly if the target has less than total cover or concealment.  A target that fails its save catches on fire.  Mutiple missiles can strike one or more creatures.  A Lava Missile cures firenewts of 1d4 points of damage."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Lava Splash</Name>
+      <Schools>
+        <School>
+          <School>Conjuration</School>
+          <Subschool>Creation</Subschool>
+          <Descriptors>
+            <Descriptor>Fire</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>Inst.</Duration>
+      <Area>Cylinder, 20-ft. radius, 20-ft. high.</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>FocusOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>156</Page>
+      <SR>false</SR>
+      <Description>= "Creates a wave of lava that rises up and showers the area, dealing " &amp;  Max(CasterLevel,15) &amp; "d6 points of fire damage to every creature in the area.  Lava Splash acts as a cure moderate wounds to firenewts."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Razorscales</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Personal</Range>
+      <Duration>= CasterLevel &amp; " rd [d]"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>MaterialOrDivineFocus</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>157</Page>
+      <SR>false</SR>
+      <Description>Your scales become razor-sharp, causes lethal damage instead of non-lethal damage when grappling.  If you are not a Scaled One, this spell automatically fails.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Scent</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>157</Page>
+      <SR>true</SR>
+      <Description>You give the target an enhanced sense of smell, equivalent to the scent ability.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Serpent Arrow</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " min"</Duration>
+      <Area>Up to 8 wooden projectiles, all of which must be in contact with each other at the time of casting.</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>None</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>157</Page>
+      <SR>false</SR>
+      <Description>You imbue wooden arrows or darts with the ability to turn into Tiny Vipers.  If a Serpent Arrow hits, the snake automatically bites for 1 point of damage plus poison (injury, Fort DC 11, initial and secondary CON damage 1d6).  The snakes continue to attack for the duration of the spell.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Trait Removal</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors />
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1 hr.</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " hr"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>158</Page>
+      <SR>true</SR>
+      <Description>You temporarily remove on (Ex) or (Su) ability of your choice from the target creature.  This spell does not work on constructs, oozes, or undead.</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Venom Bolt</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Acid</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>100 ft.</Range>
+      <Duration>Inst.</Duration>
+      <Area>100-ft. line</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>See Text</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>158</Page>
+      <SR>true</SR>
+      <Description>= "You release a beam of energy from your mouth, eye, fingertip, or tail that travels in a straight line.  All in the path take 2d8 points of acid damage.  A Ref save vs. DC" &amp; SaveDC &amp; " halves this damage.  Additionally, all must make a Fort save vs. DC" &amp; SaveDC &amp; " or be paralyzed for 1d4+1 rounds.  Success means the target is slowed for 1 round.  Walls and solid barriers block the beam, creatures do not,  Yuan-Ti and their creations and those with the Snake Blood feat are immune to this spell.  Other Scaled Ones are immune to the paralysis effect."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Venomfire</Name>
+      <Schools>
+        <School>
+          <School>Transmutation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Acid</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Touch</Range>
+      <Duration>= CasterLevel &amp; " hr"</Duration>
+      <Area />
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Material</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Fort " &amp; SaveDC &amp; " neg (h)"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>158</Page>
+      <SR>true</SR>
+      <Description>= "You cause the subject's venom to become caustic, dealing an additional " &amp; CasterLevel &amp; "d6 points of acid damage with each use.  This spell has no effect on creatures who do not naturally produce poison."</Description>
+    </Spell>
+    <Spell OriginalReference="">
+      <Name>Whirl of Fangs</Name>
+      <Schools>
+        <School>
+          <School>Evocation</School>
+          <Subschool />
+          <Descriptors>
+            <Descriptor>Force</Descriptor>
+          </Descriptors>
+          <Alignments />
+          <Properties />
+        </School>
+      </Schools>
+      <CastingTime>1a</CastingTime>
+      <Range>Close</Range>
+      <Duration>= CasterLevel &amp; " min [d]"</Duration>
+      <Area>= "Wall or plane up to " &amp; 20*CasterLevel &amp; " ft. long or a ringed wall with a radius up to " &amp; Round(CasterLevel/2,0)*5 &amp; " ft., either form 20-ft. high"</Area>
+      <Components>
+        <Component>Verbal</Component>
+        <Component>Somatic</Component>
+      </Components>
+      <MaterialComponentCost>0</MaterialComponentCost>
+      <FocusCost>0</FocusCost>
+      <XPCost>0</XPCost>
+      <Save>="Ref " &amp; SaveDC &amp; " half"</Save>
+      <SaveDCMod>0</SaveDCMod>
+      <Page>158</Page>
+      <SR>true</SR>
+      <Description>You create an immobile curtain of snapping serpent-fanged jaws shaped of force.  Any creature passing through the wall takes 12d4 points of damage on a failed save.  A creature inside the wall taked 2d4 points of damage per round that it remains in contact with the wall.</Description>
+    </Spell>
+  </Spells>
+  <SpellOverrides />
+  <SpellListEntries>
+    <SpellList Name="Sorcerer" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Razorscales" Level="2" ReferenceAbbrev="SerKng" />
+        <SpellEntry Name="Scent" Level="2" ReferenceAbbrev="SerKng" />
+        <SpellEntry Name="Handfang" Level="3" ReferenceAbbrev="SerKng" />
+        <SpellEntry Name="Laogzed's Breath" Level="3" ReferenceAbbrev="SerKng" />
+        <SpellEntry Name="Serpent Arrow" Level="4" ReferenceAbbrev="SerKng" />
+        <SpellEntry Name="Venom Bolt" Level="4" ReferenceAbbrev="SerKng" />
+        <SpellEntry Name="Fang Trap" Level="4" ReferenceAbbrev="SerKng" />
+        <SpellEntry Name="Trait Removal" Level="5" ReferenceAbbrev="SerKng" />
+        <SpellEntry Name="Ability Rip" Level="7" ReferenceAbbrev="SerKng" />
+        <SpellEntry Name="Whirl of Fangs" Level="7" ReferenceAbbrev="SerKng" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Wizard" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Razorscales" Level="2" ReferenceAbbrev="SerKng" />
+        <SpellEntry Name="Scent" Level="2" ReferenceAbbrev="SerKng" />
+        <SpellEntry Name="Handfang" Level="3" ReferenceAbbrev="SerKng" />
+        <SpellEntry Name="Laogzed's Breath" Level="3" ReferenceAbbrev="SerKng" />
+        <SpellEntry Name="Fang Trap" Level="4" ReferenceAbbrev="SerKng" />
+        <SpellEntry Name="Serpent Arrow" Level="4" ReferenceAbbrev="SerKng" />
+        <SpellEntry Name="Venom Bolt" Level="4" ReferenceAbbrev="SerKng" />
+        <SpellEntry Name="Trait Removal" Level="5" ReferenceAbbrev="SerKng" />
+        <SpellEntry Name="Ability Rip" Level="7" ReferenceAbbrev="SerKng" />
+        <SpellEntry Name="Whirl of Fangs" Level="7" ReferenceAbbrev="SerKng" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Cleric" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Lava Missile" Level="2" ReferenceAbbrev="SerKng" />
+        <SpellEntry Name="Razorscales" Level="2" ReferenceAbbrev="SerKng" />
+        <SpellEntry Name="Handfang" Level="3" ReferenceAbbrev="SerKng" />
+        <SpellEntry Name="Laogzed's Breath" Level="3" ReferenceAbbrev="SerKng" />
+        <SpellEntry Name="Venomfire" Level="3" ReferenceAbbrev="SerKng" />
+        <SpellEntry Name="Fang Trap" Level="4" ReferenceAbbrev="SerKng" />
+        <SpellEntry Name="Venom Bolt" Level="4" ReferenceAbbrev="SerKng" />
+        <SpellEntry Name="Lava Splash" Level="5" ReferenceAbbrev="SerKng" />
+        <SpellEntry Name="Whirl of Fangs" Level="6" ReferenceAbbrev="SerKng" />
+        <SpellEntry Name="Erupt" Level="9" ReferenceAbbrev="SerKng" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Druid" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Lava Missile" Level="2" ReferenceAbbrev="SerKng" />
+        <SpellEntry Name="Razorscales" Level="2" ReferenceAbbrev="SerKng" />
+        <SpellEntry Name="Scent" Level="2" ReferenceAbbrev="SerKng" />
+        <SpellEntry Name="Venomfire" Level="3" ReferenceAbbrev="SerKng" />
+        <SpellEntry Name="Lava Splash" Level="4" ReferenceAbbrev="SerKng" />
+      </SpellEntries>
+    </SpellList>
+    <SpellList Name="Ranger" Inherits="">
+      <SpellEntries>
+        <SpellEntry Name="Razorscales" Level="2" ReferenceAbbrev="SerKng" />
+        <SpellEntry Name="Scent" Level="2" ReferenceAbbrev="SerKng" />
+        <SpellEntry Name="Venomfire" Level="4" ReferenceAbbrev="SerKng" />
+      </SpellEntries>
+    </SpellList>
+  </SpellListEntries>
+  <Domains />
+  <Classes />
+</Reference>
